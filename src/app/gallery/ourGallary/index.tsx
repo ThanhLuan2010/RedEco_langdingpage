@@ -36,13 +36,13 @@ const GalleryTabs = () => {
   return (
     <div className="flex flex-col items-center py-10 bg-white">
       <div className="flex mt-20 flex-col items-center mb-8">
-          <h3 className="text-blueAccent text-4xl font-bold">
+          <h3 className="text-blueAccent lg:text-4xl xl:text-4xl md:text-4xl sm:text-3xl text-3xl font-bold">
             OUR GALLERY
           </h3>
           <div className="w-[40%] h-[4px] bg-greenPrimary"></div>
     </div>
     <div className="relative flex justify-between border-2 border-blue-700 rounded-full 
-    overflow-hidden xl:w-[36%] lg:w-[44%] md:w-[60%] w-[60%]">
+    overflow-hidden xl:w-[40%] lg:w-[48%] md:w-[64%] w-[70%]">
         <TabButton
           label="PRODUCTION"
           isActive={activeTab === 'production'}
@@ -67,8 +67,8 @@ const GalleryTabs = () => {
 
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
-    className={`flex-1 px-4 xl:py-[12px] lg:py-[12px] md:py-[10px] py-[8px] text-center 
-       text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px] font-medium text-base transition-all duration-300 
+    className={`flex-1 px-4 xl:py-[8px] lg:py-[8px] md:py-[10px] py-[8px] text-center 
+       text-[9px] md:text-[12px] lg:text-[14px] xl:text-[14px] font-medium text-base transition-all duration-300 
       ${
         isActive
           ? 'bg-gradient-to-r from-blue-500 to-blue-900 text-white'
