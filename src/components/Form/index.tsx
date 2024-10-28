@@ -26,24 +26,57 @@ const FormCustom: React.FC = () => {
 
   return (
     <form>
-      <div className="w-[100%] flex items-center gap-20">
-        <div className="w-[35%]">
-          <input
-            placeholder="First Name"
-            name="firstName"
-            value={formData.firstName}
-            onChange={handleChange}
-            className="w-[100%]"
-          />
+      <div className="w-[77%] bg-red-500">
+        <div className="w-[100%] flex items-center gap-8 mb-8">
+          <div className="w-[50%]">
+            <input
+              placeholder="First Name"
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleChange}
+              className="w-[100%] border-[1px] h-14 p-2 rounded-lg border-blueAccent"
+            />
+          </div>
+          <div className="w-[50%]">
+            <input
+              placeholder="Last Name"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleChange}
+              className="w-[100%] border-[1px] h-14 p-2 rounded-lg border-blueAccent"
+            />
+          </div>
         </div>
-        <div className="w-[35%]">
-          <input
-            placeholder="Last Name"
-            name="lastName"
-            value={formData.lastName}
-            onChange={handleChange}
-            className="w-[100%]"
-          />
+        <div className="w-[100%] flex items-center gap-8 mb-8">
+          <div className="w-[50%]">
+            <input
+              placeholder="First Name"
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleChange}
+              className="w-[100%] border-[1px] h-14 p-2 rounded-lg border-blueAccent"
+            />
+          </div>
+          <div className="w-[50%]">
+            <input
+              placeholder="Last Name"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleChange}
+              className="w-[100%] border-[1px] h-14 p-2 rounded-lg border-blueAccent"
+            />
+          </div>
+        </div>
+        <div className="w-[100%] flex items-center gap-8 mb-8">
+          <div className="w-[100%]">
+            <input
+              placeholder="First Name"
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleChange}
+              className="w-[100%] border-[1px] h-14 p-2 rounded-lg border-blueAccent"
+            />
+          </div>
         </div>
       </div>
     </form>

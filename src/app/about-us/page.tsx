@@ -13,7 +13,9 @@ const AboutUs = () => {
       </Box>
 
       <Box>
-        <GetInTouch></GetInTouch>
+        <div className="mt-32">
+          <GetInTouch></GetInTouch>
+        </div>
       </Box>
     </Box>
   );

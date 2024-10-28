@@ -17,11 +17,26 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.input-label {
+  display: flex;
+  align-items: center;
+}
+
+.required-asterisk {
+  color: red;
+  margin-right: 4px;
 }
