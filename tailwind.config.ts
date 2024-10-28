@@ -7,10 +7,15 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    padding: {
+      main: "6rem",
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        greenPrimary: "#00A859",
+        blueAccent: "#00366A"
       },
     },
   },
