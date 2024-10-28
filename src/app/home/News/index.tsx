@@ -3,8 +3,10 @@ import { Col, Row, Typography } from "antd";
 import React from "react";
 import { Newsdata } from "./data";
 import Image from "next/image";
+import { useRouter } from 'next/navigation';
 
 function News() {
+  const router = useRouter()
   return (
     <Box
       justifyContent={"center"}
@@ -41,14 +43,16 @@ function News() {
       <Box sx={{ marginTop: "5%" }}>
         <Row gutter={[16, 16]}>
           {Newsdata.map((item, index) => (
-            <Col xs={24} sm={12} md={12} key={index}>
+            <Col  xs={24} sm={12} md={12} key={index}>
               <div
                 style={{
                   padding: "16px",
                   borderRadius: "1.5rem",
                   boxShadow: "0 2px 8px rgba(0, 0, 0, 0.2)",
                   height: "50vh",
+                  cursor:"pointer"
                 }}
+                onClick={()=>router.push("/news")}
               >
                 <Box sx={{ position: "relative", height: "55%" }}>
                   <Image
@@ -56,29 +60,7 @@ function News() {
                     alt=""
                     src={item.image}
                   />
-                  <Box
-                    sx={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      width: "100%",
-                      height: "100%",
-                      backgroundColor: index !== 1 ? "#00366A" : null,
-                      backgroundImage:
-                        index === 1
-                          ? "linear-gradient(-90deg, #00669A00 0%, #003E6DE0 88%, #002E5B 100%)"
-                          : null,
-                      opacity:
-                        index === 0
-                          ? 0.25
-                          : index == 1
-                          ? 0.9
-                          : index == 2
-                          ? 0.5
-                          : 0.1,
-                      borderRadius: "16px",
-                    }}
-                  />
+                
                 </Box>
                 <Box sx={{ height: "45%", overflow:"hidden" }}>
                   <Typography

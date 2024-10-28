@@ -1,0 +1,119 @@
+import Image from "next/image";
+import React from "react";
+
+function Description1() {
+  return (
+    <div className="flex flex-col">
+      <text className="text-[1rem] text-[#00366A] font-medium">
+        October 23, 2021
+      </text>
+      <text className="mt-[2rem] text-[1rem] text-[#252724] font-medium">
+        Regarding CNC machining, REDECO Vietnam JSC sets the standard for
+        excellence. We are committed to delivering quality, innovation, and
+        complete customer satisfaction, ensuring every project is completed to
+        the highest standards.
+      </text>
+
+      <div className="flex">
+        <div className="w-[60%] flex flex-col">
+          <text className="text-[1.6rem] mt-[2rem] font-bold text-[#00366A]">
+            State-of-the-Art Facilities
+          </text>
+          <text className="mt-[10px]">
+            With two modern factories covering a total area of 1540 m², REDECO
+            is equipped with a wide range of advanced machinery:
+            <ul className="ml-2 ">
+              <li className="mt-1">• 20 CNC milling</li>
+              <li className="mt-1">• 5 CNC lathes</li>
+              <li className="mt-1">• 4 CNC wire-cutting machines</li>
+              <li className="mt-1">• 1 CNC pulse machine</li>
+              <li className="mt-1">• Two laser engraving machines</li>
+              <li className="mt-1">• 1 CMM (Coordinate Measuring Machine)</li>
+              <li className="mt-1">
+                • And many other specialized mechanical machines
+              </li>
+            </ul>
+          </text>
+
+          <text className="text-[1.6rem] mt-[15px] font-bold text-[#00366A]">
+            Cutting-Edge CNC Technology
+          </text>
+
+          <text className="mt-[10px] text-[1rem] text-[#252724] font-medium leading-[36px]">
+            We invest in the latest CNC technology, which allows us to machine
+            parts with <strong>high precision, superior durability</strong>, and{" "}
+            <strong> cost efficiency</strong>. This enables us to meet various
+            customer requirements, from minor details to complex projects.
+          </text>
+        </div>
+
+        <div className="w-[40%] h-auto  items-center flex object-contain ml-[3%]">
+          <Image alt="" src={require("../../public/image/news1-banner1.png")} />
+        </div>
+      </div>
+
+      <div className="flex mt-10">
+        <div className="w-[40%] h-auto  items-center flex object-contain mr-[3%]">
+          <Image alt="" src={require("../../public/image/news1-banner2.png")} />
+        </div>
+
+        <div className="w-[60%] flex flex-col justify-center">
+          <text className="text-[1.6rem] font-bold text-[#00366A]">
+            Expert Team with 45+ Employees
+          </text>
+          <text className="mt-[5px]">
+            With more than <strong>45 skilled</strong> professionals and
+            technicians experienced in precision mechanics and CNC machining,
+            REDECO Vietnam is proud to have a knowledgeable, dedicated team that
+            handles each project carefully. Our employees are thoroughly
+            trained, combining deep expertise with hands-on skills to meet the
+            most stringent technical requirements.
+          </text>
+
+          <text className="text-[1.6rem] mt-[15px] font-bold text-[#00366A]">
+            ISO-Certified Processes
+          </text>
+
+          <text className="mt-[5px] text-[1rem] text-[#252724] font-medium">
+            We strictly adhere to <strong>ISO-certified</strong> processes,
+            ensuring that every product meets{" "}
+            <strong>international quality, precision,</strong>
+            and <strong>durability standards</strong>. Our customers can rely on
+            the consistency and excellence of our products.
+          </text>
+        </div>
+      </div>
+
+      <div className="flex mt-12">
+        <div className="w-[60%] flex flex-col justify-center">
+          <text className="text-[1.6rem]  font-bold text-[#00366A]">
+            On-Time Delivery
+          </text>
+          <text className="mt-[5px]">
+            We understand that meeting deadlines is crucial for any production
+            project. Thanks to our optimized infrastructure and processes,
+            REDECO is committed to <strong>on-time delivery</strong>, ensuring
+            our clients' production schedules stay on track.
+          </text>
+
+          <text className="text-[1.6rem] mt-[15px] font-bold text-[#00366A]">
+            Professional Customer Service
+          </text>
+
+          <text className="mt-[5px] text-[1rem] text-[#252724] font-medium leading-[36px]">
+            We not only provide <strong>top-quality products</strong> but also
+            deliver exceptional customer service. Our experienced Team of
+            specialists will handle your project and are ready to offer advice
+            and technical support throughout the production process.
+          </text>
+        </div>
+
+        <div className="w-[40%] h-auto  items-center flex object-contain ml-[3%] justify-center">
+          <Image alt="" src={require("../../public/image/news1-banner3.png")} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Description1;

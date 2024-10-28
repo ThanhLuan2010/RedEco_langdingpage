@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import Banner from "./Banner";
 import { Box } from "@mui/material";
 import QualityContent from "./QualityContent";
+import Capacity from "./Capacity";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <Banner />
       <QualityContent/>
+      <Capacity/>
       <Footer />
     </Box>
   );

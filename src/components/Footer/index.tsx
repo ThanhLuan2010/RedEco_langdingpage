@@ -2,7 +2,7 @@ import { Box, Input, Typography, Button, colors } from "@mui/material";
 import { Col, Row } from "antd";
 import Image from "next/image";
 
-export default function Footer() {
+export default function Footer({style}:any) {
   return (
     <Box
       component="footer"
@@ -13,6 +13,7 @@ export default function Footer() {
         flexDirection: "column",
         paddingY: "5%",
         marginTop: "8%",
+        ...style
       }}
     >
       <Box sx={{ width: "80%" }}>
