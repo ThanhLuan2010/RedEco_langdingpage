@@ -164,25 +164,25 @@ const FormCustom: React.FC = () => {
   );
 
   return (
-    <div className="w-full pt-14 flex flex-col">
+    <div className="w-full xl:px-0 lg:px-0 md:px-0 sm:px-8 px-8 xl:pt-14 md:pt-14 lg:pt-14 sm:pt-8 pt-8 flex flex-col">
       <form onSubmit={handleSubmit}>
-        <div className="w-[74%] ml-20 mx-auto">
-          <div className="flex items-center gap-6 mb-4">
-            <div className="w-[50%]">{renderInput("firstName", "First Name")}</div>
-            <div className="w-[50%]">{renderInput("lastName", "Last Name")}</div>
+        <div className="xl:w-[74%] md:w-[74%] lg:w-[74%] sm:w-[100%] w-[100%] xl:ml-20 sm:ml-0 ml-0 md:ml-20 lg:ml-20 mx-auto">
+          <div className="flex xl:flex-row md:flex-row lg:flex-row sm:flex-col flex-col items-center gap-6 mb-4">
+            <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] sm:w-[100%] w-[100%]">{renderInput("firstName", "First Name")}</div>
+            <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] sm:w-[100%] w-[100%]">{renderInput("lastName", "Last Name")}</div>
           </div>
 
           <div className="flex items-center gap-6 mb-4">
-            <div className="w-[50%]">{renderInput("email", "Email Address", "email")}</div>
-            <div className="w-[50%]">{renderInput("phone", "Phone", "tel")}</div>
+            <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] sm:w-[100%] w-[100%]">{renderInput("email", "Email Address", "email")}</div>
+            <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] sm:w-[100%] w-[100%]">{renderInput("phone", "Phone", "tel")}</div>
           </div>
 
           <div className="mb-6">{renderInput("companyName", "Company Name", undefined, true)}</div>
           <div className="mb-6">{renderInput("address", "Address Line")}</div>
 
           <div className="flex items-center gap-6 mb-4">
-            <div className="w-[50%]">{renderInput("city", "City")}</div>
-            <div className="w-[50%]">{renderInput("zip", "ZIP/Postal Code")}</div>
+            <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] sm:w-[100%] w-[100%]">{renderInput("city", "City")}</div>
+            <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] sm:w-[100%] w-[100%]">{renderInput("zip", "ZIP/Postal Code")}</div>
           </div>
 
           <div className="mb-6">{renderSelect("country", countries, "Country or Region")}</div>

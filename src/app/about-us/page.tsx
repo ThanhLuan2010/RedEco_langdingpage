@@ -10,9 +10,9 @@ const AboutUs = () => {
     <Box display="flex" flexDirection="column">
       <Header />
 
-      <Box>
+      <div className="">
         <Thumbnail></Thumbnail>
-      </Box>
+      </div>
 
       <Box>
         <div className="mt-10">
