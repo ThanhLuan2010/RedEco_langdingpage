@@ -76,8 +76,6 @@ export default function Banner() {
             flexDirection: "row",
             display: "flex",
             justifyContent: "space-between",
-            backgroundColor:"red",
-
           }}
         >
           <Box
