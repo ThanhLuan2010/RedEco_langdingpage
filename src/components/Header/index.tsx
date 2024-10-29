@@ -67,7 +67,7 @@ export default function Header() {
   const open = Boolean(anchorEl);
 
   return (
-    <Box sx={{ flexGrow: 1, height: "10vh", width: "100vw" }}>
+    <Box sx={{ height: "10vh", width: "100vw" }}>
       <AppBar position="static" color="default" sx={{}}>
         <Toolbar>
           <Image
