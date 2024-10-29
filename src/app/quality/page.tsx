@@ -11,8 +11,8 @@ export default function Home() {
     <Box display="flex" flexDirection="column" sx={{ height: "100vh",display:"flex",alignItems:"center" }}>
       <Header />
       <Banner />
-      <QualityContent/>
-      <Capacity/>
+      <QualityContent />
+      <Capacity />
       <Footer />
     </Box>
   );
