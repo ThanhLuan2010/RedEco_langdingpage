@@ -4,7 +4,7 @@ import React from 'react';
 function Banner() {
   return (
     <div className="grid grid-cols-3 gap-4 w-full h-[600px]">
-      <div className="col-span-2 md:h-auto xl:h-auto lg:h-auto h-[50%] bg-red-500 relative">
+      <div className="col-span-2 md:h-auto xl:h-auto lg:h-auto h-[50%] relative">
         <Image
           alt="banner_gallery_1"
           src={require("../../../public/image/gallary/banner1.png")}

@@ -8,12 +8,20 @@ const GalleryTabs = () => {
   const renderContent = () => {
     switch (activeTab) {
       case 'production':
-        return <div className='w-[100%] h-auto'>
-            <Image 
+        return <>
+        <div className='w-[100%] h-auto xl:flex md:flex lg:flex sm:flex hidden'>
+          <Image 
             alt='img_gallary'
             style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
             src={require("../../../public/image/gallary/production.png")} ></Image>
-        </div>;
+        </div>
+        <div className='w-[100%] h-auto xl:hidden md:hidden lg:hidden sm:hidden flex'>
+            <Image 
+            alt='img_gallary'
+            style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
+            src={require("../../../public/image/gallary/production2.png")} ></Image>
+        </div>
+      </> 
       case 'our-customers':
         return <>
           <div className='w-[100%] h-auto xl:flex md:flex lg:flex sm:flex hidden'>
@@ -49,9 +57,14 @@ const GalleryTabs = () => {
           </h3>
           <div className="w-[40%] xl:h-[4px] sm:h-[2px] h-[2px] md:h-[4px] lg:h-[4px] bg-greenPrimary"></div>
     </div>
-    <div className="relative flex justify-between border-[2px] border-blueAccent rounded-full 
-    overflow-hidden xl:w-[40%] lg:w-[48%] md:w-[64%] sm:w-[70%] w-[90%]">
-        <TabButton
+    <div 
+      className="relative flex justify-between rounded-full overflow-hidden xl:w-[38%] lg:w-[42%] md:w-[58%] sm:w-[70%] w-[90%] p-[2px]"
+      style={{
+        background: 'linear-gradient(to right, #007BB0, #00366A)', 
+      }}
+    >
+    <div className="flex justify-between items-center rounded-full w-full h-full bg-white">
+      <TabButton
           label="PRODUCTION"
           isActive={activeTab === 'production'}
           onClick={() => setActiveTab('production')}
@@ -67,6 +80,8 @@ const GalleryTabs = () => {
           onClick={() => setActiveTab('office-block')}
         />
     </div>
+  </div>
+
 
     <div className="xl:mt-12 sm:mt-10 mt-6 md:mt-12 lg:mt-12 w-[100%] xl:px-main md:px-main sm:px-[20px] px-[16px] lg:px-main">{renderContent()}</div>
     </div>
@@ -75,11 +90,14 @@ const GalleryTabs = () => {
 
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
+    style={{
+      fontWeight: 700
+    }}
     className={`flex-1 px-4 xl:py-[8px] lg:py-[8px] md:py-[8px] sm:py-[6px] py-[6px] text-center 
-       text-[0.6rem] md:text-[12px] lg:text-[14px] xl:text-[14px] sm:text-[10px] font-medium text-base transition-all duration-300 
+       md:text-[12px] lg:text-[14px] xl:text-[14px] sm:text-[12px] text-[12px] font-medium text-base transition-all duration-300 
       ${
         isActive
-          ? 'bg-gradient-to-r from-[#007BB0] to-[#00366A] text-white font-semibold'
+          ? 'bg-gradient-to-r from-[#007BB0] to-[#00366A] text-white'
           : 'text-[#00366A]'
       }
       rounded-full
