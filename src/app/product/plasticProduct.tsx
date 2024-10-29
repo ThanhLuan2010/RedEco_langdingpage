@@ -40,7 +40,7 @@ function PlasticProduct() {
   };
   return (
     <div>
-      <div className="relative flex justify-center mt-20">
+      <div className="relative flex justify-center xl:mt-20 lg:mt-20 md:mt-20 sm:-mt-[90%] -mt-[200px]">
         <Typography
           style={{
             fontSize: "2rem",
@@ -52,7 +52,7 @@ function PlasticProduct() {
             color: "#00366A",
           }}
         >
-          PLASTIC INJECTION PRODUCTS
+          <span className="xl:text-[2rem] sm:px-[10px] px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[2rem] sm:text-[28px] justify-center items-center w-[100%] text-[28px]">PLASTIC INJECTION PRODUCTS</span> 
           {/* Đường viền */}
           <span
             style={{

@@ -12,29 +12,31 @@ import News from "./News";
 
 export default function Home() {
   return (
-    <Box display="flex" flexDirection="column" sx={{ height: "100vh" }}>
+    <Box
+      display="flex"
+      flexDirection="column"
+      sx={{ height: "100vh" }}
+      bgcolor={"#F7F9F9"}
+    >
       <Header />
-      <Banner />
-      <Box marginTop={"140px"}>
+      <div>
+        <Banner />
+      </div>
+      <div className="">
         <HomeProducts />
-      </Box>
+      </div>
 
-      <Box marginTop={"95px"}>
+      <div className="mt-[40px] xl:mt-[120px]">
         <WhoWeAre />
-      </Box>
+      </div>
 
-      <Box marginTop={"10%"}>
+      <div className="">
         <Human />
-      </Box>
-
-      <Box marginTop={"8%"}>
-        <QualityStandard />
-      </Box>
-
+      </div>
+      <QualityStandard />
       <Box marginTop={"8%"}>
         <Customer />
       </Box>
-
       <Box marginTop={"8%"} display={"flex"} justifyContent={"center"}>
         <News />
       </Box>

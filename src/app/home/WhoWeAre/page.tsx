@@ -5,9 +5,9 @@ import React from "react";
 
 function WhoWeAre() {
   return (
-    <Box>
-      <Box sx={{ position: "relative" }}>
-        <Box sx={{ position: "relative", width: "100vw" }}>
+    <div>
+      <div className="relative w-[100%]">
+        <div>
           <Image
             style={{
               height: "100%",
@@ -18,437 +18,305 @@ function WhoWeAre() {
             alt="image"
             src={require("../../../public/image/banner_who_we_are.png")}
           />
-          <Box
-            sx={{
-              position: "absolute",
-              height: "100%",
-              width: "100vw",
-              backgroundImage:
-                "linear-gradient(90deg, #007BB017 9%, #00366AE5 90%)",
-              top: "0",
-              left: "0%",
-            }}
-          />
+          <div className="bg-gradient-to-r from-[#007BB014] 8% to-[#00366A] 100% w-[100vw] h-[100%] absolute top-0 left-0" />
+        </div>
 
-          <Box
-            sx={{
-              position: "absolute",
-              height: "100%",
-              width: "100vw",
-              top: "0",
-              left: "0%",
-            }}
+        <div className="absolute top-0 left-0 flex flex-col text-white px-[10%] h-[100%] justify-center items-start w-[100%] lg:w-[45%]">
+          <text className="text-[24px] md:text-[30px] lg:text-[40px] xl:text-[50px] font-bold leading-[30px] md:leading-[40px] lg:leading-[55px] xl:leading-[73px]">
+            Who are we?
+          </text>
+          <text className="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[16px] mt-[10px] md:mt[13px] lg:mt[18px] xl:mt-[20px] leading-[14.63px] md:leading-[20px] lg:leading-[30px] xl:leading-[26px]">
+            Welcome to REDECO Vietnam Industrial Solutions JSC
+          </text>
+          <button
+            className="
+          bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% 
+          py-[10px] 
+          rounded-[8px] 
+          text-[9px] 
+          md:text-[20px] 
+          font-bold 
+          mt-[25px]
+          w-[30%]
+          md:w-[40%]
+          lg:w-[60%]
+          "
           >
+            ABOUT US
+          </button>
+        </div>
+
+        <div className="relative lg:absolute right-0 h-[100%] w-[50%] bottom-[-0px]  justify-center translate-y-[10%] hidden lg:flex">
+          <div className="w-[100%] h-[100%] ">
             <Image
               style={{ width: "100%", height: "100%", objectFit: "fill" }}
               alt=""
-              src={require("../../../public/image/blue_opacity.png")}
-            />
-          </Box>
-
-          <Box
-            sx={{
-              position: "absolute",
-              top: "10%",
-              right: 0,
-              height: "100%",
-              width: "50vw",
-            }}
-          >
-            <Image
-              style={{ height: "100%", objectFit: "fill" }}
-              alt=""
               src={require("../../../public/image/who_we_are_right.png")}
             />
-            <Box
-              sx={{
-                position: "absolute",
-                height: "100%",
-                top: "0",
-                left: "0%",
-              }}
-            >
-              <Image
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  borderRadius: "4%",
-                  objectFit: "fill",
-                }}
-                alt=""
-                src={require("../../../public/image/blue_opacity.png")}
-              />
-            </Box>
-          </Box>
-        </Box>
+          </div>
 
-        <Box
-          sx={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            // paddingTop: "8%",
-            height: "100%",
-            width: "100%",
-            // paddingLeft: "11%",
-            flexDirection: "row",
-            display: "flex",
-          }}
-        >
-          <Box
-            sx={{
-              width: "40%",
-              justifyContent: "center",
-              height: "100%",
-              display: "flex",
-              flexDirection: "column",
-              paddingLeft: "10%",
-            }}
+          <div
+            className="
+           flex flex-col lg:flex-row lg:absolute 
+           lg:left-0 h-[100%] overflow-hidden md:gap-[10px] lg:gap-[20px] xl:gap-[30px] 
+           w-[100%] translate-x-[-20%]"
           >
-            <Typography
-              style={{
-                fontSize: "3.1rem",
-                fontWeight: 700,
-                color: "#EDF0F4",
-                lineHeight: "73.14px",
-                textAlign: "left",
-              }}
-            >
-              Who are we?
-            </Typography>
+            <div className="bg-white lg:px-[16px] xl:px-[20px] pb-[20px] rounded-[12px] pt-[10px] w-[33%] my-[10%] ">
+              <div className="h-full">
+                <div className="h-[80%] overflow-hidden">
+                  <div className="flex justify-between w-full items-center">
+                    <div className="xg:w-[30%] lg:w-[25%] md:w-[20%]">
+                      <Image
+                        alt=""
+                        src={require("../../../public/image/ic_area.png")}
+                      />
+                    </div>
+                    <text className="md:text-[2rem] lg:text-[2.5rem] xl:text-[3rem] text-[#00366A] opacity-[0.1] font-medium">
+                      01
+                    </text>
+                  </div>
 
-            <Typography
-              style={{
-                fontSize: "1.1rem",
-                fontWeight: 500,
-                color: "#EDF0F4",
-                marginTop: 16,
-                lineHeight: "30px",
-              }}
-            >
-              {"Welcome to REDECO Vietnam"}
-            </Typography>
-            <Typography
-              style={{
-                fontSize: "1.1rem",
-                fontWeight: 500,
-                color: "#EDF0F4",
-                lineHeight: "30px",
-              }}
-            >
-              {"Industrial Solutions JSC"}
-            </Typography>
+                  <div className="flex flex-col">
+                    <text className="text-[#00366A] text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] font-semibold leading-[24px] line-clamp-1">
+                      Area of 1860m²
+                    </text>
+                    <text className="md:mt-[6px] lg:mt-[8px] xl:mt-[12px] leading-[20px] lg:text-[12px] md:text-[10px] xl:text-[17px] line-clamp-6 xl:line-clamp-[7]">
+                      Established in 2017 with 2 modern factories in Hanoi,
+                      covering a total area of 1860 m². REDECO Vietnam
+                      Industrial Solutions JSC is equipped a wide range of
+                      advanced machinery ...
+                    </text>
+                  </div>
+                </div>
 
-            <Button
-              sx={{
-                height: "60px", // Chiều cao của nút
-                background:
-                  "linear-gradient( rgba(40, 255, 144, 0.9) 0%, rgba(0, 149, 79, 1) 100%)", // Gradient từ xanh lá cây sáng đến đậm
-                borderRadius: "12px", // Bo góc của nút
-                display: "flex",
-                boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)", // Bóng đổ nhẹ dưới nút
-                marginTop: "72px",
-                alignSelf: "flex-start",
-                paddingX: "10%",
-              }}
-            >
-              <Typography
-                style={{
-                  fontSize: "20px",
-                  fontWeight: 700,
-                  color: "white",
-                }}
-              >
-                ABOUT US
-              </Typography>
-            </Button>
-          </Box>
-
-          <Box
-            sx={{
-              flexDirection: "row",
-              display: "flex",
-              width: "60%",
-              alignItems: "center",
-              gap: "3%",
-              height: "70%",
-              alignSelf: "flex-end",
-              transform: "translatey(-10%)", // Căn chỉnh chính xác vị trí giữa
-            }}
-          >
-            <Box
-              width={"25%"}
-              sx={{
-                backgroundColor: "white",
-                padding: "10px 24px 24px 24px",
-                borderRadius: "20px",
-                height: "100%",
-              }}
-            >
-              <Box
-                sx={{ height: "90%", display: "flex", flexDirection: "column" }}
-              >
-                <Box
-                  sx={{
-                    flexDirection: "row",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
+                <div className="flex border-[#00366a59] border-t-[1px] md:mt-[8px] md:pt-[8px] lg:mt-[12px] lg:pt-[16px] xl:pt-[16px] xl:mt-[16px]">
+                  <button className="text-[#00366A] mr-[8px] font-normal text-[8px] md:text-[10px] lg:text-[14px] xl:text-[18px]">
+                    Read More
+                  </button>
                   <Image
-                    style={{ width: "30%", objectFit: "contain" }}
+                    style={{ objectFit: "contain" }}
+                    alt=""
+                    src={require("../../../public/image/Arrow 1.png")}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white lg:px-[16px] xl:px-[20px] pb-[20px] rounded-[12px] pt-[10px] w-[33%] my-[10%] ">
+              <div className="h-full">
+                <div className="h-[80%] overflow-hidden">
+                  <div className="flex justify-between w-full items-center">
+                    <div className="xg:w-[30%] lg:w-[25%] md:w-[20%]">
+                      <Image
+                        alt=""
+                        src={require("../../../public/image/ic_service.png")}
+                      />
+                    </div>
+                    <text className="md:text-[2rem] lg:text-[2.5rem] xl:text-[3rem] text-[#00366A] opacity-[0.1] font-medium">
+                      02
+                    </text>
+                  </div>
+
+                  <div className="flex flex-col">
+                    <text className="text-[#00366A] text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] font-semibold leading-[24px] line-clamp-1">
+                      Our Services
+                    </text>
+                    <text className="md:mt-[6px] lg:mt-[8px] xl:mt-[12px] leading-[20px] lg:text-[12px] md:text-[10px] xl:text-[17px] line-clamp-6 xl:line-clamp-[7]">
+                      REDECO Vietnam JSC offers a wide range of solution
+                      tailored as custom machinery development, conveyors and
+                      handling solutions, logistics support equipment,
+                      automation ...
+                    </text>
+                  </div>
+                </div>
+
+                <div className="flex border-[#00366a59] border-t-[1px] md:mt-[8px] md:pt-[8px] lg:mt-[12px] lg:pt-[16px] xl:pt-[16px] xl:mt-[16px]">
+                  <button className="text-[#00366A] mr-[8px] font-normal text-[8px] md:text-[10px] lg:text-[14px] xl:text-[18px]">
+                    Read More
+                  </button>
+                  <Image
+                    style={{ objectFit: "contain" }}
+                    alt=""
+                    src={require("../../../public/image/Arrow 1.png")}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white lg:px-[16px] xl:px-[20px] pb-[20px] rounded-[12px] pt-[10px] w-[33%] my-[10%] ">
+              <div className="h-full">
+                <div className="h-[80%] overflow-hidden">
+                  <div className="flex justify-between w-full items-center">
+                    <div className="xg:w-[30%] lg:w-[25%] md:w-[20%]">
+                      <Image
+                        alt=""
+                        src={require("../../../public/image/ic_leading.png")}
+                      />
+                    </div>
+                    <text className="md:text-[2rem] lg:text-[2.5rem] xl:text-[3rem] text-[#00366A] opacity-[0.1] font-medium">
+                      03
+                    </text>
+                  </div>
+
+                  <div className="flex flex-col">
+                    <text className="text-[#00366A] text-[16px] md:text-[16px] lg:text-[18px] xl:text-[20px] font-semibold leading-[24px] line-clamp-1">
+                      Our Leading
+                    </text>
+                    <text className="md:mt-[6px] lg:mt-[8px] xl:mt-[12px] leading-[20px] lg:text-[12px] md:text-[10px] xl:text-[17px] line-clamp-6 xl:line-clamp-[7]">
+                      REDECO Vietnam JSC provide solutions to the customer in
+                      many industries, specializing in manufacturing, designing
+                      and supplying equipment in mechanical processing ...
+                    </text>
+                  </div>
+                </div>
+
+                <div className="flex border-[#00366a59] border-t-[1px] md:mt-[8px] md:pt-[8px] lg:mt-[12px] lg:pt-[16px] xl:pt-[16px] xl:mt-[16px]">
+                  <button className="text-[#00366A] mr-[8px] font-normal text-[8px] md:text-[10px] lg:text-[14px] xl:text-[18px]">
+                    Read More
+                  </button>
+                  <Image
+                    style={{ objectFit: "contain" }}
+                    alt=""
+                    src={require("../../../public/image/Arrow 1.png")}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="px-[20px] flex lg:hidden flex-col">
+        <div
+          className="bg-white lg:px-[16px] xl:px-[20px] pb-[20px] rounded-[12px] pt-[10px] w-[100%] px-[25px] py-[25px] mt-[25px] overflow-hidden"
+          style={{ boxShadow: "0 0 10px 5px #7B7A7A0F" }}
+        >
+          <div className="h-full">
+            <div className="h-[80%] overflow-hidden">
+              <div className="flex justify-between w-full items-center">
+                <div className="xg:w-[30%] lg:w-[25%] w-[15%]">
+                  <Image
                     alt=""
                     src={require("../../../public/image/ic_area.png")}
                   />
-                  <Typography
-                    style={{
-                      fontSize: "3rem",
-                      fontWeight: 500,
-                      color: "#00366A",
-                      opacity: 0.1,
-                    }}
-                  >
-                    01
-                  </Typography>
-                </Box>
+                </div>
+                <text className="md:text-[2rem] lg:text-[2.5rem] text-[3rem] text-[#00366A] opacity-[0.1] font-medium">
+                  01
+                </text>
+              </div>
 
-                <Typography
-                  style={{
-                    fontSize: "1.3em",
-                    color: "#00366A",
-                    fontWeight: 600,
-                    marginBottom: "0.5em",
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    whiteSpace: "nowrap",
-                  }}
-                >
-                  Area of 1860m²
-                </Typography>
-
-                <Typography
-                  style={{
-                    color: "#252724",
-                    fontWeight: 400,
-                    fontFamily: "Montserrat",
-                    borderBottom: "1px solid #00366A",
-                    paddingBottom: "30px",
-                    overflow: "hidden",
-                    fontSize: "0.8em",
-                  }}
-                >
-                  REDECO established in 2017 with two modern factories in Hanoi,
+              <div className="flex flex-col">
+                <text className="text-[#00366A] text-[20px] md:text-[16px] lg:text-[18px] xl:text-[20px] font-semibold leading-[24px] line-clamp-1">
+                  Total Area of 1860m²
+                </text>
+                <text className="mt-[12px] line-clamp-4 text-[em] leading-[20px]">
+                  REDECO established in 2017 with 2 modern factories in Hanoi,
                   covering a total area of 1860 m². And the company is equipped
-                  with a wide range of advanced machinery.
-                </Typography>
-              </Box>
+                  with a wide range of advanced machinery
+                </text>
+              </div>
+            </div>
 
-              <Button
-                sx={{
-                  backgroundColor: "transparent",
-                  marginTop: "12px",
-                  padding: 0,
-                }}
-              >
-                <Box sx={{ display: "flex", flexDirection: "row" }}>
-                  <Typography>Read More</Typography>
-                  <Image
-                    style={{
-                      width: "16px",
-                      objectFit: "contain",
-                      marginLeft: "8px",
-                    }}
-                    alt=""
-                    src={require("../../../public/image/Arrow 1.png")}
-                  />
-                </Box>
-              </Button>
-            </Box>
+            <div className="flex border-[#00366a59] border-t-[1px] mt-[18px] pt-[18px]">
+              <button className="text-[#00366A] text-[18px] mr-[8px]">
+                Read More
+              </button>
+              <Image
+                style={{ objectFit: "contain" }}
+                alt=""
+                src={require("../../../public/image/Arrow 1.png")}
+              />
+            </div>
+          </div>
+        </div>
 
-            <Box
-              width={"25%"}
-              sx={{
-                backgroundColor: "white",
-                padding: "10px 24px 24px 24px",
-                borderRadius: "20px",
-                height: "100%",
-              }}
-            >
-              <Box
-                sx={{ height: "90%", display: "flex", flexDirection: "column" }}
-              >
-                <Box
-                  sx={{
-                    flexDirection: "row",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
+        <div
+          className="bg-white lg:px-[16px] xl:px-[20px] pb-[20px] rounded-[12px] pt-[10px] w-[100%] px-[25px] py-[25px] mt-[25px] overflow-hidden"
+          style={{ boxShadow: "0 0 10px 5px #7B7A7A0F" }}
+        >
+          <div className="h-full">
+            <div className="h-[80%] overflow-hidden">
+              <div className="flex justify-between w-full items-center">
+                <div className="xg:w-[30%] lg:w-[25%] w-[15%]">
                   <Image
-                    style={{ width: "30%", objectFit: "contain" }}
                     alt=""
                     src={require("../../../public/image/ic_service.png")}
                   />
-                  <Typography
-                    style={{
-                      fontSize: "3rem",
-                      fontWeight: 500,
-                      color: "#00366A",
-                      opacity: 0.1,
-                    }}
-                  >
-                    02
-                  </Typography>
-                </Box>
+                </div>
+                <text className="md:text-[2rem] lg:text-[2.5rem] text-[3rem] text-[#00366A] opacity-[0.1] font-medium">
+                  02
+                </text>
+              </div>
 
-                <Typography
-                  style={{
-                    fontSize: "1.3em",
-                    color: "#00366A",
-                    fontWeight: 600,
-                    marginBottom: "0.5em",
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    whiteSpace: "nowrap",
-                  }}
-                >
+              <div className="flex flex-col">
+                <text className="text-[#00366A] text-[20px] md:text-[16px] lg:text-[18px] xl:text-[20px] font-semibold leading-[24px] line-clamp-1">
                   Our Services
-                </Typography>
+                </text>
+                <text className="mt-[12px] line-clamp-4 text-[em] leading-[20px]">
+                  REDECO offers a wide range of solutions tailored such as
+                  custom machinery development, conveyors, handling solutions,
+                  logistics support equipment, automation
+                </text>
+              </div>
+            </div>
 
-                <Typography
-                  style={{
-                    color: "#252724",
-                    fontWeight: 400,
-                    fontFamily: "Montserrat",
-                    borderBottom: "1px solid #00366A",
-                    paddingBottom: "30px",
-                    overflow: "hidden",
-                    fontSize: "0.8em",
-                  }}
-                >
-                  REDECO VIETNAM offers a wide range of solutions tailored such
-                  as custom machinery development, conveyors and handling
-                  solutions, logistics support equipment, automation ...
-                </Typography>
-              </Box>
+            <div className="flex border-[#00366a59] border-t-[1px] mt-[18px] pt-[18px]">
+              <button className="text-[#00366A] text-[18px] mr-[8px]">
+                Read More
+              </button>
+              <Image
+                style={{ objectFit: "contain" }}
+                alt=""
+                src={require("../../../public/image/Arrow 1.png")}
+              />
+            </div>
+          </div>
+        </div>
 
-              <Button
-                sx={{
-                  backgroundColor: "transparent",
-                  marginTop: "12px",
-                  padding: 0,
-                }}
-              >
-                <Box sx={{ display: "flex", flexDirection: "row" }}>
-                  <Typography>Read More</Typography>
+        <div
+          className="bg-white lg:px-[16px] xl:px-[20px] pb-[20px] rounded-[12px] pt-[10px] w-[100%] px-[25px] py-[25px] mt-[25px] overflow-hidden"
+          style={{ boxShadow: "0 0 10px 5px #7B7A7A0F" }}
+        >
+          <div className="h-full">
+            <div className="h-[80%] overflow-hidden">
+              <div className="flex justify-between w-full items-center">
+                <div className="xg:w-[30%] lg:w-[25%] w-[15%]">
                   <Image
-                    style={{
-                      width: "16px",
-                      objectFit: "contain",
-                      marginLeft: "8px",
-                    }}
-                    alt=""
-                    src={require("../../../public/image/Arrow 1.png")}
-                  />
-                </Box>
-              </Button>
-            </Box>
-
-            <Box
-              width={"25%"}
-              sx={{
-                backgroundColor: "white",
-                padding: "10px 24px 24px 24px",
-                borderRadius: "20px",
-                height: "100%",
-              }}
-            >
-              <Box
-                sx={{ height: "90%", display: "flex", flexDirection: "column" }}
-              >
-                <Box
-                  sx={{
-                    flexDirection: "row",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <Image
-                    style={{ width: "30%", objectFit: "contain" }}
                     alt=""
                     src={require("../../../public/image/ic_leading.png")}
                   />
-                  <Typography
-                    style={{
-                      fontSize: "3rem",
-                      fontWeight: 500,
-                      color: "#00366A",
-                      opacity: 0.1,
-                    }}
-                  >
-                    03
-                  </Typography>
-                </Box>
+                </div>
+                <text className="md:text-[2rem] lg:text-[2.5rem] text-[3rem] text-[#00366A] opacity-[0.1] font-medium">
+                  03
+                </text>
+              </div>
 
-                <Typography
-                  style={{
-                    fontSize: "1.3em",
-                    color: "#00366A",
-                    fontWeight: 600,
-                    marginBottom: "0.5em",
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    whiteSpace: "nowrap",
-                  }}
-                >
+              <div className="flex flex-col">
+                <text className="text-[#00366A] text-[20px] md:text-[16px] lg:text-[18px] xl:text-[20px] font-semibold leading-[24px] line-clamp-1">
                   Our Leading
-                </Typography>
+                </text>
+                <text className="mt-[12px] line-clamp-4 text-[em] leading-[20px]">
+                  REDECO provide solutions to the customer in many industries,
+                  specializing in manufacturing, designing and supplying
+                  equipment in mechanical processing
+                </text>
+              </div>
+            </div>
 
-                <Typography
-                  style={{
-                    color: "#252724",
-                    fontWeight: 400,
-                    fontFamily: "Montserrat",
-                    borderBottom: "1px solid #00366A",
-                    paddingBottom: "30px",
-                    overflow: "hidden",
-                    fontSize: "0.8em",
-                  }}
-                >
-                  REDECO Vietnam JSC provide solutions to the customer in many
-                  industries, specializing in manufacturing, designing and
-                  supplying equipment in mechanical processing
-                </Typography>
-              </Box>
-
-              <Button
-                sx={{
-                  backgroundColor: "transparent",
-                  marginTop: "12px",
-                  padding: 0,
-                }}
-              >
-                <Box sx={{ display: "flex", flexDirection: "row" }}>
-                  <Typography>Read More</Typography>
-                  <Image
-                    style={{
-                      width: "16px",
-                      objectFit: "contain",
-                      marginLeft: "8px",
-                    }}
-                    alt=""
-                    src={require("../../../public/image/Arrow 1.png")}
-                  />
-                </Box>
-              </Button>
-            </Box>
-          </Box>
-        </Box>
-      </Box>
-    </Box>
+            <div className="flex border-[#00366a59] border-t-[1px] mt-[18px] pt-[18px]">
+              <button className="text-[#00366A] text-[18px] mr-[8px]">
+                Read More
+              </button>
+              <Image
+                style={{ objectFit: "contain" }}
+                alt=""
+                src={require("../../../public/image/Arrow 1.png")}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
