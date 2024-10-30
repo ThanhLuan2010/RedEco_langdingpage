@@ -2,7 +2,7 @@ import { Box, Input, Typography, Button, colors } from "@mui/material";
 import { Col, Row } from "antd";
 import Image from "next/image";
 
-export default function Footer({style}:any) {
+export default function Footer({ style }: any) {
   return (
     <Box
       component="footer"
@@ -13,7 +13,7 @@ export default function Footer({style}:any) {
         flexDirection: "column",
         paddingY: "5%",
         marginTop: "8%",
-        ...style
+        ...style,
       }}
     >
       <Box sx={{ width: "80%" }}>
@@ -23,7 +23,7 @@ export default function Footer({style}:any) {
           src={require("../../public/image/logo_footer.png")}
         />
         <Row style={{ color: "white", marginTop: "4%" }} gutter={[20, 20]}>
-          <Col style={{paddingRight:"5%"}} xs={24} sm={12} md={7}>
+          <Col style={{ paddingRight: "5%" }} xs={24} sm={12} md={7}>
             <Typography style={{ fontWeight: 700, lineHeight: "21.94px" }}>
               SUBSCRIBE TO NEWSLETTER
             </Typography>
