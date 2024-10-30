@@ -100,44 +100,33 @@ const settings = {
   ],
 };
 
-const Customer = () => (
-  <Box
-    justifyContent={"center"}
-    flexDirection={"column"}
-    alignItems={"center"}
-    display={"flex"}
-    sx={{
-      backgroundImage: "linear-gradient(90deg, #007BB0, #00366A)",
-      paddingTop: "4%",
-      paddingBottom: "8%",
-    }}
-  >
-    <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold  relative text-white">
-      OUR CUSTOMER
-      <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-white" />
-    </text>
-    <div className="w-[100%] mt-[32px] md:mt-[42] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[80px] px-[20px] md:px-[10%]">
-      <Carousel {...settings} autoplay>
-        {products.map((product, index) => (
-          <div key={index}>
-            <div className="bg-white mx-[9px] 2xl:mx-[20px] flex justify-center items-center py-[0px] md:py-[5px] lg:py-[10px] xl:py-[15px] 2xl:py-[20px] rounded-[7px] border-[2px] border-[#00366A]">
-              <div className="flex justify-center items-center h-[80%] w-[90%]">
-                <Image
-                  style={{
-                    objectFit: "contain",
-                    height: "80px",
-                    width: "80%",
-                  }}
-                  alt={product.name}
-                  src={product.imageUrl}
-                />
-              </div>
-            </div>
-          </div>
-        ))}
-      </Carousel>
-    </div>
-  </Box>
+const QualityStandard = () => (
+  <div className="mt-[48px]">
+    <Box
+      flexDirection={"column"}
+      display={"flex"}
+      sx={{
+        backgroundImage: "linear-gradient(90deg, #007BB0, #00366A)",
+        paddingTop: "4%",
+        paddingBottom: "8%",
+        paddingX: "20px",
+      }}
+    >
+      <div className=" relative">
+        <text className="text-[24px]  md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold text-white">
+          QUALITY STANDARD
+          <span className="absolute bottom-[-5px] left-[0px] w-[25%] h-[2px] xl:h-[5px] bg-white" />
+        </text>
+      </div>
+
+      <div>
+        <text>
+          In 2022, REDECO Vietnam was granted a quality management system
+          certificate according to ISO 9001:2015 standards.
+        </text>
+      </div>
+    </Box>
+  </div>
 );
 
-export default Customer;
+export default QualityStandard;

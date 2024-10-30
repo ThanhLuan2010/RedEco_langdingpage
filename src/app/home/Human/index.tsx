@@ -14,7 +14,7 @@ const settings = {
   dots: false,
   infinite: true,
   speed: 500,
-  slidesToShow: 2, // Số slides mặc định
+  slidesToShow: 3, // Số slides mặc định
   slidesToScroll: 1,
   responsive: [
     {
@@ -26,13 +26,13 @@ const settings = {
     {
       breakpoint: 992, // Tablet (tối đa 992px)
       settings: {
-        slidesToShow: 3, // Hiển thị 2 slides
+        slidesToShow: 2, // Hiển thị 2 slides
       },
     },
     {
       breakpoint: 576, // Mobile (tối đa 576px)
       settings: {
-        slidesToShow: 2, // Hiển thị 1 slide
+        slidesToShow: 3, // Hiển thị 1 slide
       },
     },
   ],
@@ -54,31 +54,6 @@ const Human = () => (
                 alt={product.name}
                 src={product.imageUrl}
               />
-              {/* <Box sx={{ padding: "6% 6% 10% 6%" }}>
-                <Box
-                  sx={{
-                    borderWidth: 2,
-                    borderColor: "#00366A",
-                    display: "flex",
-                    justifyContent: "center",
-                    width: "100%",
-                    borderRadius: "12px",
-                    height:"150px"
-                  }}
-                >
-                 
-                </Box>
-                <Typography
-                  style={{
-                    fontSize: "1.5em",
-                    fontWeight: 600,
-                    textAlign: "center",
-                    marginTop: "15px"
-                  }}
-                >
-                  {product.name}
-                </Typography>
-              </Box> */}
             </Box>
           </div>
         ))}

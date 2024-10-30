@@ -37,9 +37,7 @@ export default function Home() {
       <Box marginTop={"8%"}>
         <Customer />
       </Box>
-      <Box marginTop={"8%"} display={"flex"} justifyContent={"center"}>
-        <News />
-      </Box>
+      <News />
       <Footer />
     </Box>
   );

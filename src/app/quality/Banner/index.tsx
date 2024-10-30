@@ -47,205 +47,145 @@ export default function Banner() {
   `;
 
   return (
-    <Box sx={{ width: "100vw", position: "relative", height: "90vh" }}>
-      <Box width={"100vw"} height={"100%"} sx={{ position: "relative", }}>
-        <Image
-          style={{ width: "100%", height: "100%" }}
-          alt="banner"
-          src={require("../../../public/image/quality_banner.png")}
-        />
-        <Box
-          sx={{
-            backgroundColor: "#00366A",
-            width: "100%",
-            height: "100%",
-            top: 0,
-            left: 0,
-            position: "absolute",
-            opacity: 0.6,
-          }}
-        />
+    <div className="relative">
+      <div className="w-full relative">
+        <Box width={"100vw"} height={"20vh"} sx={{ position: "relative" }}>
+          <Image
+            style={{ width: "100%", height: "100%" }}
+            alt="banner"
+            src={require("../../../public/image/quality_banner.png")}
+          />
+          <Box
+            sx={{
+              backgroundColor: "#00366A",
+              width: "100%",
+              height: "100%",
+              top: 0,
+              left: 0,
+              position: "absolute",
+              opacity: 0.6,
+            }}
+          />
+        </Box>
 
         <Box
           sx={{
             position: "absolute",
-            width: "80%",
-            bottom: "0",
+            top: "0",
             left: "10%",
-            transform: "translateY(50%)", // Căn chỉnh chính xác vị trí giữa
-            flexDirection: "row",
+            width: "80%",
+            height: "100%",
             display: "flex",
-            justifyContent: "space-between",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "flex-start",
+            color: "white",
+            zIndex: 10, // Ensure it's above the slider
+            overflow: "hidden",
           }}
         >
-          <Box
-            sx={{
-              bgcolor: "rgba(255,255,255,0.9)",
-              width: "31.5%",
-              borderRadius: "20px",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              paddingY: "30px",
-              boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
-            }}
-          >
+          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] leading-[30px] lg:leading-[73.14px]">
+            We <span style={{ color: "#39E63D" }}>Provide</span> The Best
+          </text>
+          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] leading-[30px] lg:leading-[73.14px] flex">
+            industrial solution
+            <text className=" hidden md:flex xl:ml-4 md:ml-1">
+              {" "}
+              for business
+            </text>
+          </text>
+          <text className="mt-[32px] xl:mb-[80px] hidden md:flex">
+            We have almost 8+ years of experience for helping industrial
+            services and business solutions
+          </text>
+
+          <div className="flex gap-[20px] xl:gap-[35px] mt-[35px] w-[65%] md:w-[50%] lg:w-[45%]">
+            <button className="bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] md:py-[15px] xl:py-[20px] rounded-[8px] text-[9px] md:text-[12px] ld:text-[16px] xl:text-[20px] w-[50%] font-bold">
+              OUR SERVICES
+            </button>
+
+            <button className="py-[10px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[9px] md:text-[12px] ld:text-[16px] xl:text-[20px]">
+              CONTACT US
+            </button>
+          </div>
+        </Box>
+      </div>
+      <div className=" px-[20px] md:px-[10%] md:translate-y-[50px] flex flex-col md:flex-row w-[100%]">
+        <div
+          style={{
+            backgroundColor: "rgba(255,255,255,0.9)F",
+            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+          }}
+          className="w-[100%] md:w-[31.5%] rounded:[20px] flex md:flex-col mt-[24px] rounded-[12px] h-[12vh] item-center bg-white"
+        >
+          <div className="w-[40%] justify-center flex items-center">
             <Image
               alt=""
               src={require("../../../public/image/ic_quality.png")}
-              style={{ width: "100px", height: "100px", objectFit: "contain" }}
-            />
-            <Typography
               style={{
-                marginTop: "50px",
-                fontWeight: "bold",
-                color: "#00366A",
-                fontSize: "1.7rem",
-                textAlign: "center",
-                lineHeight: "110%",
+                width: "100%",
+                height: "65%",
+                objectFit: "contain",
               }}
-            >
-              Product
-              <br />
-              Integrity
-            </Typography>
-          </Box>
+            />
+          </div>
+          <div className="w-[70%] flex  items-center text-[18px]">
+            <text className="font-semibold text-[#00366A] text-center text-[18px]">
+              Product Integrity
+            </text>
+          </div>
+        </div>
 
-          <Box
-            sx={{
-              bgcolor: "rgba(255,255,255,0.9)",
-              width: "31.5%",
-              borderRadius: "20px",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              paddingY: "30px",
-              boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
-            }}
-          >
+        <div
+          style={{
+            backgroundColor: "rgba(255,255,255,0.9)F",
+            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+          }}
+          className="w-[100%] md:w-[31.5%] rounded:[20px] flex md:flex-col mt-[24px] rounded-[12px] h-[12vh] item-center bg-white"
+        >
+          <div className="w-[40%] justify-center flex items-center">
             <Image
               alt=""
               src={require("../../../public/image/ic_quality2.png")}
-              style={{ width: "100px", height: "100px", objectFit: "contain" }}
-            />
-            <Typography
               style={{
-                marginTop: "50px",
-                fontWeight: "bold",
-                color: "#00366A",
-                fontSize: "1.7rem",
-                textAlign: "center",
-                lineHeight: "110%",
+                width: "100%",
+                height: "65%",
+                objectFit: "contain",
               }}
-            >
+            />
+          </div>
+          <div className="w-[70%] flex  items-center text-[18px]">
+            <text className="font-semibold text-[#00366A] text-center text-[18px]">
               Precision
-              <br />
-              Assurance
-            </Typography>
-          </Box>
+            </text>
+          </div>
+        </div>
 
-          <Box
-            sx={{
-              bgcolor: "rgba(255,255,255,0.9)",
-              width: "31.5%",
-              borderRadius: "20px",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              paddingY: "30px",
-              boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
-            }}
-          >
+        <div
+          style={{
+            backgroundColor: "rgba(255,255,255,0.9)F",
+            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+          }}
+          className="w-[100%] md:w-[31.5%] rounded:[20px] flex md:flex-col mt-[24px] rounded-[12px] h-[12vh] item-center bg-white"
+        >
+          <div className="w-[40%] justify-center flex items-center">
             <Image
               alt=""
               src={require("../../../public/image/ic_quality3.png")}
-              style={{ width: "100px", height: "100px", objectFit: "contain" }}
-            />
-            <Typography
               style={{
-                marginTop: "50px",
-                fontWeight: "bold",
-                color: "#00366A",
-                fontSize: "1.7rem",
-                textAlign: "center",
-                lineHeight: "110%",
+                width: "100%",
+                height: "65%",
+                objectFit: "contain",
               }}
-            >
-              Quality
-              <br />
+            />
+          </div>
+          <div className="w-[70%] flex  items-center text-[18px]">
+            <text className="font-semibold text-[#00366A] text-center text-[18px]">
               Certification
-            </Typography>
-          </Box>
-        </Box>
-      </Box>
-      <Box
-        sx={{
-          position: "absolute",
-          top: "0",
-          left: "10%",
-          width: "80%",
-          height: "100%",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "flex-start",
-          color: "white",
-        }}
-      >
-        <Typography variant="h3" component="h1" sx={{ fontWeight: "bold" }}>
-          We <span style={{ color: "#39E63D" }}>Provide</span> The Best
-        </Typography>
-        <Typography
-          variant="h3"
-          component="h1"
-          sx={{ fontWeight: "bold", mb: 2 }}
-        >
-          industrial solution for business
-        </Typography>
-        <Typography variant="body1" sx={{ mb: 4 }}>
-          We have almost 8+ years of experience for helping industrial services
-          and business solutions
-        </Typography>
-
-        <Box sx={{ display: "flex", gap: 2 }}>
-          <Button
-            variant="contained"
-            sx={{
-              background: "linear-gradient(to right, #39E63D, #00A68E)",
-              color: "white",
-              padding: "10px 20px",
-              fontSize: "16px",
-              fontWeight: "bold",
-              borderRadius: "50px",
-              "&:hover": {
-                background: "linear-gradient(to right, #00A68E, #39E63D)",
-              },
-            }}
-          >
-            OUR SERVICES
-          </Button>
-
-          <Button
-            variant="outlined"
-            sx={{
-              color: "white",
-              borderColor: "white",
-              padding: "10px 20px",
-              fontSize: "16px",
-              fontWeight: "bold",
-              borderRadius: "50px",
-              "&:hover": {
-                backgroundColor: "rgba(255, 255, 255, 0.2)",
-              },
-            }}
-          >
-            CONTACT US
-          </Button>
-        </Box>
-      </Box>
-    </Box>
+            </text>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }

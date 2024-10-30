@@ -1,214 +1,79 @@
-import { Box } from "@mui/material";
-import { Typography } from "antd";
 import Image from "next/image";
+
 function QualityContent() {
   return (
-    <Box
-      sx={{
-        marginTop: "15%",
-        width: "80%",
-        display: "flex",
-        alignItems: "flex-end",
-      }}
-    >
-      <Box
-        sx={{
-          position: "relative",
-          width: "35%",
-          height: "100%",
-          marginRight: "15%",
-          //   top:"7%"
-        }}
-      >
-        {/* Khung viền ở dưới */}
-        <Box
-          sx={{
-            position: "absolute",
-            bottom: "5%",
-            left: "0",
-            width: "95%",
-            height: "90%",
-            border: "6px solid #00366A", // Màu viền
-            borderRadius: "24px",
-            zIndex: -1,
-          }}
-        />
-        {/* Hình */}
-        <Box
-          sx={{
-            position: "absolute",
-            width: "100%",
-            height: "90%",
-            bottom: -15,
-            right: "-15%",
-          }}
-        >
-          <Image
-            src={require("../../../public/image/quality_content_image.png")}
-            alt="Custom Image"
-            layout="fill" // Để ảnh bao phủ toàn bộ Box
-            style={{
-              borderRadius: "8px",
-              bottom: 0,
-              position: "absolute",
-              right: 0,
-              //   objectFit
-            }}
-          />
-        </Box>
-
-        <Box
-          sx={{
-            position: "absolute",
-            bottom: "-20%",
-            left: "50%",
-            transform: "translateX(-50%)",
-            zIndex: 3,
-            width: "100%",
-          }}
-        >
-          <Box
-            sx={{
-              marginTop: "20px",
-              display: "flex",
-              justifyContent: "flex-end",
-            }}
-          >
-            <Typography
-              style={{
-                fontWeight: "bold",
-                background:
-                  "linear-gradient(150deg, #007BB0 -7.86%, #00366A 67.26%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                fontSize: "3rem",
-              }}
-            >
-              SINCE
-            </Typography>
-            <Typography
-              style={{
-                fontWeight: "bold",
-                background: "linear-gradient(150deg, #28FF90, #00954F)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                marginLeft: "8px",
-                fontSize: "3rem",
-              }}
-            >
-              2017
-            </Typography>
-          </Box>
-        </Box>
-      </Box>
-
-      <Box sx={{ width: "50%" }}>
-        <Typography
-          style={{
-            fontSize: "2.5rem",
-            lineHeight: "50px",
-            fontFamily: "Montserrat",
-            fontWeight: "700",
-            position: "relative", // Để định vị đường viền
-            paddingBottom: "8px", // Khoảng cách giữa chữ và border
-            color: "#00366A",
-            textAlign: "center",
-          }}
-        >
+    <div className="mt-[48px] flex flex-col px-[24px]">
+      <div className="justify-center flex items-center">
+        <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold pb-[4px] relative text-[#00366A]">
           QUALITY
-          {/* Đường viền */}
-          <span
-            style={{
-              position: "absolute",
-              bottom: 0, // Đặt đường viền sát dưới chữ
-              left: "50%", // Căn giữa theo chiều ngang
-              transform: "translateX(-50%)", // Căn chỉnh chính xác vị trí giữa
-              width: "150px", // Chiều rộng của đường viền (ngắn hơn width chữ)
-              height: "5px", // Độ dày của đường viền
-              backgroundColor: "#00A859", // Màu sắc của đường viền
-            }}
-          />
-        </Typography>
+          <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
+        </text>
+      </div>
 
-        <Typography
-          style={{
-            textAlign: "justify",
-            fontSize: "1.5rem",
-            lineHeight: "120%",
-            marginTop: "5%",
-          }}
-        >
-          At REDECO Vietnam, monitoring and evaluation systems are implemented
-          in each department to comply with quality assurance procedures.
-          Quality is assured with a manufacturing and testing process that
-          includes quality control at every step. From design to final assembly
-          and testing, each finished part is thoroughly inspected by engineers
-          who are personally responsible for the quality of the final product.
-        </Typography>
+      <text className="mt-[18px]">
+        At REDECO Vietnam, monitoring and evaluation systems are implemented in
+        each department to comply with quality assurance procedures. Quality is
+        assured with a manufacturing and testing process that includes quality
+        control at every step. From design to final assembly and testing, each
+        finished part is thoroughly inspected by engineers who are personally
+        responsible for the quality of the final product.
+      </text>
 
-        <Box sx={{ display: "flex", marginTop: "10%", gap: "30px" }}>
-          <Box
-            sx={{
-              boxShadow: "0 2px 8px rgba(0, 0, 0, 0.2)",
-              width: "50%",
-              borderRadius: "24px",
-              padding: "34px 30px 34px 30px",
-            }}
-          >
-            <Typography style={{ lineHeight: "25px" }}>
-              <span style={{ marginRight: "10px" }}>▪</span>
-              Good Skilled Engineers
-            </Typography>
-            <Typography style={{ lineHeight: "25px" }}>
-              <span style={{ marginRight: "10px" }}>▪</span>
-              Modern Machines
-            </Typography>
-            <Typography style={{ lineHeight: "25px" }}>
-              <span style={{ marginRight: "10px" }}>▪</span>
-              High-Quality Service
-            </Typography>
-            <Typography style={{ lineHeight: "25px" }}>
-              <span style={{ marginRight: "10px" }}>▪</span>
-              Guaranteed Products
-            </Typography>
-            <Typography style={{ lineHeight: "25px" }}>
-              <span style={{ marginRight: "10px" }}>▪</span>
-              Ensure 5S Level & Kaizen
-            </Typography>
-          </Box>
+      <div
+        style={{
+          backgroundColor: "rgba(255,255,255,0.9)F",
+          boxShadow: "0 1px 8px rgba(0, 0, 0, 0.1)",
+        }}
+        className="bg-white rounded-[12px] flex flex-col mt-[26px] py-[20px] text-[15px] text-[#252724] font-medium px-[35px] leading-[20px] mx-[20px]"
+      >
+        <text>
+          ▪ <span className="ml-[20px]">Good Skilled Engineers</span>
+        </text>
+        <text>
+          ▪ <span className="ml-[20px]">Modern Machines</span>
+        </text>
+        <text>
+          ▪ <span className="ml-[20px]">High-Quality Service</span>
+        </text>
+        <text>
+          ▪ <span className="ml-[20px]">Guaranteed Products</span>
+        </text>
+        <text>
+          ▪ <span className="ml-[20px]">Ensure 5S Level & Kaizen</span>
+        </text>
+      </div>
 
-          <Box
-            sx={{
-              boxShadow: "0 2px 8px rgba(0, 0, 0, 0.2)",
-              width: "50%",
-              borderRadius: "24px",
-              padding: "34px 30px 34px 30px",
-            }}
-          >
-            <Typography style={{ lineHeight: "25px" }}>
-              <span style={{ marginRight: "10px" }}>▪</span>
-              Good Skilled Engineers
-            </Typography>
-            <Typography style={{ lineHeight: "25px" }}>
-              <span style={{ marginRight: "10px" }}>▪</span>
-              Modern Machines
-            </Typography>
-            <Typography style={{ lineHeight: "25px" }}>
-              <span style={{ marginRight: "10px" }}>▪</span>
-              High-Quality Service
-            </Typography>
-            <Typography style={{ lineHeight: "25px" }}>
-              <span style={{ marginRight: "10px" }}>▪</span>
-              Guaranteed Products
-            </Typography>
-            <Typography style={{ lineHeight: "25px" }}>
-              <span style={{ marginRight: "10px" }}>▪</span>
-              Ensure 5S Level & Kaizen
-            </Typography>
-          </Box>
-        </Box>
-      </Box>
-    </Box>
+      <div
+        style={{
+          backgroundColor: "rgba(255,255,255,0.9)F",
+          boxShadow: "0 1px 8px rgba(0, 0, 0, 0.1)",
+        }}
+        className="bg-white rounded-[12px] flex flex-col mt-[24px] py-[20px] text-[15px] text-[#252724] font-medium px-[35px] leading-[20px] mx-[20px]"
+      >
+        <text>
+          ▪ <span className="ml-[20px]">Fast Support</span>
+        </text>
+        <text>
+          ▪ <span className="ml-[20px]">Complete Solution</span>
+        </text>
+        <text>
+          ▪ <span className="ml-[20px]">Responsibility</span>
+        </text>
+        <text>
+          ▪ <span className="ml-[20px]">Dedication</span>
+        </text>
+        <text>
+          ▪ <span className="ml-[20px]">Continuous Innovation</span>
+        </text>
+      </div>
+
+      <div className="mt-[30px]">
+        <Image
+          alt=""
+          src={require("../../../public/image/quality_banner1.png")}
+        />
+      </div>
+    </div>
   );
 }
 

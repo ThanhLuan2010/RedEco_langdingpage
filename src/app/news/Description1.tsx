@@ -7,16 +7,16 @@ function Description1() {
       <text className="text-[1rem] text-[#00366A] font-medium">
         October 23, 2021
       </text>
-      <text className="mt-[2rem] text-[1rem] text-[#252724] font-medium">
+      <text className="mt-[18px] md:mt-[24px] lg:mt-[28px] 2xl:mt-[2rem] text-[1rem] text-[#252724] font-medium">
         Regarding CNC machining, REDECO Vietnam JSC sets the standard for
         excellence. We are committed to delivering quality, innovation, and
         complete customer satisfaction, ensuring every project is completed to
         the highest standards.
       </text>
 
-      <div className="flex">
-        <div className="w-[60%] flex flex-col">
-          <text className="text-[1.6rem] mt-[2rem] font-bold text-[#00366A]">
+      <div className="flex flex-col sm:flex-col md:flex-row">
+        <div className="sm:w-[100%] md:w-[60%] flex flex-col">
+          <text className="text-[20px] md:text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] mt-[2rem] font-bold text-[#00366A]">
             State-of-the-Art Facilities
           </text>
           <text className="mt-[10px]">
@@ -47,17 +47,17 @@ function Description1() {
           </text>
         </div>
 
-        <div className="w-[40%] h-auto  items-center flex object-contain ml-[3%]">
+        <div className="sm:w-[100%] md:w-[40%] h-auto  items-center flex object-contain mt-[24px] md:mt-0 md:ml-[3%]">
           <Image alt="" src={require("../../public/image/news1-banner1.png")} />
         </div>
       </div>
 
-      <div className="flex mt-10">
-        <div className="w-[40%] h-auto  items-center flex object-contain mr-[3%]">
+      <div className="flex mt-10 flex-col-reverse md:flex-row sm:flex-col-reverse">
+        <div className="mt-[24px] md:mt-0 w-[100%] md:w-[40%] h-auto  items-center flex object-contain mr-[3%]">
           <Image alt="" src={require("../../public/image/news1-banner2.png")} />
         </div>
 
-        <div className="w-[60%] flex flex-col justify-center">
+        <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
           <text className="text-[1.6rem] font-bold text-[#00366A]">
             Expert Team with 45+ Employees
           </text>
@@ -84,8 +84,8 @@ function Description1() {
         </div>
       </div>
 
-      <div className="flex mt-12">
-        <div className="w-[60%] flex flex-col justify-center">
+      <div className="flex flex-col sm:flex-col md:flex-row mt-12">
+        <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
           <text className="text-[1.6rem]  font-bold text-[#00366A]">
             On-Time Delivery
           </text>
@@ -108,7 +108,7 @@ function Description1() {
           </text>
         </div>
 
-        <div className="w-[40%] h-auto  items-center flex object-contain ml-[3%] justify-center">
+        <div className="w-[100%] md:w-[40%] h-auto  items-center flex object-contain ml-0 mt-[20px] md:mt-0 md:ml-[3%] justify-center">
           <Image alt="" src={require("../../public/image/news1-banner3.png")} />
         </div>
       </div>

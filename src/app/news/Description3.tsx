@@ -7,7 +7,7 @@ function Description3() {
       <text className="text-[1rem] text-[#00366A] font-medium">
         July 6, 2023
       </text>
-      <text className="mt-[2rem] text-[1rem] text-[#252724] font-normal">
+      <text className="mt-[20px] md:mt-[24px] lg:mt-[28px] xl:mt-[30px] 2xl:mt-[32px] text-[1rem] text-[#252724] font-normal">
         On July 6, 2023, Ha Long Technology and Solutions Trading Joint Stock
         Company held a strategic cooperation signing ceremony with Redeco
         Vietnam Industrial Solutions Joint Stock Company. This signing ceremony
@@ -17,8 +17,8 @@ function Description3() {
         commercial products and high-tech solutions for industrial parks.
       </text>
 
-      <div className="flex mt-[20px]">
-        <div className="w-[60%] flex flex-col ">
+      <div className="flex flex-col md:flex-row mt-[20px]">
+        <div className="w-[100%] md:w-[60%] flex flex-col ">
           <text>
             Mr. Bui Minh Hieu – Director of Ha Long Technology and Solutions
             Trading Joint Stock Company, Mr. Nguyen Do Dong – Director of Redeco
@@ -39,7 +39,7 @@ function Description3() {
           </text>
         </div>
 
-        <div className="w-[40%] h-auto  items-center flex object-contain ml-[3%]">
+        <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain mt-[24px] mf:mt-0 md:ml-[3%]">
           <Image alt="" src={require("../../public/image/news3-banner1.png")} />
         </div>
       </div>

@@ -1,43 +1,7 @@
 import { Typography } from "antd";
 import Image from "next/image";
-import React, { useState } from "react";
 
 function Automation() {
-  const [selectedCategory, setSelectedCategory] =
-    useState<string>("Category 01");
-
-  const categories: any = {
-    "Category 01": [
-      { image: require("../../public/image/product1.1.png"), height: "60%" },
-      { image: require("../../public/image/product1.2.png"), height: "40%" },
-      { image: require("../../public/image/product1.3.png"), height: "50%" },
-      { image: require("../../public/image/product1.4.png"), height: "50%" },
-      { image: require("../../public/image/product1.5.png"), height: "50%" },
-      { image: require("../../public/image/product1.6.png"), height: "50%" },
-      { image: require("../../public/image/product1.7.png"), height: "50%" },
-      { image: require("../../public/image/product1.8.png"), height: "50%" },
-    ],
-    "Category 02": [
-      require("../../public/image/product2.1.png"),
-      require("../../public/image/product2.2.png"),
-      require("../../public/image/product2.3.png"),
-      require("../../public/image/product2.4.png"),
-      require("../../public/image/product2.5.png"),
-      require("../../public/image/product2.6.png"),
-      require("../../public/image/product2.7.png"),
-      require("../../public/image/product2.8.png"),
-    ],
-    "Category 03": [
-      require("../../public/image/product3.1.png"),
-      require("../../public/image/product3.2.png"),
-      require("../../public/image/product3.3.png"),
-      require("../../public/image/product3.4.png"),
-      require("../../public/image/product3.5.png"),
-      require("../../public/image/product3.6.png"),
-      require("../../public/image/product3.7.png"),
-      require("../../public/image/product3.8.png"),
-    ],
-  };
   return (
     <div>
       <div className="relative flex justify-center mt-20">

@@ -12,7 +12,6 @@ import Description4 from "../Description4";
 function index() {
   const router = useParams();
   const { id } = router; // Lấy id từ URL
-  console.log("=====id=-===", id);
   const banner =
     id == "1"
       ? require("../../../public/image/banner_news1.png")
@@ -48,11 +47,11 @@ function index() {
   };
   return (
     <div>
-      <Image style={{ width: "100vw", height: "100vh" }} alt="" src={banner} />
+      <Image style={{ width: "100vw", height: "100%" }} alt="" src={banner} />
       <div className="w-[100%] items-center flex flex-col">
-        <div className="w-[80%] mt-[7%]">
+        <div className="px-[20px] md:px-[10%] mt-[7%]">
           <div className="relative">
-            <text className="font-semibold  text-[2.5rem] text-[#00366A] ">
+            <text className="font-semibold text-[20px] sm-[26px] md:text-[32px] lg:text-[40px] xl:text-[47px] 2xl:text-[56px] text-[#00366A] ">
               {title}
             </text>
             <span
@@ -60,17 +59,18 @@ function index() {
                 position: "absolute",
                 bottom: -10, // Đặt đường viền sát dưới chữ
                 left: "0%", // Căn giữa theo chiều ngang
-                width: "250px", // Chiều rộng của đường viền (ngắn hơn width chữ)
-                height: "5px", // Độ dày của đường viền
                 backgroundColor: "#00A859", // Màu sắc của đường viền
               }}
+              className="h-[2px] sm:h-[3px] md:h-[4px] xl:h-[5px] w-1/3"
             />
           </div>
 
-          <div className="mt-[3rem]">{Description()}</div>
+          <div className="mt-[20px] sm:mt-[20px] md:mt-[24px] lg:mt-[28px] xl:mt-[30px] 2xl:mt-[32px]">
+            {Description()}
+          </div>
         </div>
       </div>
-      <div className="mt-[120px]">
+      <div className="mt-[60px] sm:mt-[60px] md:mt-[80px] lg:mt-[100px] xl:mt-[110px] 2xl:mt-[120px]">
         <OtherNews id={id} />
       </div>
       <Footer style={{ marginTop: 0 }} />
