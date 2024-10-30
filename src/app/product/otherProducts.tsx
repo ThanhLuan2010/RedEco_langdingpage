@@ -730,7 +730,7 @@ export default OtherProduct;
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
     className={`flex-1 px-4 xl:py-[8px] lg:py-[8px] md:py-[10px] sm:py-[8px] py-[8px] flex justify-center items-center text-center 
-       text-[0.6rem] sm:text-[0.8rem] md:text-[12px] lg:text-[14px] xl:text-[14px]  text-base transition-all duration-300
+       text-[10px] sm:text-[0.8rem] md:text-[12px] lg:text-[14px] xl:text-[14px]  text-base transition-all duration-300
       ${
         isActive
           ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"

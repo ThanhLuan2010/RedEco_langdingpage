@@ -40,7 +40,7 @@ function PlasticProduct() {
   };
   return (
     <div>
-      <div className="relative flex justify-center xl:mt-20 lg:mt-20 md:mt-20 sm:-mt-[90%] -mt-[200px]">
+      <div className="relative flex justify-center xl:mt-20 lg:mt-20 md:mt-20 sm:-mt-[90%] -mt-[260px]">
         <Typography
           style={{
             fontSize: "2rem",

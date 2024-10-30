@@ -823,10 +823,10 @@ function Silicon() {
         <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%]">
           <div className="flex justify-center ">
             <div
-              className="relative  rounded-[40px] overflow-hidden xl:w-[40%] lg:w-[48%] md:w-[64%] w-[100%] 
+              className="relative  sm:rounded-[28px] rounded-[28px] xl:rounded-full lg:rounded-full md:rounded-full overflow-hidden xl:w-[40%] lg:w-[48%] md:w-[64%] w-[100%] 
               border-transparent bg-gradient-to-r from-[#007BB0] to-[#00366A]"
             >
-              <div className="bg-white flex justify-between m-[2px] rounded-[40px]">
+              <div className="bg-white flex justify-between m-[2px] sm:rounded-[28px] rounded-[28px] xl:rounded-full lg:rounded-full md:rounded-full">
                 {categories.map((category: string, index: number) => (
                   <TabButton
                     key={index}
@@ -849,13 +849,13 @@ export default Silicon;
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
     className={`flex-1 px-4 xl:py-[8px] lg:py-[8px] md:py-[10px] sm:py-[8px] py-[8px] flex justify-center items-center text-center 
-       text-[0.6rem] sm:text-[0.8rem] md:text-[12px] lg:text-[14px] xl:text-[14px]  text-base transition-all duration-300 
+       text-[10px] sm:text-[0.8rem] md:text-[12px] lg:text-[14px] xl:text-[14px]  text-base transition-all duration-300 
       ${
         isActive
           ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"
           : "text-[#00366A] font-medium"
       }
-      rounded-[40px] font-bold line-clamp-1
+      sm:rounded-[28px] rounded-[28px] xl:rounded-full lg:rounded-full md:rounded-full font-bold line-clamp-1
     `}
     onClick={onClick}
   >
