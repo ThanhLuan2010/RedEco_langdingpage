@@ -2,7 +2,7 @@ import { FormCustom } from "@/components";
 import Image from "next/image";
 import React from "react";
 
-const GetInTouch = () => {
+const GetInTouch = ({ setUserNameSubmit, setIsStatusSubmit }: any) => {
   return (
     <div className="w-[100%] xl:mt-20 md:mt-20 lg:mt-20 mt-10 flex flex-col items-center h-auto bg-red">
       <div className="flex flex-col items-center">
@@ -31,7 +31,10 @@ const GetInTouch = () => {
           />
         </div>
         <div className="xl:w-[66%] md:w-[66%] sm:w-[100%] w-[100%] lg:w-[66%]">
-          <FormCustom></FormCustom>
+          <FormCustom
+            setUserNameSubmit={setUserNameSubmit}
+            setIsStatusSubmit={setIsStatusSubmit}
+          ></FormCustom>
         </div>
       </div>
     </div>

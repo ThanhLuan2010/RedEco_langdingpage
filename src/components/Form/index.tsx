@@ -37,11 +37,11 @@ const categories = [
   "Access & Logistics",
   "Operational/Service Training",
   "Network/Dealer",
-  "Product/Service Information",
+  "Product/Service       ",
   "Other",
 ];
 
-const FormCustom: React.FC = () => {
+const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
   const [formData, setFormData] = useState<FormData>({
     firstName: "",
     lastName: "",
@@ -114,7 +114,8 @@ const FormCustom: React.FC = () => {
           }
         );
         setIsLoading(false);
-        alert("Submitted google sheet successfully!");
+        setIsStatusSubmit(true);
+        setUserNameSubmit(`${formData.firstName} ${formData.lastName}`);
 
         setFormData({
           firstName: "",
