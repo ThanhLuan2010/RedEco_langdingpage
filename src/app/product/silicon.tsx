@@ -3,41 +3,791 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 function Silicon() {
-  const [selectedCategory, setSelectedCategory] =
-    useState<string>("Category 01");
+  const [activeTab, setActiveTab] = useState("VACUUM SUCTION CUP");
 
-  const categories: any = {
-    "Category 01": [
-      { image: require("../../public/image/product1.1.png"), height: "60%" },
-      { image: require("../../public/image/product1.2.png"), height: "40%" },
-      { image: require("../../public/image/product1.3.png"), height: "50%" },
-      { image: require("../../public/image/product1.4.png"), height: "50%" },
-      { image: require("../../public/image/product1.5.png"), height: "50%" },
-      { image: require("../../public/image/product1.6.png"), height: "50%" },
-      { image: require("../../public/image/product1.7.png"), height: "50%" },
-      { image: require("../../public/image/product1.8.png"), height: "50%" },
-    ],
-    "Category 02": [
-      require("../../public/image/product2.1.png"),
-      require("../../public/image/product2.2.png"),
-      require("../../public/image/product2.3.png"),
-      require("../../public/image/product2.4.png"),
-      require("../../public/image/product2.5.png"),
-      require("../../public/image/product2.6.png"),
-      require("../../public/image/product2.7.png"),
-      require("../../public/image/product2.8.png"),
-    ],
-    "Category 03": [
-      require("../../public/image/product3.1.png"),
-      require("../../public/image/product3.2.png"),
-      require("../../public/image/product3.3.png"),
-      require("../../public/image/product3.4.png"),
-      require("../../public/image/product3.5.png"),
-      require("../../public/image/product3.6.png"),
-      require("../../public/image/product3.7.png"),
-      require("../../public/image/product3.8.png"),
-    ],
+  const categories: any = [
+    "VACUUM SUCTION CUP",
+    "SILICONE RUBBER DETAIL",
+    "SILICONE RUBBER GASKET",
+    "INDUSTRIAL KEYBOARD",
+  ];
+
+  const renderProducts = () => {
+    if (activeTab == "VACUUM SUCTION CUP") {
+      return (
+        <>
+          {" "}
+          <div className="border-[2px] border-[#00366A] p-[20px] rounded-[12px] mt-[70px] bg-white">
+            <Image
+              src={require("../../public/image/banner-silicon.png")}
+              alt=""
+            />
+          </div>
+          {/* Botton */}
+          <>
+            {/* Desktop */}
+            <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[50vh] gap-[35px] mt-[40px]">
+              <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon1.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon2.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+              </div>
+
+              <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon3.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon3.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+              </div>
+
+              <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon5.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon6.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+              </div>
+            </div>
+            {/*  Mobile  */}
+            <div className="xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden h-[90vh] gap-[35px] mt-[40px]">
+              <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon1.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon5.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon7.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+              </div>
+
+              <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon3.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon2.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon6.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+              </div>
+            </div>
+          </>
+        </>
+      );
+    }
+
+    if (activeTab == "SILICONE RUBBER DETAIL") {
+      return (
+        <>
+          {/* Desktop */}
+          <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.1.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.6.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.7.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.8.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+          {/* Mobile */}
+          <div className="xl:hidden md:hidden lg:hidden flex sm:flex overflow-hidden h-[110vh] gap-[35px] mt-[70px]">
+            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.1.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.6.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.7.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon2.8.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+        </>
+      );
+    }
+
+    if (activeTab == "SILICONE RUBBER GASKET") {
+      return (
+        <>
+          {/* Desktop */}
+          <div className="xl:flex md:flex lg:flex hidden sm:hidden overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon3.1.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon3.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon3.3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon3.4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon3.5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+          {/* Mobile */}
+          <div className="xl:hidden lg:hidden md:hidden sm:flex flex-col flex overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+            <div className="gap-[35px] overflow-hidden w-[100%] flex flex-col">
+              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon3.1.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[100%] flex">
+              <div className="flex gap-[35px] flex-col">
+                <div className="h-[60%] overflow-hidden border-[2px] flex flex-col border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon3.2.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+                <div className="h-[60%] overflow-hidden border-[2px] flex flex-col border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon3.3.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+              </div>
+              <div className="flex gap-[35px] flex-col">
+                <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon3.4.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+                <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                  <Image
+                    alt=""
+                    src={require("../../public/image/silicon3.5.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </>
+      );
+    }
+
+    if (activeTab == "INDUSTRIAL KEYBOARD") {
+      return (
+        <>
+          {/* Desktop */}
+          <div className="md:flex lg:flex xl:flex sm:hidden hidden overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.1.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.6.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.7.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.8.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+          {/* Mobile */}
+          <div className="xl:hidden md:hidden lg:hidden flex sm:flex overflow-hidden h-[120vh] gap-[35px] mt-[70px]">
+            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.1.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.6.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.7.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/silicon4.8.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+        </>
+      );
+    }
   };
+
   return (
     <div>
       <div className="relative flex justify-center mt-20">
@@ -52,7 +802,9 @@ function Silicon() {
             color: "#00366A",
           }}
         >
-          SILICON RUBBER PRODUCTS
+          <span className="xl:text-[2rem] sm:px-[10px] px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[2rem] sm:text-[28px] justify-center items-center w-[100%] text-[28px]">
+            SILICON RUBBER PRODUCTS
+          </span>
           <span
             style={{
               position: "absolute",
@@ -68,111 +820,25 @@ function Silicon() {
       </div>
 
       <div className="mt-[40px]">
-        <div className="px-[10%]">
+        <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%]">
           <div className="flex justify-center ">
-            {Object.keys(categories).map((category) => (
-              <button
-                key={category}
-                className={`px-4 py-2 mx-2 rounded-lg ${
-                  selectedCategory === category
-                    ? "bg-blue-500 text-white"
-                    : "bg-gray-200 text-gray-700"
-                }`}
-                onClick={() => setSelectedCategory(category)}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-
-          <div className="border-[2px] border-[#00366A] p-[20px] rounded-[12px] mt-[70px] bg-white">
-            <Image
-              src={require("../../public/image/banner-silicon.png")}
-              alt=""
-            />
-          </div>
-          <div className="flex overflow-hidden h-[50vh] gap-[35px] mt-[40px]">
-            <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
-              <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
-                <Image
-                  alt=""
-                  src={require("../../public/image/silicon1.png")}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "contain",
-                  }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
-                />
-              </div>
-              <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
-                <Image
-                  alt=""
-                  src={require("../../public/image/silicon2.png")}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "contain",
-                  }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
-                />
-              </div>
-            </div>
-
-            <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
-              <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
-                <Image
-                  alt=""
-                  src={require("../../public/image/silicon3.png")}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "contain",
-                  }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
-                />
-              </div>
-              <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
-                <Image
-                  alt=""
-                  src={require("../../public/image/silicon3.png")}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "contain",
-                  }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
-                />
-              </div>
-            </div>
-
-            <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
-              <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
-                <Image
-                  alt=""
-                  src={require("../../public/image/silicon5.png")}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "contain",
-                  }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
-                />
-              </div>
-              <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
-                <Image
-                  alt=""
-                  src={require("../../public/image/silicon6.png")}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "contain",
-                  }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
-                />
+            <div
+              className="relative  sm:rounded-[28px] rounded-[28px] xl:rounded-full lg:rounded-full md:rounded-full overflow-hidden xl:w-[40%] lg:w-[48%] md:w-[64%] w-[100%] 
+              border-transparent bg-gradient-to-r from-[#007BB0] to-[#00366A]"
+            >
+              <div className="bg-white flex justify-between m-[2px] sm:rounded-[28px] rounded-[28px] xl:rounded-full lg:rounded-full md:rounded-full">
+                {categories.map((category: string, index: number) => (
+                  <TabButton
+                    key={index}
+                    label={category}
+                    isActive={activeTab === category}
+                    onClick={() => setActiveTab(category)}
+                  />
+                ))}
               </div>
             </div>
           </div>
+          <div>{renderProducts()}</div>
         </div>
       </div>
     </div>
@@ -180,3 +846,19 @@ function Silicon() {
 }
 
 export default Silicon;
+const TabButton = ({ label, isActive, onClick }: any) => (
+  <button
+    className={`flex-1 px-4 xl:py-[8px] lg:py-[8px] md:py-[10px] sm:py-[8px] py-[8px] flex justify-center items-center text-center 
+       text-[10px] sm:text-[0.8rem] md:text-[12px] lg:text-[14px] xl:text-[14px]  text-base transition-all duration-300 
+      ${
+        isActive
+          ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"
+          : "text-[#00366A] font-medium"
+      }
+      sm:rounded-[28px] rounded-[28px] xl:rounded-full lg:rounded-full md:rounded-full font-bold line-clamp-1
+    `}
+    onClick={onClick}
+  >
+    {label}
+  </button>
+);

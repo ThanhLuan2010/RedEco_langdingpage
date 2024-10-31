@@ -40,7 +40,7 @@ function PlasticProduct() {
   };
   return (
     <div>
-      <div className="relative flex justify-center mt-20">
+      <div className="relative flex justify-center xl:mt-20 lg:mt-20 md:mt-20 sm:-mt-[90%] -mt-[260px]">
         <Typography
           style={{
             fontSize: "2rem",
@@ -52,7 +52,9 @@ function PlasticProduct() {
             color: "#00366A",
           }}
         >
-          PLASTIC INJECTION PRODUCTS
+          <span className="xl:text-[2rem] sm:px-[10px] px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[2rem] sm:text-[28px] justify-center items-center w-[100%] text-[28px]">
+            PLASTIC INJECTION PRODUCTS
+          </span>
           {/* Đường viền */}
           <span
             style={{
@@ -69,8 +71,9 @@ function PlasticProduct() {
       </div>
 
       <div className="mt-[40px]">
-        <div className="px-[10%]">
-          <div className="flex overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+        <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%]">
+          {/* Desktop */}
+          <div className="xl:flex md:flex lg:flex sm:hidden hidden overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[53%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
@@ -166,6 +169,110 @@ function PlasticProduct() {
                 />
               </div>
               <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/plastic8.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[35px] mt-[70px]">
+            {/* Left */}
+            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/plastic1.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/plastic2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/plastic5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/plastic6.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+            {/* Right */}
+            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/plastic3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/plastic4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/plastic7.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
                   alt=""
                   src={require("../../public/image/plastic8.png")}

@@ -1,8 +1,6 @@
-import React from "react";
-import { Carousel, Row, Col, Typography } from "antd";
-import styled from "styled-components";
-import Image from "next/image";
 import { Box } from "@mui/material";
+import { Carousel } from "antd";
+import Image from "next/image";
 
 const products = [
   { name: "human1", imageUrl: require("../../../public/image/human1.png") },
@@ -12,78 +10,56 @@ const products = [
   { name: "human5", imageUrl: require("../../../public/image/human5.png") },
 ];
 
+const settings = {
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3, // Số slides mặc định
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200, // Màn hình lớn (tối đa 1200px)
+      settings: {
+        slidesToShow: 3, // Hiển thị 3 slides
+      },
+    },
+    {
+      breakpoint: 992, // Tablet (tối đa 992px)
+      settings: {
+        slidesToShow: 2, // Hiển thị 2 slides
+      },
+    },
+    {
+      breakpoint: 576, // Mobile (tối đa 576px)
+      settings: {
+        slidesToShow: 3, // Hiển thị 1 slide
+      },
+    },
+  ],
+};
+
 const Human = () => (
-  <Box
-    justifyContent={"center"}
-    flexDirection={"column"}
-    alignItems={"center"}
-    display={"flex"}
-  >
-    <Typography
-      style={{
-        fontSize: "2.5rem",
-        lineHeight: "50px",
-        color: "#00366A",
-        fontFamily: "Montserrat",
-        fontWeight: "700",
-        position: "relative", // Để định vị đường viền
-        paddingBottom: "10px", // Khoảng cách giữa chữ và border
-      }}
-    >
+  <div className="flex flex-col justify-center items-center mt-[40px] sm:mt-[50px] md:mt-[70px] lg:mt-[90px] xl:mt-[110px] 2xl:mt-[200px]">
+    <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold text-[#00366A] relative">
       HUMAN RESOURCES
-      <span
-        style={{
-          position: "absolute",
-          bottom: 0, // Đặt đường viền sát dưới chữ
-          left: "50%", // Căn giữa theo chiều ngang
-          transform: "translateX(-50%)", // Căn chỉnh chính xác vị trí giữa
-          width: "144px", // Chiều rộng của đường viền (ngắn hơn width chữ)
-          height: "5px", // Độ dày của đường viền
-          backgroundColor: "#00A859", // Màu sắc của đường viền
-        }}
-      />
-    </Typography>
+      <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
+    </text>
     <Box marginTop={"50px"} width={"80%"}>
-      <Carousel slidesToShow={3} slidesToScroll={3} dots={false} autoplay>
+      <Carousel {...settings} autoplay>
         {products.map((product, index) => (
           <div key={index}>
-            <Box sx={{width:"90%"}}>
+            <Box sx={{ width: "90%" }}>
               <Image
                 style={{ objectFit: "contain" }}
                 alt={product.name}
                 src={product.imageUrl}
               />
-              {/* <Box sx={{ padding: "6% 6% 10% 6%" }}>
-                <Box
-                  sx={{
-                    borderWidth: 2,
-                    borderColor: "#00366A",
-                    display: "flex",
-                    justifyContent: "center",
-                    width: "100%",
-                    borderRadius: "12px",
-                    height:"150px"
-                  }}
-                >
-                 
-                </Box>
-                <Typography
-                  style={{
-                    fontSize: "1.5em",
-                    fontWeight: 600,
-                    textAlign: "center",
-                    marginTop: "15px"
-                  }}
-                >
-                  {product.name}
-                </Typography>
-              </Box> */}
             </Box>
           </div>
         ))}
       </Carousel>
     </Box>
-  </Box>
+  </div>
 );
 
 export default Human;

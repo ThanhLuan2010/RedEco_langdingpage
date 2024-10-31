@@ -1,251 +1,170 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import Image from "next/image";
-import { useState } from "react";
-import styled from "styled-components";
-import { Carousel } from "antd";
 
 export default function Banner() {
-  const StyledCarousel = styled(Carousel)`
-    .slick-dots {
-      display: flex !important;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .slick-dots li {
-      margin: 0 10px; /* Tạo khoảng cách đều cho các dot không active */
-    }
-
-    .slick-dots li.slick-active {
-      margin-left: 0px; /* Không thêm khoảng cách bên trái */
-      margin-right: 15px; /* Tạo khoảng cách riêng bên phải để cân đối */
-    }
-
-    .slick-dots li button {
-      background-color: white; /* Màu dot không active */
-      width: 16px; /* Kích thước chiều rộng */
-      height: 16px; /* Kích thước chiều cao */
-      border-radius: 50%; /* Bo tròn thành hình tròn */
-      transition: all 0.3s ease-in-out; /* Hiệu ứng chuyển đổi mềm mại */
-      border: none;
-      opacity: 1;
-      bottom: 22px;
-    }
-
-    .slick-dots li.slick-active button {
-      background: linear-gradient(
-        90deg,
-        #28ff90,
-        #00954f
-      ); /* Màu gradient cho dot active */
-      width: 40px; /* Chiều rộng dot active */
-      height: 20px; /* Chiều cao dot active */
-      border-radius: 20px; /* Bo tròn nhẹ cho dot dài */
-      border: none;
-      bottom: 24px;
-    }
-  `;
-
   return (
-    <Box sx={{ width: "100vw", position: "relative", height: "90vh" }}>
-      <Box width={"100vw"} height={"100%"} sx={{ position: "relative", }}>
-        <Image
-          style={{ width: "100%", height: "100%" }}
-          alt="banner"
-          src={require("../../../public/image/quality_banner.png")}
-        />
-        <Box
-          sx={{
-            backgroundColor: "#00366A",
-            width: "100%",
-            height: "100%",
-            top: 0,
-            left: 0,
-            position: "absolute",
-            opacity: 0.6,
-          }}
-        />
-
-        <Box
-          sx={{
-            position: "absolute",
-            width: "80%",
-            bottom: "0",
-            left: "10%",
-            transform: "translateY(50%)", // Căn chỉnh chính xác vị trí giữa
-            flexDirection: "row",
-            display: "flex",
-            justifyContent: "space-between",
-          }}
-        >
+    <div className="relative">
+      <div className="w-full h-[100%] relative">
+        <Box width={"100vw"} height={"100%"} sx={{ position: "relative" }}>
+          <Image
+            style={{ width: "100%", height: "100%" }}
+            alt="banner"
+            src={require("../../../public/image/quality_banner.png")}
+          />
           <Box
             sx={{
-              bgcolor: "rgba(255,255,255,0.9)",
-              width: "31.5%",
-              borderRadius: "20px",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              paddingY: "30px",
-              boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+              backgroundColor: "#00366A",
+              width: "100%",
+              height: "100%",
+              top: 0,
+              left: 0,
+              position: "absolute",
+              opacity: 0.6,
             }}
-          >
+          />
+        </Box>
+
+        <div className="absolute top-0 h-[100%] flex flex-col justify-center px-[20px] md:px-[5%] xl:px-[10%] text-white overflow-hidden translate-y-[-9%]">
+          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px]">
+            We <span style={{ color: "#39E63D" }}>Provide</span> The Best
+          </text>
+          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] flex lg:hidden">
+            industrial solution
+          </text>
+
+          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] lg:flex hidden">
+            industrial solution for business
+          </text>
+
+          <text className="md:mt-[18px] 2xl:mt-[32px] xl:mb-[40px] hidden md:flex 2xl:text-[20px]">
+            We have almost 8+ years of experience for helping industrial
+            services and business solutions
+          </text>
+
+          <div className="flex gap-[20px] xl:gap-[35px] mt-[32px] md:mt-[18px] 2xl:mt-[35px] w-[50vw] md:w-[50%] lg:w-[40vw]">
+            <button className="bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] md:py-[15px] xl:py-[20px] rounded-[8px] text-[9px] md:text-[12px] ld:text-[16px] xl:text-[20px] w-[50%] font-bold">
+              OUR SERVICES
+            </button>
+
+            <button className="py-[10px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[9px] md:text-[12px] ld:text-[16px] xl:text-[20px]">
+              CONTACT US
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="gap-[24px] px-[20px] md:px-[5%] xl:px-[10%] md:translate-y-[-50%] flex flex-col md:flex-row w-[100%] mt-[24px] md:mt-0">
+        <div
+          style={{
+            backgroundColor: "rgba(255,255,255,0.9)",
+            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+          }}
+          className="
+          w-[100%]
+          md:w-[31.5%] 
+          rounded:[20px] 
+          flex md:flex-col
+          rounded-[12px] 
+          h-[12vh] md:h-[22vh] 
+          lg:h-[32vh] xl:h-[33vh]
+          2xl:h-[33vh] item-center
+          md:justify-center 
+          items-center
+          "
+        >
+          <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
             <Image
               alt=""
               src={require("../../../public/image/ic_quality.png")}
-              style={{ width: "100px", height: "100px", objectFit: "contain" }}
-            />
-            <Typography
               style={{
-                marginTop: "50px",
-                fontWeight: "bold",
-                color: "#00366A",
-                fontSize: "1.7rem",
-                textAlign: "center",
-                lineHeight: "110%",
+                width: "80%",
+                height: "80%",
+                objectFit: "contain",
               }}
-            >
+            />
+          </div>
+          <div className="w-[60%] md:w-[80%] h-[50%] flex md:justify-center items-center text-[18px]">
+            <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]">
               Product
-              <br />
-              Integrity
-            </Typography>
-          </Box>
+              <br className="hidden md:flex" /> Integrity
+            </text>
+          </div>
+        </div>
 
-          <Box
-            sx={{
-              bgcolor: "rgba(255,255,255,0.9)",
-              width: "31.5%",
-              borderRadius: "20px",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              paddingY: "30px",
-              boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
-            }}
-          >
+        <div
+          style={{
+            backgroundColor: "rgba(255,255,255,0.9)",
+            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+          }}
+          className="
+          w-[100%]
+          md:w-[31.5%] 
+          rounded:[20px] 
+          flex md:flex-col
+          rounded-[12px] 
+          h-[12vh] md:h-[22vh] 
+          lg:h-[32vh] xl:h-[33vh]
+          2xl:h-[33vh] item-center
+          md:justify-center 
+          items-center
+          "
+        >
+          <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
             <Image
               alt=""
               src={require("../../../public/image/ic_quality2.png")}
-              style={{ width: "100px", height: "100px", objectFit: "contain" }}
-            />
-            <Typography
               style={{
-                marginTop: "50px",
-                fontWeight: "bold",
-                color: "#00366A",
-                fontSize: "1.7rem",
-                textAlign: "center",
-                lineHeight: "110%",
+                width: "80%",
+                height: "80%",
+                objectFit: "contain",
               }}
-            >
+            />
+          </div>
+          <div className="w-[60%] md:w-[80%] h-[50%] flex md:justify-center items-center text-[18px]">
+            <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]">
               Precision
-              <br />
-              Assurance
-            </Typography>
-          </Box>
+              <br className="hidden md:flex" /> Assurance
+            </text>
+          </div>
+        </div>
 
-          <Box
-            sx={{
-              bgcolor: "rgba(255,255,255,0.9)",
-              width: "31.5%",
-              borderRadius: "20px",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              paddingY: "30px",
-              boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
-            }}
-          >
+        <div
+          style={{
+            backgroundColor: "rgba(255,255,255,0.9)",
+            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+          }}
+          className="
+          w-[100%]
+          md:w-[31.5%] 
+          rounded:[20px] 
+          flex md:flex-col
+          rounded-[12px] 
+          h-[12vh] md:h-[22vh] 
+          lg:h-[32vh] xl:h-[33vh]
+          2xl:h-[33vh] item-center
+          md:justify-center 
+          items-center
+          "
+        >
+          <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
             <Image
               alt=""
               src={require("../../../public/image/ic_quality3.png")}
-              style={{ width: "100px", height: "100px", objectFit: "contain" }}
-            />
-            <Typography
               style={{
-                marginTop: "50px",
-                fontWeight: "bold",
-                color: "#00366A",
-                fontSize: "1.7rem",
-                textAlign: "center",
-                lineHeight: "110%",
+                width: "80%",
+                height: "80%",
+                objectFit: "contain",
               }}
-            >
+            />
+          </div>
+          <div className="w-[60%] md:w-[80%] h-[50%] flex md:justify-center items-center text-[18px]">
+            <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]">
               Quality
-              <br />
-              Certification
-            </Typography>
-          </Box>
-        </Box>
-      </Box>
-      <Box
-        sx={{
-          position: "absolute",
-          top: "0",
-          left: "10%",
-          width: "80%",
-          height: "100%",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "flex-start",
-          color: "white",
-        }}
-      >
-        <Typography variant="h3" component="h1" sx={{ fontWeight: "bold" }}>
-          We <span style={{ color: "#39E63D" }}>Provide</span> The Best
-        </Typography>
-        <Typography
-          variant="h3"
-          component="h1"
-          sx={{ fontWeight: "bold", mb: 2 }}
-        >
-          industrial solution for business
-        </Typography>
-        <Typography variant="body1" sx={{ mb: 4 }}>
-          We have almost 8+ years of experience for helping industrial services
-          and business solutions
-        </Typography>
-
-        <Box sx={{ display: "flex", gap: 2 }}>
-          <Button
-            variant="contained"
-            sx={{
-              background: "linear-gradient(to right, #39E63D, #00A68E)",
-              color: "white",
-              padding: "10px 20px",
-              fontSize: "16px",
-              fontWeight: "bold",
-              borderRadius: "50px",
-              "&:hover": {
-                background: "linear-gradient(to right, #00A68E, #39E63D)",
-              },
-            }}
-          >
-            OUR SERVICES
-          </Button>
-
-          <Button
-            variant="outlined"
-            sx={{
-              color: "white",
-              borderColor: "white",
-              padding: "10px 20px",
-              fontSize: "16px",
-              fontWeight: "bold",
-              borderRadius: "50px",
-              "&:hover": {
-                backgroundColor: "rgba(255, 255, 255, 0.2)",
-              },
-            }}
-          >
-            CONTACT US
-          </Button>
-        </Box>
-      </Box>
-    </Box>
+              <br className="hidden md:flex" /> Certification
+            </text>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }

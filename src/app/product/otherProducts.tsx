@@ -3,95 +3,80 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 function OtherProduct() {
-  const [selectedCategory, setSelectedCategory] =
-    useState<string>("Category 01");
+  const [activeTab, setActiveTab] = useState("MANIPULATOR TABLE");
 
-  const categories: any = {
-    "Category 01": [
-      { image: require("../../public/image/product1.1.png"), height: "60%" },
-      { image: require("../../public/image/product1.2.png"), height: "40%" },
-      { image: require("../../public/image/product1.3.png"), height: "50%" },
-      { image: require("../../public/image/product1.4.png"), height: "50%" },
-      { image: require("../../public/image/product1.5.png"), height: "50%" },
-      { image: require("../../public/image/product1.6.png"), height: "50%" },
-      { image: require("../../public/image/product1.7.png"), height: "50%" },
-      { image: require("../../public/image/product1.8.png"), height: "50%" },
-    ],
-    "Category 02": [
-      require("../../public/image/product2.1.png"),
-      require("../../public/image/product2.2.png"),
-      require("../../public/image/product2.3.png"),
-      require("../../public/image/product2.4.png"),
-      require("../../public/image/product2.5.png"),
-      require("../../public/image/product2.6.png"),
-      require("../../public/image/product2.7.png"),
-      require("../../public/image/product2.8.png"),
-    ],
-    "Category 03": [
-      require("../../public/image/product3.1.png"),
-      require("../../public/image/product3.2.png"),
-      require("../../public/image/product3.3.png"),
-      require("../../public/image/product3.4.png"),
-      require("../../public/image/product3.5.png"),
-      require("../../public/image/product3.6.png"),
-      require("../../public/image/product3.7.png"),
-      require("../../public/image/product3.8.png"),
-    ],
-  };
-  return (
-    <div>
-      <div className="relative flex justify-center mt-24">
-        <Typography
-          style={{
-            fontSize: "2rem",
-            lineHeight: "50px",
-            fontFamily: "Montserrat",
-            fontWeight: "700",
-            position: "relative",
-            paddingBottom: "10px",
-            color: "#00366A",
-          }}
-        >
-          OTHER PRODUCT
-          <span
-            style={{
-              position: "absolute",
-              bottom: 0,
-              left: "50%",
-              transform: "translateX(-50%)",
-              width: "100px",
-              height: "5px",
-              backgroundColor: "#00A859",
-            }}
-          />
-        </Typography>
-      </div>
+  const categories: any = [
+    "MANIPULATOR TABLE",
+    "ALUMINUM CASTING",
+    "JIG PRODUCTS",
+    "INDUSTRIAL TROLLEY",
+  ];
 
-      <div className="mt-[40px]">
-        <div className="px-[10%]">
-          <div className="flex justify-center ">
-            {Object.keys(categories).map((category) => (
-              <button
-                key={category}
-                className={`px-4 py-2 mx-2 rounded-lg ${
-                  selectedCategory === category
-                    ? "bg-blue-500 text-white"
-                    : "bg-gray-200 text-gray-700"
-                }`}
-                onClick={() => setSelectedCategory(category)}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-
-          <div className="border-[2px] border-[#00366A] p-[20px] rounded-[12px] mt-[70px] bg-white">
+  const renderProducts = () => {
+    if (activeTab == "MANIPULATOR TABLE") {
+      return (
+        <>
+          {/* Desktop */}
+          <div className="xl:flex lg:flex md:flex sm:hidden hidden border-[2px] border-[#00366A] p-[20px] rounded-[12px] mt-[70px] bg-white">
             <Image
               src={require("../../public/image/banner-otherProduct.png")}
               alt=""
             />
           </div>
-          <div className="flex overflow-hidden h-[40vh] gap-[35px] mt-[40px]">
+
+          {/* Mobile */}
+          <div className="flex flex-col gap-[35px] mt-[35px]">
+            <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[10px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other-product_mobile.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+                className="transition-transform duration-300 ease-in-out hover:scale-125"
+              />
+            </div>
+            <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[10px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other-product_mobile1.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+                className="transition-transform duration-300 ease-in-out hover:scale-125"
+              />
+            </div>
+            <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[10px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other-product_mobile2.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+                className="transition-transform duration-300 ease-in-out hover:scale-125"
+              />
+            </div>
+            <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[10px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other-product_mobile3.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+                className="transition-transform duration-300 ease-in-out hover:scale-125"
+              />
+            </div>
+          </div>
+          {/* Desktop */}
+          <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[40vh] gap-[35px] mt-[40px]">
             <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
               <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
@@ -137,6 +122,603 @@ function OtherProduct() {
               </div>
             </div>
           </div>
+        </>
+      );
+    }
+
+    if (activeTab == "ALUMINUM CASTING") {
+      return (
+        <>
+          {/* Desktop */}
+          <div className="xl:flex md:flex lg:flex sm:hidden hidden overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.1.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[60px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.6.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+          {/* Mobile */}
+          <div className="xl:hidden md:hidden lg:hidden flex-col sm:flex-col h-[120vh] gap-[35px] mt-[70px]">
+            {/* Top */}
+            <div className="mt-[35px] overflow-hidden w-[100%] flex flex-col">
+              <div className="h-[20%] flex justify-center items-center overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.1.png")}
+                  style={{
+                    width: "60%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+            {/* Top */}
+            <div className="mt-[35px] overflow-hidden w-[100%] flex flex-col">
+              <div className="h-[20%] flex justify-center items-center overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.2.png")}
+                  style={{
+                    width: "60%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+            {/* Botton */}
+            <div className="mt-[35px] gap-[35px] overflow-hidden w-[100%] flex">
+              <div className="h-30%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[30%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="mt-[35px] gap-[35px] overflow-hidden w-[100%] flex">
+              <div className="h-30%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[30%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product2.6.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+        </>
+      );
+    }
+
+    if (activeTab === "JIG PRODUCTS") {
+      return (
+        <>
+          {/* Desktop */}
+          <div className="xl:flex md:flex lg:flex hidden sm:hidden overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.1.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.6.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.7.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.8.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+          {/* Mobile */}
+          <div className="xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden h-[120vh] gap-[35px] mt-[70px]">
+            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.1.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.6.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.7.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product3.8.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+        </>
+      );
+    }
+
+    if (activeTab == "INDUSTRIAL TROLLEY") {
+      return (
+        <div className="flex flex-col overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+          {/* Desktop */}
+          <div className="xl:flex md:flex lg:flex sm:hidden hidden gap-[35px] h-[43%] w-[100%]">
+            <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] w-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[15px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other_product4.1.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "fill",
+                }}
+              />
+            </div>
+
+            <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] w-[100%]  overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[15px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other_product4.2.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "fill",
+                }}
+              />
+            </div>
+          </div>
+
+          <div className="xl:flex md:flex lg:flex sm:hidden hidden gap-[35px] h-[57%] overflow-hidden">
+            <div className="w-1/3 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other_product4.3.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+                className="transition-transform duration-300 ease-in-out hover:scale-125"
+              />
+            </div>
+            <div className="w-1/3 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other_product4.4.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+                className="transition-transform duration-300 ease-in-out hover:scale-125"
+              />
+            </div>
+            <div className="w-1/3 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other_product4.5.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+                className="transition-transform duration-300 ease-in-out hover:scale-125"
+              />
+            </div>
+          </div>
+          {/* Mobile */}
+          <div className="xl:hidden md:hidden lg:hidden sm:flex-col flex flex-col gap-[35px] h-[240vh] overflow-hidden">
+            {/* TOP */}
+
+            {/* TOP 1 */}
+            <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] h-[240%] w-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[8px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other_product4.1.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "fill",
+                }}
+              />
+            </div>
+
+            {/* TOP 2 */}
+            <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] h-[240%] w-[100%]  overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[8px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other_product4.2.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "fill",
+                }}
+              />
+            </div>
+
+            {/* TOP 3*/}
+            <div className="overflow-hidden border-[2px] border-[#00366A] h-[240%] rounded-[12px] bg-white p-[10px]">
+              <Image
+                alt=""
+                src={require("../../public/image/other_product4.3.png")}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+                className="transition-transform duration-300 ease-in-out hover:scale-125"
+              />
+            </div>
+
+            {/* Botton */}
+            <div className="flex gap-[35px]">
+              <div className="overflow-hidden w-[50%] border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product4.4.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+              <div className="overflow-hidden w-[50%] border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
+                <Image
+                  alt=""
+                  src={require("../../public/image/other_product4.5.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                  }}
+                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+  };
+
+  return (
+    <div>
+      <div className="relative flex justify-center mt-24">
+        <Typography
+          style={{
+            fontSize: "2rem",
+            lineHeight: "50px",
+            fontFamily: "Montserrat",
+            fontWeight: "700",
+            position: "relative",
+            paddingBottom: "10px",
+            color: "#00366A",
+          }}
+        >
+          <span className="xl:text-[2rem] sm:px-[10px] px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[2rem] sm:text-[28px] justify-center items-center w-[100%] text-[28px]">
+            OTHER PRODUCT
+          </span>
+          <span
+            style={{
+              position: "absolute",
+              bottom: 0,
+              left: "50%",
+              transform: "translateX(-50%)",
+              width: "100px",
+              height: "5px",
+              backgroundColor: "#00A859",
+            }}
+          />
+        </Typography>
+      </div>
+
+      <div className="mt-[40px]">
+        <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%]">
+          <div className="flex justify-center ">
+            <div
+              className="relative  rounded-[40px] overflow-hidden xl:w-[40%] lg:w-[48%] md:w-[64%] w-[100%] 
+              border-transparent bg-gradient-to-r from-[#007BB0] to-[#00366A]"
+            >
+              <div className="bg-white flex justify-between m-[2px] rounded-full">
+                {categories.map((category: string, index: number) => (
+                  <TabButton
+                    key={index}
+                    label={category}
+                    isActive={activeTab === category}
+                    onClick={() => setActiveTab(category)}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+          <div>{renderProducts()}</div>
         </div>
       </div>
     </div>
@@ -144,3 +726,20 @@ function OtherProduct() {
 }
 
 export default OtherProduct;
+
+const TabButton = ({ label, isActive, onClick }: any) => (
+  <button
+    className={`flex-1 px-4 xl:py-[8px] lg:py-[8px] md:py-[10px] sm:py-[8px] py-[8px] flex justify-center items-center text-center 
+       text-[10px] sm:text-[0.8rem] md:text-[12px] lg:text-[14px] xl:text-[14px]  text-base transition-all duration-300
+      ${
+        isActive
+          ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"
+          : "text-[#00366A] font-medium"
+      }
+      rounded-full font-bold line-clamp-1
+    `}
+    onClick={onClick}
+  >
+    {label}
+  </button>
+);

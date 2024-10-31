@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Row, Col, Typography } from "antd";
+import { Carousel } from "antd";
 import styled from "styled-components";
 import Image from "next/image";
 import { Box } from "@mui/material";
@@ -9,6 +9,7 @@ const StyledCarousel = styled(Carousel)`
     display: flex !important;
     justify-content: center;
     align-items: center;
+    bottom: -40px;
   }
 
   .slick-dots li {
@@ -43,6 +44,50 @@ const StyledCarousel = styled(Carousel)`
     border: none;
     bottom: 12px;
   }
+  /* Ẩn dots khi màn hình dưới 768px */
+  @media (max-width: 68px) {
+    .slick-dots li.slick-active button {
+      width: 20px; /* Chiều rộng dot active */
+      height: 8px; /* Chiều cao dot active */
+    }
+    .slick-dots li button {
+      width: 6px; /* Kích thước chiều rộng */
+      height: 6px; /* Kích thước chiều cao */
+    }
+
+    .slick-dots {
+      bottom: -28px;
+    }
+  }
+  @media (max-width: 992px) {
+    .slick-dots li.slick-active button {
+      width: 20px; /* Chiều rộng dot active */
+      height: 8px; /* Chiều cao dot active */
+    }
+    .slick-dots li button {
+      width: 6px; /* Kích thước chiều rộng */
+      height: 6px; /* Kích thước chiều cao */
+    }
+
+    .slick-dots {
+      bottom: -28px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .slick-dots li.slick-active button {
+      width: 20px; /* Chiều rộng dot active */
+      height: 8px; /* Chiều cao dot active */
+    }
+    .slick-dots li button {
+      width: 6px; /* Kích thước chiều rộng */
+      height: 6px; /* Kích thước chiều cao */
+    }
+
+    .slick-dots {
+      bottom: -28px;
+    }
+  }
 `;
 
 const products = [
@@ -68,93 +113,76 @@ const products = [
   },
 ];
 
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 4, // Số slides mặc định
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200, // Màn hình lớn (tối đa 1200px)
+      settings: {
+        slidesToShow: 3, // Hiển thị 3 slides
+      },
+    },
+    {
+      breakpoint: 992, // Tablet (tối đa 992px)
+      settings: {
+        slidesToShow: 2, // Hiển thị 2 slides
+      },
+    },
+    {
+      breakpoint: 576, // Mobile (tối đa 576px)
+      settings: {
+        slidesToShow: 2, // Hiển thị 1 slide
+      },
+    },
+  ],
+};
+
 const CustomCarousel = () => (
-  <Box
-    justifyContent={"center"}
-    flexDirection={"column"}
-    alignItems={"center"}
-    display={"flex"}
-  >
-    <Typography
-      style={{
-        fontSize: "2.5rem",
-        lineHeight: "50px",
-        color: "#00366A",
-        fontFamily: "Montserrat",
-        fontWeight: "700",
-        position: "relative", // Để định vị đường viền
-        paddingBottom: "10px", // Khoảng cách giữa chữ và border
-      }}
-    >
+  <div className="bg-[#F7F9F9] flex flex-col items-center justify-center mt-[40px] sm:mt-[50px] md:mt-[60px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[130px]">
+    <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
       PRODUCTS
-      {/* Đường viền */}
-      <span
-        style={{
-          position: "absolute",
-          bottom: 0, // Đặt đường viền sát dưới chữ
-          left: "50%", // Căn giữa theo chiều ngang
-          transform: "translateX(-50%)", // Căn chỉnh chính xác vị trí giữa
-          width: "124px", // Chiều rộng của đường viền (ngắn hơn width chữ)
-          height: "5px", // Độ dày của đường viền
-          backgroundColor: "#00A859", // Màu sắc của đường viền
-        }}
-      />
-    </Typography>
-    <Box marginTop={"90px"} width={"80%"}>
-      <StyledCarousel slidesToShow={4} slidesToScroll={1} dots autoplay>
-        {products.map((product, index) => (
-          <div key={index}>
-            <Box
-              sx={{
-                boxShadow: "0 2px 8px rgba(0, 0, 0, 0.2)",
-                marginX: "10px",
-              }}
-              marginY={"10px"}
-              borderRadius={"20px"}
-              bgcolor={"white"}
-              // width={"100%"}
-              marginBottom={"70px"}
-              height={"auto"}
-            >
-              <Box sx={{ padding: "6% 6% 10% 6%" }}>
-                <Box
-                  sx={{
-                    borderWidth: 2,
-                    borderColor: "#00366A",
-                    display: "flex",
-                    justifyContent: "center",
-                    width: "100%",
-                    borderRadius: "12px",
-                    height: "150px",
-                  }}
-                >
-                  <Image
-                    style={{
-                      objectFit: "contain",
-                      maxWidth: "200px",
-                      maxHeight: "160px",
-                    }}
-                    alt={product.name}
-                    src={product.imageUrl}
-                  />
-                </Box>
-                <Typography
-                  style={{
-                    fontSize: "1.5em",
-                    fontWeight: 600,
-                    textAlign: "center",
-                    marginTop: "15px",
-                  }}
-                >
-                  {product.name}
-                </Typography>
-              </Box>
-            </Box>
-          </div>
-        ))}
-      </StyledCarousel>
-    </Box>
-  </Box>
+      <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
+    </text>
+    <div className="bg-[#F7F9F9] w-full px-[20px] lg:px-[7%] xl:px-[10%] mt-[16px] md:mt-[36px] lg:mt-[56px] xl:mt-[79px]">
+      <Box width={"100%"}>
+        <StyledCarousel style={{ height: "100%" }} autoplay {...settings}>
+          {products.map((product, index) => (
+            <div key={index} className="bg-[#F7F9F9]">
+              <div
+                style={{ boxShadow: "0 0 10px 5px #7B7A7A0F " }}
+                className="mx-[10px] rounded-[20px] my-[10px] h-[20vh] sm:h-[30vh] md:h-[35vh] lg:h-[40vh]"
+              >
+                <div className="h-[100%] px-[12px] py-[12px] text-center">
+                  <div className="border-[2px] border-[#00366A] rounded-[12px] flex justify-center items-center h-[70%] ">
+                    <Image
+                      style={{
+                        objectFit: "contain",
+                        width: "80%",
+                        height: "80%",
+                      }}
+                      alt={product.name}
+                      src={product.imageUrl}
+                    />
+                  </div>
+                  <div className="h-[30%] flex justify-center items-center">
+                    <text className="text-[14px] md:text-[24px] lg:text-[1.5] xl:text-[2em] font-semibold text-center text-[#00366A]">
+                      {product.name}
+                    </text>
+                  </div>
+                </div>
+              </div>
+
+              {/* </Box> */}
+            </div>
+          ))}
+        </StyledCarousel>
+      </Box>
+    </div>
+  </div>
 );
 
 export default CustomCarousel;

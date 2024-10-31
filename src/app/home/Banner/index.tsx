@@ -44,14 +44,20 @@ export default function Banner() {
       border: none;
       bottom: 24px;
     }
+    /* Ẩn dots khi màn hình dưới 768px */
+    @media (max-width: 768px) {
+      .slick-dots {
+        display: none !important;
+      }
+    }
   `;
 
   return (
-    <Box sx={{ width: "100vw", position: "relative", height: "90vh" }}>
+    <Box sx={{ width: "100vw", position: "relative", height: "100%" }}>
       <StyledCarousel autoplay autoplaySpeed={2000}>
         <Box width={"100vw"} height={"100%"}>
           <Image
-            style={{ width: "100%", height: "100%" }}
+            style={{ width: "100%", height: "100%", objectFit: "fill" }}
             alt="banner"
             src={require("../../../public/image/banner1.png")}
           />
@@ -83,7 +89,7 @@ export default function Banner() {
           position: "absolute",
           top: "0",
           left: "10%",
-          width: "100%",
+          width: "80%",
           height: "100%",
           display: "flex",
           flexDirection: "column",
@@ -91,71 +97,30 @@ export default function Banner() {
           alignItems: "flex-start",
           color: "white",
           zIndex: 10, // Ensure it's above the slider
-          padding: "0 20px",
+          overflow: "hidden",
         }}
       >
-        <Typography
-          className="xl:text-[30px] lg:text-[30px] md:text-[28px] sm:text8[24px] text-[24px]"
-          variant="h3"
-          component="h1"
-          sx={{ fontWeight: "bold" }}
-        >
+        <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] leading-[30px] lg:leading-[73.14px]">
           We <span style={{ color: "#39E63D" }}>Provide</span> The Best
-        </Typography>
-        <Typography
-          className="xl:text-[30px] lg:text-[30px] md:text-[28px] sm:text8[24px] text-[24px]"
-          variant="h3"
-          component="h1"
-          sx={{ fontWeight: "bold", mb: 2 }}
-        >
-          industrial solution for business
-        </Typography>
-        <Typography
-          className="xl:flex md:flex lg:flex sm:hidden hidden"
-          variant="body1"
-          sx={{ mb: 4 }}
-        >
+        </text>
+        <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] leading-[30px] lg:leading-[73.14px] flex">
+          industrial solution
+          <text className=" hidden md:flex xl:ml-4 md:ml-1"> for business</text>
+        </text>
+        <text className="mt-[32px] xl:mb-[80px] hidden md:flex">
           We have almost 8+ years of experience for helping industrial services
           and business solutions
-        </Typography>
+        </text>
 
-        <Box sx={{ display: "flex", gap: 2 }}>
-          <Button
-            className="xl:rounded-[50px] lg:rounded-[50px] md:rounded-[50px] sm:rounded-[10px] rounded-[10px]"
-            variant="contained"
-            sx={{
-              background: "linear-gradient(to right, #39E63D, #00A68E)",
-              color: "white",
-              padding: "10px 20px",
-              fontSize: "16px",
-              fontWeight: "bold",
-              // borderRadius: "50px",
-              "&:hover": {
-                background: "linear-gradient(to right, #00A68E, #39E63D)",
-              },
-            }}
-          >
+        <div className="flex gap-[20px] xl:gap-[35px] mt-[35px] w-[65%] md:w-[50%] lg:w-[45%]">
+          <button className="bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] md:py-[15px] xl:py-[20px] rounded-[8px] text-[9px] md:text-[12px] ld:text-[16px] xl:text-[20px] w-[50%] font-bold">
             OUR SERVICES
-          </Button>
+          </button>
 
-          <Button
-            className="xl:rounded-[50px] lg:rounded-[50px] md:rounded-[50px] sm:rounded-[10px] rounded-[10px]"
-            variant="outlined"
-            sx={{
-              color: "white",
-              borderColor: "white",
-              padding: "10px 20px",
-              fontSize: "16px",
-              fontWeight: "bold",
-              // borderRadius: "50px",
-              "&:hover": {
-                backgroundColor: "rgba(255, 255, 255, 0.2)",
-              },
-            }}
-          >
+          <button className="py-[10px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[9px] md:text-[12px] ld:text-[16px] xl:text-[20px]">
             CONTACT US
-          </Button>
-        </Box>
+          </button>
+        </div>
       </Box>
     </Box>
   );

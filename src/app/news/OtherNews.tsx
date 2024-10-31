@@ -11,20 +11,19 @@ function OtherNews({ id }: any) {
     return i.id != id;
   });
   return (
-    <div className="pt-[10vh] pb-[13vh] bg-[#E9EAEE] px-[10%]">
-      <div className="relative">
-        <text className="font-semibold  text-[2.5rem] text-[#00366A] ">
+    <div className="pt-[40px] md:pt-[60px] lg-[70px] 2xl:pt-[80px] pb-[80px] md:pb-[90px] lg:pb-[100px] xl:pb-[120px] 2xl:pb-[140px] bg-[#E9EAEE] px-[20px] md:px-[10%]">
+      <div className="relative items-center justify-center flex text-center">
+        <text className="font-semibold text-[24px] md:text-[32px] lg:text-[40px] xl:text-[44px]  2xl:text-[48px] text-[#00366A] ">
           OTHER NEWS
         </text>
         <span
           style={{
             position: "absolute",
             bottom: 0, // Đặt đường viền sát dưới chữ
-            left: "0%", // Căn giữa theo chiều ngang
-            width: "120px", // Chiều rộng của đường viền (ngắn hơn width chữ)
-            height: "5px", // Độ dày của đường viền
+            left: 0, // Căn giữa theo chiều ngang
             backgroundColor: "#00A859", // Màu sắc của đường viền
           }}
+          className="w-1/3 h-[2px] md:h-[3px] xl:[4px] 2xl:h-[5px] translate-x-[100%] md:translate-x-0"
         />
       </div>
       <Box sx={{ marginTop: "5%" }}>
@@ -40,23 +39,20 @@ function OtherNews({ id }: any) {
                   backgroundColor: "white",
                 }}
                 className=""
-                onClick={() => router.push("/news/"+item.id)}
+                onClick={() => router.push("/news/" + item.id)}
               >
                 <Box sx={{ position: "relative", height: "50%" }}>
                   <Image
-                    style={{ borderRadius: "8px", height:"138px" }}
+                    style={{ borderRadius: "8px", height: "138px" }}
                     alt=""
                     src={item.image}
                   />
-                
                 </Box>
                 <Box sx={{ height: "45%", overflow: "hidden" }}>
                   <text className="line-clamp-2 text-[16px] mt-[15px] text-[#00366A] font-semibold leading-[24px]">
                     {item.shortTitle}
                   </text>
-                  <text
-                    className="text-[#252724] leading-[18px] font-light mt-[8px] line-clamp-4"
-                  >
+                  <text className="text-[#252724] leading-[18px] font-light mt-[8px] line-clamp-4">
                     {item.shortDescription}
                   </text>
                 </Box>

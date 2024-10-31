@@ -7,7 +7,7 @@ function Description4() {
       <text className="text-[1rem] text-[#00366A] font-medium">
         September 28, 2024
       </text>
-      <text className="mt-[2rem] text-[1rem] text-[#252724] font-medium">
+      <text className="mt-[20px] md:mt-[24px] lg:mt-[28px] xl:mt-[30px] 2xl:mt-[32px] text-[1rem] text-[#252724] font-medium">
         At REDECO, we pride ourselves on offering a wide range of CNC machining
         services designed to meet diverse industrial needs. Our capabilities
         include <strong>precision milling, turning,</strong> and{" "}
@@ -18,12 +18,12 @@ function Description4() {
         projects of any size and complexity.
       </text>
 
-      <div className="flex">
-        <div className="w-[60%] flex flex-col">
-          <text className="text-[1.6rem] mt-[2rem] font-bold text-[#00366A]">
+      <div className="flex flex-col md:flex-row">
+        <div className="w-[100%] md:w-[60%] flex flex-col">
+          <text className="text-[20px] md:text-[24px] lg:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
             Precision Milling
           </text>
-          <text className="mt-[10px]">
+          <text className="mt-[8px] md:mt-[10px]">
             Our CNC milling services are ideal for creating intricate parts with
             <strong> high precision.</strong> We can manufacture complex
             geometries with tight tolerances using cutting-edge milling
@@ -31,11 +31,11 @@ function Description4() {
             specifications.
           </text>
 
-          <text className="text-[1.6rem] mt-[15px] font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[24px] lg:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
             CNC Turning
           </text>
 
-          <text className="mt-[10px] text-[1rem] text-[#252724] font-medium leading-[36px]">
+          <text className="mt-[8px] md:mt-[10px] text-[1rem] text-[#252724] font-medium  2xl:leading-[36px]">
             Our CNC turning services offer <strong>excellent accuracy</strong>{" "}
             and surface finish for components requiring precision cylindrical
             shaping. We can efficiently produce parts that meet your design
@@ -43,18 +43,18 @@ function Description4() {
           </text>
         </div>
 
-        <div className="w-[40%] h-auto items-center flex object-contain ml-[3%]">
+        <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain md:mt-0 mt-[24px] md:ml-[3%]">
           <Image alt="" src={require("../../public/image/news4-banner1.png")} />
         </div>
       </div>
 
-      <div className="flex mt-10">
-        <div className="w-[40%] h-auto  items-center flex object-contain mr-[3%]">
+      <div className="flex flex-col-reverse md:flex-row  md:mt-2 lg:mt-4 mt-0 2xl:mt-10">
+        <div className="w-[100%] md:w-[40%] h-auto  items-center flex object-contain mr-[3%]">
           <Image alt="" src={require("../../public/image/news4-banner2.png")} />
         </div>
 
-        <div className="w-[60%] flex flex-col justify-center">
-          <text className="text-[1.6rem] font-bold text-[#00366A]">
+        <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
+          <text className="text-[20px] md:text-[24px] lg:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
             Drilling and Boring
           </text>
           <text className="mt-[5px]">
@@ -64,7 +64,7 @@ function Description4() {
             <strong>smooth finishes</strong>, even in challenging materials.
           </text>
 
-          <text className="text-[1.6rem] mt-[15px] font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[24px] lg:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
             Prototype to Production
           </text>
 
@@ -79,9 +79,9 @@ function Description4() {
         </div>
       </div>
 
-      <div className="flex mt-12">
-        <div className="w-[60%] flex flex-col justify-center">
-          <text className="text-[1.6rem]  font-bold text-[#00366A]">
+      <div className="flex flex-col md:flex-row mt-3 md:mt-5 lg:mt-7 xl:mt-10 2xl:mt-12">
+        <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
+          <text className="text-[20px] md:text-[24px] lg:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
             Materials Expertise
           </text>
           <text className="mt-[5px]">
@@ -101,7 +101,7 @@ function Description4() {
           </text>
         </div>
 
-        <div className="w-[40%] h-auto  items-center flex object-contain ml-[3%] justify-center">
+        <div className="w-[100%] md:w-[40%] h-auto  items-center flex object-contain mt-[24px] md:mt-0 md:ml-[3%] justify-center">
           <Image alt="" src={require("../../public/image/news4-banner3.png")} />
         </div>
       </div>
