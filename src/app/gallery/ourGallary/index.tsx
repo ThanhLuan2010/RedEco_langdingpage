@@ -70,8 +70,8 @@ const GalleryTabs = () => {
   };
 
   return (
-    <div className="flex flex-col items-center bg-white">
-      <div className="flex xl:mt-20 md:mt-14 lg:mt-20 sm:mt-14 -mt-64 flex-col items-center mb-8">
+    <div className="flex flex-col items-center bg-white mt-[40px] md:mt-[60] lg:mt-[80px] xl:mt-[110px] 2xl:mt-[140px]">
+      <div className="flex flex-col items-center mb-8">
         <h3 className="text-blueAccent lg:text-4xl xl:text-4xl md:text-4xl sm:text-3xl text-2xl font-bold">
           OUR GALLERY
         </h3>
@@ -102,7 +102,7 @@ const GalleryTabs = () => {
         </div>
       </div>
 
-      <div className="xl:mt-12 sm:mt-10 mt-6 md:mt-12 lg:mt-12 w-[100%] xl:px-main md:px-main sm:px-[20px] px-[16px] lg:px-main">
+      <div className="xl:mt-12 sm:mt-10 mt-6 md:mt-12 lg:mt-12 w-[100%] px-[20px] md:px-[5%] xl:px-[10%]">
         {renderContent()}
       </div>
     </div>

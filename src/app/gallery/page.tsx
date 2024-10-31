@@ -7,12 +7,12 @@ import Footer from '@/components/Footer'
 
 function Gallery() {
   return (
-    <>
+    <div>
       <Header></Header>
       <Banner></Banner>
       <GalleryTabs></GalleryTabs>
       <Footer></Footer>
-    </>
+    </div>
   )
 }
 

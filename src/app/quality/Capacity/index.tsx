@@ -31,57 +31,57 @@ const Capacity = () => {
     if (activeTab === "CNC MILLING MACHINE") {
       return (
         <div className="flex flex-col md:flex-row overflow-hidden h-[100%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[62px] 2xl:mt-[72px]">
-          <div className="flex w-[100%]  gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
-            <div className=" gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
-              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+          <div className="flex w-[100%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/machine1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="rounded-[8px]"
                 />
               </div>
-              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/machine2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="rounded-[8px]"
                 />
               </div>
             </div>
 
             <div className=" gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
-              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/machine3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="rounded-[8px]"
                 />
               </div>
-              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/machine4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="rounded-[8px]"
                 />
               </div>
             </div>
@@ -89,55 +89,55 @@ const Capacity = () => {
 
           <div className="flex w-[100%]  gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
             <div className=" gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/machine5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="rounded-[8px]"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/machine6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="rounded-[8px]"
                 />
               </div>
             </div>
 
             <div className=" gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
-              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/machine7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="rounded-[8px]"
                 />
               </div>
-              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/machine8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="rounded-[8px]"
                 />
               </div>
             </div>
@@ -147,48 +147,50 @@ const Capacity = () => {
     }
     if (activeTab === "CNC LATHE MACHINE") {
       return (
-        <div className="flex flex-col md:flex-row overflow-hidden h-[90vh] gap-[18px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[62px] 2xl:mt-[72px]">
-          <div className="gap-[18px] h-[25%] overflow-hidden w-[100%] flex flex-col">
-            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
-              <Image
-                alt=""
-                src={require("../../../public/image/capacity2.2.png")}
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "fill",
-                }}
-                className="transition-transform duration-300 ease-in-out hover:scale-125"
-              />
+        <div className="flex flex-col md:flex-row overflow-hidden h-[90vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[62px] 2xl:mt-[72px]">
+          <div className="flex flex-col  gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%]  overflow-hidden w-[100%] flex flex-col">
+              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
+                <Image
+                  alt=""
+                  src={require("../../../public/image/capacity2.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                  className="rounded-[8px]"
+                />
+              </div>
+            </div>
+
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] overflow-hidden w-[100%] flex flex-col">
+              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
+                <Image
+                  alt=""
+                  src={require("../../../public/image/capacity2.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                  className="rounded-[8px]"
+                />
+              </div>
             </div>
           </div>
 
-          <div className="gap-[18px] h-[25%] overflow-hidden w-[100%] flex flex-col">
-            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
-              <Image
-                alt=""
-                src={require("../../../public/image/capacity2.2.png")}
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "fill",
-                }}
-                className="transition-transform duration-300 ease-in-out hover:scale-125"
-              />
-            </div>
-          </div>
-
-          <div className="gap-[18px] h-[50%] overflow-hidden w-[100%] flex flex-col">
-            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+          <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] overflow-hidden w-[100%] md:w-[50%] flex flex-col">
+            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
               <Image
                 alt=""
                 src={require("../../../public/image/capacity2.3.png")}
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "fill",
+                  objectFit: "cover",
                 }}
-                className="transition-transform duration-300 ease-in-out hover:scale-125"
+                className="rounded-[8px]"
               />
             </div>
           </div>
@@ -197,49 +199,50 @@ const Capacity = () => {
     }
     if (activeTab === "EDM & WIRE EDM MACHINE") {
       return (
-        <div className="flex flex-col md:flex-row overflow-hidden h-[90vh] gap-[18px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[62px] 2xl:mt-[72px]">
-          <div className="gap-[18px] h-[50%] overflow-hidden w-[100%] flex flex-col">
-            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+        <div className="flex flex-col md:flex-row overflow-hidden h-[90vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[62px] 2xl:mt-[72px]">
+          <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] overflow-hidden w-[100%] md:w-[50%] flex flex-col">
+            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
               <Image
                 alt=""
                 src={require("../../../public/image/capacity3.1.png")}
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "fill",
+                  objectFit: "cover",
                 }}
-                className="transition-transform duration-300 ease-in-out hover:scale-125"
+                className="rounded-[8px]"
               />
             </div>
           </div>
-
-          <div className="gap-[18px] h-[25%] overflow-hidden w-[100%] flex flex-col">
-            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
-              <Image
-                alt=""
-                src={require("../../../public/image/capacity3.2.png")}
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "fill",
-                }}
-                className="transition-transform duration-300 ease-in-out hover:scale-125"
-              />
+          <div className="flex flex-col gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] overflow-hidden w-[100%] flex flex-col">
+              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
+                <Image
+                  alt=""
+                  src={require("../../../public/image/capacity3.2.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                  className="rounded-[8px]"
+                />
+              </div>
             </div>
-          </div>
 
-          <div className="gap-[18px] h-[25%] overflow-hidden w-[100%] flex flex-col">
-            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
-              <Image
-                alt=""
-                src={require("../../../public/image/capacity3.3.png")}
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "fill",
-                }}
-                className="transition-transform duration-300 ease-in-out hover:scale-125"
-              />
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] overflow-hidden w-[100%] flex flex-col">
+              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
+                <Image
+                  alt=""
+                  src={require("../../../public/image/capacity3.3.png")}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                  className="rounded-[8px]"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -284,7 +287,7 @@ const Capacity = () => {
           <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
         </text>
 
-        <text className="text-center mt-[18px] md:mx-[10%]">
+        <text className="text-center mt-[18px] md:mx-[10%] md:text-[18px] xl:text-[20px]">
           Quality Control will divided into three stages based on the production
           process, including input quality control (PQC), production process
           quality control (PQC), and output quality control (OQC). Each stage
@@ -293,14 +296,14 @@ const Capacity = () => {
 
         <div className="flex flex-col md:flex-row overflow-hidden h-[90vh] md:h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[42px] w-[100%] lg:mt-[52px] xl:mt-[62px] 2xl:mt-[72px]">
           <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] md:w-1/3 overflow-hidden w-[100%] flex flex-col">
-            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
               <Image
                 alt=""
                 src={require("../../../public/image/quality_control1.png")}
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "fill",
+                  objectFit: "cover",
                 }}
               />
             </div>
@@ -308,42 +311,42 @@ const Capacity = () => {
 
           <div className="h-[50%] md:h-[100%] flex flex-col md:flex-col md:w-2/3 gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%]  w-[100%] flex flex-row">
-              <div className="h-[100%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+              <div className="h-[100%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/quality_control2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
                 />
               </div>
 
-              <div className="h-[100%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+              <div className="h-[100%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/quality_control3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
                 />
               </div>
             </div>
 
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[50%] overflow-hidden w-[100%] flex flex-col ">
-              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px]">
+              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[14px] lg:p-[18px] xl:p-[20px]">
                 <Image
                   alt=""
                   src={require("../../../public/image/quality_control4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "fill",
+                    objectFit: "cover",
                   }}
-                  // className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  //
                 />
               </div>
             </div>

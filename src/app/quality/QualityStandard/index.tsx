@@ -101,7 +101,7 @@ const settings = {
 };
 
 const QualityStandard = () => (
-  <div className="mt-[48px]">
+  <div className="mt-[48px] md:mt-[68px] lg:mt-[88px] xl:110px 2xl:mt-[140px]">
     <Box
       flexDirection={"column"}
       display={"flex"}
@@ -112,7 +112,7 @@ const QualityStandard = () => (
       }}
     >
       <div className="h-[100%] px-[20px] md:px-[5%] xl:px-[10%] hidden md:flex justify-center items-center">
-        <div className="w-1/2 flex flex-col justify-center py-[36px]">
+        <div className="w-1/2 flex flex-col justify-center py-[36px] md:py-[56px] lg:py-[76px] xl:py-[96px] 2xl:py-[104px]">
           <div>
             <div className="relative">
               <text className="text-[24px]  md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold text-white">
@@ -120,15 +120,15 @@ const QualityStandard = () => (
                 <span className="absolute bottom-[-5px] left-[0px] w-[25%] h-[2px] xl:h-[5px] bg-white" />
               </text>
             </div>
-            <div className="mt-[28px]">
-              <text className="text-[white] ">
+            <div className="mt-[28px] md:mt-[32px] lg:mt-[35px] 2xl:mt-[40px]">
+              <text className="text-[white] 2xl:text-[20px] xl:text-[18px] md:text-[16px]">
                 In 2022, REDECO Vietnam was granted a quality management system
-                certificate according to ISO 9001:2015 standards.
+                certificate according to ISO<br className="hidden md:flex"/> 9001:2015 standards.
               </text>
             </div>
           </div>
 
-          <div className="mt-[50px] ">
+          <div className="mt-[50px] w-[80%]">
             <Image
               alt=""
               style={{ width: "100%", height: "100%" }}
@@ -138,7 +138,7 @@ const QualityStandard = () => (
         </div>
 
         <div className="w-1/2 h-[100%] items-center flex justify-center">
-          <div className="w-[50%] h-[80%] flex justify-center items-center ">
+          <div className="w-[50%] h-[80%] flex justify-center items-center">
             <Image
               style={{ height: "100%", width: "100%", objectFit: "contain" }}
               alt=""

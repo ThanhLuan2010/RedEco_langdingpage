@@ -3,36 +3,39 @@ import React from "react";
 
 function Banner() {
   return (
-    <div className="grid grid-cols-3 gap-4 w-full h-[600px] xl:h-[85vh]">
-      <div className="col-span-2 md:h-auto xl:h-auto lg:h-auto h-[50%] relative">
+    <div className="gap-[12px] md:gap-[20px] lg:gap-[28px] xl:gap-[34px] 2xl:gap-[40px] w-full  flex">
+      {/* <div className="h-[100%] w-[60%]">
         <Image
           alt="banner_gallery_1"
           src={require("../../../public/image/gallary/banner1.png")}
-          layout="fill"
-          objectFit="cover"
-          className="w-full h-full"
+          objectFit="contain"
+          className="h-[100%]"
         />
       </div>
 
-      <div className="grid md:h-auto xl:h-auto lg:h-auto h-[50%] grid-rows-2 gap-4">
-        <div className="relative">
+      <div className="gap-[12px] md:gap-[20px] lg:gap-[28px] xl:gap-[34px] 2xl:gap-[40px] w-[40%] h-[100%] bg-red-500 flex flex-col overflow-hidden">
+        <div className="w-[100%] h-[50%]  overflow-hidden">
           <Image
             alt="banner_gallery_2"
             src={require("../../../public/image/gallary/banner2.png")}
-            layout="fill"
-            objectFit="cover"
-            className="w-full h-full"
+            objectFit="contain"
+            // className="w-[100%] h-[100%]"
           />
         </div>
-        <div className="relative">
+        <div className="w-[100%]   overflow-hidden">
           <Image
             alt="banner_gallery_3"
             src={require("../../../public/image/gallary/banner3.png")}
-            layout="fill"
-            objectFit="cover"
-            className="w-full h-full"
+            objectFit="contain"
+            // className="w-[100%] h-[100%]"
           />
         </div>
+      </div> */}
+      <div>
+        <Image
+          alt=""
+          src={require("../../../public/image/gallary/gallery_banner.png")}
+        />
       </div>
     </div>
   );
