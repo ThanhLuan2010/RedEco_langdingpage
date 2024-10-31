@@ -6,6 +6,7 @@ import { Box } from "@mui/material";
 import QualityContent from "./QualityContent";
 import Capacity from "./Capacity";
 import QualityStandard from "./QualityStandard";
+import ProductionLine from "./ProductionLine";
 
 export default function Home() {
   return (
@@ -14,8 +15,9 @@ export default function Home() {
       <Banner />
       <QualityContent />
       <Capacity />
-      <QualityStandard/>
-      {/* <Footer /> */}
+      <QualityStandard />
+      <ProductionLine />
+      <Footer />
     </div>
   );
 }

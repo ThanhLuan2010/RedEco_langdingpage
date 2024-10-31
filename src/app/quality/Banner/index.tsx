@@ -1,55 +1,11 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import Image from "next/image";
-import { useState } from "react";
-import styled from "styled-components";
-import { Carousel } from "antd";
 
 export default function Banner() {
-  const StyledCarousel = styled(Carousel)`
-    .slick-dots {
-      display: flex !important;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .slick-dots li {
-      margin: 0 10px; /* Tạo khoảng cách đều cho các dot không active */
-    }
-
-    .slick-dots li.slick-active {
-      margin-left: 0px; /* Không thêm khoảng cách bên trái */
-      margin-right: 15px; /* Tạo khoảng cách riêng bên phải để cân đối */
-    }
-
-    .slick-dots li button {
-      background-color: white; /* Màu dot không active */
-      width: 16px; /* Kích thước chiều rộng */
-      height: 16px; /* Kích thước chiều cao */
-      border-radius: 50%; /* Bo tròn thành hình tròn */
-      transition: all 0.3s ease-in-out; /* Hiệu ứng chuyển đổi mềm mại */
-      border: none;
-      opacity: 1;
-      bottom: 22px;
-    }
-
-    .slick-dots li.slick-active button {
-      background: linear-gradient(
-        90deg,
-        #28ff90,
-        #00954f
-      ); /* Màu gradient cho dot active */
-      width: 40px; /* Chiều rộng dot active */
-      height: 20px; /* Chiều cao dot active */
-      border-radius: 20px; /* Bo tròn nhẹ cho dot dài */
-      border: none;
-      bottom: 24px;
-    }
-  `;
-
   return (
     <div className="relative">
-      <div className="w-full relative">
-        <Box width={"100vw"} height={"20vh"} sx={{ position: "relative" }}>
+      <div className="w-full h-[100%] relative">
+        <Box width={"100vw"} height={"100%"} sx={{ position: "relative" }}>
           <Image
             style={{ width: "100%", height: "100%" }}
             alt="banner"
@@ -68,38 +24,24 @@ export default function Banner() {
           />
         </Box>
 
-        <Box
-          sx={{
-            position: "absolute",
-            top: "0",
-            left: "10%",
-            width: "80%",
-            height: "100%",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "flex-start",
-            color: "white",
-            zIndex: 10, // Ensure it's above the slider
-            overflow: "hidden",
-          }}
-        >
-          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] leading-[30px] lg:leading-[73.14px]">
+        <div className="absolute top-0 h-[100%] flex flex-col justify-center px-[20px] md:px-[5%] xl:px-[10%] text-white overflow-hidden">
+          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] leading-[30px] md:leading-[40px] lg:leading-[73.14px]">
             We <span style={{ color: "#39E63D" }}>Provide</span> The Best
           </text>
-          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] leading-[30px] lg:leading-[73.14px] flex">
+          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] flex lg:hidden">
             industrial solution
-            <text className=" hidden md:flex xl:ml-4 md:ml-1">
-              {" "}
-              for business
-            </text>
           </text>
-          <text className="mt-[32px] xl:mb-[80px] hidden md:flex">
+
+          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] lg:flex hidden">
+            industrial solution for business
+          </text>
+
+          <text className="md:mt-[18px] 2xl:mt-[32px] xl:mb-[40px] hidden md:flex">
             We have almost 8+ years of experience for helping industrial
             services and business solutions
           </text>
 
-          <div className="flex gap-[20px] xl:gap-[35px] mt-[35px] w-[65%] md:w-[50%] lg:w-[45%]">
+          <div className="flex gap-[20px] xl:gap-[35px] mt-[32px] md:mt-[18px] 2xl:mt-[35px] w-[50vw] md:w-[50%] lg:w-[40vw]">
             <button className="bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] md:py-[15px] xl:py-[20px] rounded-[8px] text-[9px] md:text-[12px] ld:text-[16px] xl:text-[20px] w-[50%] font-bold">
               OUR SERVICES
             </button>
@@ -108,29 +50,40 @@ export default function Banner() {
               CONTACT US
             </button>
           </div>
-        </Box>
+        </div>
       </div>
-      <div className=" px-[20px] md:px-[10%] md:translate-y-[50px] flex flex-col md:flex-row w-[100%]">
+      <div className="gap-[24px] px-[20px] md:px-[5%] xl:px-[10%] md:translate-y-[-50%] flex flex-col md:flex-row w-[100%] mt-[24px]">
         <div
           style={{
             backgroundColor: "rgba(255,255,255,0.9)F",
             boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
           }}
-          className="w-[100%] md:w-[31.5%] rounded:[20px] flex md:flex-col mt-[24px] rounded-[12px] h-[12vh] item-center bg-white"
+          className="
+          w-[100%]
+          md:w-[31.5%] 
+          rounded:[20px] 
+          flex md:flex-col
+          rounded-[12px] 
+          h-[12vh] md:h-[22vh] 
+          lg:h-[32vh] xl:h-[42vh]
+          2xl:h-[50vh] item-center
+        bg-white md:justify-center 
+          items-center
+          "
         >
-          <div className="w-[40%] justify-center flex items-center">
+          <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
             <Image
               alt=""
               src={require("../../../public/image/ic_quality.png")}
               style={{
                 width: "100%",
-                height: "65%",
+                height: "100%",
                 objectFit: "contain",
               }}
             />
           </div>
-          <div className="w-[70%] flex  items-center text-[18px]">
-            <text className="font-semibold text-[#00366A] text-center text-[18px]">
+          <div className="w-[60%] md:w-[80%] h-[50%] flex md:justify-center items-center text-[18px]">
+            <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]">
               Product Integrity
             </text>
           </div>
@@ -141,22 +94,33 @@ export default function Banner() {
             backgroundColor: "rgba(255,255,255,0.9)F",
             boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
           }}
-          className="w-[100%] md:w-[31.5%] rounded:[20px] flex md:flex-col mt-[24px] rounded-[12px] h-[12vh] item-center bg-white"
+          className="
+          w-[100%]
+          md:w-[31.5%] 
+          rounded:[20px] 
+          flex md:flex-col
+          rounded-[12px] 
+          h-[12vh] md:h-[22vh] 
+          lg:h-[32vh] xl:h-[42vh]
+          2xl:h-[50vh] item-center
+        bg-white md:justify-center 
+          items-center
+          "
         >
-          <div className="w-[40%] justify-center flex items-center">
+          <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
             <Image
               alt=""
-              src={require("../../../public/image/ic_quality2.png")}
+              src={require("../../../public/image/ic_quality.png")}
               style={{
                 width: "100%",
-                height: "65%",
+                height: "100%",
                 objectFit: "contain",
               }}
             />
           </div>
-          <div className="w-[70%] flex  items-center text-[18px]">
-            <text className="font-semibold text-[#00366A] text-center text-[18px]">
-              Precision
+          <div className="w-[60%] md:w-[80%] h-[50%] flex md:justify-center items-center text-[18px]">
+            <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]">
+              Product Integrity
             </text>
           </div>
         </div>
@@ -166,25 +130,37 @@ export default function Banner() {
             backgroundColor: "rgba(255,255,255,0.9)F",
             boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
           }}
-          className="w-[100%] md:w-[31.5%] rounded:[20px] flex md:flex-col mt-[24px] rounded-[12px] h-[12vh] item-center bg-white"
+          className="
+          w-[100%]
+          md:w-[31.5%] 
+          rounded:[20px] 
+          flex md:flex-col
+          rounded-[12px] 
+          h-[12vh] md:h-[22vh] 
+          lg:h-[32vh] xl:h-[42vh]
+          2xl:h-[50vh] item-center
+        bg-white md:justify-center 
+          items-center
+          "
         >
-          <div className="w-[40%] justify-center flex items-center">
+          <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
             <Image
               alt=""
-              src={require("../../../public/image/ic_quality3.png")}
+              src={require("../../../public/image/ic_quality.png")}
               style={{
                 width: "100%",
-                height: "65%",
+                height: "100%",
                 objectFit: "contain",
               }}
             />
           </div>
-          <div className="w-[70%] flex  items-center text-[18px]">
-            <text className="font-semibold text-[#00366A] text-center text-[18px]">
-              Certification
+          <div className="w-[60%] md:w-[80%] h-[50%] flex md:justify-center items-center text-[18px]">
+            <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]">
+              Product Integrity
             </text>
           </div>
         </div>
+      
       </div>
     </div>
   );
