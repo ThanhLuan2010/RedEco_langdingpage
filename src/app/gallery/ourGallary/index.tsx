@@ -47,12 +47,21 @@ const GalleryTabs = () => {
         );
       case "office-block":
         return (
-          <div className="w-[100%] h-auto">
-            <Image
-              alt="img_gallary"
-              style={{ width: "100%", height: "100%", objectFit: "contain" }}
-              src={require("../../../public/image/gallary/office-block.png")}
-            ></Image>
+          <div>
+            <div className="w-[100%] h-auto hidden md:flex">
+              <Image
+                alt="img_gallary"
+                style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                src={require("../../../public/image/gallary/office-block.png")}
+              ></Image>
+            </div>
+            <div className="w-[100%] h-auto flex md:hidden">
+              <Image
+                alt="img_gallary"
+                style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                src={require("../../../public/image/office_mobile.png")}
+              ></Image>
+            </div>
           </div>
         );
       default:
@@ -61,7 +70,7 @@ const GalleryTabs = () => {
   };
 
   return (
-    <div className="flex flex-col items-center py-10 bg-white">
+    <div className="flex flex-col items-center bg-white">
       <div className="flex xl:mt-20 md:mt-14 lg:mt-20 sm:mt-14 -mt-64 flex-col items-center mb-8">
         <h3 className="text-blueAccent lg:text-4xl xl:text-4xl md:text-4xl sm:text-3xl text-2xl font-bold">
           OUR GALLERY
@@ -102,15 +111,12 @@ const GalleryTabs = () => {
 
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
-    style={{
-      fontWeight: 700,
-    }}
     className={`flex-1 px-4 xl:py-[8px] lg:py-[8px] md:py-[10px] sm:py-[8px] py-[8px] flex justify-center items-center text-center 
-       text-[10px] sm:text-[0.8rem] md:text-[12px] lg:text-[14px] xl:text-[14px]  text-base transition-all duration-300 
+       text-[12px] md:text-[12px] lg:text-[14px] xl:text-[14px] transition-all duration-300 
       ${
         isActive
           ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"
-          : "text-[#00366A] font-medium"
+          : "text-[#00366A] font-thin"
       }
       rounded-full
     `}
