@@ -1,8 +1,9 @@
+"use client";
 import { Typography } from "antd";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-function OtherProduct() {
+function OtherProduct({ otherTab }: { otherTab?: string }) {
   const [activeTab, setActiveTab] = useState("MANIPULATOR TABLE");
 
   const categories: any = [
@@ -12,6 +13,12 @@ function OtherProduct() {
     "INDUSTRIAL TROLLEY",
   ];
 
+  useEffect(() => {
+    if (otherTab) {
+      setActiveTab(otherTab);
+    }
+  }, [otherTab]);
+
   const renderProducts = () => {
     if (activeTab == "MANIPULATOR TABLE") {
       return (
@@ -19,105 +26,130 @@ function OtherProduct() {
           {/* Desktop */}
           <div className="xl:flex lg:flex md:flex sm:hidden hidden border-[2px] border-[#00366A] p-[20px] rounded-[12px] mt-[70px] bg-white">
             <Image
-              src={require("../../public/image/banner-otherProduct.png")}
+              unoptimized
+              src={"/image/banner-otherProduct.png"}
               alt=""
+              width={100}
+              height={100}
+              className="w-[100%] h-[100%]"
             />
           </div>
 
           {/* Mobile */}
-          <div className="flex flex-col gap-[35px] mt-[35px]">
-            <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[10px]">
+          <div className="flex flex-col gap-[20px] xl:gap-[35px] mt-5 md:mt-10 2xl:mt-[35px]">
+            <div className="h-[100%] md:hidden sm:flex flex overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[10px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other-product_mobile.png")}
+                src={"/image/other-product_mobile.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "contain",
                 }}
+                width={100}
+                height={100}
                 className="transition-transform duration-300 ease-in-out hover:scale-125"
               />
             </div>
             <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[10px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other-product_mobile1.png")}
+                src={"/image/other-product_mobile1.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "contain",
                 }}
+                width={100}
+                height={100}
                 className="transition-transform duration-300 ease-in-out hover:scale-125"
               />
             </div>
             <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[10px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other-product_mobile2.png")}
+                src={"/image/other-product_mobile2.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "contain",
                 }}
                 className="transition-transform duration-300 ease-in-out hover:scale-125"
+                width={100}
+                height={100}
               />
             </div>
             <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[10px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other-product_mobile3.png")}
+                src={"/image/other-product_mobile3.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "contain",
                 }}
                 className="transition-transform duration-300 ease-in-out hover:scale-125"
+                width={100}
+                height={100}
               />
             </div>
           </div>
           {/* Desktop */}
-          <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[40vh] gap-[35px] mt-[40px]">
-            <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
+          <div className="md:flex  hidden overflow-hidden h-[40vh] gap-[20px] xl:gap-[35px] mt-[20px] md:mt-[30px] 2xl:mt-[40px]">
+            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-1/3 flex flex-col">
               <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other-product1.png")}
+                  src={"/image/other-product1.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
+            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-1/3 flex flex-col">
               <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other-product2.png")}
+                  src={"/image/other-product2.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
+            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-1/3 flex flex-col">
               <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other-product3.png")}
+                  src={"/image/other-product3.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
@@ -130,30 +162,36 @@ function OtherProduct() {
       return (
         <>
           {/* Desktop */}
-          <div className="xl:flex md:flex lg:flex sm:hidden hidden overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+          <div className="xl:flex md:flex lg:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[35px] mt-[70px]">
             <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.1.png")}
+                  src={"/image/other_product2.1.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
 
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.2.png")}
+                  src={"/image/other_product2.2.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
+                  width={100}
+                  height={100}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
                 />
               </div>
@@ -162,25 +200,31 @@ function OtherProduct() {
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[60px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.3.png")}
+                  src={"/image/other_product2.3.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
+                  width={100}
+                  height={100}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.4.png")}
+                  src={"/image/other_product2.4.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
+                  width={100}
+                  height={100}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
                 />
               </div>
@@ -189,111 +233,131 @@ function OtherProduct() {
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.5.png")}
+                  src={"/image/other_product2.5.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
+                  width={100}
+                  height={100}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.6.png")}
+                  src={"/image/other_product2.6.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
+                  width={100}
+                  height={100}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
                 />
               </div>
             </div>
           </div>
           {/* Mobile */}
-          <div className="xl:hidden md:hidden lg:hidden flex-col sm:flex-col h-[120vh] gap-[35px] mt-[70px]">
-            {/* Top */}
-            <div className="mt-[35px] overflow-hidden w-[100%] flex flex-col">
+          <div className="xl:hidden md:hidden lg:hidden flex flex-col sm:flex-col gap-[20px] xl:gap-[35px] mt-5 md:mt-10 2xl:mt-[35px]">
+            <div className=" overflow-hidden w-[100%] flex flex-col">
               <div className="h-[20%] flex justify-center items-center overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.1.png")}
+                  src={"/image/other_product2.1.png"}
                   style={{
                     width: "60%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
-            {/* Top */}
-            <div className="mt-[35px] overflow-hidden w-[100%] flex flex-col">
+            <div className="overflow-hidden w-[100%] flex flex-col">
               <div className="h-[20%] flex justify-center items-center overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.2.png")}
+                  src={"/image/other_product2.2.png"}
                   style={{
                     width: "60%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
-            {/* Botton */}
-            <div className="mt-[35px] gap-[35px] overflow-hidden w-[100%] flex">
+            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[100%] flex">
               <div className="h-30%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.3.png")}
+                  src={"/image/other_product2.3.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[30%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.5.png")}
+                  src={"/image/other_product2.5.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
-
-            <div className="mt-[35px] gap-[35px] overflow-hidden w-[100%] flex">
+            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[100%] flex">
               <div className="h-30%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.4.png")}
+                  src={"/image/other_product2.4.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[30%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product2.6.png")}
+                  src={"/image/other_product2.6.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
@@ -306,30 +370,36 @@ function OtherProduct() {
       return (
         <>
           {/* Desktop */}
-          <div className="xl:flex md:flex lg:flex hidden sm:hidden overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+          <div className="xl:flex md:flex lg:flex hidden sm:hidden overflow-hidden h-[80vh] gap-[35px] mt-[70px]">
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.1.png")}
+                  src={"/image/other_product3.1.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.2.png")}
+                  src={"/image/other_product3.2.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
@@ -337,26 +407,32 @@ function OtherProduct() {
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.3.png")}
+                  src={"/image/other_product3.3.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.4.png")}
+                  src={"/image/other_product3.4.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
@@ -364,26 +440,32 @@ function OtherProduct() {
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.5.png")}
+                  src={"/image/other_product3.5.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.6.png")}
+                  src={"/image/other_product3.6.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
@@ -391,130 +473,160 @@ function OtherProduct() {
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.7.png")}
+                  src={"/image/other_product3.7.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.8.png")}
+                  src={"/image/other_product3.8.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
           </div>
           {/* Mobile */}
-          <div className="xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden h-[120vh] gap-[35px] mt-[70px]">
-            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+          <div className="xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[35px] mt-[20px]">
+            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.1.png")}
+                  src={"/image/other_product3.1.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.2.png")}
+                  src={"/image/other_product3.2.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.5.png")}
+                  src={"/image/other_product3.5.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.6.png")}
+                  src={"/image/other_product3.6.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
+            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.3.png")}
+                  src={"/image/other_product3.3.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.4.png")}
+                  src={"/image/other_product3.4.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.7.png")}
+                  src={"/image/other_product3.7.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product3.8.png")}
+                  src={"/image/other_product3.8.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
@@ -525,113 +637,137 @@ function OtherProduct() {
 
     if (activeTab == "INDUSTRIAL TROLLEY") {
       return (
-        <div className="flex flex-col overflow-hidden h-[90vh] gap-[35px] mt-[70px]">
+        <div className="flex flex-col overflow-hidden h-[80vh] gap-[20px] xl:gap-[35px] mt-[20px]">
           {/* Desktop */}
           <div className="xl:flex md:flex lg:flex sm:hidden hidden gap-[35px] h-[43%] w-[100%]">
             <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] w-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[15px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other_product4.1.png")}
+                src={"/image/other_product4.1.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "fill",
                 }}
+                width={100}
+                height={100}
               />
             </div>
 
             <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] w-[100%]  overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[15px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other_product4.2.png")}
+                src={"/image/other_product4.2.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "fill",
                 }}
+                width={100}
+                height={100}
               />
             </div>
           </div>
 
-          <div className="xl:flex md:flex lg:flex sm:hidden hidden gap-[35px] h-[57%] overflow-hidden">
+          <div className="xl:flex md:flex lg:flex sm:hidden hidden gap-[20px] xl:gap-[35px] h-[57%] overflow-hidden">
             <div className="w-1/3 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other_product4.3.png")}
+                src={"/image/other_product4.3.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "contain",
                 }}
                 className="transition-transform duration-300 ease-in-out hover:scale-125"
+                width={100}
+                height={100}
               />
             </div>
             <div className="w-1/3 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other_product4.4.png")}
+                src={"/image/other_product4.4.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "contain",
                 }}
                 className="transition-transform duration-300 ease-in-out hover:scale-125"
+                width={100}
+                height={100}
               />
             </div>
             <div className="w-1/3 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other_product4.5.png")}
+                src={"/image/other_product4.5.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "contain",
                 }}
                 className="transition-transform duration-300 ease-in-out hover:scale-125"
+                width={100}
+                height={100}
               />
             </div>
           </div>
           {/* Mobile */}
-          <div className="xl:hidden md:hidden lg:hidden sm:flex-col flex flex-col gap-[35px] h-[240vh] overflow-hidden">
+          <div className="xl:hidden md:hidden lg:hidden sm:flex-col flex flex-col gap-[20px] xl:gap-[35px] h-[240vh] overflow-hidden">
             {/* TOP */}
 
             {/* TOP 1 */}
             <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] h-[240%] w-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[8px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other_product4.1.png")}
+                src={"/image/other_product4.1.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "fill",
                 }}
+                width={100}
+                height={100}
               />
             </div>
 
             {/* TOP 2 */}
             <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] h-[240%] w-[100%]  overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[8px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other_product4.2.png")}
+                src={"/image/other_product4.2.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "fill",
                 }}
+                width={100}
+                height={100}
               />
             </div>
 
             {/* TOP 3*/}
             <div className="overflow-hidden border-[2px] border-[#00366A] h-[240%] rounded-[12px] bg-white p-[10px]">
               <Image
+                unoptimized
                 alt=""
-                src={require("../../public/image/other_product4.3.png")}
+                src={"/image/other_product4.3.png"}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "contain",
                 }}
                 className="transition-transform duration-300 ease-in-out hover:scale-125"
+                width={100}
+                height={100}
               />
             </div>
 
@@ -639,26 +775,32 @@ function OtherProduct() {
             <div className="flex gap-[35px]">
               <div className="overflow-hidden w-[50%] border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product4.4.png")}
+                  src={"/image/other_product4.4.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="overflow-hidden w-[50%] border-[2px] border-[#00366A] rounded-[12px] bg-white p-[50px]">
                 <Image
+                  unoptimized
                   alt=""
-                  src={require("../../public/image/other_product4.5.png")}
+                  src={"/image/other_product4.5.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
                   className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>
@@ -670,7 +812,7 @@ function OtherProduct() {
 
   return (
     <div>
-      <div className="relative flex justify-center mt-24">
+      <div className="relative flex justify-center mt-10 md:mt-20 xl:mt-24">
         <Typography
           style={{
             fontSize: "2rem",
@@ -682,7 +824,9 @@ function OtherProduct() {
             color: "#00366A",
           }}
         >
-          <span className="xl:text-[2rem] sm:px-[10px] px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[2rem] sm:text-[28px] justify-center items-center w-[100%] text-[28px]">
+          <span className="xl:text-[2rem] 2xl:text-[48px] 
+          sm:px-[10px] px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] 
+          flex text-center md:text-[2rem] lg:text-[2rem] sm:text-[28px] justify-center items-center w-[100%] text-[28px]">
             OTHER PRODUCT
           </span>
           <span
@@ -699,11 +843,11 @@ function OtherProduct() {
         </Typography>
       </div>
 
-      <div className="mt-[40px]">
+      <div className="mt-5 md:mt-10 xl:mt-24">
         <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%]">
           <div className="flex justify-center ">
             <div
-              className="relative  rounded-[40px] overflow-hidden xl:w-[40%] lg:w-[48%] md:w-[64%] w-[100%] 
+              className="relative rounded-[40px] overflow-hidden xl:w-[80%] lg:w-[48%] md:w-[64%] w-[100%] 
               border-transparent bg-gradient-to-r from-[#007BB0] to-[#00366A]"
             >
               <div className="bg-white flex justify-between m-[2px] rounded-full">
@@ -729,14 +873,14 @@ export default OtherProduct;
 
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
-    className={`flex-1 px-4 xl:py-[8px] lg:py-[8px] md:py-[10px] sm:py-[8px] py-[8px] flex justify-center items-center text-center 
-       text-[10px] sm:text-[0.8rem] md:text-[12px] lg:text-[14px] xl:text-[14px]  text-base transition-all duration-300
+    className={`flex-1 px-4  py-[8px] md:py-[10px] 2xl:py-[16px] text-center 
+       text-[10px] md:text-[12px] lg:text-[14px] uppercase  2xl:text-[18px] transition-all duration-300 
       ${
         isActive
           ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"
-          : "text-[#00366A] font-medium"
+          : "text-[#00366A] font-bold"
       }
-      rounded-full font-bold line-clamp-1
+      rounded-full 
     `}
     onClick={onClick}
   >

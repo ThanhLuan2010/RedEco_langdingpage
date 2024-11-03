@@ -44,13 +44,27 @@ function Description4() {
         </div>
 
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain md:mt-0 mt-[24px] md:ml-[3%]">
-          <Image alt="" src={require("../../public/image/news4-banner1.png")} />
+          <Image
+            unoptimized
+            alt=""
+            className="w-[100%]"
+            src={"/image/news4-banner1.png"}
+            width={100}
+            height={100}
+          />
         </div>
       </div>
 
       <div className="flex flex-col-reverse md:flex-row  md:mt-2 lg:mt-4 mt-0 2xl:mt-10">
         <div className="w-[100%] md:w-[40%] h-auto  items-center flex object-contain mr-[3%]">
-          <Image alt="" src={require("../../public/image/news4-banner2.png")} />
+          <Image
+            unoptimized
+            alt=""
+            className="w-[100%]"
+            src={"/image/news4-banner2.png"}
+            width={100}
+            height={100}
+          />
         </div>
 
         <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
@@ -102,7 +116,14 @@ function Description4() {
         </div>
 
         <div className="w-[100%] md:w-[40%] h-auto  items-center flex object-contain mt-[24px] md:mt-0 md:ml-[3%] justify-center">
-          <Image alt="" src={require("../../public/image/news4-banner3.png")} />
+          <Image
+            unoptimized
+            alt=""
+            className="w-[100%]"
+            src={"/image/news4-banner3.png"}
+            width={100}
+            height={100}
+          />
         </div>
       </div>
     </div>

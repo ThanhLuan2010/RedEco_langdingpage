@@ -9,8 +9,23 @@ import Human from "./Human";
 import QualityStandard from "./QualityStandard";
 import Customer from "./Customer";
 import News from "./News";
-
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import PhoneButton from "@/components/phoneButton";
 export default function Home() {
+  const router = useRouter();
+  useEffect(() => {
+    // Lấy hash từ URL (VD: #targetComponent)
+    const hash = window.location.hash;
+    if (hash) {
+      // Cuộn đến thành phần có ID tương ứng với hash
+      const targetElement = document.querySelector(hash);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [router]);
+
   return (
     <Box
       display="flex"
@@ -18,15 +33,11 @@ export default function Home() {
       sx={{ height: "100vh" }}
       bgcolor={"#F7F9F9"}
     >
+      <div className="pt-[10vh]"></div>
       <Header />
-      <div>
-        <Banner />
-      </div>
-      <div className="">
-        <HomeProducts />
-      </div>
-
-      <div className="mt-[40px] xl:mt-[120px]">
+      <Banner />
+      <HomeProducts />
+      <div className="pt-[40px] xl:pt-[120px] bg-[#F7F9F9]">
         <WhoWeAre />
       </div>
 
@@ -34,10 +45,11 @@ export default function Home() {
         <Human />
       </div>
       <QualityStandard />
-      <Box marginTop={"8%"}>
+      <Box paddingTop={"8%"} bgcolor={"#F7F9F9"}>
         <Customer />
       </Box>
       <News />
+      <PhoneButton />
       <Footer />
     </Box>
   );

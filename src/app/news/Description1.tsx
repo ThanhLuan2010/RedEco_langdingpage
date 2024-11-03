@@ -48,13 +48,25 @@ function Description1() {
         </div>
 
         <div className="sm:w-[100%] md:w-[40%] h-auto  items-center flex object-contain mt-[24px] md:mt-0 md:ml-[3%]">
-          <Image alt="" src={require("../../public/image/news1-banner1.png")} />
+          <Image
+            alt=""
+            unoptimized
+            src={"/image/news1-banner1.png"}
+            width={100}
+            height={100}
+          />
         </div>
       </div>
 
       <div className="flex mt-10 flex-col-reverse md:flex-row sm:flex-col-reverse">
         <div className="mt-[24px] md:mt-0 w-[100%] md:w-[40%] h-auto  items-center flex object-contain mr-[3%]">
-          <Image alt="" src={require("../../public/image/news1-banner2.png")} />
+          <Image
+            alt=""
+            unoptimized
+            src={"/image/news1-banner2.png"}
+            width={100}
+            height={100}
+          />
         </div>
 
         <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
@@ -109,7 +121,13 @@ function Description1() {
         </div>
 
         <div className="w-[100%] md:w-[40%] h-auto  items-center flex object-contain ml-0 mt-[20px] md:mt-0 md:ml-[3%] justify-center">
-          <Image alt="" src={require("../../public/image/news1-banner3.png")} />
+          <Image
+            alt=""
+            unoptimized
+            src={"/image/news1-banner3.png"}
+            width={100}
+            height={100}
+          />
         </div>
       </div>
     </div>

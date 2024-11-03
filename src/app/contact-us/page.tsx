@@ -5,6 +5,7 @@ import Thumbnail from "./Thumbnail";
 import GetInTouch from "./GetInTouch";
 import Footer from "@/components/Footer";
 import { useState } from "react";
+import PhoneButton from "@/components/phoneButton";
 
 const AboutUs = () => {
   const [isStatusSubmit, setIsStatusSubmit] = useState(false);
@@ -12,9 +13,10 @@ const AboutUs = () => {
 
   return (
     <Box display="flex" flexDirection="column">
+      
       <Header />
 
-      <div>
+      <div className="pt-[10vh]">
         <Thumbnail></Thumbnail>
       </div>
 
@@ -63,14 +65,16 @@ const AboutUs = () => {
               </span>
             </div>
           ) : (
-            <GetInTouch
+            <div id="get-in-touch">
+              <GetInTouch
               setIsStatusSubmit={setIsStatusSubmit}
-              setUserNameSubmit={setUserNameSubmit}
-            ></GetInTouch>
+                setUserNameSubmit={setUserNameSubmit}
+              />
+            </div>
           )}
         </div>
       </Box>
-
+      <PhoneButton />
       <Footer />
     </Box>
   );

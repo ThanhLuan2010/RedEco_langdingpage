@@ -1,0 +1,37 @@
+/* Đặt vị trí và kiểu cho nút */
+.phone-button {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #28FF90, #00954F);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: pulse 2s infinite; /* Áp dụng hiệu ứng loang màu */
+    z-index: 1000; /* Đảm bảo luôn nổi phía trên */
+  }
+  
+  /* Tạo hiệu ứng loang màu */
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+    }
+    70% {
+      box-shadow: 0 0 0 30px rgba(76, 175, 80, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+    }
+  }
+  
+  /* Thêm hiệu ứng khi hover */
+  .phone-button:hover {
+    background-color: #388E3C; /* Màu thay đổi khi hover */
+  }

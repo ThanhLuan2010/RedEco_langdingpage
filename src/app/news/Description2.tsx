@@ -42,7 +42,14 @@ function Description2() {
         </div>
 
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain mt-[24px] md:mt-0 md:ml-[3%]">
-          <Image alt="" src={require("../../public/image/news2-banner1.png")} />
+          unoptimized
+          <Image
+            alt=""
+            className="w-[100%]"
+            src={"/image/news2-banner1.png"}
+            width={100}
+            height={100}
+          />
         </div>
       </div>
 
@@ -51,7 +58,10 @@ function Description2() {
           <Image
             alt=""
             style={{ width: "110%", height: "110%", objectFit: "cover" }}
-            src={require("../../public/image/news2-banner2.png")}
+            src={"/image/news2-banner2.png"}
+            width={100}
+            unoptimized
+            height={100}
           />
         </div>
 

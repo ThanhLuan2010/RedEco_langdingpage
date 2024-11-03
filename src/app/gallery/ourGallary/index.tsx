@@ -14,14 +14,20 @@ const GalleryTabs = () => {
               <Image
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={require("../../../public/image/gallary/production.png")}
+                src={"/image/gallary/production.png"}
+                width={100}
+                height={100}
+                unoptimized
               ></Image>
             </div>
             <div className="w-[100%] h-auto xl:hidden md:hidden lg:hidden sm:hidden flex">
               <Image
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={require("../../../public/image/gallary/production2.png")}
+                src={"/image/gallary/production2.png"}
+                width={100}
+                height={100}
+                unoptimized
               ></Image>
             </div>
           </>
@@ -33,14 +39,20 @@ const GalleryTabs = () => {
               <Image
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={require("../../../public/image/gallary/our-customers.png")}
+                src={"/image/gallary/our-customers.png"}
+                width={100}
+                height={100}
+                unoptimized
               ></Image>
             </div>
             <div className="w-[100%] h-auto xl:hidden md:hidden lg:hidden sm:hidden flex">
               <Image
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={require("../../../public/image/gallary/our-customers2.png")}
+                src={"/image/gallary/our-customers2.png"}
+                width={100}
+                height={100}
+                unoptimized
               ></Image>
             </div>
           </>
@@ -52,14 +64,19 @@ const GalleryTabs = () => {
               <Image
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={require("../../../public/image/gallary/office-block.png")}
+                src={"/image/gallary/office-block.png"}
+                width={100}
+                height={100}
               ></Image>
             </div>
             <div className="w-[100%] h-auto flex md:hidden">
               <Image
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={require("../../../public/image/office_mobile.png")}
+                src={"/image/gallary/office_mobile.png"}
+                width={100}
+                height={100}
+                unoptimized
               ></Image>
             </div>
           </div>
@@ -70,11 +87,11 @@ const GalleryTabs = () => {
   };
 
   return (
-    <div className="flex flex-col items-center bg-white mt-[40px] md:mt-[60] lg:mt-[80px] xl:mt-[110px] 2xl:mt-[140px]">
+    <div className="flex flex-col items-center bg-[#F7F9F9] pt-[30px] md:pt-[40px] lg:mt-[50px] xl:pt-[60px] 2xl:pt-[70px]">
       <div className="flex flex-col items-center mb-8">
-        <h3 className="text-blueAccent lg:text-4xl xl:text-4xl md:text-4xl sm:text-3xl text-2xl font-bold">
+        <text className="text-[24px] md:text-[30px] lg:text-[38px] 2xl:text-[48px] font-bold pb-[4px] relative text-[#00366A]">
           OUR GALLERY
-        </h3>
+        </text>
         <div className="w-[40%] xl:h-[4px] sm:h-[2px] h-[2px] md:h-[4px] lg:h-[4px] bg-greenPrimary"></div>
       </div>
       <div
@@ -111,12 +128,12 @@ const GalleryTabs = () => {
 
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
-    className={`flex-1 px-4 xl:py-[8px] lg:py-[8px] md:py-[10px] sm:py-[8px] py-[8px] flex justify-center items-center text-center 
-       text-[12px] md:text-[12px] lg:text-[14px] xl:text-[14px] transition-all duration-300 
+    className={`flex-1 px-4 py-[8px] md:py-[10px] 2xl:py-[16px] flex justify-center items-center text-center 
+       text-[12px] md:text-[13px]  2xl:text-[16px] transition-all duration-300 
       ${
         isActive
           ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"
-          : "text-[#00366A] font-thin"
+          : "text-[#00366A] font-bold"
       }
       rounded-full
     `}

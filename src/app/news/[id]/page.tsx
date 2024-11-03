@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import React from "react";
@@ -8,19 +7,26 @@ import Footer from "@/components/Footer";
 import Description2 from "../Description2";
 import Description3 from "../Description3";
 import Description4 from "../Description4";
+import Header from "@/components/Header";
+import PhoneButton from "@/components/phoneButton";
 
-function index() {
-  const router = useParams();
-  const { id } = router; // Lấy id từ URL
+export async function generateStaticParams() {
+  return [{ id: "1" }, { id: "2" }, { id: "3" }];
+}
+
+function index({ params }: { params: { id: string } }) {
+  // const router = useParams();
+  // const { id } = router; // Lấy id từ URL
+  const { id } = params;
   const banner =
     id == "1"
-      ? require("../../../public/image/banner_news1.png")
+      ? "/image/banner_news1.png"
       : id == "2"
-      ? require("../../../public/image/banner_news2.png")
+      ? "/image/banner_news2.png"
       : id == "3"
-      ? require("../../../public/image/banner_news3.png")
+      ? "/image/banner_news3.png"
       : id == "4"
-      ? require("../../../public/image/banner_news4.png")
+      ? "/image/banner_news4.png"
       : "";
   const title =
     id == "1"
@@ -47,7 +53,15 @@ function index() {
   };
   return (
     <div>
-      <Image style={{ width: "100vw", height: "100%" }} alt="" src={banner} />
+      <Header />
+      <Image
+        unoptimized
+        style={{ width: "100vw", height: "100%" }}
+        width={100}
+        height={100}
+        alt=""
+        src={banner}
+      />
       <div className="w-[100%] items-center flex flex-col">
         <div className="px-[20px] md:px-[10%] mt-[7%]">
           <div className="relative">
@@ -73,6 +87,7 @@ function index() {
       <div className="mt-[60px] sm:mt-[60px] md:mt-[80px] lg:mt-[100px] xl:mt-[110px] 2xl:mt-[120px]">
         <OtherNews id={id} />
       </div>
+      <PhoneButton />
       <Footer style={{ marginTop: 0 }} />
     </div>
   );

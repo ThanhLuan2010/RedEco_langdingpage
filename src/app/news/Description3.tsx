@@ -40,7 +40,9 @@ function Description3() {
         </div>
 
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain mt-[24px] mf:mt-0 md:ml-[3%]">
-          <Image alt="" src={require("../../public/image/news3-banner1.png")} />
+          <Image alt="" 
+            unoptimized
+            className="w-[100%]" src={"/image/news3-banner1.png"} width={100} height={100} />
         </div>
       </div>
 

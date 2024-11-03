@@ -7,7 +7,10 @@ const Thumbnail = () => {
       <Image
         style={{ width: "100%", height: "100%" }}
         alt="banner"
-        src={require("../../../public/image/aboutUs/banner_contact.png")}
+        src={"/image/aboutUs/banner_contact.png"}
+        width={100}
+        height={100}
+        unoptimized
       />
     </div>
   );

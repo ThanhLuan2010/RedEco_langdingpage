@@ -8,7 +8,7 @@ function News() {
   const router = useRouter();
   return (
     <div className="flex flex-col justify-center items-center px-[20px] md:px-[10%] mt-[48px] md:mt-[60px] lg-[78px] xl:mt-[90px] 2xl:mt-[110px]">
-      <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold text-[#00366A] relative">
+      <text className="text-[24px] md:text-[30px] lg:text-[38px] 2xl:text-[48px] font-bold text-[#00366A] relative">
         CORPORATE NEWS
         <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
       </text>
@@ -32,6 +32,10 @@ function News() {
                     style={{ height: "100%", borderRadius: "16px" }}
                     alt=""
                     src={item.image}
+                    width={100}
+                    height={100}
+                    unoptimized
+                    className="w-[100%]"
                   />
                 </Box>
                 <div className="mt-[10px] md:mt-[20px] xl:mt-[30px]">
