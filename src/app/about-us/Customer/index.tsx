@@ -108,7 +108,7 @@ const Customer = () => {
       className="flex items-center justify-center flex-col pb-[60px] md:pb-[75px] 2xl:pb-[110px]"
     >
       <text className="text-[24px] md:text-[30px] lg:text-[38px]  2xl:text-[48px] font-bold relative text-white mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[90px]">
-        CUSTOMER
+        CUSTOMERS
         <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-white" />
       </text>
 

@@ -5,7 +5,7 @@ function ScopeOfService() {
   const listService = [
     {
       icon: "/image/aboutUs/scope_icon1.png",
-      title: "Conveyor and Handling Solutions",
+      title: "Custom Machinery Development",
       descption:
         "To ensure efficient and automated production, we design and manufacture special-purpose machinery powered by hydraulic, pneumatic, and mechanical systems controlled via microcontrollers or PLCs (Programmable Logic Controllers).",
     },
@@ -70,20 +70,20 @@ function ScopeOfService() {
   return (
     <div className="mt-[40px] md:mt-[60px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[140px] pb-[48px] md:pb-[70px] lg:pb-[90px] xl:pb-[110px] 2xl:pb-[140px] px-[20px] md:px-[5%] xl:px-[10%]">
       <div className="justify-center flex items-center ">
-        <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold pb-[4px] relative text-[#00366A]">
-          SCOPE OF SERVICE
-          <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[25%] h-[2px] md:h-[3px] xl:[4px] 2xl:h-[5px] bg-[#00A859]" />
+        <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
+          SCOPE OF SERVICES
+          <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
         </text>
       </div>
 
-      <div className="mt-[18px] md:mt-[24px] lg:mt-[30px] xl:mt-[50px] 2xl:mt-[40px] text-center">
+      <div className="mt-[18px] md:mt-[24px] lg:mt-[30px] xl:mt-[35px] 2xl:mt-[40px] text-center">
         <text className=" 2xl:text-[20px]">
           REDECO VIETNAM offers a wide range of solutions tailored to meet the
           unique needs of each customer
         </text>
       </div>
 
-      <div className="mt-[36px] md:mt-[46px] lg:mt-[56px] xl:mt-[66px] 2xl:mt-[80px] flex flex-col-reverse md:flex-row gap-[32px] md:gap-[46px] lg:gap-[58] xl:gap-[70px] 2xl:gap-[92px]">
+      <div className="mt-[30px] flex flex-col-reverse md:flex-row gap-[32px] md:gap-[46px] lg:gap-[58] xl:gap-[70px] 2xl:gap-[92px]">
         <div className="w-100% md:w-[50%]">
           <Image
             alt=""

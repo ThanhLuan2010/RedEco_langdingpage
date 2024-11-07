@@ -10,7 +10,7 @@ function Banner({ data }: any) {
           slidesToShow={1}
           slidesToScroll={1}
           dots={false}
-          autoplaySpeed={2000}
+          autoplaySpeed={1800}
           autoplay
         >
           {data.map((image: string, index: number) => (

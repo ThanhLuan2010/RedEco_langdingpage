@@ -21,8 +21,8 @@ function Silicon({ tab }: { tab?: string }) {
   const renderProducts = () => {
     if (activeTab == "VACUUM SUCTION CUP") {
       return (
-        <div className="mt-[-40px]">
-          <div className="border-[2px] border-[#00366A] p-[20px] rounded-[12px] mt-[70px] bg-white">
+        <div className="mt-[40px]">
+          <div className="border-[2px] border-[#00366A] p-[20px] rounded-[8px] mt-[70px] bg-white">
             <Image
               unoptimized
               src={"/image/banner-silicon.png"}
@@ -35,7 +35,7 @@ function Silicon({ tab }: { tab?: string }) {
           <>
             <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[45vh] 2xl:gap-[35px] gap-[30px] mt-[20px] md:mt-[30px] 2xl:mt-[40px]">
               <div className="2xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
-                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -45,12 +45,12 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
-                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -60,15 +60,15 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
               </div>
 
               <div className="2xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
-                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -78,12 +78,12 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
-                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -93,15 +93,15 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
               </div>
 
               <div className="2xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
-                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -111,12 +111,12 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
-                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-1/2 overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -126,8 +126,8 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
@@ -136,7 +136,7 @@ function Silicon({ tab }: { tab?: string }) {
             {/*  Mobile  */}
             <div className="xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden h-[80vh] gap-[20px] xl:gap-[35px] mt-[20px]">
               <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -146,12 +146,12 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
-                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -161,12 +161,12 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
-                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -176,15 +176,15 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
               </div>
 
               <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -194,12 +194,12 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
-                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -209,12 +209,12 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
-                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -224,8 +224,8 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
@@ -242,7 +242,7 @@ function Silicon({ tab }: { tab?: string }) {
           {/* Desktop */}
           <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[35px] mt-[70px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -252,13 +252,13 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
 
-              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -268,15 +268,15 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
             </div>
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -286,12 +286,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -301,15 +301,15 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
             </div>
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -319,12 +319,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -334,15 +334,15 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
             </div>
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -352,12 +352,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -367,8 +367,8 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
@@ -377,7 +377,7 @@ function Silicon({ tab }: { tab?: string }) {
           {/* Mobile */}
           <div className="xl:hidden md:hidden lg:hidden flex sm:flex overflow-hidden h-[110vh] gap-[20px] xl:gap-[35px] mt-[40px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -387,12 +387,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -402,12 +402,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -417,12 +417,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -432,15 +432,15 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
             </div>
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -450,12 +450,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -465,12 +465,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -480,12 +480,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -495,8 +495,8 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
@@ -512,7 +512,7 @@ function Silicon({ tab }: { tab?: string }) {
           {/* Desktop */}
           <div className="xl:flex md:flex lg:flex hidden sm:hidden overflow-hidden h-[80vh] gap-[35px] mt-[70px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -522,15 +522,15 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
             </div>
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -540,12 +540,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -555,15 +555,15 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
             </div>
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -573,12 +573,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -588,8 +588,8 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
@@ -598,7 +598,7 @@ function Silicon({ tab }: { tab?: string }) {
           {/* Mobile */}
           <div className="xl:hidden lg:hidden md:hidden sm:flex flex-col flex overflow-hidden h-[80vh] gap-[35px] mt-[40px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[100%] flex flex-col">
-              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -608,8 +608,8 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
@@ -617,7 +617,7 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[100%] flex">
               <div className="flex gap-[20px] xl:gap-[35px] flex-col">
-                <div className="h-[60%] overflow-hidden border-[2px] flex flex-col border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-[60%] overflow-hidden border-[2px] flex flex-col border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -627,12 +627,12 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
-                <div className="h-[60%] overflow-hidden border-[2px] flex flex-col border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-[60%] overflow-hidden border-[2px] flex flex-col border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -642,14 +642,14 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
               </div>
               <div className="flex gap-[20px] xl:gap-[35px] flex-col">
-                <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -659,12 +659,12 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
-                <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+                <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <Image
                     unoptimized
                     alt=""
@@ -674,8 +674,8 @@ function Silicon({ tab }: { tab?: string }) {
                       height: "100%",
                       objectFit: "contain",
                     }}
-                    className="transition-transform duration-300 ease-in-out hover:scale-125"
                     width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                     height={100}
                   />
                 </div>
@@ -692,7 +692,7 @@ function Silicon({ tab }: { tab?: string }) {
           {/* Desktop */}
           <div className="md:flex lg:flex xl:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[35px] mt-[70px]">
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -702,13 +702,13 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
 
-              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -718,15 +718,15 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
             </div>
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -736,12 +736,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -751,15 +751,15 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
             </div>
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -769,12 +769,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -784,15 +784,15 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
             </div>
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -802,12 +802,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -817,8 +817,8 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
@@ -827,7 +827,7 @@ function Silicon({ tab }: { tab?: string }) {
           {/* Mobile */}
           <div className="xl:hidden md:hidden lg:hidden flex sm:flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[35px] mt-[40px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -837,12 +837,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -852,12 +852,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -867,12 +867,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -882,15 +882,15 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
             </div>
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -900,12 +900,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -915,12 +915,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -930,12 +930,12 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
-              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -945,8 +945,8 @@ function Silicon({ tab }: { tab?: string }) {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                   height={100}
                 />
               </div>
@@ -959,41 +959,40 @@ function Silicon({ tab }: { tab?: string }) {
 
   return (
     <div>
-      <div className="relative flex justify-center mt-10 md:mt-20 ">
+      <div className="relative flex justify-center mt-[60px] md:mt-[100px] xl:mt-[120px] 2xl:mt-[140px] ">
         <Typography
           style={{
             fontSize: "2rem",
             lineHeight: "50px",
             fontFamily: "Montserrat",
             fontWeight: "700",
-            position: "relative",
-            paddingBottom: "10px",
+            position: "relative", // Để định vị đường viền
+            paddingBottom: "10px", // Khoảng cách giữa chữ và border
             color: "#00366A",
           }}
         >
           <span
-            className="
-          xl:text-[2rem] 2xl:text-[48px] 
-          sm:px-[10px] px-[10px] 
-          lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[2rem] sm:text-[20px] justify-center items-center w-[100%] text-[24px]"
+            className="xl:text-[35px] 2xl:text-[48px]
+          px-[10px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[28px]"
           >
             SILICON RUBBER PRODUCTS
           </span>
+          {/* Đường viền */}
           <span
+            className="xl:h-[4px] 2xl:h-[5px] md:h-[4px] h-[3px]"
             style={{
               position: "absolute",
-              bottom: 0,
-              left: "50%",
-              transform: "translateX(-50%)",
-              width: "100px",
-              height: "5px",
-              backgroundColor: "#00A859",
+              bottom: "5px", // Đặt đường viền sát dưới chữ
+              left: "50%", // Căn giữa theo chiều ngang
+              transform: "translateX(-50%)", // Căn chỉnh chính xác vị trí giữa
+              width: "25%", // Chiều rộng của đường viền (ngắn hơn width chữ)
+              backgroundColor: "#00A859", // Màu sắc của đường viền
             }}
           />
         </Typography>
       </div>
 
-      <div className="mt-[40px]">
+      <div className="2xl:mt-[30px] md:mt-[25px] mt-[20px]">
         <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%]">
           <div className="flex justify-center ">
             <div
@@ -1022,14 +1021,14 @@ function Silicon({ tab }: { tab?: string }) {
 export default Silicon;
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
-    className={`flex-1 px-4 py-[2px] sm:px-2 2xl:py-[16px] text-center  flex items-center justify-center
-       text-[10px] md:text-[12px]  uppercase  2xl:text-[18px]  transition-all duration-300 ]"
+    className={`flex-1 px-4 py-[10px] sm:px-2 2xl:py-[16px] text-center flex items-center justify-center
+       text-[9px] md:text-[12px] 2xl:text-[18px] transition-all duration-300 ]"
       ${
         isActive
           ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"
           : "text-[#00366A] font-bold"
       }
-      rounded-full 
+      rounded-[28px] md:rounded-full 
     `}
     onClick={onClick}
   >

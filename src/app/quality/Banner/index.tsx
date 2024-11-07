@@ -33,7 +33,7 @@ export default function Banner() {
             <div className="absolute top-0 h-[100%] flex flex-col justify-center px-[20px] md:px-[5%] xl:px-[10%] text-white overflow-hidden">
               <div className="md:translate-y-[-20%] 2xl:translate-y-[-30%]">
                 <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px]  2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px]">
-                  We <span style={{ color: "#39E63D" }}>Provide</span> The Best
+                  We <span style={{ color: "#28FF90" }}>Provide</span> The Best
                 </text>
                 <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] flex lg:hidden">
                   industrial solution
@@ -106,7 +106,7 @@ export default function Banner() {
               </div>
               <div className="w-[60%] md:w-[80%] h-[50%] flex md:justify-center items-center text-[18px]">
                 <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]">
-                  Product
+                  Products
                   <br className="hidden md:flex" /> Integrity
                 </text>
               </div>

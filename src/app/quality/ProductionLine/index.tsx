@@ -13,7 +13,7 @@ const ProductionLine = () => {
         </div>
 
         <div className="flex justify-center">
-          <text className="text-center mt-[18px] w-[100%] md:w-[80%] text-[15px] 2xl:text-[20px] 2xl:leading-[36px]">
+          <text className="text-center mt-[18px] md:mt[25px] xl:mt-[30px] 2xl:mt-[36px] w-[100%] md:w-[80%] text-[15px] 2xl:text-[20px] leading-[20px] md:leading-[23px] lg:leading-[28px] 2xl:leading-[30px] text-[black]">
             At the REDECO production line, we will assemble all the parts into
             the mold and perform a thorough inspection before handing over the
             final mold to the testing department and delivering the product to
@@ -24,8 +24,8 @@ const ProductionLine = () => {
         <div className="flex flex-col md:flex-row overflow-hidden h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[62px] 2xl:mt-[72px]">
           <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] overflow-hidden w-[100%] md:w-[50%] flex flex-col">
             <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[16px] lg:p[18px] xl:p-[22px] 2xl:p-[24px]">
-                   <Image unoptimized
-
+              <Image
+                unoptimized
                 alt=""
                 src={"/image/productionLine1.png"}
                 style={{
@@ -44,8 +44,8 @@ const ProductionLine = () => {
           <div className="h-[50%] md:h-[100%] flex flex-col w-[100%] md:w-[50%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] w-[100%] flex flex-row">
               <div className="h-[100%] w-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[16px] lg:p[18px] xl:p-[22px] 2xl:p-[24px]">
-                     <Image unoptimized
-
+                <Image
+                  unoptimized
                   alt=""
                   src={"/image/productionLine2.png"}
                   style={{
@@ -63,8 +63,8 @@ const ProductionLine = () => {
 
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%]  overflow-hidden w-[100%] flex flex-col ">
               <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[12px] md:p-[16px] lg:p[18px] xl:p-[22px] 2xl:p-[24px]">
-                     <Image unoptimized
-
+                <Image
+                  unoptimized
                   alt=""
                   src={"/image/productionLine3.png"}
                   style={{

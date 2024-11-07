@@ -1,24 +1,24 @@
 "use client";
-import Header from "@/components/Header";
-import { Box } from "@mui/material";
-import Thumbnail from "./Thumbnail";
-import GetInTouch from "./GetInTouch";
 import Footer from "@/components/Footer";
-import { useState } from "react";
 import PhoneButton from "@/components/phoneButton";
+import { Box } from "@mui/material";
+import dynamic from "next/dist/shared/lib/dynamic";
+import { useState } from "react";
 
 const AboutUs = () => {
   const [isStatusSubmit, setIsStatusSubmit] = useState(false);
   const [userNameSubmit, setUserNameSubmit] = useState("");
 
+  const ThumbnailComponent = dynamic(() => import("./Thumbnail"), {
+    ssr: false,
+  });
+  const GetInTouchComponent = dynamic(() => import("./GetInTouch"), {
+    ssr: false,
+  });
+
   return (
     <Box display="flex" flexDirection="column">
-      
-      <Header />
-
-      <div className="pt-[10vh]">
-        <Thumbnail></Thumbnail>
-      </div>
+      <ThumbnailComponent />
 
       <Box>
         <div className="mt-10 flex justify-center">
@@ -66,8 +66,8 @@ const AboutUs = () => {
             </div>
           ) : (
             <div id="get-in-touch">
-              <GetInTouch
-              setIsStatusSubmit={setIsStatusSubmit}
+              <GetInTouchComponent
+                setIsStatusSubmit={setIsStatusSubmit}
                 setUserNameSubmit={setUserNameSubmit}
               />
             </div>

@@ -14,7 +14,7 @@ function QualityContent() {
           </div>
 
           <div className="mt-[18px] md:mt-[20px] lg:mt-[30px]">
-            <text className="text-[#252724] font-thin 2xl:text-[20px] 2xl:leading-[36px]">
+            <p className="text-[#252724] font-thin text-[15px] 2xl:text-[18px] 2xl:leading-[36px] text-justify font-Montserrat">
               At REDECO Vietnam, monitoring and evaluation systems are
               implemented in each department to comply with quality assurance
               procedures. Quality is assured with a manufacturing and testing
@@ -22,10 +22,10 @@ function QualityContent() {
               to final assembly and testing, each finished part is thoroughly
               inspected by engineers who are personally responsible for the
               quality of the final product.
-            </text>
+            </p>
           </div>
 
-          <div className="flex flex-col md:flex-row w-[100%] gap-[20px] md:gap-[30px] 2xl:gap-[40px] mt-[26px] px-[30px] md:px-[0px]">
+          <div className="flex flex-col md:flex-row w-[100%] gap-[20px] md:gap-[30px] 2xl:gap-[40px]  px-[30px] md:px-[0px]">
             <div
               style={{
                 backgroundColor: "rgba(255,255,255,0.9)F",
@@ -37,33 +37,33 @@ function QualityContent() {
               lg:mt-[30px] 2xl:mt-[40px] 
               py-[20px] md:py-[30px] 2xl:py-[44px] 
               text-[15px] 2xl:text-[20px] 
-              text-[#252724] font-medium px-[25px] 2xl:px-[40px] leading-[20px] md:leading-[23px] lg:leading-[28px] 2xl:leading-[30px] 
+              text-[#252724] font-medium px-[25px] 2xl:px-[40px] leading-[20px] md:leading-[23px] 2xl:leading-[30px] 
               md:mx-0 w-[100%] md:w-[50%]"
             >
-              <text className="line-clamp-1">
-                ▪{" "}
+              <text className="line-clamp-1 font-medium">
+                <span className="text-[#252724] ">●</span>{" "}
                 <span className="ml-[10px] 2xl:ml-[20px]">
                   Good Skilled Engineers
                 </span>
               </text>
-              <text className="line-clamp-1">
-                ▪{" "}
+              <text className="line-clamp-1 font-medium">
+                <span className="text-[#252724] ">●</span>{" "}
                 <span className="ml-[10px] 2xl:ml-[20px]">Modern Machines</span>
               </text>
-              <text className="line-clamp-1">
-                ▪{" "}
+              <text className="line-clamp-1 font-medium">
+                <span className="text-[#252724] ">●</span>{" "}
                 <span className="ml-[10px] 2xl:ml-[20px]">
                   High-Quality Service
                 </span>
               </text>
-              <text className="line-clamp-1">
-                ▪{" "}
+              <text className="line-clamp-1 font-medium">
+                <span className="text-[#252724] ">●</span>{" "}
                 <span className="ml-[10px] 2xl:ml-[20px]">
                   Guaranteed Products
                 </span>
               </text>
-              <text className="line-clamp-1">
-                ▪{" "}
+              <text className="line-clamp-1 font-medium">
+                <span className="text-[#252724] ">●</span>{" "}
                 <span className="ml-[10px] 2xl:ml-[20px]">
                   Ensure 5S Level & Kaizen
                 </span>
@@ -81,27 +81,29 @@ function QualityContent() {
                py-[20px] md:py-[30px] 2xl:py-[44px] 
               text-[15px] 2xl:text-[20px] 
               text-[#252724] font-medium 
-              px-[25px] 2xl:px-[40px] leading-[20px] md:leading-[23px] lg:leading-[28px] 2xl:leading-[30px] 
+              px-[25px] 2xl:px-[40px] leading-[20px] md:leading-[23px] 2xl:leading-[30px] 
               md:mx-0 w-[100%] md:w-[50%]"
             >
-              <text className="line-clamp-1">
-                ▪ <span className="ml-[10px] 2xl:ml-[20px]">Fast Support</span>
+              <text className="line-clamp-1 font-medium">
+                <span className="text-[#252724] ">●</span>{" "}
+                <span className="ml-[10px] 2xl:ml-[20px]">Fast Support</span>
               </text>
-              <text className="line-clamp-1">
-                ▪{" "}
+              <text className="line-clamp-1 font-medium">
+                <span className="text-[#252724] ">●</span>{" "}
                 <span className="ml-[10px] 2xl:ml-[20px]">
                   Complete Solution
                 </span>
               </text>
-              <text className="line-clamp-1">
-                ▪{" "}
+              <text className="line-clamp-1 font-medium">
+                <span className="text-[#252724] ">●</span>{" "}
                 <span className="ml-[10px] 2xl:ml-[20px]">Responsibility</span>
               </text>
-              <text className="line-clamp-1">
-                ▪ <span className="ml-[10px] 2xl:ml-[20px]">Dedication</span>
+              <text className="line-clamp-1 font-medium">
+                <span className="text-[#252724] ">●</span>{" "}
+                <span className="ml-[10px] 2xl:ml-[20px]">Dedication</span>
               </text>
-              <text className="line-clamp-1">
-                ▪{" "}
+              <text className="line-clamp-1 font-medium">
+                <span className="text-[#252724] ">●</span>{" "}
                 <span className="ml-[10px] 2xl:ml-[20px]">
                   Continuous Innovation
                 </span>

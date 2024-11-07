@@ -21,7 +21,7 @@ function WhoWeAre() {
       image: "/image/ic_leading.png",
       title: "Our Leading",
       description:
-        "REDECO provide solutions to the customer in many industries, specializing in manufacturing, designing and supplying equipment in mechanical processing ...",
+        "REDECO Vietnam JSC provide solutions to the customer in many industries, specializing in manufacturing, designing and supplying equipment in mechanical processing ...",
     },
   ];
   return (
@@ -98,7 +98,7 @@ function WhoWeAre() {
           >
             {data.map((item, index) => (
               <div
-                className="bg-white lg:px-[16px] 2xl:px-[20px] pb-[10px] 2xl:pb-[20px] rounded-[12px] pt-[10px] w-[100%] px-[25px] py-[25px] mt-[25px] overflow-hidden max-h-[50vh] h-[65%] 2xl:h-[60%]"
+                className="bg-white opacity-[0.8] lg:px-[16px] 2xl:px-[20px] pb-[10px] 2xl:pb-[20px] rounded-[12px] pt-[10px] w-[100%] px-[25px] py-[25px] mt-[25px] overflow-hidden max-h-[50vh] h-[65%] 2xl:h-[60%]"
                 style={{ boxShadow: "0 0 10px 5px #7B7A7A0F" }}
                 key={index}
               >
@@ -109,41 +109,39 @@ function WhoWeAre() {
                         <Image
                           unoptimized
                           alt=""
-                          src="/image/ic_area.png"
+                          src={item.image}
                           width={100}
                           height={100}
                         />
                       </div>
-                      <text className="text-[70px] 2xltext-[80px] text-[#00366A] opacity-[0.1] font-medium leading-[100%] ">
+                      <p className="text-[70px] 2xltext-[80px] text-[#00366A] opacity-[0.1] font-normal leading-[100%] ">
                         0{index + 1}
-                      </text>
+                      </p>
                     </div>
 
                     <div className="flex flex-col mt-[20px] md:mt-[18px] lg:mt-[20px] 2xl:mt-[30px]">
                       <text className="text-[#00366A] text-[20px] md:text-[22px] 2xl:text-[32px] font-semibold leading-[100%] line-clamp-1">
                         {item.title}
                       </text>
-                      <text className="mt-[12px] text-[14px] 2xl:text-[18px] line-clamp-4 lg:line-clamp-5 xl:line-clamp-[7]  leading-[20px] 2xl:leading-[26px]">
+                      <text className="opacity-[0.7] mt-[10px] 
+                      text-[13px] 2xl:text-[18px] line-clamp-4 lg:line-clamp-5 xl:line-clamp-[7] text-[#252724] font-extralight leading-[20px] 2xl:leading-[26px]">
                         {item.description}
                       </text>
                     </div>
                   </div>
 
-                  <div className="flex border-[#00366a59] border-t-[1px] mt-[18px] pt-[18px]">
+                  <div className="flex border-[#00366a59] border-t-[1px] mt-[18px] pt-[18px] items-center">
                     <button className="text-[#00366A] text-[14px] 2xl:text-[18px] mr-[8px]">
                       Read More
                     </button>
-                    <div className="w-[10%]">
-                      <Image
-                        unoptimized
-                        style={{ objectFit: "contain" }}
-                        alt=""
-                        src="/image/Arrow 1.png"
-                        width={100}
-                        height={100}
-                        className="w-[100%] h-[100%]"
-                      />
-                    </div>
+                    <Image
+                      unoptimized
+                      style={{ objectFit: "contain" }}
+                      alt=""
+                      src="/image/Arrow 1.png"
+                      width={12}
+                      height={1}
+                    />
                   </div>
                 </div>
               </div>
@@ -152,7 +150,7 @@ function WhoWeAre() {
         </div>
       </div>
 
-      <div className="px-[20px] flex  flex-col md:hidden">
+      <div className="px-[20px] flex flex-col md:hidden">
         {data.map((item, index) => (
           <div
             className="bg-[#FFFFFFE5] lg:px-[16px] xl:px-[20px] pb-[20px] rounded-[12px] pt-[10px] w-[100%] px-[25px] py-[25px] mt-[25px] overflow-hidden"
@@ -171,7 +169,7 @@ function WhoWeAre() {
                       unoptimized
                     />
                   </div>
-                  <text className="text-[80px] text-[#00366A] opacity-[0.1] font-medium leading-[100%] ">
+                  <text className="text-[80px] text-[#00366A] font-Nunito opacity-[0.08] leading-[100%] font">
                     0{index + 1}
                   </text>
                 </div>

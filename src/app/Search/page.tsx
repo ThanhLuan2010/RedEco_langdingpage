@@ -9,7 +9,6 @@ function SearchPage() {
   const router = useRouter();
   const [search, setSearch] = useState<string>("");
   const onSearch = () => {
-    console.log(search);
     if (search) { 
       const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(
         `site:redeco.vn/ ${search}`
@@ -52,13 +51,13 @@ function SearchPage() {
         <div className="flex justify-center mt-[20p] md:mt-[40px] lg:mt-[60px] 2xl:mt-[72px]">
           <div
             className="
-          relative
-          rounded-[14px] 
-          border-transparent
-          bg-gradient-to-r from-[#007BB0] to-[#00366A]
-          w-[45%]
-          p-[2px]
-          "
+            relative
+            rounded-[14px] 
+            border-transparent
+            bg-gradient-to-r from-[#007BB0] to-[#00366A]
+            w-[45%]
+            p-[2px]
+            "
           >
             <div
               className="
@@ -73,6 +72,7 @@ function SearchPage() {
                 <input
                   className="w-[100%] outline-none"
                   placeholder="Search ..."
+                  autoFocus
                   onChange={(e) => setSearch(e.target.value)}
                 />
               </div>

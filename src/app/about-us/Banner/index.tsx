@@ -4,14 +4,14 @@ import { useRouter } from "next/navigation";
 function Banner() {
   const router = useRouter();
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       <div>
         <Image alt="banner" unoptimized src={"/image/aboutUs/top_banner.png"} width={100} height={100} className="w-[100vw] h-[100%]" />
       </div>
 
       <div className="absolute top-0 h-[100%] flex flex-col justify-center px-[20px] md:px-[5%] xl:px-[10%] text-white overflow-hidden mx-[20px] md:mx:0 md:translate-y-[-9%]">
         <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px]">
-          We <span style={{ color: "#39E63D" }}>Provide</span> The Best
+          We <span style={{ color: "#28FF90" }}>Provide</span> The Best
         </text>
         <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px]  2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] flex lg:hidden">
           industrial solution

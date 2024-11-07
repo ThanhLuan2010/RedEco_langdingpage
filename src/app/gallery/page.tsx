@@ -1,13 +1,9 @@
 "use client";
-import Header from "@/components/Header";
-import Image from "next/image";
-import React, { useEffect } from "react";
-import Banner from "./banner";
-import GalleryTabs from "./ourGallary";
 import Footer from "@/components/Footer";
-import { useRouter } from "next/navigation";
 import PhoneButton from "@/components/phoneButton";
-
+import dynamic from "next/dist/shared/lib/dynamic";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 function Gallery() {
   const router = useRouter();
   useEffect(() => {
@@ -22,12 +18,19 @@ function Gallery() {
     }
   }, [router]);
 
+  const BannerComponent = dynamic(() => import("./banner"), {
+    ssr: false,
+  });
+  const GalleryTabsComponent = dynamic(() => import("./ourGallary"), {
+    ssr: false,
+  });
+  
+
   return (
-    <div className="bg-[#F7F9F9] pt-[10vh]">
-      <Header></Header>
-      <Banner></Banner>
+    <div className="bg-[#F7F9F9]">
+      <BannerComponent />
       <div id="customer">
-        <GalleryTabs></GalleryTabs>
+        <GalleryTabsComponent />
       </div>
       <PhoneButton />
       <Footer></Footer>

@@ -53,7 +53,6 @@ function index({ params }: { params: { id: string } }) {
   };
   return (
     <div>
-      <Header />
       <Image
         unoptimized
         style={{ width: "100vw", height: "100%" }}
@@ -65,17 +64,17 @@ function index({ params }: { params: { id: string } }) {
       <div className="w-[100%] items-center flex flex-col">
         <div className="px-[20px] md:px-[10%] mt-[7%]">
           <div className="relative">
-            <text className="font-semibold text-[20px] sm-[26px] md:text-[32px] lg:text-[40px] xl:text-[47px] 2xl:text-[56px] text-[#00366A] ">
+            <text className="font-semibold text-[20px] sm-[26px] md:text-[32px] lg:text-[40px] xl:text-[40px] 2xl:text-[50px] text-[#00366A] ">
               {title}
             </text>
             <span
               style={{
                 position: "absolute",
-                bottom: -10, // Đặt đường viền sát dưới chữ
+                bottom: -5, // Đặt đường viền sát dưới chữ
                 left: "0%", // Căn giữa theo chiều ngang
                 backgroundColor: "#00A859", // Màu sắc của đường viền
               }}
-              className="h-[2px] sm:h-[3px] md:h-[4px] xl:h-[5px] w-1/3"
+              className="h-[2px] sm:h-[3px] md:h-[4px] xl:h-[5px] w-1/4"
             />
           </div>
 
@@ -84,7 +83,7 @@ function index({ params }: { params: { id: string } }) {
           </div>
         </div>
       </div>
-      <div className="mt-[60px] sm:mt-[60px] md:mt-[80px] lg:mt-[100px] xl:mt-[110px] 2xl:mt-[120px]">
+      <div className="mt-[60px] sm:mt-[60px] md:mt-[60px] lg:mt-[100px] xl:mt-[100px] 2xl:mt-[120px]">
         <OtherNews id={id} />
       </div>
       <PhoneButton />

@@ -12,10 +12,10 @@ function OtherNews({ id }: any) {
     return i.id != id;
   });
   return (
-    <div className="pt-[40px] md:pt-[60px] lg-[70px] 2xl:pt-[80px] pb-[80px] md:pb-[90px] lg:pb-[100px] xl:pb-[120px] 2xl:pb-[140px] bg-[#E9EAEE] px-[20px] md:px-[10%]">
-      <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold relative text-[#00366A] mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[90px]">
-        OTHER NEWS
-        <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
+    <div className="pt-[40px] md:pt-[50px] lg-[60px] 2xl:pt-[70px] pb-[80px] md:pb-[90px] lg:pb-[100px] xl:pb-[120px] 2xl:pb-[140px] bg-[#E9EAEE] px-[20px] md:px-[10%]">
+      <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
+      OTHER NEWS
+        <span className="absolute bottom-[-5px] left-[0%] w-[50%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
       </text>
       <Box sx={{ marginTop: "5%" }}>
         <Row gutter={[25, 25]}>
@@ -37,7 +37,10 @@ function OtherNews({ id }: any) {
                     style={{ borderRadius: "8px", height: "138px" }}
                     alt=""
                     unoptimized
+                    width={100}
+                    height={100}
                     src={item.image}
+                    className="w-[100%] h-[100%]"
                   />
                 </Box>
                 <Box sx={{ height: "45%", overflow: "hidden" }}>

@@ -13,9 +13,9 @@ const products = [
 const settings = {
   dots: false,
   infinite: true,
-  speed: 500,
+  speed: 300,
   slidesToShow: 3, // Số slides mặc định
-  slidesToScroll: 1,
+  slidesToScroll: 3,
   responsive: [
     {
       breakpoint: 1900, // Màn hình lớn (tối đa 1200px)
@@ -46,11 +46,12 @@ const settings = {
 
 const Human = () => (
   <div className="flex flex-col justify-center items-center pt-[40px] sm:pt-[50px] md:pt-[70px] lg:pt-[90px] xl:pt-[110px] 2xl:pt-[200px] px-[20px] md:px-[5%] xl:px-[10%] bg-[#F7F9F9]">
-    <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold text-[#00366A] relative">
+    <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
       HUMAN RESOURCES
-      <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
+      <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
     </text>
-    <Box marginTop={"50px"} width={"100%"}>
+    {/* <Box marginTop={"50px"} width={"100%"}> */}
+    <div className="w-[100%] mt-[50px] md:mt-[60px] xl:mt-[60px]">
       <Carousel {...settings} autoplay>
         {products.map((product, index) => (
           <div key={index} className="mr-[18px]">
@@ -75,7 +76,9 @@ const Human = () => (
           </div>
         ))}
       </Carousel>
-    </Box>
+    </div>
+
+    {/* </Box> */}
   </div>
 );
 

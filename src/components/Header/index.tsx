@@ -19,7 +19,7 @@ import { useState } from "react";
 
 const navItems = [
   { text: "HOME", href: "/home" },
-  { text: "PRODUCT", href: "/products" },
+  { text: "PRODUCTS", href: "/products" },
   { text: "QUALITY", href: "/quality" },
   { text: "GALLERY", href: "/gallery" },
   { text: "ABOUT US", href: "/about-us" },
@@ -45,7 +45,7 @@ export default function Header() {
       className="w-screen h-screen bg-[#F7F9F9]"
     >
       <div className=" px-[20px]">
-        <div className="flex  py-[16px] h-[30%] content-center item-center justify-between">
+        <div className="flex py-[16px] h-[30%] content-center item-center justify-between">
           <div className="w-[40px] h-[40px] rounded-full flex justify-center content-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A]">
             <IconButton
               style={{
@@ -66,7 +66,12 @@ export default function Header() {
             style={{ width: "222px", height: "50px", objectFit: "contain" }}
           />
           <div className="w-[40px] h-[40px] rounded-full flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A]">
-            <Button onClick={() => router.push("Search")}>
+            <Button
+              onClick={() => {
+                router.prefetch("/Search");
+                router.push("/Search");
+              }}
+            >
               <Search
                 style={{
                   color: "white",
@@ -83,10 +88,11 @@ export default function Header() {
             <div key={index}>
               <button
                 onClick={() => {
-                  if (item?.text === "PRODUCT") {
+                  if (item?.text === "PRODUCTS") {
                     setIsShowMore(!isShowMore);
                     toggleDrawer(true);
                   } else {
+                    router.prefetch(item.href);
                     router.push(item.href);
                     // handleMouseLeave();
                   }
@@ -96,7 +102,7 @@ export default function Header() {
                 <text className="text-[#00366A] font-bold text-[18px]">
                   {item.text}
                 </text>
-                {item?.text === "PRODUCT" && (
+                {item?.text === "PRODUCTS" && (
                   <Image
                     unoptimized
                     src={require("../../../public/icon/ic_down-blue.png")}
@@ -106,51 +112,61 @@ export default function Header() {
                   />
                 )}
               </button>
-              {item?.text === "PRODUCT" && isShowMore && (
+              {item?.text === "PRODUCTS" && isShowMore && (
                 <div className="px-[20px] py-[15px] text-[#00366A] font-medium flex flex-col gap-[15px]">
                   <div
                     className="w-full cursor-pointer"
                     onClick={() => {
+                      router.prefetch("/product#machine-details");
                       router.push("/product#machine-details");
                     }}
                   >
-                    ▪ <text>Machine Components & Details</text>
+                    <span className="text-[black] ">●</span>{" "}
+                    <text>Machine Components & Details</text>
                   </div>
 
                   <div
                     className="w-full cursor-pointer"
                     onClick={() => {
+                      router.prefetch("/product#automation");
                       router.push("/product#automation");
                     }}
                   >
-                    ▪ <text>Automation</text>
+                    <span className="text-[black] ">●</span>{" "}
+                    <text>Automation</text>
                   </div>
 
                   <div
                     className="w-full cursor-pointer"
                     onClick={() => {
+                      router.prefetch("/product#plastic-injection");
                       router.push("/product#plastic-injection");
                     }}
                   >
-                    ▪ <text>Plastic Injection Products</text>
+                    <span className="text-[black] ">●</span>{" "}
+                    <text>Plastic Injection Products</text>
                   </div>
 
                   <div
                     className="w-full cursor-pointer"
                     onClick={() => {
+                      router.prefetch("/product#silicone-rubber");
                       router.push("/product#silicone-rubber");
                     }}
                   >
-                    ▪ <text>Silicone Rubber Products</text>
+                    <span className="text-[black] ">●</span>{" "}
+                    <text>Silicone Rubber Products</text>
                   </div>
 
                   <div
                     className="w-full cursor-pointer"
                     onClick={() => {
+                      router.prefetch("/product#other-products");
                       router.push("/product#other-products");
                     }}
                   >
-                    ▪ <text>Other Products</text>
+                    <span className="text-[black] ">●</span>{" "}
+                    <text>Other Products</text>
                   </div>
                 </div>
               )}
@@ -174,10 +190,10 @@ export default function Header() {
   const open = Boolean(anchorEl);
 
   return (
-    <div className="h-[10vh] w-[100vw] px-[20px] md:px[5%] xl:px-[10%] fixed top-0 z-[100] bg-white justify-center items-center">
+    <div className="h-[10vh] w-[100vw] px-[20px] md:px[5%] xl:px-[10%]  bg-white justify-center items-center">
       <div className="flex h-[100%]">
         {/* <Toolbar style={{ padding: "20px 0 20px" }} className="w-[100%] justify-between"> */}
-        <div className="flex  w-[100%] justify-between items-center ">
+        <div className="flex  w-[100%] items-center justify-between ">
           {/* Mobile - Left */}
           {isMobile && (
             <>
@@ -222,7 +238,12 @@ export default function Header() {
           {isMobile ? (
             <>
               <div className="w-[40px] h-[40px] rounded-full flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A]">
-                <Button onClick={() => router.push("Search")}>
+                <Button
+                  onClick={() => {
+                    router.prefetch("/Search");
+                    router.push("/Search");
+                  }}
+                >
                   <Search
                     style={{
                       color: "white",
@@ -238,198 +259,106 @@ export default function Header() {
                 display: "flex",
                 flexGrow: 1,
                 justifyContent: "space-around",
+                alignItems: "center",
               }}
             >
               {navItems.map((item, index) => {
                 // Drawer
-                if (item?.text === "PRODUCT") {
+                if (item?.text === "PRODUCTS") {
                   return (
-                    <div
-                      onMouseEnter={handleMouseEnter}
-                      onMouseLeave={handleMouseLeave}
-                      key={index}
-                    >
-                      <Button
-                        className="line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] p-[10px] rounded-[12px]"
-                        sx={{
-                          backgroundImage:
-                            pathName === item.href || anchorEl
-                              ? "linear-gradient(70deg, #007BB0 10%, #00366A 90%)"
-                              : "transparent",
-                          color:
-                            pathName === item.href || anchorEl
-                              ? "white"
-                              : "#00366A",
-                          fontFamily: "Montserrat",
-                          fontWeight: "700",
-                          "&:hover": {
-                            background:
-                              "linear-gradient(70deg, #007BB0 10%, #00366A 90%)", // Gradient khi hover
-                            color: "white",
-                          },
+                    <div className="relative inline-block group z-[1000]">
+                      <button
+                        className="group-hover:text-white text-[#00366A] 
+                        font-bold px-4 py-2 group-hover:bg-gradient-to-t from-[#007BB0] to-[#00366A] 
+                        focus:outline-none line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px]
+                        2xl:text-[18px] px-[20px] py-[20px] rounded-t-[12px] rounded-b-none flex items-center z-[1000]"
+                        onClick={() => {
+                          router.prefetch("/product#machine-details");
+                          router.push("/product#machine-details");
                         }}
                       >
                         {item.text}
-                      </Button>
+                        <Image
+                          unoptimized
+                          src={"/icon/ic_down-blue.png"}
+                          alt=""
+                          width={12}
+                          height={8}
+                          className="ml-[5px] group-hover:hidden"
+                        />
+                        <Image
+                          unoptimized
+                          src="/image/ic_down_white.png"
+                          alt=""
+                          width={12}
+                          height={8}
+                          className="ml-[5px] hidden group-hover:inline"
+                        />
+                      </button>
 
-                      <Menu
-                        id="products-menu"
-                        anchorEl={anchorEl}
-                        open={open}
-                        onClose={handleMouseLeave}
-                        MenuListProps={{
-                          onMouseLeave: handleMouseLeave,
-                        }}
-                        sx={{
-                          "& .MuiPaper-root": {
-                            background:
-                              "linear-gradient(to right, #007BB0, #00366A)", // Gradient cho menu
-                          },
-                        }}
-                        anchorOrigin={{
-                          vertical: "bottom",
-                          horizontal: "left",
-                        }}
-                        transformOrigin={{
-                          vertical: "top",
-                          horizontal: "left",
-                        }}
+                      <div
+                        className="absolute text-[14px] md:text-[15px] xl:text-[16px]  hidden group-hover:block bg-custom-gradient
+                       text-white w-[250%] px-[20px] pt-[40px] pb-[26px] rounded-b-[12px] rounded-tr-[12px]"
                       >
-                        <MenuItem
-                          sx={{
-                            color: "white",
-                            "&:hover": {
-                              backgroundColor: "transparent",
-                              borderBottom: "0.5px solid transparent",
-                            },
-                          }}
-                          onClick={() => {
-                            handleMouseLeave();
-                            router.push("/product#machine-details");
-                          }}
-                        >
-                          ▪{" "}
-                          <Typography
-                            sx={{
-                              "&:hover": {
-                                borderBottom: "0.5px solid white",
-                              },
-                              marginLeft: 1,
+                        <ul className="p-4 space-y-4">
+                          <li
+                            className="cursor-pointer flex items-center font-semibold"
+                            onClick={() => {
+                              router.prefetch("/product#machine-details");
+                              router.push("/product#machine-details");
                             }}
                           >
-                            Machine Components & Details
-                          </Typography>
-                        </MenuItem>
-                        <MenuItem
-                          sx={{
-                            color: "white",
-                            "&:hover": {
-                              backgroundColor: "transparent",
-                              borderBottom: "0.5px solid transparent",
-                            },
-                          }}
-                          onClick={() => {
-                            handleMouseLeave();
-                            router.push("/product#automation");
-                          }}
-                        >
-                          ▪{" "}
-                          <Typography
-                            sx={{
-                              "&:hover": {
-                                borderBottom: "0.5px solid white",
-                              },
-                              marginLeft: 1,
+                            <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
+                            <text className="hover:border-b-[1px] border-white">Machine Components & Details</text>
+                          </li>
+                          <li
+                            className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
+                            onClick={() => {
+                              router.prefetch("/product#automation");
+                              router.push("/product#automation");
                             }}
                           >
-                            Automation
-                          </Typography>
-                        </MenuItem>
-
-                        <MenuItem
-                          sx={{
-                            color: "white",
-                            "&:hover": {
-                              backgroundColor: "transparent",
-                              borderBottom: "0.5px solid transparent",
-                            },
-                          }}
-                          onClick={() => {
-                            handleMouseLeave();
-                            router.push("/product#plastic-injection");
-                          }}
-                        >
-                          ▪{" "}
-                          <Typography
-                            sx={{
-                              "&:hover": {
-                                borderBottom: "0.5px solid white",
-                              },
-                              marginLeft: 1,
+                            <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
+                            <text className="hover:border-b-[1px] border-white">Automation</text>
+                          </li>
+                          <li
+                            className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
+                            onClick={() => {
+                              router.prefetch("/product#plastic-injection");
+                              router.push("/product#plastic-injection");
                             }}
                           >
-                            Plastic Injection Products
-                          </Typography>
-                        </MenuItem>
-
-                        <MenuItem
-                          sx={{
-                            color: "white",
-                            "&:hover": {
-                              backgroundColor: "transparent",
-                              borderBottom: "0.5px solid transparent",
-                            },
-                          }}
-                          onClick={() => {
-                            handleMouseLeave();
-                            router.push("/product#silicone-rubber");
-                          }}
-                        >
-                          ▪{" "}
-                          <Typography
-                            sx={{
-                              "&:hover": {
-                                borderBottom: "0.5px solid white",
-                              },
-                              marginLeft: 1,
+                            <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
+                            <text className="hover:border-b-[1px] border-white">Plastic Injection Products</text>
+                          </li>
+                          <li
+                            className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
+                            onClick={() => {
+                              router.prefetch("/product#silicone-rubber");
+                              router.push("/product#silicone-rubber");
                             }}
                           >
-                            Silicone Rubber Products
-                          </Typography>
-                        </MenuItem>
-
-                        <MenuItem
-                          sx={{
-                            color: "white",
-                            "&:hover": {
-                              backgroundColor: "transparent",
-                              borderBottom: "0.5px solid transparent",
-                            },
-                          }}
-                          onClick={() => {
-                            handleMouseLeave();
-                            router.push("/product#other-products");
-                          }}
-                        >
-                          ▪{" "}
-                          <Typography
-                            sx={{
-                              "&:hover": {
-                                borderBottom: "0.5px solid white",
-                              },
-                              marginLeft: 1,
+                            <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
+                            <text className="hover:border-b-[1px] border-white">Silicone Rubber Products</text>
+                          </li>
+                          <li
+                            className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
+                            onClick={() => {
+                              router.prefetch("/product#other-products");
+                              router.push("/product#other-products");
                             }}
                           >
-                            Other Products
-                          </Typography>
-                        </MenuItem>
-                      </Menu>
+                            <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
+                            <text className="hover:border-b-[1px] border-white">Other Products</text>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   );
                 } else
                   return (
                     <Button
-                      className="line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] p-[10px] rounded-[12px]"
+                      className="line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] px-[20px] py-[20px] rounded-[12px]"
                       key={index}
                       sx={{
                         // backgroundImage:
@@ -454,23 +383,36 @@ export default function Header() {
                     </Button>
                   );
               })}
-              <div className="h-[40px] w-[240px] flex items-center rounded-xl pl-[8px] border-[1px] overflow-hidden border-[#00366A] relative">
+              <div className="h-[5vh] w-[25%] flex items-center rounded-[12px] pl-[8px] border-[1px] overflow-hidden border-[#00366A] relative ml-[64px]">
                 <input
                   className="placeholder:text-[#00366A] placeholder:font-medium bg-transparent outline-none "
                   placeholder="Search..."
-                  onFocus={() => router.push("Search")}
+                  onFocus={() => {
+                    router.prefetch("/Search");
+                    router.push("/Search");
+                  }}
                 />
                 <div
-                  onClick={() => router.push("Search")}
-                  className="w-[60px] absolute top-0 -right-2 h-[40px] rounded-xl flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A] object-contain"
+                  onClick={() => {
+                    router.prefetch("/Search");
+                    router.push("/Search");
+                  }}
+                  className=" absolute top-0 -right-2 h-[5vh] rounded-[12px] flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A] object-contain"
                 >
-                  <Button onClick={() => router.push("Search")}>
+                  <Button
+                    onClick={() => {
+                      router.prefetch("/Search");
+                      router.push("/Search");
+                    }}
+                  >
                     <Search
                       style={{
                         color: "white",
                       }}
-                      onFocus={() => router.push("Search")}
-                      onClick={() => router.push("Search")}
+                      onClick={() => {
+                        router.prefetch("/Search");
+                        router.push("/Search");
+                      }}
                     />
                   </Button>
                 </div>

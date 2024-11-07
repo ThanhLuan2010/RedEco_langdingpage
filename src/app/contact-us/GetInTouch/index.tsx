@@ -4,37 +4,34 @@ import React from "react";
 
 const GetInTouch = ({ setUserNameSubmit, setIsStatusSubmit }: any) => {
   return (
-    <div className="w-[100%] 2xl:mt-20 lg:mt-15 mt-10 flex flex-col items-center h-auto bg-red">
-      <div className="flex flex-col items-center">
-        <div className="flex flex-col items-center">
-          <h3 className="text-blueAccent lg:text-4xl xl:text-4xl md:text-4xl sm:text-3xl text-2xl font-bold">
-            GET IN TOUCH
-          </h3>
-          <div className="w-[40%] xl:h-[4px] lg:h-[4px] md:h-[4px] sm:h-[2px] h-[2px] bg-greenPrimary"></div>
-        </div>
-        <span
-          className="xl:mt-10 md:mt-10 lg:mt-10 sm:mt-6 mt-6 w-[100%] px-[20px] md:px-[10%] xl:px-[20%] text-[#000] text-center
-          2xl:text-[20px]"
+    <div className="w-[100%] 2xl:mt-20 lg:mt-15 mt-10 flex flex-col items-center h-auto">
+      <div className="flex flex-col items-center px-[20px] md:px-[5%] xl:px-[10%]">
+        <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
+          GET IN TOUCH
+          <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
+        </text>
+        <text
+          className="xl:mt-10 md:mt-10 lg:mt-10 sm:mt-6 mt-6 w-[100%]  text-[#000] text-center
+          2xl:text-[20px] leading-[20px] md:leading-[25px] xl:leading-[30px] 2xl:leading-[35px]"
         >
           We would love to hear from you! If you have any questions or comments
           that you'd like to share with us, please fill out the contact form
           below, or feel free to give us a call at the phone number listed for
           your region.
-        </span>
+        </text>
       </div>
-      <div className="flex w-[100%] justify-stretch">
-        <div className="w-[50%] xl:flex lg:flex md:flex sm:hidden hidden -mt-24">
+      <div className="flex w-[100%] justify-stretch items-center pr-[20px] md:pr-[5%] xl:pr-[10%]">
+        <div className="w-[45%] xl:flex lg:flex md:flex sm:hidden hidden -mt-24">
           <Image
-            style={{ width: "100%", height: "100%", objectFit: "contain" }}
+            style={{ width: "100%", height: "70%", objectFit: "contain" }}
             alt="banner"
             src={"/image/aboutUs/banner_get_in_touch.png"}
             width={100}
             height={100}
             unoptimized
-
           />
         </div>
-        <div className="md:w-[50%] w-[100%] w-[100%]md:pr-[30px]">
+        <div className="md:w-[55%] w-[100%]">
           <FormCustom
             setUserNameSubmit={setUserNameSubmit}
             setIsStatusSubmit={setIsStatusSubmit}

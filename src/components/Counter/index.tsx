@@ -26,12 +26,14 @@ export default function Counter({ targetNumber, title }: any) {
     <div className="w-[100%] flex flex-col text-white font-medium text-center">
       <div className="flex flex-col items-center justify-center">
         <div className="flex items-start">
-          <text className="text-[50px] md:text-[65px] lg:text-[80px] xl:text-[90px] 2xl:text-[100px] xl:leading-[120%]">
+          <text className="text-[50px] md:text-[65px] lg:text-[60px] xl:text-[80px] 2xl:text-[100px] xl:leading-[120%] font-semibold relative">
             {formattedNumber}
+            <span className="text-[50px] md:text-[60px] -translate-x-[-100%] right-0 translate-y-[-30px] ml-1 absolute">
+              +
+            </span>
           </text>
-          <span className="text-[50px] md:text-[60px] translate-y-[-30px] ml-1">+</span>
         </div>
-        <text className="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] font-semibold ">
+        <text className="text-[12px] md:text-[14px] lg:text-[16px] 2xl:text-[18px]  font-semibold ">
           {title}
         </text>
       </div>

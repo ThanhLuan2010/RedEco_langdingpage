@@ -17,6 +17,13 @@ const config: Config = {
         greenPrimary: "#00A859",
         blueAccent: "#00366A",
       },
+      fontFamily: {
+        Montserrat: ['Montserrat', 'sans-serif'],
+        Nunito: ['Nunito', 'sans-serif'],
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(140.7deg, #007BB0 -15.73%, #00366A 87.74%)',
+      },
     },
   },
   plugins: [],

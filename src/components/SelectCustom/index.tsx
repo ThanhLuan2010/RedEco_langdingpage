@@ -7,6 +7,8 @@ interface CustomSelectProps {
   value: string;
   error?: string;
   onChange: (value: string) => void;
+  selectedOptionRef?: React.RefObject<HTMLLIElement>;
+  selectedCountry?: string;
 }
 
 interface IconProps {
@@ -15,31 +17,37 @@ interface IconProps {
 
 const ChevronDownIcon: React.FC<IconProps> = ({ className }) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="1"
     viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
     className={className}
   >
-    <path d="M6 9l6 6 6-6" />
+    <path
+      d="M20 7.99997L12.9428 15.0572C12.4221 15.5779 11.5779 15.5779 11.0572 15.0572L4 7.99997"
+      stroke="#004890"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
   </svg>
 );
 
 const ChevronUpIcon: React.FC<IconProps> = ({ className }) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="1"
     viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
     className={className}
   >
-    <path d="M18 15l-6-6-6 6" />
+    <path
+      d="M4 16L11.0572 8.94281C11.5779 8.42211 12.4221 8.42211 12.9428 8.94281L20 16"
+      stroke="#004890"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
   </svg>
 );
 
@@ -50,6 +58,8 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
   value,
   error,
   onChange,
+  selectedOptionRef,
+  selectedCountry,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const selectRef = useRef<HTMLDivElement>(null);
@@ -101,7 +111,7 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
         }}
         htmlFor={id}
         className={`textfield__label textfield__label--required ${
-          !value && "mt-[8px]"
+          !value && "mt-[15px]"
         }`}
       >
         {label}
@@ -130,13 +140,14 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
           {options.map((option, index) => (
             <li
               key={index}
+              ref={selectedCountry === option ? selectedOptionRef : null} // Gán ref cho mục đã chọn
               onClick={() => handleOptionClick(option)}
-              className={`flex justify-between text-[#707070] items-center px-[16px] py-[8px] cursor-pointer 
-                          hover:bg-gray-100 
+              className={`flex justify-between  items-center px-[16px] py-[8px] cursor-pointer 
+                          hover:bg-[#00366A] hover:text-white 
                           ${
                             value === option
                               ? "font-semibold text-[#00366A]"
-                              : ""
+                              : "text-[#707070]"
                           } 
                           }`}
             >

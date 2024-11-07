@@ -26,8 +26,7 @@ function About() {
   }, [router]);
 
   return (
-    <div className="pt-[10vh]">
-      <Header />
+    <div>
       <Banner />
       <Content />
       <StatisticalData />

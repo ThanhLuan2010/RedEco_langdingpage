@@ -4,10 +4,17 @@ import React from "react";
 function Description2() {
   return (
     <div className="flex flex-col">
-      <text className="text-[1rem] text-[#00366A] font-medium">
+      <text className="text-[1rem] text-[#00366A] font-semibold">
         June 12, 2022
       </text>
-      <text className="mt-[18px] md:mt-[24px] lg:mt-[28px] 2xl:mt-[2rem] text-[1rem] text-[#252724] font-normal">
+      <text
+        className="
+        mt-[18px] md:mt-[24px] lg:mt-[28px] 2xl:mt-[2rem] 
+        text-[#252724] leading-[28px] 
+        md:leading-[26px] 2xl:leading-[32px]
+        text-[15px] md:text-[16px] 2xl:text-[18px]
+        "
+      >
         REDECO Vietnam Industrial Solutions Joint Stock Company stands at the
         forefront of precision engineering with its state-of-the-art CNC
         (Computer Numerical Control) machining services. With a commitment to
@@ -17,7 +24,10 @@ function Description2() {
       </text>
 
       <div className="flex flex-col md:flex-row mt-[20px]">
-        <div className="w-[100%] md:w-[60%] flex flex-col ">
+        <div
+          className="w-[100%] md:w-[60%] flex flex-col md:leading-[26px] 2xl:leading-[32px]
+          text-[15px] md:text-[16px] 2xl:text-[18px]"
+        >
           <text>
             Our advanced CNC technology allows us to create intricate parts with
             exceptional precision, meeting the diverse needs of our clients. At
@@ -42,31 +52,34 @@ function Description2() {
         </div>
 
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain mt-[24px] md:mt-0 md:ml-[3%]">
-          unoptimized
           <Image
             alt=""
-            className="w-[100%]"
             src={"/image/news2-banner1.png"}
             width={100}
+            unoptimized
+            className="w-[100%] h-[100%]"
             height={100}
           />
         </div>
       </div>
 
       <div className="flex flex-col-reverse md:flex-row mt-4 md:mt-6 lg:mt-8 2xl:mt-10">
-        <div className="w-[100%] md:w-[40%] h-auto ml-0 flex mr-0 md:mr-[3%] ">
+        <div className="w-[100%] md:w-[40%] h-auto ml-0 flex mr-0 md:mr-[3%]">
           <Image
             alt=""
-            style={{ width: "110%", height: "110%", objectFit: "cover" }}
             src={"/image/news2-banner2.png"}
             width={100}
             unoptimized
+            className="w-[100%] h-[100%] rounded-[16px] object-contain"
             height={100}
           />
         </div>
 
         <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
-          <text className="mt-[5px]">
+          <text
+            className="mt-[5px] md:leading-[26px] 2xl:leading-[32px]
+            text-[15px] md:text-[16px] 2xl:text-[18px]"
+          >
             Quality assurance is a cornerstone of our operations at REDECO. Our
             ISO-certified quality management system guarantees that every
             component produced meets rigorous standards for precision and
@@ -77,7 +90,10 @@ function Description2() {
             sectors, including automotive, electronics, aerospace, and medical
             devices.
           </text>
-          <text className="mt-[20px]">
+          <text
+            className="mt-[20px] md:leading-[26px] 2xl:leading-[32px]
+            text-[15px] md:text-[16px] 2xl:text-[18px]"
+          >
             Our commitment to customer satisfaction drives us to provide
             tailored solutions that meet specific project requirements. We
             understand that each project is unique, and we work closely with our

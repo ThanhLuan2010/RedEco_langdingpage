@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 const GalleryTabs = () => {
-  const [activeTab, setActiveTab] = useState("our-customers");
+  const [activeTab, setActiveTab] = useState("production");
 
   const renderContent = () => {
     switch (activeTab) {
@@ -67,6 +67,7 @@ const GalleryTabs = () => {
                 src={"/image/gallary/office-block.png"}
                 width={100}
                 height={100}
+                unoptimized
               ></Image>
             </div>
             <div className="w-[100%] h-auto flex md:hidden">
@@ -87,15 +88,14 @@ const GalleryTabs = () => {
   };
 
   return (
-    <div className="flex flex-col items-center bg-[#F7F9F9] pt-[30px] md:pt-[40px] lg:mt-[50px] xl:pt-[60px] 2xl:pt-[70px]">
-      <div className="flex flex-col items-center mb-8">
-        <text className="text-[24px] md:text-[30px] lg:text-[38px] 2xl:text-[48px] font-bold pb-[4px] relative text-[#00366A]">
-          OUR GALLERY
-        </text>
-        <div className="w-[40%] xl:h-[4px] sm:h-[2px] h-[2px] md:h-[4px] lg:h-[4px] bg-greenPrimary"></div>
-      </div>
+    <div className="flex flex-col items-center bg-[#F7F9F9] pt-[30px] md:pt-[40px] lg:mt-[50px]  2xl:pt-[70px]">
+      <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
+        OUR GALLERY
+        <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
+      </text>
+
       <div
-        className="relative flex justify-between rounded-full overflow-hidden xl:w-[38%] lg:w-[42%] md:w-[58%] sm:w-[70%] w-[90%] p-[2px]"
+        className="relative flex justify-between rounded-full overflow-hidden xl:w-[38%] lg:w-[42%] md:w-[58%] sm:w-[70%] w-[90%] p-[2px] md:mt-[30px] mt-[20px] 2xl:mt-[40px]"
         style={{
           background: "linear-gradient(to right, #007BB0, #00366A)",
         }}

@@ -1,16 +1,9 @@
 "use client";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import React, { useEffect, useState } from "react";
-import Banner from "./banner";
-import Machine from "./machine";
-import Automation from "./automation";
-import PlasticProduct from "./plasticProduct";
-import Silicon from "./silicon";
-import OtherProduct from "./otherProducts";
-import { useRouter } from "next/navigation";
-import TopBanner from "./TopBaner";
 import PhoneButton from "@/components/phoneButton";
+import dynamic from "next/dist/shared/lib/dynamic";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 function Product() {
   const arrBanner = [
@@ -67,28 +60,53 @@ function Product() {
     }
   }, [router]);
 
+  const TopBannerComponent = dynamic(() => import("./TopBaner"), {
+    ssr: false,
+  });
+  const MachineComponent = dynamic(() => import("./machine"), {
+    ssr: false,
+  });
+  const AutomationComponent = dynamic(() => import("./automation"), {
+    ssr: false,
+  });
+  const PlasticProductComponent = dynamic(() => import("./plasticProduct"), {
+    ssr: false,
+  });
+  const SiliconComponent = dynamic(() => import("./silicon"), {
+    ssr: false,
+  });
+  const OtherProductComponent = dynamic(() => import("./otherProducts"), {
+    ssr: false,
+  });
+
+  const BannerComponent = dynamic(() => import("./banner"), {
+    ssr: false,
+  });
+
   return (
-    <div className="bg-[#F7F9F9] pt-[10vh]">
-      <Header />
+    <div className="bg-[#F7F9F9] ">
       <div>
-      <TopBanner />
+        <TopBannerComponent />
       </div>
-      <div id="machine-details">
-        <Machine />
+      <div
+        id="machine-details"
+        className="xl:mt-[120px] 2xl:mt-[140px] lg:mt-[100px] md:mt-[80px] mt-10"
+      >
+        <MachineComponent />
       </div>
-      <Banner data={arrBanner} />
+      <BannerComponent data={arrBanner} />
       <div id="automation">
-        <Automation />
+        <AutomationComponent />
       </div>
       <div id="plastic-injection">
-        <PlasticProduct />
+        <PlasticProductComponent />
       </div>
-      <Banner data={arrBanner2} />
+      <BannerComponent data={arrBanner2} />
       <div id="silicone-rubber">
-        <Silicon tab={tab} />
+        <SiliconComponent tab={tab} />
       </div>
       <div id="other-products">
-        <OtherProduct otherTab={otherTab} />
+        <OtherProductComponent otherTab={otherTab} />
       </div>
       <PhoneButton />
       <Footer />

@@ -1,31 +1,23 @@
 "use client";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import Banner from "./Banner";
-import { Box } from "@mui/material";
-import HomeProducts from "./Products";
-import WhoWeAre from "./WhoWeAre/page";
-import Human from "./Human";
-import QualityStandard from "./QualityStandard";
-import Customer from "./Customer";
-import News from "./News";
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
 import PhoneButton from "@/components/phoneButton";
+import { Box } from "@mui/material";
+import dynamic from "next/dynamic";
+import Footer from "../../components/Footer";
+import { useEffect, useState } from "react";
 export default function Home() {
-  const router = useRouter();
-  useEffect(() => {
-    // Lấy hash từ URL (VD: #targetComponent)
-    const hash = window.location.hash;
-    if (hash) {
-      // Cuộn đến thành phần có ID tương ứng với hash
-      const targetElement = document.querySelector(hash);
-      if (targetElement) {
-        targetElement.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-  }, [router]);
-
+  const BannerComponent = dynamic(() => import("./Banner"), { ssr: false });
+  const HomeProductsComponent = dynamic(() => import("./Products"), {
+    ssr: false,
+  });
+  const WhoWeAreComponent = dynamic(() => import("./WhoWeAre/page"), {
+    ssr: false,
+  });
+  const QualityStandardComponent = dynamic(() => import("./QualityStandard"), {
+    ssr: false,
+  });
+  const CustomerComponent = dynamic(() => import("./Customer"), { ssr: false });
+  const HumanComponent = dynamic(() => import("./Human"), { ssr: false });
+  const NewsComponent = dynamic(() => import("./News"), { ssr: false });
   return (
     <Box
       display="flex"
@@ -33,22 +25,20 @@ export default function Home() {
       sx={{ height: "100vh" }}
       bgcolor={"#F7F9F9"}
     >
-      <div className="pt-[10vh]"></div>
-      <Header />
-      <Banner />
-      <HomeProducts />
+      <BannerComponent />
+      <HomeProductsComponent />
       <div className="pt-[40px] xl:pt-[120px] bg-[#F7F9F9]">
-        <WhoWeAre />
+        <WhoWeAreComponent />
       </div>
 
       <div className="">
-        <Human />
+        <HumanComponent />
       </div>
-      <QualityStandard />
+      <QualityStandardComponent />
       <Box paddingTop={"8%"} bgcolor={"#F7F9F9"}>
-        <Customer />
+        <CustomerComponent />
       </Box>
-      <News />
+      <NewsComponent />
       <PhoneButton />
       <Footer />
     </Box>

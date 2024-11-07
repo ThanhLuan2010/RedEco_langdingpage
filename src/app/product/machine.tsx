@@ -12,9 +12,9 @@ function Machine() {
     if (activeTab === "Category 01") {
       return (
         <>
-          <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[35px] md:mt-[50px] lg:mt-[60px] 2xl:mt-[70px]">
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+          <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[30px] md:mt-[50px] lg:mt-[60px] 2xl:mt-[70px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -24,12 +24,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -39,15 +39,15 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -57,12 +57,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -72,15 +72,15 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -90,12 +90,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -105,15 +105,15 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -123,12 +123,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -138,18 +138,18 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
           </div>
           {/* Mobile */}
-          <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[35px] mt-[40px]">
+          <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[40px]">
             {/* Left */}
-            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -159,12 +159,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -174,12 +174,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   src={"/image/product1.3.png"}
@@ -188,12 +188,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -203,15 +203,15 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
             {/* Right */}
-            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -221,12 +221,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[80%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -236,12 +236,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -251,12 +251,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -266,9 +266,9 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
@@ -279,9 +279,9 @@ function Machine() {
     if (activeTab === "Category 02") {
       return (
         <>
-          <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[35px] mt-[70px]">
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+          <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[30px] md:mt-[50px] lg:mt-[60px] 2xl:mt-[70px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -293,11 +293,11 @@ function Machine() {
                   }}
                   width={100}
                   height={100}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
 
-              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -309,13 +309,13 @@ function Machine() {
                   }}
                   width={100}
                   height={100}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -325,12 +325,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -340,15 +340,15 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -360,10 +360,10 @@ function Machine() {
                   }}
                   width={100}
                   height={100}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -375,13 +375,13 @@ function Machine() {
                   }}
                   width={100}
                   height={100}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -391,12 +391,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -408,14 +408,14 @@ function Machine() {
                   }}
                   width={100}
                   height={100}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
           </div>
-          <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[35px] mt-[40px]">
-            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[160%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+          <div className="md:hidden flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[40px]">
+            <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -425,13 +425,13 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
 
-              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -441,13 +441,13 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
 
-              <div className="h-[140%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -457,12 +457,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -472,15 +472,15 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -490,12 +490,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[160%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -505,12 +505,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -520,12 +520,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[140%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -535,9 +535,9 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
@@ -548,9 +548,9 @@ function Machine() {
     if (activeTab === "Category 03") {
       return (
         <>
-          <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[35px] mt-[70px]">
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+          <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[30px] md:mt-[50px] lg:mt-[60px] 2xl:mt-[70px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -560,12 +560,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -575,15 +575,15 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -593,29 +593,30 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
+                  unoptimized
                   src={"/image/product3.4.png"}
                   style={{
                     width: "100%",
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -625,12 +626,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -640,15 +641,15 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
+              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -658,12 +659,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -673,17 +674,17 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
           </div>
           {/* Mobile */}
-          <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[35px] mt-[40px]">
-            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+          <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[40px]">
+            <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -693,12 +694,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -708,12 +709,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -723,12 +724,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -738,15 +739,15 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
 
-            <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+            <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -756,12 +757,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -771,12 +772,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[90%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -786,12 +787,12 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[40%] overflow-hidden border-[2px] border-[#00366A] rounded-[12px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -801,9 +802,9 @@ function Machine() {
                     height: "100%",
                     objectFit: "contain",
                   }}
-                  className="transition-transform duration-300 ease-in-out hover:scale-125"
                   width={100}
                   height={100}
+                  className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
             </div>
@@ -815,7 +816,7 @@ function Machine() {
 
   return (
     <div className="">
-      <div className="relative flex justify-center xl:mt-20 lg:mt-20 md:mt-20 mt-10  ">
+      <div className="relative flex justify-center ">
         <Typography
           style={{
             fontSize: "2rem",
@@ -827,12 +828,15 @@ function Machine() {
             color: "#00366A",
           }}
         >
-          <span className="xl:text-[35px] 2xl:text-[48px] sm:px-[10px] px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[28px]">
-            MACHINE COMPONENTS & DETAIL
+          <span
+            className="xl:text-[35px] 2xl:text-[48px] sm:px-[10px]
+          px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[28px]"
+          >
+            MACHINE COMPONENTS & DETAILS
           </span>
           {/* Đường viền */}
           <span
-            className="lg:h-[5px] xl:h-[5px] md:h-[5px] sm:h-[3px] h-[3px]"
+            className="xl:h-[4px] 2xl:h-[5px] md:h-[4px] h-[3px]"
             style={{
               position: "absolute",
               bottom: 0, // Đặt đường viền sát dưới chữ
@@ -845,7 +849,7 @@ function Machine() {
         </Typography>
       </div>
 
-      <div className="mt-[40px]">
+      <div className="md:mt-[30px] mt-[20px] 2xl:mt-[40px]">
         <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%]">
           <div className="flex justify-center ">
             <div

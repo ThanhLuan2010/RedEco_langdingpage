@@ -21,14 +21,14 @@ const products = [
 ];
 
 const Commit = () => (
-  <div className="flex items-center justify-center flex-col pb-[50px]  2xl:pb-[110px]">
-    <text className="text-[24px] md:text-[30px] lg:text-[38px]  2xl:text-[48px] font-bold relative text-[#00366A] mt-[48px] md:mt-[68px] lg:mt-[88px]  2xl:mt-[120px]">
+  <div className="flex items-center justify-center flex-col  mt-[48px] md:mt-[60px] lg:mt-[8px] xl:mt-[100px] 2xl:mt-[140px]">
+    <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
       REDECO’S COMMITMENT
-      <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
+      <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[40%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
     </text>
 
     <div className="mt-[18px] md:mt-[22px] lg:mt-[28px] 2xl:mt-[34px] text-center px-[20px] md:px-[5%] xl:px-[10%]">
-      <text className="text-[16px] 2xl:text-[20px]">
+      <text className="text-[15px] 2xl:text-[20px]">
         At REDECO VIETNAM, our commitment is to  deliver unmatched value to our
         clients by providing
       </text>
@@ -41,15 +41,15 @@ const Commit = () => (
             className="bg-white 2xl:mx-[20px] flex justify-center items-center py-[0px] md:py-[5px] lg:py-[10px] xl:py-[15px] 2xl:py-[20px] rounded-[7px] xl:rounded-[12px] my-[5px]"
           >
             <div className="flex justify-center items-center flex-col pt-[16px] pb-[12px]">
-              <Image
-              unoptimized
-                className="w-[50px] object-contain"
-                alt={product.name}
-                src={product.imageUrl}
-                width={100}
-                height={100}
-              />
-              <text className="mt-[10px] md:mt-[13px] 2xl:mt-[16px] font-semibold text-[16px] lg:text-[20px] xl:text-[25px] opacity-[0.8]">
+                <Image
+                  unoptimized
+                  className="w-[50px] md:w-[60px] lg:w-[70px] 2xl:w-[80px] object-contain"
+                  alt={product.name}
+                  src={product.imageUrl}
+                  width={100}
+                  height={100}
+                />
+              <text className="mt-[10px] md:mt-[13px] 2xl:mt-[16px] font-medium text-[16px] lg:text-[20px] xl:text-[25px] opacity-[0.8]">
                 {product.name}
               </text>
             </div>

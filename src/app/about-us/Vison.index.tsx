@@ -10,14 +10,14 @@ function Vison() {
         bg-white w-[100%] md:w-[60%]  
         rounded-[12px] md:rounded-[14px] lg:rounded-[16px] xl:rounded-[18px] 2xl:rounded-[20px]
         px-[12px] md:px-[20px] lg:px-[30px] xl:px-[38px] 2xl:px[48px]
-        pb-[32px] xl:pb-[36px]
-        pt-[24px] md:pt-[26px] 2xl:pt-[32px]
+        pb-[25px] xl:pb-[30px]
+        pt-[16px] md:pt-[20px] 2xl:pt-[25px]
         "
       >
         <div className="justify-center flex items-center ">
-          <text className="text-[24px] md:text-[30px] lg:text-[38px] 2xl:text-[48px] font-bold pb-[4px] relative text-[#00366A]">
+          <text className="text-[24px] md:text-[30px] lg:text-[38px] 2xl:text-[48px] font-bold pb-[2px] relative text-[#00366A]">
             VISION
-            <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:[4px] 2xl:h-[5px] bg-[#00A859]" />
+            <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[80%] h-[2px] md:h-[4px]  2xl:h-[5px] bg-[#00A859]" />
           </text>
         </div>
         <div
@@ -25,24 +25,24 @@ function Vison() {
             mt-[20px] xl:mt-[24px]
             "
         >
-          <text className="font-thin">
+          <text className="font-thin text-[14px] md:text-[15px] 2xl:text-[18px]">
             REDECO VIETNAM always working to develop in the direction:
           </text>
         </div>
-        <div className="flex flex-col font-medium mt-[8px]">
-          <text className="text-[14px] sm:text-[16px] line-clamp-1">
+        <div className="flex flex-col font-medium mt-[8px] text-[14px] md:text-[15px] 2xl:text-[18px]">
+          <text className="line-clamp-1 mt-[2px]">
             <span className="text-[10px] mr-[5px] md:mr-[10px] ">●</span>{" "}
             Professionalize all activities of the company
           </text>
-          <text className="text-[14px] sm:text-[16px] line-clamp-1">
+          <text className="line-clamp-1 mt-[2px]">
             <span className="text-[10px] mr-[5px] md:mr-[10px] ">●</span>{" "}
             Continuously improve production processes
           </text>
-          <text className="text-[14px] sm:text-[16px] line-clamp-1">
+          <text className="line-clamp-1 mt-[2px]">
             <span className="text-[10px] mr-[5px] md:mr-[10px] ">●</span>{" "}
             Innovation management processes
           </text>
-          <text className="text-[14px] sm:text-[16px] line-clamp-1">
+          <text className="line-clamp-1 mt-[2px]">
             <span className="text-[10px] mr-[5px] md:mr-[10px] ">●</span> Build
             to training policy of HR
           </text>

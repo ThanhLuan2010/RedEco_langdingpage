@@ -14,7 +14,7 @@ const StyledCarousel = styled(Carousel)`
   }
 
   .slick-dots li {
-    margin: 0 10px; /* Tạo khoảng cách đều cho các dot không active */
+    margin: 0 1px; /* Tạo khoảng cách đều cho các dot không active */
   }
 
   .slick-dots li.slick-active {
@@ -24,8 +24,8 @@ const StyledCarousel = styled(Carousel)`
 
   .slick-dots li button {
     background-color: #dadada; /* Màu dot không active */
-    width: 16px; /* Kích thước chiều rộng */
-    height: 16px; /* Kích thước chiều cao */
+    width: 12px; /* Kích thước chiều rộng */
+    height: 12px; /* Kích thước chiều cao */
     border-radius: 50%; /* Bo tròn thành hình tròn */
     transition: all 0.3s ease-in-out; /* Hiệu ứng chuyển đổi mềm mại */
     border: none;
@@ -39,11 +39,12 @@ const StyledCarousel = styled(Carousel)`
       #007bb0,
       #00366a
     ); /* Màu gradient cho dot active */
-    width: 40px; /* Chiều rộng dot active */
-    height: 20px; /* Chiều cao dot active */
+    width: 35px; /* Chiều rộng dot active */
+    height: 15px; /* Chiều cao dot active */
     border-radius: 20px; /* Bo tròn nhẹ cho dot dài */
     border: none;
     bottom: 12px;
+    margin-right: 10px;
   }
   /* Ẩn dots khi màn hình dưới 768px */
   @media (max-width: 68px) {
@@ -157,12 +158,12 @@ const settings = {
 const CustomCarousel = () => {
   const router = useRouter();
   return (
-    <div className="bg-[#F7F9F9] flex flex-col items-center justify-center pt-[40px] sm:pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[100px] 2xl:pt-[130px]">
+    <div className="bg-[#F7F9F9] flex flex-col items-center justify-center pt-[40px] sm:pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[120px] 2xl:pt-[140px]">
       <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
         PRODUCTS
-        <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
+        <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
       </text>
-      <div className="bg-[#F7F9F9] w-full px-[20px] lg:px-[7%] xl:px-[10%] mt-[16px] md:mt-[36px] lg:mt-[56px] xl:mt-[79px]">
+      <div className="bg-[#F7F9F9] w-full px-[20px] lg:px-[7%] xl:px-[10%] mt-[16px] md:mt-[36px] lg:mt-[56px] xl:mt-[70px]">
         <Box width={"100%"}>
           <StyledCarousel style={{ height: "100%" }} autoplay {...settings}>
             {products.map((product, index) => (
@@ -172,16 +173,21 @@ const CustomCarousel = () => {
                 className="bg-[#F7F9F9] cursor-pointer"
               >
                 <div
-                  style={{ boxShadow: "0 0 10px 5px #7B7A7A0F " }}
-                  className="mx-[10px] rounded-[20px] my-[10px] h-[20vh] sm:h-[30vh] md:h-[35vh] lg:h-[40vh]"
+                  style={{
+                    backdropFilter: "blur(2.8914549350738525px)",
+                    boxShadow:
+                      "0px 1.45px 8.67px 0px #7B7A7A0F, 0px 2.89px 17.35px 0px #7B7A7A1F",
+                    backgroundColor: "white",
+                  }}
+                  className="mx-[10px] rounded-[12px] my-[10px] h-[20vh] sm:h-[35vh] 2xl:h-[35vh]"
                 >
                   <div className="h-[100%] px-[12px] py-[12px] text-center">
                     <div className="border-[2px] border-[#00366A] rounded-[12px] flex justify-center items-center h-[70%] ">
                       <Image
                         style={{
                           objectFit: "contain",
-                          width: "80%",
-                          height: "80%",
+                          width: "70%",
+                          height: "70%",
                         }}
                         width={100}
                         height={100}
@@ -191,13 +197,12 @@ const CustomCarousel = () => {
                       />
                     </div>
                     <div className="h-[30%] flex justify-center items-center">
-                      <text className="text-[14px] md:text-[24px] lg:text-[1.5] xl:text-[2em] font-semibold text-center text-[#00366A]">
+                      <text className="text-[14px] md:text-[24px] lg:text-[1.5] 2xl:text-[2em] font-semibold text-center text-[#00366A]">
                         {product.name}
                       </text>
                     </div>
                   </div>
                 </div>
-
                 {/* </Box> */}
               </div>
             ))}

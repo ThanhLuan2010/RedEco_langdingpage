@@ -1,105 +1,86 @@
 "use client";
 import { Box } from "@mui/material";
-import { Carousel } from "antd";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import styled from "styled-components";
+
+// Tải chậm Carousel để cải thiện hiệu suất
+const Carousel = dynamic(() => import("antd").then((mod) => mod.Carousel), {
+  ssr: false,
+});
+
+
+// Styled component cho Carousel để giữ lại style dots
+const StyledCarousel = styled(Carousel)`
+  .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slick-dots li {
+    margin: 0 10px;
+  }
+
+  .slick-dots li.slick-active {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+
+  .slick-dots li button {
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    opacity: 1;
+    bottom: 22px;
+  }
+
+  .slick-dots li.slick-active button {
+    background: linear-gradient(90deg, #28ff90, #00954f);
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    bottom: 24px;
+  }
+
+  @media (max-width: 768px) {
+    .slick-dots {
+      display: none !important;
+    }
+  }
+`;
+
 export default function Banner() {
   const router = useRouter();
-  const StyledCarousel = styled(Carousel)`
-    .slick-dots {
-      display: flex !important;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .slick-dots li {
-      margin: 0 10px; /* Tạo khoảng cách đều cho các dot không active */
-    }
-
-    .slick-dots li.slick-active {
-      margin-left: 0px; /* Không thêm khoảng cách bên trái */
-      margin-right: 15px; /* Tạo khoảng cách riêng bên phải để cân đối */
-    }
-
-    .slick-dots li button {
-      background-color: white; /* Màu dot không active */
-      width: 16px; /* Kích thước chiều rộng */
-      height: 16px; /* Kích thước chiều cao */
-      border-radius: 50%; /* Bo tròn thành hình tròn */
-      transition: all 0.3s ease-in-out; /* Hiệu ứng chuyển đổi mềm mại */
-      border: none;
-      opacity: 1;
-      bottom: 22px;
-    }
-
-    .slick-dots li.slick-active button {
-      background: linear-gradient(
-        90deg,
-        #28ff90,
-        #00954f
-      ); /* Màu gradient cho dot active */
-      width: 40px; /* Chiều rộng dot active */
-      height: 20px; /* Chiều cao dot active */
-      border-radius: 20px; /* Bo tròn nhẹ cho dot dài */
-      border: none;
-      bottom: 24px;
-    }
-    /* Ẩn dots khi màn hình dưới 768px */
-    @media (max-width: 768px) {
-      .slick-dots {
-        display: none !important;
-      }
-    }
-  `;
 
   return (
     <div className="h-[90vh]">
       <Box sx={{ width: "100vw", position: "relative" }}>
-        <div className="">
+        <div>
           <StyledCarousel autoplay autoplaySpeed={2000}>
-            <Box width={"100vw"} height={"100%"}>
-            <Image
-                style={{ width: "100%", height: "100%" }}
-                alt="banner"
-                width={100}
-                height={100}
-                unoptimized
-                src={"/image/banner1.png"}
-              />
-            </Box>
-            <Box width={"100vw"} height={"100%"}>
-              <Image
-                style={{ width: "100%", height: "100%" }}
-                alt="banner"
-                width={100}
-                height={100}
-                unoptimized
-                src={"/image/banner2.png"}
-              />
-            </Box>
-            <Box width={"100vw"} height={"100%"}>
-              <Image
-                style={{ width: "100%", height: "100%" }}
-                alt="banner"
-                width={100}
-                unoptimized
-                height={100}
-                src={"/image/banner3.png"}
-              />
-            </Box>
-            <Box width={"100vw"} height={"100%"}>
-              <Image
-                style={{ width: "100%", height: "100%" }}
-                alt="banner"
-                width={100}
-                height={100}
-                unoptimized
-                src={"/image/banner4.png"}
-              />
-            </Box>
+            {["/image/banner1.png", "/image/banner2.png", "/image/banner3.png", "/image/banner4.png"].map(
+              (src, index) => (
+                <Box key={index} width={"100vw"} height={"100%"}>
+                  <Image
+                    style={{ width: "100%", height: "100%" }}
+                    alt={`banner-${index + 1}`}
+                    width={100}
+                    height={100}
+                    src={src}
+                    unoptimized
+                  />
+                </Box>
+              )
+            )}
           </StyledCarousel>
         </div>
+
+        {/* Nội dung trên Carousel */}
         <Box
           sx={{
             position: "absolute",
@@ -112,26 +93,21 @@ export default function Banner() {
             justifyContent: "center",
             alignItems: "flex-start",
             color: "white",
-            zIndex: 10, // Ensure it's above the slider
             overflow: "hidden",
           }}
         >
           <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[50px] leading-[30px] lg:leading-[60px] 2xl:leading-[73.14px]">
-            We <span style={{ color: "#39E63D" }}>Provide</span> The Best
+            We <span style={{ color: "#28FF90" }}>Provide</span> The Best
           </text>
           <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[50px] leading-[30px] lg:leading-[60px] 2xl:leading-[73.14px] flex">
             industrial solution
-            <text className=" hidden md:flex xl:ml-4 md:ml-1">
-              {" "}
-              for business
-            </text>
+            <text className=" hidden md:flex xl:ml-4 md:ml-1">for business</text>
           </text>
           <text className="mt-[32px] lg:mb-[50px] 2xl:mb-[80px] hidden md:flex">
-            We have almost 8+ years of experience for helping industrial
-            services and business solutions
+            We have almost 8+ years of experience for helping industrial services and business solutions
           </text>
 
-          <div className="flex gap-[20px] xl:gap-[35px] mt-[25px] sm:mt-[35px] w-[65%] md:w-[50%] lg:w-[45%]">
+          <div className="flex gap-[20px] xl:gap-[35px] mt-[25px] sm:mt-[35px] w-[65%] md:w-[50%] lg:w-[45%] z-20">
             <button
               onClick={() => router.push("/about-us#scope-of-service")}
               className="bg-gradient-to-br from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] lg:py-[10px] 2xl:py-[20px] rounded-[8px] text-[9px] md:text-[12px] ld:text-[16px] xl:text-[20px] w-[50%] font-bold"
@@ -147,6 +123,8 @@ export default function Banner() {
             </button>
           </div>
         </Box>
+
+        <div className="absolute bottom-0 left-0 w-full bg-[#00366A] opacity-[0.1] h-[100%] z-10"></div>
       </Box>
     </div>
   );

@@ -126,21 +126,21 @@ function Content() {
           {!isShowMore && (
             <div
               className="
-          relative
-          rounded-[14px] 
-          border-transparent
-          bg-gradient-to-r from-[#007BB0] to-[#00366A]
-          w-[50%]
-          p-[2px]
-          mt-[24px] md:mt-[26px] lg:mt-[32px] 2xl:mt-[48px]
-          "
+              relative
+              rounded-[10px] 
+              border-transparent
+              bg-gradient-to-r from-[#007BB0] to-[#00366A]
+              w-[50%]
+              p-[2px]
+              mt-[24px] md:mt-[26px] lg:mt-[32px] 2xl:mt-[48px]
+              "
             >
               <div
                 className="
             bg-white 
             flex justify-center 
             py-[10px] md:py-[12px] lg:py-[14px] xl:py-[14px] 2xl:py-[18px]
-            rounded-[12px]"
+            rounded-[8px]"
               >
                 <button
                   onClick={() => setIsShowMore(!isShowMore)}
@@ -244,6 +244,7 @@ function Content() {
               width={100}
               height={100}
               unoptimized
+              className="w-[100%] h-[100%] object-contain"
             />
           </div>
         </div>
