@@ -178,7 +178,7 @@ const Capacity = () => {
                 <Image
                   unoptimized
                   alt=""
-                  src={"/image/capacity2.2.png"}
+                  src={"/image/capacity2.1.png"}
                   style={{
                     width: "100%",
                     height: "100%",
