@@ -180,7 +180,7 @@ function Content() {
 
           <div className="grid grid-cols-3 md:gap-y-[60px] md:mt-[50px] 2xl:mt-[70px]">
             {dataHistory?.map((item: any, index: number) => (
-              <div className="text-center flex flex-col">
+              <div key={index} className="text-center flex flex-col">
                 <text className="text-[#28FF90] text-[40px] 2xl:text-[56px] font-bold line-clamp-1">
                   {item.year}
                 </text>
@@ -213,7 +213,7 @@ function Content() {
           <div className="grid grid-cols-1 md:gap-y-[60px] mt-[30px] md:mt-[50px] 2xl:mt-[70px]">
             <Carousel {...settings} autoplay>
               {dataHistory?.map((item: any, index: number) => (
-                <div className="text-center flex flex-col w-[100%]">
+                <div key={index} className="text-center flex flex-col w-[100%]">
                   <text className="text-[#28FF90] text-[40px] 2xl:text-[56px] font-bold line-clamp-1">
                     {item.year}
                   </text>

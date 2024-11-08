@@ -98,7 +98,7 @@ function WhoWeAre() {
           >
             {data.map((item, index) => (
               <div
-                className="bg-white opacity-[0.8] lg:px-[16px] 2xl:px-[20px] pb-[10px] 2xl:pb-[20px] rounded-[12px] pt-[10px] w-[100%] px-[25px] py-[25px] mt-[25px] overflow-hidden max-h-[50vh] h-[65%] 2xl:h-[60%]"
+                className="bg-white opacity-[0.9] lg:px-[16px] 2xl:px-[20px] pb-[10px] 2xl:pb-[20px] rounded-[12px] pt-[10px] w-[100%] px-[25px] py-[25px] mt-[25px] overflow-hidden max-h-[50vh] h-[65%] 2xl:h-[60%]"
                 style={{ boxShadow: "0 0 10px 5px #7B7A7A0F" }}
                 key={index}
               >
@@ -123,25 +123,28 @@ function WhoWeAre() {
                       <text className="text-[#00366A] text-[20px] md:text-[22px] 2xl:text-[32px] font-semibold leading-[100%] line-clamp-1">
                         {item.title}
                       </text>
-                      <text className="opacity-[0.7] mt-[10px] 
-                      text-[13px] 2xl:text-[18px] line-clamp-4 lg:line-clamp-5 xl:line-clamp-[7] text-[#252724] font-extralight leading-[20px] 2xl:leading-[26px]">
+                      <text
+                        className="opacity-[0.7] mt-[10px] 
+                      text-[13px] 2xl:text-[18px] line-clamp-4 lg:line-clamp-5 xl:line-clamp-[7] text-[#252724] font-extralight leading-[20px] 2xl:leading-[26px]"
+                      >
                         {item.description}
                       </text>
                     </div>
                   </div>
 
                   <div className="flex border-[#00366a59] border-t-[1px] mt-[18px] pt-[18px] items-center">
-                    <button className="text-[#00366A] text-[14px] 2xl:text-[18px] mr-[8px]">
+                    <button className="text-[#00366A] text-[14px] 2xl:text-[18px] mr-[8px] flex items-center">
                       Read More
+                      <Image
+                        unoptimized
+                        style={{ objectFit: "contain" }}
+                        alt=""
+                        src="/image/Arrow 1.png"
+                        width={12}
+                        height={1}
+                        className="ml-[5px]"
+                      />
                     </button>
-                    <Image
-                      unoptimized
-                      style={{ objectFit: "contain" }}
-                      alt=""
-                      src="/image/Arrow 1.png"
-                      width={12}
-                      height={1}
-                    />
                   </div>
                 </div>
               </div>

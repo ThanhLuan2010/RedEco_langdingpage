@@ -266,7 +266,10 @@ export default function Header() {
                 // Drawer
                 if (item?.text === "PRODUCTS") {
                   return (
-                    <div className="relative inline-block group z-[1000]">
+                    <div
+                      key={index}
+                      className="relative inline-block group z-[1000]"
+                    >
                       <button
                         className="group-hover:text-white text-[#00366A] 
                         font-bold px-4 py-2 group-hover:bg-gradient-to-t from-[#007BB0] to-[#00366A] 
@@ -298,7 +301,7 @@ export default function Header() {
 
                       <div
                         className="absolute text-[14px] md:text-[15px] xl:text-[16px]  hidden group-hover:block bg-custom-gradient
-                       text-white w-[250%] px-[20px] pt-[40px] pb-[26px] rounded-b-[12px] rounded-tr-[12px]"
+                       text-white w-[250%] px-[10px] pt-[40px] pb-[26px] rounded-b-[12px] rounded-tr-[12px]"
                       >
                         <ul className="p-4 space-y-4">
                           <li
@@ -309,7 +312,9 @@ export default function Header() {
                             }}
                           >
                             <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
-                            <text className="hover:border-b-[1px] border-white">Machine Components & Details</text>
+                            <text className="hover:border-b-[1px] border-white">
+                              Machine Components & Details
+                            </text>
                           </li>
                           <li
                             className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
@@ -319,7 +324,9 @@ export default function Header() {
                             }}
                           >
                             <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
-                            <text className="hover:border-b-[1px] border-white">Automation</text>
+                            <text className="hover:border-b-[1px] border-white">
+                              Automation
+                            </text>
                           </li>
                           <li
                             className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
@@ -329,7 +336,9 @@ export default function Header() {
                             }}
                           >
                             <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
-                            <text className="hover:border-b-[1px] border-white">Plastic Injection Products</text>
+                            <text className="hover:border-b-[1px] border-white">
+                              Plastic Injection Products
+                            </text>
                           </li>
                           <li
                             className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
@@ -339,7 +348,9 @@ export default function Header() {
                             }}
                           >
                             <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
-                            <text className="hover:border-b-[1px] border-white">Silicone Rubber Products</text>
+                            <text className="hover:border-b-[1px] border-white">
+                              Silicone Rubber Products
+                            </text>
                           </li>
                           <li
                             className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
@@ -349,7 +360,9 @@ export default function Header() {
                             }}
                           >
                             <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
-                            <text className="hover:border-b-[1px] border-white">Other Products</text>
+                            <text className="hover:border-b-[1px] border-white">
+                              Other Products
+                            </text>
                           </li>
                         </ul>
                       </div>
@@ -357,30 +370,37 @@ export default function Header() {
                   );
                 } else
                   return (
-                    <Button
-                      className="line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] px-[20px] py-[20px] rounded-[12px]"
-                      key={index}
-                      sx={{
-                        // backgroundImage:
-                        //   pathName === item.href
-                        //     ? "linear-gradient(70deg, #007BB0 10%, #00366A 90%)"
-                        //     : "transparent",
-                        fontFamily: "Montserrat",
-                        fontWeight: "700",
-                        "&:hover": {
-                          background:
-                            "linear-gradient(70deg, #007BB0 10%, #00366A 90%)", // Gradient khi hover
-                          color: "white",
-                          // padding: "10px 0 10px",
-                        },
-                        color: "#00366A",
-                        // color: pathName === item.href ? "white" : "#00366A",
+                    // <Button
+                    //   className="line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] px-[10px] py-[20px] rounded-[12px]"
+                    //   key={index}
+                    //   sx={{
+                    //     fontFamily: "Montserrat",
+                    //     fontWeight: "700",
+                    //     "&:hover": {
+                    //       background:
+                    //         "linear-gradient(70deg, #007BB0 10%, #00366A 90%)", // Gradient khi hover
+                    //       color: "white",
+                    //       // padding: "10px 0 10px",
+                    //     },
+                    //     color: "#00366A",
+                    //     // color: pathName === item.href ? "white" : "#00366A",
+                    //   }}
+                    //   component={Link}
+                    //   href={item.href}
+                    // >
+                    <button
+                      className="hover:text-white text-[#00366A] 
+                        font-bold px-4 py-2 hover:bg-gradient-to-t from-[#007BB0] to-[#00366A] 
+                        focus:outline-none text-[10px] md:text-[12px] xl:text-[14px]
+                        2xl:text-[18px] px-[10px] py-[20px] rounded-[12px] flex items-center z-[1000]"
+                      onClick={() => {
+                        router.prefetch(item.href);
+                        router.push(item.href);
                       }}
-                      component={Link}
-                      href={item.href}
                     >
-                      {item.text}
-                    </Button>
+                      <text className="line-clamp-1">{item.text}</text>
+                    </button>
+                    // </Button>
                   );
               })}
               <div className="h-[5vh] w-[25%] flex items-center rounded-[12px] pl-[8px] border-[1px] overflow-hidden border-[#00366A] relative ml-[64px]">

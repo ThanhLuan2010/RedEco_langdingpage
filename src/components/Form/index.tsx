@@ -86,7 +86,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
         setSearchTerm((prevTerm) => prevTerm + char);
 
         // Reset chuỗi tìm kiếm sau 1 giây nếu không có phím mới
-        // setTimeout(() => setSearchTerm(""), 1000);
+        setTimeout(() => setSearchTerm(""), 1000);
       }
     };
     window.addEventListener("keydown", handleKeydown);
@@ -101,6 +101,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
       const match = countries.find((country) =>
         country.toLowerCase().startsWith(searchTerm.toLowerCase())
       );
+      console.log(searchTerm);
       console.log(match);
       if (match) {
         setSelectedCountry(match);
@@ -197,10 +198,10 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
           type={type}
           value={formData[id] || ""}
           onChange={handleChange}
-          className={`textfield__input ${
+          className={`textfield__input font-Montserrat font-normal ${
             errors[id] ? "textfield__input--error" : ""
           }`}
-          placeholder=" "
+          placeholder=""
         />
         <label
           htmlFor={id}
@@ -212,7 +213,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
         </label>
       </fieldset>
       {errors[id] && (
-        <small className="text-red-500 text-sm mt-1">{errors[id]}</small>
+        <small className="text-red-500 text-sm mt-1 font-Montserrat font-normal">{errors[id]}</small>
       )}
     </div>
   );

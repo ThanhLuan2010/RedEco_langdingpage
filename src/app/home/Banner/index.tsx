@@ -1,17 +1,13 @@
 "use client";
 import { Box } from "@mui/material";
-import dynamic from "next/dynamic";
+import { Carousel } from "antd";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import styled from "styled-components";
 
-// Tải chậm Carousel để cải thiện hiệu suất
-const Carousel = dynamic(() => import("antd").then((mod) => mod.Carousel), {
-  ssr: false,
-});
+;
 
 
-// Styled component cho Carousel để giữ lại style dots
 const StyledCarousel = styled(Carousel)`
   .slick-dots {
     display: flex !important;

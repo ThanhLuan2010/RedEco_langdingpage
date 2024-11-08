@@ -9,7 +9,6 @@ import ScopeOfService from "./ScopeOfService";
 import Customer from "./Customer";
 import Commit from "./Commit";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import { useRouter } from 'next/navigation';
 import PhoneButton from "@/components/phoneButton";
 function About() {

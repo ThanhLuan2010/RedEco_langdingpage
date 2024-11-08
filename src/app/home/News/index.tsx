@@ -19,7 +19,7 @@ function News() {
             <Col xs={24} sm={12} md={12} key={index}>
               <div
                 style={{
-                  padding: "16px 16px 36px 16px",
+                  padding: "16px 16px 20px 16px",
                   borderRadius: "16px",
                   boxShadow: "0 2px 8px rgba(0, 0, 0, 0.2)",
                   cursor: "pointer",

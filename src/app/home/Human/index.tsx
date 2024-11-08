@@ -8,6 +8,7 @@ const products = [
   { name: "human3", imageUrl: "/image/human3.png" },
   { name: "human4", imageUrl: "/image/human4.png" },
   { name: "human5", imageUrl: "/image/human5.png" },
+  { name: "human6", imageUrl: "/image/human6.png" },
 ];
 
 const settings = {

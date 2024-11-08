@@ -110,16 +110,16 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
           color: "#707070",
         }}
         htmlFor={id}
-        className={`textfield__label textfield__label--required ${
-          !value && "mt-[15px]"
+        className={`textfield__label textfield__label--required font-Montserrat font-normal  ${
+          !value && "mt-[15px] opacity-[0.6]"
         }`}
       >
         {label}
       </label>
 
       {isOpen && (
-        <ul className="absolute z-10 text-[14px] px-[8px] py-[8px] bg-white border border-gray-300 rounded-lg w-full mt-1 max-h-96 overflow-y-auto shadow-lg">
-          <div className="flex px-1 gap-2 items-center pt-2 text-[#DADADA]">
+        <ul className="absolute z-10 text-[14px] py-[8px] bg-white border border-gray-300 rounded-lg w-full mt-1 max-h-96 overflow-y-auto shadow-lg">
+          <div className="px-[8px] flex px-1 gap-2 items-center pt-2 text-[#DADADA]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 text-[#DADADA]"
@@ -137,12 +137,13 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
               <span className="absolute ml-2 text-red-600">*</span>
             </li>
           </div>
-          {options.map((option, index) => (
-            <li
-              key={index}
-              ref={selectedCountry === option ? selectedOptionRef : null} // Gán ref cho mục đã chọn
-              onClick={() => handleOptionClick(option)}
-              className={`flex justify-between  items-center px-[16px] py-[8px] cursor-pointer 
+          <div className="max-h-96 overflow-y-auto">
+            {options.map((option, index) => (
+              <li
+                key={index}
+                ref={selectedCountry === option ? selectedOptionRef : null} // Gán ref cho mục đã chọn
+                onClick={() => handleOptionClick(option)}
+                className={`flex justify-between  items-center px-[16px] py-[8px] cursor-pointer 
                           hover:bg-[#00366A] hover:text-white 
                           ${
                             value === option
@@ -150,24 +151,25 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
                               : "text-[#707070]"
                           } 
                           }`}
-            >
-              <span>{option}</span>
-              {value === option && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-[#00366A]"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              )}
-            </li>
-          ))}
+              >
+                <span>{option}</span>
+                {value === option && (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5 text-[#00366A]"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                )}
+              </li>
+            ))}
+          </div>
         </ul>
       )}
 

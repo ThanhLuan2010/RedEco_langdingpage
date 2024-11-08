@@ -79,7 +79,7 @@ export default function Footer({ style }: any) {
                   </div>
                 </Col>
               ) : (
-                <Col style={{ paddingRight: "5%" }} xs={24} sm={12} md={7}>
+                <Col style={{ paddingRight: "5%" }} xs={24} sm={12} md={8}>
                   <div className="text-[#EDF0F4] text-[14px] 2xl:text-[18px] font-bold">
                     <text>SUBSCRIBE TO NEWSLETTER</text>
                   </div>
@@ -99,6 +99,7 @@ export default function Footer({ style }: any) {
                       width: "100%",
                       color: "#EDF0F4",
                       paddingX: "12px",
+                      fontFamily: "Montserrat",
                     }}
                     placeholder="Email address..."
                   />
@@ -110,7 +111,7 @@ export default function Footer({ style }: any) {
                       fontFamily: "Montserrat",
                       marginTop: "10%",
                     }}
-                    className="text-[14px] 2xl:text-[16px] text-[#EDF0F4]"
+                    className="text-[13px] 2xl:text-[16px] text-[#EDF0F4]"
                   >
                     This site is protected by the Google 
                     <span
@@ -165,7 +166,7 @@ export default function Footer({ style }: any) {
                 </Col>
               )}
 
-              <Col xs={24} sm={12} md={7}>
+              <Col className="translate-x-[-5%]" xs={24} sm={12} md={6}>
                 <div
                   className="cursor-pointer"
                   onClick={() => {

@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
+import { Montserrat } from '@next/font/google'
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: "--font-montserrat",
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'], // Chọn các trọng số từ 100 đến 900
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,13 +35,13 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
       </head>
 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.className} antialiased`}
       >
         <Header />
 
