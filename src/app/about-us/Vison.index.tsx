@@ -29,7 +29,7 @@ function Vison() {
             REDECO VIETNAM always working to develop in the direction:
           </text>
         </div>
-        <div className="flex flex-col font-medium mt-[8px] text-[14px] md:text-[15px] 2xl:text-[18px]">
+        <div className="flex flex-col font-medium mt-[4px] md:mt-[8px] text-[14px] md:text-[15px] 2xl:text-[18px]">
           <text className="line-clamp-1 mt-[2px]">
             <span className="text-[10px] mr-[5px] md:mr-[10px] ">●</span>{" "}
             Professionalize all activities of the company

@@ -95,7 +95,7 @@ const GalleryTabs = () => {
       </text>
 
       <div
-        className="relative flex justify-between rounded-full overflow-hidden xl:w-[38%] lg:w-[42%] md:w-[58%] sm:w-[70%] w-[90%] p-[2px] md:mt-[30px] mt-[20px] 2xl:mt-[40px]"
+        className="relative flex justify-between rounded-full overflow-hidden xl:w-[38%] lg:w-[42%] md:w-[58%] sm:w-[70%] w-[90%] p-[1px] md:p-[2px] md:mt-[30px] mt-[20px] 2xl:mt-[40px]"
         style={{
           background: "linear-gradient(to right, #007BB0, #00366A)",
         }}
@@ -133,7 +133,7 @@ const TabButton = ({ label, isActive, onClick }: any) => (
       ${
         isActive
           ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"
-          : "text-[#00366A] font-bold"
+          : "text-[#00366A] font-medium md:font-bold"
       }
       rounded-full
     `}

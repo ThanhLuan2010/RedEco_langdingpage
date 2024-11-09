@@ -117,7 +117,7 @@ function PhoneButton() {
         onClick={() => setIsOpen(false)}
       >
         <div
-          className={`bg-white w-80 rounded-[16px] overflow-hidden shadow-lg p-5 absolute  right-10 bottom-10 transition-transform transform duration-500 ${
+          className={` w-80 rounded-[16px] overflow-hidden shadow-lg  absolute  right-10 bottom-10 transition-transform transform duration-500 ${
             isOpen ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
           }`}
           onClick={(e) => e.stopPropagation()} // Ngăn chặn sự kiện click trên modal nền
@@ -139,7 +139,7 @@ function PhoneButton() {
           <div className="bg-gradient-to-r from-[#007BB0] to-[#00366A] text-white p-[12px] rounded-t-[16px] text-center border-[2px] border-[#00366A]">
             <h2 className="text-lg font-semibold">CONTACT US</h2>
           </div>
-          <div className="px-[24px] py-[25px]">
+          <div className="px-[24px] py-[25px] bg-white">
             <h3 className="text-lg font-semibold text-gray-800">
               Redeco Vietnam Industrial Solutions JSC
             </h3>
@@ -168,7 +168,7 @@ function PhoneButton() {
                     height={100}
                   />
                 </span>
-                <strong className="mr-2">Phone:</strong> (+84)913.882.867
+                <strong className="mr-2">Phone:</strong> (+84) 913 882 867
               </p>
               <p className="flex items-center text-gray-700 mt-2">
                 <span className="mr-2 opacity-0">
@@ -182,7 +182,7 @@ function PhoneButton() {
                   />
                 </span>
                 <strong className="opacity-0 mr-2">Phone:</strong>{" "}
-                (+84)962.018.838
+                (+84) 962 018 838
               </p>
               <p className="flex items-center text-gray-700 mt-2">
                 <span className="mr-2">

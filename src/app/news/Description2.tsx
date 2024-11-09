@@ -64,13 +64,13 @@ function Description2() {
       </div>
 
       <div className="flex flex-col-reverse md:flex-row mt-4 md:mt-6 lg:mt-8 2xl:mt-10">
-        <div className="w-[100%] md:w-[40%] h-auto ml-0 flex mr-0 md:mr-[3%]">
+        <div className="w-[100%] md:w-[40%] mt-[20px] md:mt-0 h-auto ml-0 flex mr-0 md:mr-[3%]">
           <Image
             alt=""
             src={"/image/news2-banner2.png"}
             width={100}
             unoptimized
-            className="w-[100%] h-[100%] rounded-[16px] object-contain"
+            className="w-[100%] h-[100%] rounded-[16px] object-cover bg-blue-500"
             height={100}
           />
         </div>

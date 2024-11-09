@@ -31,7 +31,7 @@ function Banner() {
             onClick={() => router.push("/product")}
             className="
             bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] 
-            md:py-[15px] xl:py-[15px] 2xl:py-[20px] rounded-[8px] text-[9px] 
+            md:py-[15px] xl:py-[15px] 2xl:py-[20px] rounded-[8px] text-[8px] 
             md:text-[12px] ld:text-[13px] xl:text-[15px] 2xl:text-[20px] w-[50%] font-bold"
           >
             OUR PRODUCTS
@@ -40,7 +40,7 @@ function Banner() {
           <button
             onClick={() => router.push("/contact-us")}
             className="py-[10px] 
-            md:py-[15px] xl:py-[15px] 2xl:py-[20px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[9px] md:text-[12px] ld:text-[13px] xl:text-[15px] 2xl:text-[20px]"
+            md:py-[15px] xl:py-[15px] 2xl:py-[20px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[8px] md:text-[12px] ld:text-[13px] xl:text-[15px] 2xl:text-[20px]"
           >
             CONTACT US
           </button>

@@ -76,10 +76,10 @@ function Content() {
   ];
   return (
     <>
-      <div className="flex flex-col md:flex-row px-[20px] md:px-[5%] xl:px-[10%] mt-[48px] md:mt-[60px] lg:mt-[8px] xl:mt-[100px] 2xl:mt-[140px] items-end ">
+      <div className="flex flex-col md:flex-row px-[20px] md:px-[5%] xl:px-[10%] mt-[40px] md:mt-[60px] lg:mt-[8px] xl:mt-[100px] 2xl:mt-[140px] items-end ">
         <div className="w-[100%] md:w-[50%] flex  flex-col items-center">
           <div className="justify-center flex items-center ">
-            <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold pb-[4px] relative text-[#00366A]">
+            <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold md:pb-[4px] relative text-[#00366A]">
               ABOUT US
               <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
             </text>
@@ -88,8 +88,8 @@ function Content() {
           <div
             className="
             mt-[18px] md:mt-[28px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[46px] 
-            leading-[20px] md:leading-[22px] lg:leading-[26px]  2xl:leading-[36px]
-            text-[16px] md:text-[15px] lg:text-[16px] 2xl:text-[20px]
+            leading-[20px] md:leading-[22px] lg:leading-[28px] 2xl:leading-[36px]
+            text-[14px] md:text-[15px] lg:text-[16px] 2xl:text-[20px]
             "
             >
             <div>
@@ -127,24 +127,24 @@ function Content() {
             <div
               className="
               relative
-              rounded-[10px] 
+              rounded-[6px] md:rounded-[10px] 
               border-transparent
               bg-gradient-to-r from-[#007BB0] to-[#00366A]
-              w-[50%]
-              p-[2px]
+              w-[30%] md:w-[40%]
+              p-[1px] md:p-[2px]
               mt-[24px] md:mt-[26px] lg:mt-[32px] 2xl:mt-[48px]
               "
             >
               <div
                 className="
-            bg-white 
-            flex justify-center 
-            py-[10px] md:py-[12px] lg:py-[14px] xl:py-[14px] 2xl:py-[18px]
-            rounded-[8px]"
+                bg-white 
+                flex justify-center 
+                py-[10px] md:py-[12px] lg:py-[14px] xl:py-[14px] 2xl:py-[18px]
+                rounded-[6px] md:rounded-[8px]"
               >
                 <button
                   onClick={() => setIsShowMore(!isShowMore)}
-                  className="text-[10px] md:text-[12px] lg:text-[14px] 2xl:text-[20px]"
+                  className="text-[10px] md:text-[12px] lg:text-[14px] 2xl:text-[20px] text-[#00366A] font-semibold md:font-medium"
                 >
                   MORE DETAIL
                 </button>
@@ -175,7 +175,7 @@ function Content() {
         >
           <text className="text-[24px] md:text-[30px] lg:text-[38px] 2xl:text-[48px] font-bold relative text-white mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[90px]">
             REDECO’S HISTORY
-            <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-white" />
+            <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[30%] md:w-[50%] h-[2px] xl:h-[5px] bg-white" />
           </text>
 
           <div className="grid grid-cols-3 md:gap-y-[60px] md:mt-[50px] 2xl:mt-[70px]">
@@ -207,7 +207,7 @@ function Content() {
         >
           <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold relative text-white mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[90px]">
             REDECO’S HISTORY
-            <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-white" />
+            <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[30%] md:w-[50%] h-[2px] xl:h-[5px] bg-white" />
           </text>
 
           <div className="grid grid-cols-1 md:gap-y-[60px] mt-[30px] md:mt-[50px] 2xl:mt-[70px]">
@@ -234,7 +234,7 @@ function Content() {
         <div className="flex items-center justify-center flex-col pb-[60px] md:pb-[75px] 2xl:pb-[110px] mt-[20px] md:mt-[45px] lg:mt-[50px] px-[20px] md:px-[5%] xl:px-[10%]">
           <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold relative text-[#00366A] mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[90px]">
             ORGANIZATIONAL CHART
-            <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
+            <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[20%] md:w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
           </text>
 
           <div className="mt-[24px] md:mt-[35px] lg:mt-[50px] xl:mt-[60px] 2xlmd:mt-[80px]">

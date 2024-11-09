@@ -14,7 +14,7 @@ const StyledCarousel = styled(Carousel)`
   }
 
   .slick-dots li {
-    margin: 0 1px; /* Tạo khoảng cách đều cho các dot không active */
+    margin: 0 3px; /* Tạo khoảng cách đều cho các dot không active */
   }
 
   .slick-dots li.slick-active {
@@ -47,7 +47,7 @@ const StyledCarousel = styled(Carousel)`
     margin-right: 10px;
   }
   /* Ẩn dots khi màn hình dưới 768px */
-  @media (max-width: 68px) {
+  @media (max-width: 768px) {
     .slick-dots li.slick-active button {
       width: 20px; /* Chiều rộng dot active */
       height: 8px; /* Chiều cao dot active */
@@ -163,7 +163,7 @@ const CustomCarousel = () => {
         PRODUCTS
         <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
       </text>
-      <div className="bg-[#F7F9F9] w-full px-[20px] lg:px-[7%] xl:px-[10%] mt-[16px] md:mt-[36px] lg:mt-[56px] xl:mt-[70px]">
+      <div className="bg-[#F7F9F9] w-full px-[20px] lg:px-[7%] xl:px-[10%] mt-[16px] md:mt-[36px] lg:mt-[50px] 2xl:mt-[60px]">
         <Box width={"100%"}>
           <StyledCarousel style={{ height: "100%" }} autoplay {...settings}>
             {products.map((product, index) => (
@@ -174,15 +174,13 @@ const CustomCarousel = () => {
               >
                 <div
                   style={{
-                    backdropFilter: "blur(2.8914549350738525px)",
-                    boxShadow:
-                      "0px 1.45px 8.67px 0px #7B7A7A0F, 0px 2.89px 17.35px 0px #7B7A7A1F",
+                    // boxShadow: "2px 2px 8px rgba(0, 0, 0, 0.1)",
                     backgroundColor: "white",
                   }}
-                  className="mx-[10px] rounded-[12px] my-[10px] h-[20vh] sm:h-[35vh] 2xl:h-[35vh]"
+                  className="mx-[10px] rounded-[12px] my-[10px] h-[20vh] sm:h-[35vh] 2xl:h-[35vh] shadow-even"
                 >
-                  <div className="h-[100%] px-[12px] py-[12px] text-center">
-                    <div className="border-[2px] border-[#00366A] rounded-[12px] flex justify-center items-center h-[70%] ">
+                  <div className="h-[100%] px-[12px] py-[12px] md:px-[20px] md:py-[20px] text-center">
+                    <div className="border-[2px] border-[#00366A] rounded-[10px] flex justify-center items-center h-[70%] ">
                       <Image
                         style={{
                           objectFit: "contain",

@@ -72,18 +72,18 @@ function ScopeOfService() {
       <div className="justify-center flex items-center ">
         <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
           SCOPE OF SERVICES
-          <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
+          <span className="absolute bottom-[0px] md:bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
         </text>
       </div>
 
       <div className="mt-[18px] md:mt-[24px] lg:mt-[30px] xl:mt-[35px] 2xl:mt-[40px] text-center">
-        <text className=" 2xl:text-[20px]">
+        <text className=" 2xl:text-[20px] text-[14px] md:text-[15px] xl:text-[18px]">
           REDECO VIETNAM offers a wide range of solutions tailored to meet the
           unique needs of each customer
         </text>
       </div>
 
-      <div className="mt-[30px] flex flex-col-reverse md:flex-row gap-[32px] md:gap-[46px] lg:gap-[58] xl:gap-[70px] 2xl:gap-[92px]">
+      <div className="md:mt-[30px] flex flex-col-reverse md:flex-row gap-[32px] md:gap-[46px] lg:gap-[58] xl:gap-[70px] 2xl:gap-[92px]">
         <div className="w-100% md:w-[50%]">
           <Image
             alt=""

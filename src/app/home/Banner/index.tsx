@@ -5,9 +5,6 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import styled from "styled-components";
 
-;
-
-
 const StyledCarousel = styled(Carousel)`
   .slick-dots {
     display: flex !important;
@@ -57,23 +54,39 @@ export default function Banner() {
   return (
     <div className="h-[90vh]">
       <Box sx={{ width: "100vw", position: "relative" }}>
-        <div>
+        <div className="hidden md:block">
           <StyledCarousel autoplay autoplaySpeed={2000}>
-            {["/image/banner1.png", "/image/banner2.png", "/image/banner3.png", "/image/banner4.png"].map(
-              (src, index) => (
-                <Box key={index} width={"100vw"} height={"100%"}>
-                  <Image
-                    style={{ width: "100%", height: "100%" }}
-                    alt={`banner-${index + 1}`}
-                    width={100}
-                    height={100}
-                    src={src}
-                    unoptimized
-                  />
-                </Box>
-              )
-            )}
+            {[
+              "/image/banner1.png",
+              "/image/banner2.png",
+              "/image/banner3.png",
+              "/image/banner4.png",
+            ].map((src, index) => (
+              <Box key={index} width={"100vw"} height={"100%"}>
+                <Image
+                  style={{ width: "100%", height: "100%" }}
+                  alt={`banner-${index + 1}`}
+                  width={100}
+                  height={100}
+                  src={src}
+                  unoptimized
+                />
+              </Box>
+            ))}
           </StyledCarousel>
+        </div>
+
+        <div className="md:hidden">
+          <Box  width={"100vw"} height={"100%"}>
+            <Image
+              style={{ width: "100%", height: "100%" }}
+              alt={`banner`}
+              width={100}
+              height={100}
+              src={"/image/banner1.png"}
+              unoptimized
+            />
+          </Box>
         </div>
 
         {/* Nội dung trên Carousel */}
@@ -97,10 +110,13 @@ export default function Banner() {
           </text>
           <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[50px] leading-[30px] lg:leading-[60px] 2xl:leading-[73.14px] flex">
             industrial solution
-            <text className=" hidden md:flex xl:ml-4 md:ml-1">for business</text>
+            <text className=" hidden md:flex xl:ml-4 md:ml-1">
+              for business
+            </text>
           </text>
           <text className="mt-[32px] lg:mb-[50px] 2xl:mb-[80px] hidden md:flex">
-            We have almost 8+ years of experience for helping industrial services and business solutions
+            We have almost 8+ years of experience for helping industrial
+            services and business solutions
           </text>
 
           <div className="flex gap-[20px] xl:gap-[35px] mt-[25px] sm:mt-[35px] w-[65%] md:w-[50%] lg:w-[45%] z-20">

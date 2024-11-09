@@ -6,14 +6,10 @@ import {
   Drawer,
   IconButton,
   List,
-  Menu,
-  MenuItem,
-  Typography,
   useMediaQuery,
   useTheme,
 } from "@mui/material";
 import Image from "next/image";
-import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -26,10 +22,47 @@ const navItems = [
   { text: "CONTACT US", href: "/contact-us" },
 ];
 
+const ChevronDownIcon: React.FC<any> = ({ className }) => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M20 7.99997L12.9428 15.0572C12.4221 15.5779 11.5779 15.5779 11.0572 15.0572L4 7.99997"
+      stroke="#004890"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+  </svg>
+);
+
+const ChevronUpIcon: React.FC<any> = ({ className }) => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M4 16L11.0572 8.94281C11.5779 8.42211 12.4221 8.42211 12.9428 8.94281L20 16"
+      stroke="#004890"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+  </svg>
+);
+
 export default function Header() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+  const hideHeaderRoutes = ["/Search"];
   const pathName = usePathname();
   const router = useRouter();
   const [anchorEl, setAnchorEl] = useState(null);
@@ -41,7 +74,7 @@ export default function Header() {
 
   const drawer = (
     <div
-      // onClick={toggleDrawer(false)}
+      onClick={toggleDrawer(false)}
       className="w-screen h-screen bg-[#F7F9F9]"
     >
       <div className=" px-[20px]">
@@ -63,7 +96,7 @@ export default function Header() {
             unoptimized
             src={require("../../../public/image/logo.png")}
             alt="Logo"
-            style={{ width: "222px", height: "50px", objectFit: "contain" }}
+            style={{ width: "45%", objectFit: "contain" }}
           />
           <div className="w-[40px] h-[40px] rounded-full flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A]">
             <Button
@@ -94,78 +127,80 @@ export default function Header() {
                   } else {
                     router.prefetch(item.href);
                     router.push(item.href);
+                    toggleDrawer(false);
                     // handleMouseLeave();
                   }
                 }}
-                className="flex justify-between items-center w-full px-[20px] py-[15px]"
+                className="flex justify-between items-center w-full px-[20px] py-[10px]"
               >
                 <text className="text-[#00366A] font-bold text-[18px]">
                   {item.text}
                 </text>
                 {item?.text === "PRODUCTS" && (
-                  <Image
-                    unoptimized
-                    src={require("../../../public/icon/ic_down-blue.png")}
-                    alt="arrow-right"
-                    width={24}
-                    height={24}
-                  />
+                  <div>
+                    {isShowMore ? <ChevronUpIcon /> : <ChevronDownIcon />}
+                  </div>
                 )}
               </button>
               {item?.text === "PRODUCTS" && isShowMore && (
-                <div className="px-[20px] py-[15px] text-[#00366A] font-medium flex flex-col gap-[15px]">
+                <div className="px-[20px] pb-[15px] pt-[5px] text-[#00366A] font-medium flex flex-col gap-[15px]">
                   <div
-                    className="w-full cursor-pointer"
+                    className="w-full cursor-pointer items-center flex"
                     onClick={() => {
                       router.prefetch("/product#machine-details");
                       router.push("/product#machine-details");
+                      toggleDrawer(false);
                     }}
                   >
-                    <span className="text-[black] ">●</span>{" "}
+                    <span className="inline-block w-[6px] h-[6px] bg-[#00366A] rounded-sm mr-[10px]"></span>
                     <text>Machine Components & Details</text>
                   </div>
 
                   <div
-                    className="w-full cursor-pointer"
+                    className="w-full cursor-pointer items-center flex"
                     onClick={() => {
                       router.prefetch("/product#automation");
                       router.push("/product#automation");
+                      toggleDrawer(false);
                     }}
                   >
-                    <span className="text-[black] ">●</span>{" "}
+                    <span className="inline-block w-[6px] h-[6px] bg-[#00366A] rounded-sm mr-[10px]"></span>
                     <text>Automation</text>
                   </div>
 
                   <div
-                    className="w-full cursor-pointer"
+                    className="w-full cursor-pointer items-center flex"
                     onClick={() => {
                       router.prefetch("/product#plastic-injection");
                       router.push("/product#plastic-injection");
+                      toggleDrawer(false);
                     }}
                   >
-                    <span className="text-[black] ">●</span>{" "}
+                    <span className="inline-block w-[6px] h-[6px] bg-[#00366A] rounded-sm mr-[10px]"></span>
                     <text>Plastic Injection Products</text>
                   </div>
 
                   <div
-                    className="w-full cursor-pointer"
+                    className="w-full cursor-pointer items-center flex"
                     onClick={() => {
                       router.prefetch("/product#silicone-rubber");
                       router.push("/product#silicone-rubber");
+                      toggleDrawer(false);
                     }}
                   >
-                    <span className="text-[black] ">●</span>{" "}
+                    <span className="inline-block w-[6px] h-[6px] bg-[#00366A] rounded-sm mr-[10px]"></span>
                     <text>Silicone Rubber Products</text>
                   </div>
 
                   <div
-                    className="w-full cursor-pointer"
+                    className="w-full cursor-pointer items-center flex"
                     onClick={() => {
                       router.prefetch("/product#other-products");
                       router.push("/product#other-products");
+                      toggleDrawer(false);
                     }}
                   >
-                    <span className="text-[black] ">●</span>{" "}
+                    <span className="inline-block w-[6px] h-[6px] bg-[#00366A] rounded-sm mr-[10px]"></span>
                     <text>Other Products</text>
                   </div>
                 </div>
@@ -177,20 +212,8 @@ export default function Header() {
     </div>
   );
 
-  // Mở menu khi hover vào nút "Products"
-  const handleMouseEnter = (event: any) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  // Đóng menu khi rời chuột
-  const handleMouseLeave = () => {
-    setAnchorEl(null);
-  };
-
-  const open = Boolean(anchorEl);
-
-  return (
-    <div className="h-[10vh] w-[100vw] px-[20px] md:px[5%] xl:px-[10%]  bg-white justify-center items-center">
+  return !hideHeaderRoutes.includes(pathName) ? (
+    <div className="h-[10vh] w-[100vw] px-[20px] md:px[5%] xl:px-[10%]  bg-white justify-center items-center sticky top-0 left-0 z-[1000]">
       <div className="flex h-[100%]">
         {/* <Toolbar style={{ padding: "20px 0 20px" }} className="w-[100%] justify-between"> */}
         <div className="flex  w-[100%] items-center justify-between ">
@@ -224,7 +247,10 @@ export default function Header() {
             </>
           )}
           {/* Center - LOGO */}
-          <div className="justify-center items-center lg:items-start lg:justify-start flex w-[80%] lg:w-[20%]">
+          <div className="justify-center items-center lg:items-start lg:justify-start flex w-[55%] lg:w-[20%] cursor-pointer" onClick={() => {
+            router.prefetch("/home");
+            router.push("/home");
+          }}>
             <Image
               unoptimized
               src={"/image/logo.png"}
@@ -274,7 +300,7 @@ export default function Header() {
                         className="group-hover:text-white text-[#00366A] 
                         font-bold px-4 py-2 group-hover:bg-gradient-to-t from-[#007BB0] to-[#00366A] 
                         focus:outline-none line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px]
-                        2xl:text-[18px] px-[20px] py-[20px] rounded-t-[12px] rounded-b-none flex items-center z-[1000]"
+                        2xl:text-[18px] px-[10px] py-[15px] rounded-t-[12px] rounded-b-none flex items-center z-[1000]"
                         onClick={() => {
                           router.prefetch("/product#machine-details");
                           router.push("/product#machine-details");
@@ -311,7 +337,7 @@ export default function Header() {
                               router.push("/product#machine-details");
                             }}
                           >
-                            <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
+                            <span className="inline-block w-[6px] h-[6px] bg-[white] rounded-sm mr-[10px]"></span>
                             <text className="hover:border-b-[1px] border-white">
                               Machine Components & Details
                             </text>
@@ -323,7 +349,7 @@ export default function Header() {
                               router.push("/product#automation");
                             }}
                           >
-                            <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
+                            <span className="inline-block w-[6px] h-[6px] bg-[white] rounded-sm mr-[10px]"></span>
                             <text className="hover:border-b-[1px] border-white">
                               Automation
                             </text>
@@ -335,7 +361,7 @@ export default function Header() {
                               router.push("/product#plastic-injection");
                             }}
                           >
-                            <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
+                            <span className="inline-block w-[6px] h-[6px] bg-[white] rounded-sm mr-[10px]"></span>
                             <text className="hover:border-b-[1px] border-white">
                               Plastic Injection Products
                             </text>
@@ -347,7 +373,7 @@ export default function Header() {
                               router.push("/product#silicone-rubber");
                             }}
                           >
-                            <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
+                            <span className="inline-block w-[6px] h-[6px] bg-[white] rounded-sm mr-[10px]"></span>
                             <text className="hover:border-b-[1px] border-white">
                               Silicone Rubber Products
                             </text>
@@ -359,7 +385,7 @@ export default function Header() {
                               router.push("/product#other-products");
                             }}
                           >
-                            <span className="inline-block w-[6px] h-[6px] bg-white rounded-sm mr-[10px]"></span>
+                            <span className="inline-block w-[6px] h-[6px] bg-[white] rounded-sm mr-[10px]"></span>
                             <text className="hover:border-b-[1px] border-white">
                               Other Products
                             </text>
@@ -370,29 +396,11 @@ export default function Header() {
                   );
                 } else
                   return (
-                    // <Button
-                    //   className="line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] px-[10px] py-[20px] rounded-[12px]"
-                    //   key={index}
-                    //   sx={{
-                    //     fontFamily: "Montserrat",
-                    //     fontWeight: "700",
-                    //     "&:hover": {
-                    //       background:
-                    //         "linear-gradient(70deg, #007BB0 10%, #00366A 90%)", // Gradient khi hover
-                    //       color: "white",
-                    //       // padding: "10px 0 10px",
-                    //     },
-                    //     color: "#00366A",
-                    //     // color: pathName === item.href ? "white" : "#00366A",
-                    //   }}
-                    //   component={Link}
-                    //   href={item.href}
-                    // >
                     <button
                       className="hover:text-white text-[#00366A] 
                         font-bold px-4 py-2 hover:bg-gradient-to-t from-[#007BB0] to-[#00366A] 
                         focus:outline-none text-[10px] md:text-[12px] xl:text-[14px]
-                        2xl:text-[18px] px-[10px] py-[20px] rounded-[12px] flex items-center z-[1000]"
+                        2xl:text-[18px] px-[10px] py-[15px] rounded-[12px] flex items-center z-[1000]"
                       onClick={() => {
                         router.prefetch(item.href);
                         router.push(item.href);
@@ -403,38 +411,57 @@ export default function Header() {
                     // </Button>
                   );
               })}
-              <div className="h-[5vh] w-[25%] flex items-center rounded-[12px] pl-[8px] border-[1px] overflow-hidden border-[#00366A] relative ml-[64px]">
-                <input
-                  className="placeholder:text-[#00366A] placeholder:font-medium bg-transparent outline-none "
-                  placeholder="Search..."
-                  onFocus={() => {
-                    router.prefetch("/Search");
-                    router.push("/Search");
-                  }}
-                />
-                <div
-                  onClick={() => {
-                    router.prefetch("/Search");
-                    router.push("/Search");
-                  }}
-                  className=" absolute top-0 -right-2 h-[5vh] rounded-[12px] flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A] object-contain"
-                >
-                  <Button
+              
+              <div
+                className="
+                relative
+                rounded-[8px] 
+                border-transparent
+                bg-gradient-to-r from-[#007BB0] to-[#00366A]
+                h-[5vh] w-[25%]
+                p-[1.5px]
+                ml-[3%]
+                "
+              >
+                <div className="h-[100%] w-[100%] flex items-center rounded-[6px] pl-[8px] cursor-pointer overflow-hidden relative bg-white" onClick={() => {
+                  router.prefetch("/Search");
+                  router.push("/Search");
+                }}>
+                  <input
+                    className="placeholder:text-[#00366A] placeholder:font-medium bg-transparent outline-none w-[100%] cursor-pointer"
+                    placeholder="Search..."
+                    disabled
+                    onFocus={() => {
+                      router.prefetch("/Search");
+                      router.push("/Search");
+                    }}
+                  />
+                  <div
                     onClick={() => {
                       router.prefetch("/Search");
                       router.push("/Search");
                     }}
+                    className="w-[20%] h-[5vh] rounded-[8px] flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A] object-contain"
                   >
-                    <Search
-                      style={{
-                        color: "white",
-                      }}
+                    <Button
                       onClick={() => {
                         router.prefetch("/Search");
                         router.push("/Search");
                       }}
-                    />
-                  </Button>
+                    >
+                      <Search
+                        style={{
+                          color: "white",
+                          width: "20px",
+                          height: "20px",
+                        }}
+                        onClick={() => {
+                          router.prefetch("/Search");
+                          router.push("/Search");
+                        }}
+                      />
+                    </Button>
+                  </div>
                 </div>
               </div>
             </Box>
@@ -443,5 +470,5 @@ export default function Header() {
         </div>
       </div>
     </div>
-  );
+  ) : null;
 }

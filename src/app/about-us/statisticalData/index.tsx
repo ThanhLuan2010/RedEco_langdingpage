@@ -9,7 +9,7 @@ const data = [
   },
   {
     targetNumber: 45,
-    title: "EMPLOYES",
+    title: "EMPLOYEES",
   },
   {
     targetNumber: 50,

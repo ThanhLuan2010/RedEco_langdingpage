@@ -17,7 +17,7 @@ function SearchPage() {
     }
   };
   return (
-    <div>
+    <div className="">
       <div className="bg-[#FFFFFFE5] opacity-[0.9] hidden md:flex flex-col">
         <div className="relative">
           <button
@@ -95,7 +95,7 @@ function SearchPage() {
           <div
             className="
             relative
-            rounded-[14px] 
+            rounded-[18px] 
             border-transparent
             bg-gradient-to-r from-[#007BB0] to-[#00366A]
             w-[100%]
@@ -104,25 +104,30 @@ function SearchPage() {
           >
             <div
               className="
-            bg-white 
-            flex
-            py-[10px] md:py-[12px] lg:py-[14px] xl:py-[14px] 2xl:py-[18px]
-            rounded-[12px]
-            px-[20px]
+              bg-white 
+              flex
+              rounded-[16px]
+              px-[20px]
+              h-[38px]
+              justify-center
             "
             >
-              <div className="w-[100%] pr-[80px]">
+              <div className="w-[100%]">
                 <input
-                  className="w-[100%] outline-none"
+                  className="w-[100%] outline-none h-[100%] pr-[40px]"
                   placeholder="Search ..."
                   onChange={(e) => setSearch(e.target.value)}
+                  autoFocus
                 />
               </div>
-              <div className="absolute top-0 right-0 w-[72px] h-[100%] rounded-xl flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A]">
+              <div className="absolute top-0 right-0 
+               h-[100%] rounded-[15px] flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A] w-[48px]">
                 <Button onClick={() => router.push("Search")}>
                   <Search
                     style={{
                       color: "white",
+                      width: "24px",
+                      height: "24px",
                     }}
                   />
                 </Button>
@@ -130,13 +135,13 @@ function SearchPage() {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="h-[38px] flex justify-center items-center">
           <button onClick={() => router.back()} className="">
             <Image
               unoptimized
               alt=""
               src={"/icon/ic_close.png"}
-              className="w-[40px] h-[40px] object-contain"
+              className="w-[24px] h-[24px] object-contain"
               width={100}
               height={100}
             />

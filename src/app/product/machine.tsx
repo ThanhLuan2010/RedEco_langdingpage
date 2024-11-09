@@ -14,7 +14,7 @@ function Machine() {
         <>
           <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[30px] md:mt-[50px] lg:mt-[60px] 2xl:mt-[70px]">
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -29,7 +29,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -47,7 +47,7 @@ function Machine() {
             </div>
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -62,7 +62,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -80,7 +80,7 @@ function Machine() {
             </div>
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -95,7 +95,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -113,7 +113,7 @@ function Machine() {
             </div>
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -128,7 +128,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -146,10 +146,10 @@ function Machine() {
             </div>
           </div>
           {/* Mobile */}
-          <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[40px]">
+          <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[30px]">
             {/* Left */}
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -164,7 +164,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -179,7 +179,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   src={"/image/product1.3.png"}
@@ -193,7 +193,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -211,7 +211,7 @@ function Machine() {
             </div>
             {/* Right */}
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -226,7 +226,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -241,7 +241,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -256,7 +256,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -281,7 +281,7 @@ function Machine() {
         <>
           <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[30px] md:mt-[50px] lg:mt-[60px] 2xl:mt-[70px]">
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -297,7 +297,7 @@ function Machine() {
                 />
               </div>
 
-              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -315,7 +315,7 @@ function Machine() {
             </div>
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -330,7 +330,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -348,7 +348,7 @@ function Machine() {
             </div>
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -363,7 +363,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -381,7 +381,7 @@ function Machine() {
             </div>
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -396,7 +396,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -413,9 +413,9 @@ function Machine() {
               </div>
             </div>
           </div>
-          <div className="md:hidden flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[40px]">
+          <div className="md:hidden flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[30px]">
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -431,7 +431,7 @@ function Machine() {
                 />
               </div>
 
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -447,7 +447,7 @@ function Machine() {
                 />
               </div>
 
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -462,7 +462,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -480,7 +480,7 @@ function Machine() {
             </div>
 
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -495,7 +495,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -510,7 +510,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -525,7 +525,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -550,7 +550,7 @@ function Machine() {
         <>
           <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[30px] md:mt-[50px] lg:mt-[60px] 2xl:mt-[70px]">
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -565,7 +565,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -583,7 +583,7 @@ function Machine() {
             </div>
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -598,7 +598,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -616,7 +616,7 @@ function Machine() {
             </div>
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -631,7 +631,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -649,7 +649,7 @@ function Machine() {
             </div>
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
-              <div className="h-[70%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -664,7 +664,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[30%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -682,9 +682,9 @@ function Machine() {
             </div>
           </div>
           {/* Mobile */}
-          <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[40px]">
+          <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[30px]">
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   alt=""
                   unoptimized
@@ -699,7 +699,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -714,7 +714,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -729,7 +729,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -747,7 +747,7 @@ function Machine() {
             </div>
 
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -762,7 +762,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -777,7 +777,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[60%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -792,7 +792,7 @@ function Machine() {
                   className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
                 />
               </div>
-              <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+              <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <Image
                   unoptimized
                   alt=""
@@ -819,8 +819,6 @@ function Machine() {
       <div className="relative flex justify-center ">
         <Typography
           style={{
-            fontSize: "2rem",
-            lineHeight: "50px",
             fontFamily: "Montserrat",
             fontWeight: "700",
             position: "relative", // Để định vị đường viền
@@ -830,7 +828,7 @@ function Machine() {
         >
           <span
             className="xl:text-[35px] 2xl:text-[48px] sm:px-[10px]
-          px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[28px]"
+          px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[24px] leading-[30px] "
           >
             MACHINE COMPONENTS & DETAILS
           </span>
@@ -849,14 +847,14 @@ function Machine() {
         </Typography>
       </div>
 
-      <div className="md:mt-[30px] mt-[20px] 2xl:mt-[40px]">
+      <div className="md:mt-[30px] mt-[20px] 2xl:mt-[30px]">
         <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%]">
           <div className="flex justify-center ">
             <div
               className="relative  rounded-full 
               overflow-hidden xl:w-[45%] 2xl:w-[40%] lg:w-[48%] md:w-[64%] w-[100%] border-transparent bg-gradient-to-r from-[#007BB0] to-[#00366A]  "
             >
-              <div className="bg-white flex justify-between m-[2px] rounded-full">
+              <div className="bg-white flex justify-between m-[1.1px] md:m-[2px] rounded-full">
                 {categories.map((category: string, index: number) => (
                   <TabButton
                     key={index}

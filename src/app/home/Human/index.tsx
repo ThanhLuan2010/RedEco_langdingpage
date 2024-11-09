@@ -14,7 +14,8 @@ const products = [
 const settings = {
   dots: false,
   infinite: true,
-  speed: 300,
+  speed: 1000,
+  
   slidesToShow: 3, // Số slides mặc định
   slidesToScroll: 3,
   responsive: [
@@ -52,8 +53,8 @@ const Human = () => (
       <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
     </text>
     {/* <Box marginTop={"50px"} width={"100%"}> */}
-    <div className="w-[100%] mt-[50px] md:mt-[60px] xl:mt-[60px]">
-      <Carousel {...settings} autoplay>
+    <div className="w-[100%] mt-[24px] md:mt-[60px] xl:mt-[60px]">
+      <Carousel {...settings} autoplaySpeed={2000} speed={1000} autoplay>
         {products.map((product, index) => (
           <div key={index} className="mr-[18px]">
             <Box

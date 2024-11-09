@@ -55,14 +55,14 @@ export default function Banner() {
                     bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% 
                     py-[10px] md:py-[13px] 2xl:py-[20x] 
                     rounded-[8px] 
-                    text-[9px] md:text-[12px] ld:text-[16px] xl:text-[16px] 2xl:text-[20px] w-[50%] font-bold"
+                    text-[8px] md:text-[12px] ld:text-[16px] xl:text-[16px] 2xl:text-[20px] w-[50%] font-bold"
                   >
                     OUR PRODUCRS
                   </button>
 
                   <button
                     onClick={() => router.push("/contact-us")}
-                    className="py-[10px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[9px] md:text-[12px] ld:text-[16px] xl:text-[16px] 2xl:text-[20px]"
+                    className="py-[10px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[8px] md:text-[12px] ld:text-[16px] xl:text-[16px] 2xl:text-[20px]"
                   >
                     CONTACT US
                   </button>

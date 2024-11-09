@@ -22,22 +22,27 @@ interface FormData {
 const validationSchema = yup.object().shape({
   firstName: yup.string().required("First Name is required"),
   lastName: yup.string().required("Last Name is required"),
-  email: yup.string().email("Invalid email").required("Email is required"),
+  email: yup.string().email("Invalid email").required("Email is required").test("email", "Invalid email", (value) => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+  }),
   phone: yup.string().required("Phone is required"),
   address: yup.string().required("Address is required"),
   city: yup.string().required("City is required"),
   zip: yup.string().required("Zip is required"),
+  country: yup.string().required("Country is required"),
+  category: yup.string().required("Category is required"),
 });
 
 const categories = [
   "Customer/Dealer",
   "Discount Policy",
-  "Particular Issues",
-  "Question/Answer",
-  "Access & Logistics",
-  "Operational/Service Training",
-  "Network/Dealer",
-  "Product/Service       ",
+  "Parts Information",
+  "Quote/Purchase",
+  "Access & Register",
+  "Operator/Service Training",
+  "Potential Supplier",
+  "Product Detail Information",
+  "Product Service/Maintenance",
   "Other",
 ];
 
@@ -105,15 +110,15 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
       console.log(match);
       if (match) {
         setSelectedCountry(match);
-          // Đặt mục đã chọn vào ref để cuộn tới
-          setTimeout(() => {
-            if (selectedOptionRef.current) {
-              selectedOptionRef.current.scrollIntoView({
-                behavior: "smooth",
-                block: "center",
-              });
-            }
-          }, 0);
+        // Đặt mục đã chọn vào ref để cuộn tới
+        setTimeout(() => {
+          if (selectedOptionRef.current) {
+            selectedOptionRef.current.scrollIntoView({
+              behavior: "smooth",
+              block: "center",
+            });
+          }
+        }, 0);
       }
     }
   }, [searchTerm, countries]);
@@ -195,7 +200,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
         <input
           id={id}
           name={id}
-          type={type}
+          // type={type}
           value={formData[id] || ""}
           onChange={handleChange}
           className={`textfield__input font-Montserrat font-normal ${
@@ -213,7 +218,9 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
         </label>
       </fieldset>
       {errors[id] && (
-        <small className="text-red-500 text-sm mt-1 font-Montserrat font-normal">{errors[id]}</small>
+        <small className="text-red-500 text-[8px] mt-1 font-Montserrat font-normal absolute">
+          {errors[id]}
+        </small>
       )}
     </div>
   );
@@ -248,7 +255,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
     >
       <form onSubmit={handleSubmit}>
         <div className="w-[100%] pl-[20px] md:pl-[5%] xl:pl-[10%]">
-          <div className="flex xl:flex-row md:flex-row lg:flex-row sm:flex-col flex-col items-center gap-[25px] 2x:gap-[35px] mb-[25px] 2xl:mb-[35px]">
+          <div className="flex xl:flex-row md:flex-row lg:flex-row sm:flex-col flex-col items-center gap-[15px] md:gap-[30px] 2x:gap-[35px] mb-[15px] md:mb-[30px] 2xl:mb-[35px]">
             <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] w-[100%]">
               {renderInput("firstName", "First Name")}
             </div>
@@ -257,7 +264,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
             </div>
           </div>
 
-          <div className="flex xl:flex-row md:flex-row lg:flex-row flex-col sm:flex-col items-center  gap-[25px] 2x:gap-[35px] mb-[25px] 2xl:mb-[35px] ">
+          <div className="flex xl:flex-row md:flex-row lg:flex-row flex-col sm:flex-col items-center gap-[15px] md:gap-[30px] 2x:gap-[35px] mb-[15px] md:mb-[30px] 2xl:mb-[35px] ">
             <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] sm:w-[100%] w-[100%]">
               {renderInput("email", "Email Address", "email")}
             </div>
@@ -266,14 +273,14 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
             </div>
           </div>
 
-          <div className="mb-[25px] 2xl:mb-[35px] ">
+          <div className="mb-[15px] md:mb-[30px] 2xl:mb-[35px] ">
             {renderInput("companyName", "Company Name", undefined, true)}
           </div>
-          <div className="mb-[25px] 2xl:mb-[35px] ">
+          <div className="mb-[15px] md:mb-[30px] 2xl:mb-[35px] ">
             {renderInput("address", "Address Line")}
           </div>
 
-          <div className="flex xl:flex-row md:flex-row lg:flex-row flex-col sm:flex-col items-center  gap-[25px] 2x:gap-[35px] mb-[25px] 2xl:mb-[35px]">
+          <div className="flex xl:flex-row md:flex-row lg:flex-row flex-col sm:flex-col items-center  gap-[15px] md:gap-[30px] 2x:gap-[35px] mb-[15px] md:mb-[30px] 2xl:mb-[35px]">
             <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] sm:w-[100%] w-[100%]">
               {renderInput("city", "City")}
             </div>
@@ -282,14 +289,14 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
             </div>
           </div>
 
-          <div className="mb-[25px] 2xl:mb-[35px]">
+          <div className="mb-[15px] md:mb-[30px] 2xl:mb-[35px]">
             {renderSelect("country", countries, "Country or Region")}
           </div>
-          <div className="mb-[25px] 2xl:mb-[35px] ">
+          <div className="mb-[15px] md:mb-[30px] 2xl:mb-[35px] ">
             {renderSelect("category", categories, "Select Category")}
           </div>
 
-          <div className="textfield mb-[25px] 2xl:mb-[35px] ">
+          <div className="textfield mb-[15px] md:mb-[30px] 2xl:mb-[35px] ">
             <textarea
               id="message"
               name="message"
@@ -300,16 +307,18 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
               }}
               className={`textfield__input ${
                 errors.message ? "textfield__input--error" : ""
-              }`}
+              }` }
               placeholder="Your message"
             />
             {errors.message && (
-              <small className="text-red-500">{errors.message}</small>
+              <small className="text-red-500 text-[8px] absolute">{errors.message}</small>
             )}
           </div>
 
           <div className="w-full flex justify-center">
-            <Button isLoading={isLoading} text="SEND" />
+            <div className="w-[40%] md:w-full flex justify-center">
+              <Button isLoading={isLoading} text="SEND" />
+            </div>
           </div>
         </div>
       </form>

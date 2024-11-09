@@ -1,8 +1,41 @@
+import FadeImage from "@/components/FadeImage";
 import { Carousel } from "antd";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 function Banner({ data }: any) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [nextIndex, setNextIndex] = useState(1);
+  const [fade, setFade] = useState(true);
+
+  useEffect(() => {
+    // Tạo một khoảng thời gian để thay đổi ảnh
+    const interval = setInterval(() => {
+      // Thêm hiệu ứng fade out trước khi chuyển ảnh
+      setFade(false);
+      setTimeout(() => {
+        setCurrentIndex(nextIndex);
+        setNextIndex((nextIndex + 1) % 2);
+        // setCurrentIndex((prevIndex) => (prevIndex + 1) % 2);
+        setFade(true);
+      }, 500); // thời gian fade (nửa giây)
+    }, 3000); // Thay đổi ảnh mỗi 3 giây
+
+    // Xóa interval khi component bị hủy
+    return () => clearInterval(interval);
+  }, [nextIndex]);
+
+  const images = {
+    image3: ["/image/product/banner3.png", "/image/product/banner3.1.png"],
+    image1: ["/image/product/banner1.png", "/image/product/banner1.1.png"],
+    image2: ["/image/product/banner2.png", "/image/product/banner2.1.png"],
+  };
+  const images2 = {
+    image1: ["/image/product/banner3.png", "/image/product/banner3.1.png"],
+    image2: ["/image/product/banner3.png", "/image/product/banner3.1.png"],
+    image3: ["/image/product/banner3.png", "/image/product/banner3.1.png"],
+  };
+
   return (
     <>
       <div className="xl:block md:block lg:block sm:hidden hidden mt-[100px] xl:mt-[120px] 2xl:mt-[140px]">
@@ -28,44 +61,7 @@ function Banner({ data }: any) {
           ))}
         </Carousel>
       </div>
-      <div className="xl:hidden mt-8 lg:hidden md:hidden sm:flex sm:flex-col flex flex-col px-[20px] md:px-[5%] xl:px-[10%]">
-        <div className="w-[100%]">
-          <Image
-            unoptimized
-            alt=""
-            src={"/image/product/banner3.png"}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "contain",
-            }}
-            width={100}
-            height={100}
-          />
-        </div>
-        <div className="w-[100%] gap-[20px] md:gap-[30px] xl:gap-[40px] flex">
-          <div className="w-[50%]">
-            <Image
-              alt=""
-              unoptimized
-              src={"/image/product/banner1.png"}
-              width={100}
-              height={100}
-              className="w-[100%] h-[100%] object-fill"
-            />
-          </div>
-          <div className="w-[50%] object-fill">
-            <Image
-              unoptimized
-              alt=""
-              src={"/image/product/banner2.png"}
-              width={100}
-              height={100}
-              className="w-[100%] h-[100%] object-fill"
-            />
-          </div>
-        </div>
-      </div>
+   
     </>
   );
 }

@@ -21,7 +21,7 @@ const AboutUs = () => {
       <ThumbnailComponent />
 
       <Box>
-        <div className="mt-10 flex justify-center">
+        <div className="mt-[30px] md:mt-[40px] flex justify-center">
           {isStatusSubmit ? (
             <div className="flex flex-col justify-center items-center w-[90%]">
               <div className="flex flex-col justify-center items-center text-center">
@@ -30,7 +30,7 @@ const AboutUs = () => {
                     fontWeight: 400,
                     fontFamily: "Montserrat",
                   }}
-                  className="uppercase w-[100%] xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-2xl"
+                  className="uppercase w-[100%] xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-[19px]"
                 >
                   DEAR{" "}
                   <span
@@ -41,13 +41,12 @@ const AboutUs = () => {
                   >
                     {userNameSubmit}
                   </span>
-                  , THANKS FOR
-                  <p className="mt-2">REACHING OUT!</p>
+                  , THANKS FOR REACHING OUT!
                 </div>
               </div>
               <p
                 style={{ fontWeight: 400 }}
-                className="w-[80%] flex justify-center text-center mt-8"
+                className="w-[100%] flex justify-center text-center mt-[22px] md:mt-[30px]"
               >
                 Your message was submitted successfully - thanks! Our Customer
                 Care Agents are working to provide you with a reply as soon as
@@ -59,7 +58,7 @@ const AboutUs = () => {
                 style={{
                   fontWeight: 600,
                 }}
-                className="text-[#00366A] mt-14"
+                className="text-[#00366A] mt-[32px] md:mt-[40px] lg:mt-[40px] xl:mt-[50px] 2xl:mt-[60px]"
               >
                 - The REDECO Team -
               </span>

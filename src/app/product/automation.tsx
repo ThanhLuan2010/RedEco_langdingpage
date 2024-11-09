@@ -4,15 +4,12 @@ import Image from "next/image";
 function Automation() {
   return (
     <div className="">
-      <div className="flex justify-center mt-20">
+      <div className="flex justify-center mt-[40px] md:mt-[60px] lg:mt-[80px] xl:mt-[120px] 2xl:mt-[140px]">
         <Typography
           style={{
-            fontSize: "2rem",
-            lineHeight: "50px",
             fontFamily: "Montserrat",
             fontWeight: "700",
             position: "relative", // Để định vị đường viền
-            paddingBottom: "10px", // Khoảng cách giữa chữ và border
             color: "#00366A",
           }}
         >
@@ -24,10 +21,9 @@ function Automation() {
           </span>
           {/* Đường viền */}
           <span
-            className="xl:h-[4px] 2xl:h-[5px] md:h-[4px] h-[3px]"
+            className="xl:h-[4px] 2xl:h-[5px] md:h-[4px] h-[3px] bottom-[2px] md:bottom-0"
             style={{
               position: "absolute",
-              bottom: 0, // Đặt đường viền sát dưới chữ
               left: "50%", // Căn giữa theo chiều ngang
               transform: "translateX(-50%)", // Căn chỉnh chính xác vị trí giữa
               width: "35%", // Chiều rộng của đường viền (ngắn hơn width chữ)
@@ -37,8 +33,8 @@ function Automation() {
         </Typography>
       </div>
 
-      <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%] mt-[20px] md:mt-[50px] xl:mt-[70px]">
-        <div className="border-[2px] xl:flex md:flex lg:flex sm:hidden hidden border-[#00366A] p-[12px] rounded-[8px]">
+      <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%] mt-[20px] md:mt-[50px] xl:mt-[60px]">
+        <div className="border-[1px] md:border-[2px] xl:flex md:flex lg:flex hidden border-[#00366A] p-[12px] rounded-[8px]">
           <Image
             src={"/image/automation_banner.png"}
             alt=""
@@ -51,7 +47,7 @@ function Automation() {
 
         <div className="md:flex hidden overflow-hidden h-[80vh] gap-[35px] mt-[40px]">
           <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
-            <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
+            <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
               <Image
                 alt=""
                 unoptimized
@@ -66,7 +62,7 @@ function Automation() {
                 height={100}
               />
             </div>
-            <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
+            <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
               <Image
                 alt=""
                 unoptimized
@@ -84,7 +80,7 @@ function Automation() {
           </div>
 
           <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
-            <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
+            <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
               <Image
                 alt=""
                 unoptimized
@@ -99,7 +95,7 @@ function Automation() {
                 height={100}
               />
             </div>
-            <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
+            <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
               <Image
                 unoptimized
                 alt=""
@@ -117,7 +113,7 @@ function Automation() {
           </div>
 
           <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
-            <div className="h-[100%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+            <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
               <Image
                 unoptimized
                 alt=""
@@ -138,7 +134,7 @@ function Automation() {
         <div className="md:hidden w-[100%] flex-col flex gap-4 h-[80vh] mt-[30px]">
           <div className="flex h-[50%] gap-4">
             <div className="gap-4 overflow-hidden w-[50%] h-[100%] flex flex-col">
-              <div className=" border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] h-[50%]">
+              <div className=" border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] bg-white p-[30px] h-[50%]">
                 <Image
                   alt=""
                   unoptimized
@@ -152,7 +148,7 @@ function Automation() {
                   height={100}
                 />
               </div>
-              <div className="border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] h-[50%]">
+              <div className="border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] bg-white p-[30px] h-[50%]">
                 <Image
                   alt=""
                   src={"/image/automation4.png"}
@@ -168,7 +164,7 @@ function Automation() {
               </div>
             </div>
 
-            <div className="h-[100%] w-[50%] border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] object-fill">
+            <div className="h-[100%] w-[50%] border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] bg-white p-[30px] object-fill">
               <Image
                 unoptimized
                 alt=""
@@ -185,7 +181,7 @@ function Automation() {
           </div>
 
           <div className="w-[100%] h-[50%] flex flex-col gap-4">
-            <div className="border-[2px] border-[#00366A] p-[20px] rounded-[8px] h-[50%]">
+            <div className="border-[1px] md:border-[2px] border-[#00366A] p-[10px] rounded-[6px] h-[50%]">
               <Image
                 src={"/image/automation_banner.png"}
                 alt=""
@@ -197,7 +193,7 @@ function Automation() {
             </div>
 
             <div className="gap-4 h-[50%] overflow-hidden w-[100%] flex">
-              <div className="h-[100%] w-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[8px] bg-white ">
+              <div className="h-[100%] w-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] bg-white ">
                 <Image
                   alt=""
                   unoptimized
@@ -212,7 +208,7 @@ function Automation() {
                   height={100}
                 />
               </div>
-              <div className="h-[100%] w-[50%] border-[2px] border-[#00366A] rounded-[8px] bg-white ">
+              <div className="h-[100%] w-[50%] border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] bg-white ">
                 <Image
                   unoptimized
                   alt=""

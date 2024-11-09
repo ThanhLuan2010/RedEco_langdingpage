@@ -99,9 +99,9 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
         </div>
 
         {isOpen ? (
-          <ChevronUpIcon className="textfield__icon" />
+          <ChevronUpIcon className="textfield__icon w-[18px]" />
         ) : (
-          <ChevronDownIcon className="textfield__icon" />
+          <ChevronDownIcon className="textfield__icon w-[18px]" />
         )}
       </div>
 
@@ -110,16 +110,16 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
           color: "#707070",
         }}
         htmlFor={id}
-        className={`textfield__label textfield__label--required font-Montserrat font-normal  ${
-          !value && "mt-[15px] opacity-[0.6]"
+        className={`textfield__label textfield__label--required font-Montserrat font-normal ${
+          !value && "mt-[10px] opacity-[0.6]"
         }`}
       >
         {label}
       </label>
 
       {isOpen && (
-        <ul className="absolute z-10 text-[14px] py-[8px] bg-white border border-gray-300 rounded-lg w-full mt-1 max-h-96 overflow-y-auto shadow-lg">
-          <div className="px-[8px] flex px-1 gap-2 items-center pt-2 text-[#DADADA]">
+        <ul className="absolute z-10 text-[14px] py-[8px] bg-white  rounded-b-lg w-full  max-h-96 overflow-y-auto shadow-lg">
+          <div className="px-[8px] flex px-1 gap-2 items-center py-[10px] text-[#DADADA]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 text-[#DADADA]"
@@ -143,7 +143,7 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
                 key={index}
                 ref={selectedCountry === option ? selectedOptionRef : null} // Gán ref cho mục đã chọn
                 onClick={() => handleOptionClick(option)}
-                className={`flex justify-between  items-center px-[16px] py-[8px] cursor-pointer 
+                className={`flex justify-between  items-center px-[16px] py-[4px] my-[4px] cursor-pointer 
                           hover:bg-[#00366A] hover:text-white 
                           ${
                             value === option
@@ -173,7 +173,7 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
         </ul>
       )}
 
-      {error && <small className="text-red-500 text-sm mt-1">{error}</small>}
+      {error && <small className="text-red-500 text-[8px] absolute mt-1">{error}</small>}
     </div>
   );
 };

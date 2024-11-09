@@ -11,7 +11,7 @@ import Header from "@/components/Header";
 import PhoneButton from "@/components/phoneButton";
 
 export async function generateStaticParams() {
-  return [{ id: "1" }, { id: "2" }, { id: "3" }];
+  return [{ id: "1" }, { id: "2" }, { id: "3" },{ id: "4" }];
 }
 
 function index({ params }: { params: { id: string } }) {
@@ -35,7 +35,9 @@ function index({ params }: { params: { id: string } }) {
       ? "Precision and Innovation in Every Cut"
       : id == "3"
       ? "Strategic Cooperation Signing Ceremony Between Ha Long Company & Redeco Vietnam"
-      : "Comprehensive CNC Machining Service at Redeco";
+      : id == "4"
+      ? "Comprehensive CNC Machining Service at Redeco"
+      : "";
 
   const Description = () => {
     switch (id) {
@@ -64,7 +66,7 @@ function index({ params }: { params: { id: string } }) {
       <div className="w-[100%] items-center flex flex-col">
         <div className="px-[20px] md:px-[10%] mt-[7%]">
           <div className="relative">
-            <text className="font-semibold text-[20px] sm-[26px] md:text-[32px] lg:text-[40px] xl:text-[40px] 2xl:text-[50px] text-[#00366A] ">
+            <text className="font-bold text-[20px] sm-[26px] md:text-[32px] lg:text-[40px] xl:text-[40px] 2xl:text-[50px] text-[#00366A] ">
               {title}
             </text>
             <span

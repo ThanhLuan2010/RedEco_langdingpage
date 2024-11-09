@@ -13,10 +13,12 @@ function OtherNews({ id }: any) {
   });
   return (
     <div className="pt-[40px] md:pt-[50px] lg-[60px] 2xl:pt-[70px] pb-[80px] md:pb-[90px] lg:pb-[100px] xl:pb-[120px] 2xl:pb-[140px] bg-[#E9EAEE] px-[20px] md:px-[10%]">
-      <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
-      OTHER NEWS
-        <span className="absolute bottom-[-5px] left-[0%] w-[50%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
-      </text>
+      <div className="flex justify-center md:justify-start">
+     <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
+          OTHER NEWS
+          <span className="absolute bottom-[-5px] left-[25%] md:left-[0%] w-[50%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
+        </text>
+      </div>
       <Box sx={{ marginTop: "5%" }}>
         <Row gutter={[25, 25]}>
           {orderNew.map((item, index) => (

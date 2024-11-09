@@ -41,7 +41,7 @@ function Mission() {
         <div
           className="
           flex flex-col font-medium 
-          mt-[8px] md:mt-[10px] lg:mt-[12px] xl:mt-[14px] 2xl:mt-[16px] 
+          mt-[4px] md:mt-[8px] lg:mt-[10px] xl:mt-[12px] 2xl:mt-[16px] 
           leading-[20px] md:leading-[20px] lg:leading-[22px] xl:leading-[26px] 2xl:leading-[30px] text-[14px] md:text-[15px] 2xl:text-[18px]"
         >
           <text>

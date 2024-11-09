@@ -135,15 +135,17 @@ function WhoWeAre() {
                   <div className="flex border-[#00366a59] border-t-[1px] mt-[18px] pt-[18px] items-center">
                     <button className="text-[#00366A] text-[14px] 2xl:text-[18px] mr-[8px] flex items-center">
                       Read More
-                      <Image
-                        unoptimized
-                        style={{ objectFit: "contain" }}
-                        alt=""
-                        src="/image/Arrow 1.png"
-                        width={12}
-                        height={1}
-                        className="ml-[5px]"
-                      />
+                      <div className="w-[16px] mt-[2px]">
+                        <Image
+                          unoptimized
+                          style={{ objectFit: "contain" }}
+                          alt=""
+                          src="/image/Arrow 1.png"
+                          width={12}
+                          height={1}
+                          className="ml-[5px]"
+                        />
+                      </div>
                     </button>
                   </div>
                 </div>

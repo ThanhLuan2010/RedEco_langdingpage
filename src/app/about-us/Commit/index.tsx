@@ -28,10 +28,16 @@ const Commit = () => (
     </text>
 
     <div className="mt-[18px] md:mt-[22px] lg:mt-[28px] 2xl:mt-[34px] text-center px-[20px] md:px-[5%] xl:px-[10%]">
-      <text className="text-[15px] 2xl:text-[20px]">
+      <text className="text-[15px] 2xl:text-[20px] hidden md:block">
         At REDECO VIETNAM, our commitment is to  deliver unmatched value to our
         clients by providing
       </text>
+
+      <text className="text-[14px] 2xl:text-[20px] block md:hidden">
+        At REDECO, our commitment is to  deliver unmatched value to our
+        clients by providing
+      </text>
+
     </div>
     <div className="grid-cols-2 w-[100%] mt-[32px] md:mt-[42] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[80px] px-[20px] md:px-[5%] xl:px-[10%] grid md:grid-cols-4 gap-[18px] md:gap-[24px] lg:gap-[32px] 2xl:gap-[40px]">
       {products.map((product, index) => (

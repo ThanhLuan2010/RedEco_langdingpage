@@ -1,9 +1,16 @@
 "use client";
+import FadeImage from "@/components/FadeImage";
 import Footer from "@/components/Footer";
 import PhoneButton from "@/components/phoneButton";
-import dynamic from "next/dist/shared/lib/dynamic";
-import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useEffect, useState } from "react";
+import TopBanner from "./TopBaner";
+import Machine from "./machine";
+import Automation from "./automation";
+import Banner from "./banner";
+import Silicon from "./silicon";
+import PlasticProduct from "./plasticProduct";
+import OtherProduct from "./otherProducts";
 
 function Product() {
   const arrBanner = [
@@ -21,13 +28,14 @@ function Product() {
 
   const [tab, setTab] = useState<string>("");
   const [otherTab, setOtherTab] = useState<string>("");
+  const searchParams = useSearchParams();
+  const id = searchParams.get("id"); // Lấy id từ query
 
   useEffect(() => {
     // Lấy hash từ URL (VD: #targetComponent)
     const hash = window.location.hash;
 
     if (hash) {
-      const id = hash?.split(".")[1];
       const tabName =
         id == "1"
           ? "VACUUM SUCTION CUP"
@@ -35,7 +43,9 @@ function Product() {
           ? "SILICONE RUBBER DETAIL"
           : id == "3"
           ? "SILICONE RUBBER GASKET"
-          : id == "4"?"INDUSTRIAL KEYBOARD":null
+          : id == "4"
+          ? "INDUSTRIAL KEYBOARD"
+          : null;
       const tabOther =
         id == "5"
           ? "MANIPULATOR TABLE"
@@ -58,55 +68,94 @@ function Product() {
         targetElement.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [router]);
-
-  const TopBannerComponent = dynamic(() => import("./TopBaner"), {
-    ssr: false,
-  });
-  const MachineComponent = dynamic(() => import("./machine"), {
-    ssr: false,
-  });
-  const AutomationComponent = dynamic(() => import("./automation"), {
-    ssr: false,
-  });
-  const PlasticProductComponent = dynamic(() => import("./plasticProduct"), {
-    ssr: false,
-  });
-  const SiliconComponent = dynamic(() => import("./silicon"), {
-    ssr: false,
-  });
-  const OtherProductComponent = dynamic(() => import("./otherProducts"), {
-    ssr: false,
-  });
-
-  const BannerComponent = dynamic(() => import("./banner"), {
-    ssr: false,
-  });
+  }, [router,id]);
 
   return (
     <div className="bg-[#F7F9F9] ">
       <div>
-        <TopBannerComponent />
+        <TopBanner />
       </div>
       <div
         id="machine-details"
-        className="xl:mt-[120px] 2xl:mt-[140px] lg:mt-[100px] md:mt-[80px] mt-10"
+        className="xl:mt-[120px] 2xl:mt-[140px] lg:mt-[100px] md:mt-[80px] mt-[30px] scroll-m-[18vh]"
       >
-        <MachineComponent />
+        <Machine />
       </div>
-      <BannerComponent data={arrBanner} />
-      <div id="automation">
-        <AutomationComponent />
+      <div className="md:hidden">
+        <div className="mt-[40px] flex flex-col px-[20px] md:px-[5%] xl:px-[10%] h-[33vh] gap-[20px] md:gap-[30px] xl:gap-[40px]">
+          <div className="w-[100%] h-[50%]">
+            <FadeImage
+              data={[
+                "/image/product/banner3.png",
+                "/image/product/banner3.1.png",
+              ]}
+            />
+          </div>
+          <div className="w-[100%] h-[50%] gap-[20px] md:gap-[30px] xl:gap-[40px] flex">
+            <div className="w-[50%] h-[100%]">
+              <FadeImage
+                data={[
+                  "/image/product/banner1.png",
+                  "/image/product/banner1.1.png",
+                ]}
+              />
+            </div>
+            <div className="w-[50%] h-[100%]">
+              <FadeImage
+                data={[
+                  "/image/product/banner2.png",
+                  "/image/product/banner2.1.png",
+                ]}
+              />
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="plastic-injection">
-        <PlasticProductComponent />
+
+      <Banner data={arrBanner} />
+      <div id="automation" className="scroll-m-[18vh]">
+        <Automation />
       </div>
-      <BannerComponent data={arrBanner2} />
-      <div id="silicone-rubber">
-        <SiliconComponent tab={tab} />
+      <div id="plastic-injection" className="scroll-m-[18vh]">
+        <PlasticProduct />
+        <div className="md:hidden">
+          <div className="mt-[40px] flex px-[20px] md:px-[5%] xl:px-[10%] h-[33vh] gap-[20px] md:gap-[30px] xl:gap-[40px]">
+            <div className="w-[50%] h-[100%]">
+              <FadeImage
+                data={[
+                  "/image/product/banner4.png",
+                  "/image/product/banner4.1.png",
+                ]}
+              />
+            </div>
+            <div className="w-[50%] h-[100%] gap-[20px] md:gap-[30px] xl:gap-[40px] flex flex-col">
+              <div className="w-[100%] h-[50%]">
+                <FadeImage
+                  data={[
+                    "/image/product/banner5.png",
+                    "/image/product/banner5.1.png",
+                  ]}
+                />
+              </div>
+              <div className="w-[100%] h-[50%]">
+                <FadeImage
+                  data={[
+                    "/image/product/banner6.png",
+                    "/image/product/banner6.1.png",
+                  ]}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="other-products">
-        <OtherProductComponent otherTab={otherTab} />
+
+      <Banner data={arrBanner2} />
+      <div id="silicone-rubber" className="scroll-m-[18vh]">
+        <Silicon tab={tab} />
+      </div>
+      <div id="other-products" className="scroll-m-[18vh]">
+        <OtherProduct otherTab={otherTab} />
       </div>
       <PhoneButton />
       <Footer />
@@ -114,4 +163,10 @@ function Product() {
   );
 }
 
-export default Product;
+const ProductPage = () => (
+  <Suspense fallback={<div>Loading...</div>}>
+    <Product />
+  </Suspense>
+);
+
+export default ProductPage;

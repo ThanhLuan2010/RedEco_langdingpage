@@ -24,7 +24,7 @@ function Description3() {
         <div className="w-[100%] md:w-[60%] flex flex-col ">
           <text
             className="md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+            text-[15px] md:text-[16px] 2xl:text-[18px] mt-[20px] md:mt-[24px]"
           >
             Mr. Bui Minh Hieu – Director of Ha Long Technology and Solutions
             Trading Joint Stock Company, Mr. Nguyen Do Dong – Director of Redeco
@@ -33,7 +33,7 @@ function Description3() {
           </text>
 
           <text
-            className="mt-[6px] md:leading-[26px] 2xl:leading-[32px]
+            className="mt-[20px] md:mt-[24px] md:leading-[26px] 2xl:leading-[32px]
             text-[15px] md:text-[16px] 2xl:text-[18px]"
           >
             Founded in 1997, Ha Long Company is one of the first enterprises in

@@ -52,25 +52,25 @@ export default function Footer({ style }: any) {
         display: "flex",
         alignItems: "center",
         flexDirection: "column",
-        paddingY: "50px",
+        // paddingY: "50px",
         marginTop: "8%",
         ...style,
       }}
     >
-      <div className="px-[20px] md:px-[5%] xl:px-[10%] ">
+      <div className="px-[20px] md:px-[5%] xl:px-[10%] pt-[36px] mt:pt-[50px] pb-[46px]">
         <Box>
           <button
             onClick={() => router.push("/home")}
-            className=" w-[100%] mb-[25px] 2xl:mb-[35px]"
+            className="w-[100%] mb-[60px] 2xl:mb-[35px]"
           >
             <Image
               unoptimized
               alt=""
               src={require("../../../public/image/logo_footer.png")}
-              className="object-contain w-[90%] md:w-[20%]"
+              className="object-contain w-[70%] md:w-[20%]"
             />
           </button>
-          <div className="lg:scale-y-[0.9]">
+          <div className="lg:scale-y-[0.95]">
             <Row style={{ color: "#EDF0F4" }}>
               {isSubcribe ? (
                 <Col xs={24} sm={12} md={7}>
@@ -79,7 +79,7 @@ export default function Footer({ style }: any) {
                   </div>
                 </Col>
               ) : (
-                <Col style={{ paddingRight: "5%" }} xs={24} sm={12} md={8}>
+                <Col style={{ paddingRight: "4%" }} xs={24} sm={12} md={8}>
                   <div className="text-[#EDF0F4] text-[14px] 2xl:text-[18px] font-bold">
                     <text>SUBSCRIBE TO NEWSLETTER</text>
                   </div>
@@ -95,13 +95,15 @@ export default function Footer({ style }: any) {
                       borderWidth: 1,
                       borderColor: "#EDF0F4",
                       borderRadius: "6px",
-                      marginTop: "16px",
-                      width: "100%",
+                      marginTop: "18px",
                       color: "#EDF0F4",
                       paddingX: "12px",
+                      paddingY: "3px",
                       fontFamily: "Montserrat",
+                      fontSize: "10px",
                     }}
                     placeholder="Email address..."
+                    className="w-[100%] md:w-[80%]"
                   />
 
                   <Typography
@@ -109,9 +111,9 @@ export default function Footer({ style }: any) {
                       fontWeight: 200,
                       lineHeight: "20px",
                       fontFamily: "Montserrat",
-                      marginTop: "10%",
+                      // marginTop: "10%",
                     }}
-                    className="text-[13px] 2xl:text-[16px] text-[#EDF0F4]"
+                    className="text-[13px] 2xl:text-[16px] text-[#EDF0F4] mt-[24px]"
                   >
                     This site is protected by the Google 
                     <span
@@ -143,10 +145,10 @@ export default function Footer({ style }: any) {
                   </Typography>
                   <Button
                     sx={{
-                      marginTop: "36px",
                       padding: 0,
                       textTransform: "none", // Tắt chữ in hoa
                     }}
+                    className="mt-[30px] md:mt-[36px]"
                     onClick={() => {
                       setIsSubcribe(true);
                       onSubmit();
@@ -166,20 +168,21 @@ export default function Footer({ style }: any) {
                 </Col>
               )}
 
-              <Col className="translate-x-[-5%]" xs={24} sm={12} md={6}>
+              <Col className="md:translate-x-[-10%]" xs={24} sm={12} md={6}>
                 <div
-                  className="cursor-pointer"
+                  className="cursor-pointer mt-[50px] md:mt-0"
                   onClick={() => {
                     router.prefetch("/product#machine-details");
                     router.push("/product#machine-details");
                   }}
                 >
                   <text className="text-[#EDF0F4] text-[14px] font-semibold leading-[21px]">
-                    MACHINE COMPONENTS & DETAILS
+                    MACHINE COMPONENTS & DETAILSsssssssss
                   </text>
                 </div>
+
                 <div
-                  className="cursor-pointer mt-[10px] md:mt-[10px] xl:mt-[20px]"
+                  className="cursor-pointer mt-[20px] md:mt-[10px] xl:mt-[20px]"
                   onClick={() => {
                     router.prefetch("/product#automation");
                     router.push("/product#automation");
@@ -191,7 +194,7 @@ export default function Footer({ style }: any) {
                 </div>
 
                 <div
-                  className="cursor-pointer mt-[10px] md:mt-[10px] xl:mt-[20px]"
+                  className="cursor-pointer mt-[20px] md:mt-[10px] xl:mt-[20px]"
                   onClick={() => {
                     router.prefetch("/product#plastic-injection");
                     router.push("/product#plastic-injection");
@@ -209,8 +212,9 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product#silicone-rubber.1");
-                      router.push("/product#silicone-rubber.1");
+                      router.prefetch("/product?id=1#silicone-rubber");
+                      router.push("/product?id=1#silicone-rubber");
+                      
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[21px]">
@@ -221,11 +225,11 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product#silicone-rubber.2");
-                      router.push("/product#silicone-rubber.2");
+                      router.prefetch("/product?id=2#silicone-rubber");
+                      router.push("/product?id=2#silicone-rubber");
                     }}
                   >
-                    <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[21px]">
+                    <text className="text-[#EDF0F4] text-[13px] font-extralight leading-[21px]">
                       Silicone Rubber Detail
                     </text>
                   </div>
@@ -233,8 +237,8 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product#silicone-rubber.3");
-                      router.push("/product#silicone-rubber.3");
+                      router.prefetch("/product?id=3#silicone-rubber");
+                      router.push("/product?id=3#silicone-rubber");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[21px]">
@@ -245,8 +249,8 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product#silicone-rubber.4");
-                      router.push("/product#silicone-rubber.4");
+                      router.prefetch("/product?id=4#silicone-rubber");
+                      router.push("/product?id=4#silicone-rubber");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[21px]">
@@ -255,12 +259,12 @@ export default function Footer({ style }: any) {
                   </div>
                 </div>
 
-                <div className="flex md:hidden flex-col text-white">
+                <div className="flex md:hidden flex-col text-white mt-[20px]">
                   <div
                     className="flex justify-between cursor-pointer"
                     onClick={() => setShowMore(!showMore)}
                   >
-                    <text className="font-bold text-[16px]">
+                    <text className="font-semibold text-[14px]">
                       SILICONE RUBBER PRODUCTS
                     </text>
                     <Image
@@ -283,6 +287,10 @@ export default function Footer({ style }: any) {
                           marginBottom: "7px",
                         }}
                         className="text-[14px] xl:text-[16px] mt-[5px]"
+                        onClick={() => {
+                          router.prefetch("/product?id=1#silicone-rubber");
+                          router.push("/product?id=1#silicone-rubber");
+                        }}
                       >
                         Vacuum Suction Cup
                       </Typography>
@@ -293,6 +301,10 @@ export default function Footer({ style }: any) {
                           marginBottom: "7px",
                         }}
                         className="text-[14px] xl:text-[16px]"
+                        onClick={() => {
+                          router.prefetch("/product?id=2#silicone-rubber");
+                          router.push("/product?id=2#silicone-rubber");
+                        }}
                       >
                         Silicone Rubber Detail
                       </Typography>
@@ -303,6 +315,10 @@ export default function Footer({ style }: any) {
                           marginBottom: "7px",
                         }}
                         className="text-[14px] xl:text-[16px]"
+                        onClick={() => {
+                          router.prefetch("/product?id=3#silicone-rubber");
+                          router.push("/product?id=3#silicone-rubber");
+                        }}
                       >
                         Silicone Rubber Gasket
                       </Typography>
@@ -313,6 +329,10 @@ export default function Footer({ style }: any) {
                           marginBottom: "7px",
                         }}
                         className="text-[14px] xl:text-[16px]"
+                        onClick={() => {
+                          router.prefetch("/product?id=4#silicone-rubber");
+                          router.push("/product?id=4#silicone-rubber");
+                        }}
                       >
                         Industrial Keyboard
                       </Typography>
@@ -350,8 +370,8 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product#other-products.6");
-                      router.push("/product#other-products.6");
+                      router.prefetch("/product?id=6#other-products");
+                      router.push("/product?id=6#other-products");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px] font-extralight leading-[20px]">
@@ -362,8 +382,8 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product#other-products.7");
-                      router.push("/product#other-products.7");
+                      router.prefetch("/product?id=7#other-products");
+                      router.push("/product?id=7#other-products");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[20px]">
@@ -374,8 +394,8 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product#other-products.8");
-                      router.push("/product#other-products.8");
+                      router.prefetch("/product?id=8#other-products");
+                      router.push("/product?id=8#other-products");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[20px]">
@@ -384,12 +404,12 @@ export default function Footer({ style }: any) {
                   </div>
                 </div>
 
-                <div className="flex md:hidden flex-col text-white">
+                <div className="flex md:hidden flex-col text-white mt-[20px]">
                   <div
                     className="flex justify-between cursor-pointer"
                     onClick={() => setShowMore2(!showMore2)}
                   >
-                    <text className="font-bold text-[16px]">
+                    <text className="font-semibold text-[14px]">
                       OTHER PRODUCTS
                     </text>
                     <Image
@@ -412,6 +432,10 @@ export default function Footer({ style }: any) {
                           marginBottom: "7px",
                         }}
                         className="text-[14px] xl:text-[16px] mt-[5px]"
+                        onClick={() => {
+                          router.prefetch("/product?id=5#other-products");
+                          router.push("/product?id=5#other-products");
+                        }}
                       >
                         Manipulator Table
                       </Typography>
@@ -422,6 +446,10 @@ export default function Footer({ style }: any) {
                           marginBottom: "7px",
                         }}
                         className="text-[14px] xl:text-[16px]"
+                        onClick={() => {
+                          router.prefetch("/product?id=6#other-products");
+                          router.push("/product?id=6#other-products");
+                        }}
                       >
                         Aluminum Casting
                       </Typography>
@@ -432,6 +460,10 @@ export default function Footer({ style }: any) {
                           marginBottom: "7px",
                         }}
                         className="text-[14px] xl:text-[16px]"
+                        onClick={() => {
+                          router.prefetch("/product?id=7#other-products");
+                          router.push("/product?id=7#other-products");
+                        }}
                       >
                         JIG Products
                       </Typography>
@@ -442,6 +474,10 @@ export default function Footer({ style }: any) {
                           marginBottom: "7px",
                         }}
                         className="text-[14px] xl:text-[16px]"
+                        onClick={() => {
+                          router.prefetch("/product?id=8#other-products");
+                          router.push("/product?id=8#other-products");
+                        }}
                       >
                         Industrial Trolley
                       </Typography>
@@ -479,7 +515,7 @@ export default function Footer({ style }: any) {
 
                   <div className="mt-[10px] xl:mt-[10px]r">
                     <text className="text-[#EDF0F4] text-[13px] font-extralight leading-[20px]">
-                      Phone: (+84).913.882.867 (Mr. Thieu Do Xuan)
+                      Phone: (+84) 913 882 867 (Mr. Thieu Do Xuan)
                     </text>
                   </div>
 
@@ -508,12 +544,14 @@ export default function Footer({ style }: any) {
                   </div>
                 </div>
 
-                <div className="flex md:hidden flex-col text-white">
+                <div className="flex md:hidden flex-col text-white mt-[20px]">
                   <div
                     className="flex justify-between cursor-pointer"
                     onClick={() => setShowMore3(!showMore3)}
                   >
-                    <text className="font-bold text-[16px]">CONTACT US</text>
+                    <text className="font-semibold text-[14px]">
+                      CONTACT US
+                    </text>
                     <Image
                       unoptimized
                       alt=""
@@ -596,7 +634,7 @@ export default function Footer({ style }: any) {
                     style={{
                       fontWeight: 400,
                       lineHeight: "21.94px",
-                      marginTop: "20%",
+                      marginTop: "50px",
                       fontSize: "14px",
                     }}
                   >
