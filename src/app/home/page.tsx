@@ -1,23 +1,17 @@
 "use client";
-import PhoneButton from "@/components/phoneButton";
+import PhoneButton from "../../components/phoneButton"; 
 import { Box } from "@mui/material";
-import dynamic from "next/dynamic";
 import Footer from "../../components/Footer";
-import { useEffect, useState } from "react";
+import Banner from "./Banner";
+import HomeProducts from "./Products";
+import WhoWeAre from "./WhoWeAre/page";
+import QualityStandard from "./QualityStandard";
+import Customer from "./Customer";
+import Human from "./Human";
+import News from "./News";
+
 export default function Home() {
-  const BannerComponent = dynamic(() => import("./Banner"), { ssr: false });
-  const HomeProductsComponent = dynamic(() => import("./Products"), {
-    ssr: false,
-  });
-  const WhoWeAreComponent = dynamic(() => import("./WhoWeAre/page"), {
-    ssr: false,
-  });
-  const QualityStandardComponent = dynamic(() => import("./QualityStandard"), {
-    ssr: false,
-  });
-  const CustomerComponent = dynamic(() => import("./Customer"), { ssr: false });
-  const HumanComponent = dynamic(() => import("./Human"), { ssr: false });
-  const NewsComponent = dynamic(() => import("./News"), { ssr: false });
+
   return (
     <Box
       display="flex"
@@ -25,20 +19,20 @@ export default function Home() {
       sx={{ height: "100vh" }}
       bgcolor={"#F7F9F9"}
     >
-      <BannerComponent />
-      <HomeProductsComponent />
+      <Banner />
+      <HomeProducts />
       <div className="pt-[40px] xl:pt-[120px] bg-[#F7F9F9]">
-        <WhoWeAreComponent />
+        <WhoWeAre />
       </div>
 
       <div className="">
-        <HumanComponent />
+        <Human />
       </div>
-      <QualityStandardComponent />
+      <QualityStandard />
       <Box paddingTop={"8%"} bgcolor={"#F7F9F9"}>
-        <CustomerComponent />
+        <Customer />
       </Box>
-      <NewsComponent />
+      <News />
       <PhoneButton />
       <Footer />
     </Box>

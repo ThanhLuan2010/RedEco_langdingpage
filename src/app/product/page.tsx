@@ -1,8 +1,7 @@
-"use client";
-import FadeImage from "@/components/FadeImage";
-import Footer from "@/components/Footer";
-import PhoneButton from "@/components/phoneButton";
-import { useRouter, useSearchParams } from "next/navigation";
+import FadeImage from "../../components/FadeImage";
+import Footer from "../../components/Footer";
+import PhoneButton from "../../components/phoneButton";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { Suspense, useEffect, useState } from "react";
 import TopBanner from "./TopBaner";
 import Machine from "./machine";
@@ -14,22 +13,22 @@ import OtherProduct from "./otherProducts";
 
 function Product() {
   const arrBanner = [
-    require("../../../public/image/product_carousel1.png"),
-    require("../../../public/image/product_carousel2.png"),
-    require("../../../public/image/product_carousel3.png"),
+    require("../../assets/image/product_carousel1.png"),
+    require("../../assets/image/product_carousel2.png"),
+    require("../../assets/image/product_carousel3.png"),
   ];
 
   const arrBanner2 = [
-    require("../../../public/image/banner-plastic1.png"),
-    require("../../../public/image/banner-plastic2.png"),
-    require("../../../public/image/banner-plastic3.png"),
+    require("../../assets/image/banner-plastic1.png"),
+    require("../../assets/image/banner-plastic2.png"),
+    require("../../assets/image/banner-plastic3.png"),
   ];
-  const router = useRouter();
+  const navigate = useNavigate();
 
   const [tab, setTab] = useState<string>("");
   const [otherTab, setOtherTab] = useState<string>("");
-  const searchParams = useSearchParams();
-  const id = searchParams.get("id"); // Lấy id từ query
+  const [searchParams] = useSearchParams(); // Lấy searchParams từ URL
+  const id = searchParams.get("id"); // Lấy giá trị của "id" từ queryấy id từ query
 
   useEffect(() => {
     // Lấy hash từ URL (VD: #targetComponent)
@@ -68,7 +67,7 @@ function Product() {
         targetElement.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [router,id]);
+  }, [navigate, id]);
 
   return (
     <div className="bg-[#F7F9F9] ">

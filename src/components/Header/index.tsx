@@ -9,8 +9,8 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import Image from "next/image";
-import { usePathname, useRouter } from "next/navigation";
+
+import { useLocation, useNavigate } from "react-router-dom"
 import { useState } from "react";
 
 const navItems = [
@@ -63,8 +63,11 @@ export default function Header() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const hideHeaderRoutes = ["/Search"];
-  const pathName = usePathname();
-  const router = useRouter();
+  const location = useLocation();
+  // Đường dẫn hiện tại
+  const pathname = location.pathname;
+  const navigate = useNavigate();
+
   const [anchorEl, setAnchorEl] = useState(null);
   const toggleDrawer = (open: boolean) => () => {
     setDrawerOpen(open);
@@ -92,17 +95,16 @@ export default function Header() {
               <MenuOutlined />
             </IconButton>
           </div>
-          <Image
-            unoptimized
-            src={require("../../../public/image/logo.png")}
+          <img
+            src={require("../../assets/image/logo.png")}
             alt="Logo"
+            className="bg-red-500"
             style={{ width: "45%", objectFit: "contain" }}
           />
           <div className="w-[40px] h-[40px] rounded-full flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A]">
             <Button
               onClick={() => {
-                router.prefetch("/Search");
-                router.push("/Search");
+                navigate("/Search");
               }}
             >
               <Search
@@ -125,8 +127,7 @@ export default function Header() {
                     setIsShowMore(!isShowMore);
                     toggleDrawer(true);
                   } else {
-                    router.prefetch(item.href);
-                    router.push(item.href);
+                    navigate(item.href);
                     toggleDrawer(false);
                     // handleMouseLeave();
                   }
@@ -147,8 +148,7 @@ export default function Header() {
                   <div
                     className="w-full cursor-pointer items-center flex"
                     onClick={() => {
-                      router.prefetch("/product#machine-details");
-                      router.push("/product#machine-details");
+                      navigate("/product#machine-details");
                       toggleDrawer(false);
                     }}
                   >
@@ -159,8 +159,7 @@ export default function Header() {
                   <div
                     className="w-full cursor-pointer items-center flex"
                     onClick={() => {
-                      router.prefetch("/product#automation");
-                      router.push("/product#automation");
+                      navigate("/product#automation");
                       toggleDrawer(false);
                     }}
                   >
@@ -171,8 +170,7 @@ export default function Header() {
                   <div
                     className="w-full cursor-pointer items-center flex"
                     onClick={() => {
-                      router.prefetch("/product#plastic-injection");
-                      router.push("/product#plastic-injection");
+                      navigate("/product#plastic-injection");
                       toggleDrawer(false);
                     }}
                   >
@@ -183,8 +181,7 @@ export default function Header() {
                   <div
                     className="w-full cursor-pointer items-center flex"
                     onClick={() => {
-                      router.prefetch("/product#silicone-rubber");
-                      router.push("/product#silicone-rubber");
+                      navigate("/product#silicone-rubber");
                       toggleDrawer(false);
                     }}
                   >
@@ -195,8 +192,7 @@ export default function Header() {
                   <div
                     className="w-full cursor-pointer items-center flex"
                     onClick={() => {
-                      router.prefetch("/product#other-products");
-                      router.push("/product#other-products");
+                      navigate("/product#other-products");
                       toggleDrawer(false);
                     }}
                   >
@@ -212,8 +208,8 @@ export default function Header() {
     </div>
   );
 
-  return !hideHeaderRoutes.includes(pathName) ? (
-    <div className="h-[10vh] w-[100vw] px-[20px] md:px[5%] xl:px-[10%]  bg-white justify-center items-center sticky top-0 left-0 z-[1000]">
+  return !hideHeaderRoutes.includes(pathname) ? (
+    <div className="h-[10vh] w-[100vw] px-[20px] md:px[5%] xl:px-[10%]  justify-center items-center sticky top-0 left-0 z-[1000] bg-white">
       <div className="flex h-[100%]">
         {/* <Toolbar style={{ padding: "20px 0 20px" }} className="w-[100%] justify-between"> */}
         <div className="flex  w-[100%] items-center justify-between ">
@@ -248,12 +244,10 @@ export default function Header() {
           )}
           {/* Center - LOGO */}
           <div className="justify-center items-center lg:items-start lg:justify-start flex w-[55%] lg:w-[20%] cursor-pointer" onClick={() => {
-            router.prefetch("/home");
-            router.push("/home");
+            navigate("/home");
           }}>
-            <Image
-              unoptimized
-              src={"/image/logo.png"}
+            <img
+              src={require("../../assets/image/logo.png")}
               alt="Logo"
               width={100}
               height={100}
@@ -266,8 +260,7 @@ export default function Header() {
               <div className="w-[40px] h-[40px] rounded-full flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A]">
                 <Button
                   onClick={() => {
-                    router.prefetch("/Search");
-                    router.push("/Search");
+                    navigate("/Search");
                   }}
                 >
                   <Search
@@ -298,26 +291,23 @@ export default function Header() {
                     >
                       <button
                         className="group-hover:text-white text-[#00366A] 
-                        font-bold px-4 py-2 group-hover:bg-gradient-to-t from-[#007BB0] to-[#00366A] 
+                        font-bold group-hover:bg-gradient-to-t from-[#007BB0] to-[#00366A] 
                         focus:outline-none line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px]
                         2xl:text-[18px] px-[10px] py-[15px] rounded-t-[12px] rounded-b-none flex items-center z-[1000]"
                         onClick={() => {
-                          router.prefetch("/product#machine-details");
-                          router.push("/product#machine-details");
+                          navigate("/product#machine-details");
                         }}
                       >
                         {item.text}
-                        <Image
-                          unoptimized
-                          src={"/icon/ic_down-blue.png"}
+                        <img
+                          src={require("../../assets/icon/ic_down-blue.png")}
                           alt=""
                           width={12}
                           height={8}
                           className="ml-[5px] group-hover:hidden"
                         />
-                        <Image
-                          unoptimized
-                          src="/image/ic_down_white.png"
+                        <img
+                          src={require("../../assets/image/ic_down_white.png")}
                           alt=""
                           width={12}
                           height={8}
@@ -333,60 +323,55 @@ export default function Header() {
                           <li
                             className="cursor-pointer flex items-center font-semibold"
                             onClick={() => {
-                              router.prefetch("/product#machine-details");
-                              router.push("/product#machine-details");
+                              navigate("/product#machine-details");
                             }}
                           >
                             <span className="inline-block w-[6px] h-[6px] bg-[white] rounded-sm mr-[10px]"></span>
-                            <text className="hover:border-b-[1px] border-white">
+                            <text className="hover:border-b-[1px] border-white text-[12px] md:text-[13px] xl:text-[14px] 2xl:text-[16px]">
                               Machine Components & Details
                             </text>
                           </li>
                           <li
                             className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
                             onClick={() => {
-                              router.prefetch("/product#automation");
-                              router.push("/product#automation");
+                              navigate("/product#automation");
                             }}
                           >
                             <span className="inline-block w-[6px] h-[6px] bg-[white] rounded-sm mr-[10px]"></span>
-                            <text className="hover:border-b-[1px] border-white">
+                            <text className="hover:border-b-[1px] border-white text-[12px] md:text-[13px] xl:text-[14px] 2xl:text-[16px]">
                               Automation
                             </text>
                           </li>
                           <li
                             className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
                             onClick={() => {
-                              router.prefetch("/product#plastic-injection");
-                              router.push("/product#plastic-injection");
+                              navigate("/product#plastic-injection");
                             }}
                           >
                             <span className="inline-block w-[6px] h-[6px] bg-[white] rounded-sm mr-[10px]"></span>
-                            <text className="hover:border-b-[1px] border-white">
+                            <text className="hover:border-b-[1px] border-white text-[12px] md:text-[13px] xl:text-[14px] 2xl:text-[16px]">
                               Plastic Injection Products
                             </text>
                           </li>
                           <li
                             className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
                             onClick={() => {
-                              router.prefetch("/product#silicone-rubber");
-                              router.push("/product#silicone-rubber");
+                              navigate("/product#silicone-rubber");
                             }}
                           >
                             <span className="inline-block w-[6px] h-[6px] bg-[white] rounded-sm mr-[10px]"></span>
-                            <text className="hover:border-b-[1px] border-white">
+                            <text className="hover:border-b-[1px] border-white text-[12px] md:text-[13px] xl:text-[14px] 2xl:text-[16px]">
                               Silicone Rubber Products
                             </text>
                           </li>
                           <li
                             className="hover:text-gray-200 cursor-pointer flex items-center font-semibold"
                             onClick={() => {
-                              router.prefetch("/product#other-products");
-                              router.push("/product#other-products");
+                              navigate("/product#other-products");
                             }}
                           >
                             <span className="inline-block w-[6px] h-[6px] bg-[white] rounded-sm mr-[10px]"></span>
-                            <text className="hover:border-b-[1px] border-white">
+                            <text className="hover:border-b-[1px] border-white text-[12px] md:text-[13px] xl:text-[14px] 2xl:text-[16px]">
                               Other Products
                             </text>
                           </li>
@@ -402,8 +387,7 @@ export default function Header() {
                         focus:outline-none text-[10px] md:text-[12px] xl:text-[14px]
                         2xl:text-[18px] px-[10px] py-[15px] rounded-[12px] flex items-center z-[1000]"
                       onClick={() => {
-                        router.prefetch(item.href);
-                        router.push(item.href);
+                        navigate(item.href);
                       }}
                     >
                       <text className="line-clamp-1">{item.text}</text>
@@ -424,29 +408,25 @@ export default function Header() {
                 "
               >
                 <div className="h-[100%] w-[100%] flex items-center rounded-[6px] pl-[8px] cursor-pointer overflow-hidden relative bg-white" onClick={() => {
-                  router.prefetch("/Search");
-                  router.push("/Search");
+                  navigate("/Search");
                 }}>
                   <input
                     className="placeholder:text-[#00366A] placeholder:font-medium bg-transparent outline-none w-[100%] cursor-pointer"
                     placeholder="Search..."
                     disabled
                     onFocus={() => {
-                      router.prefetch("/Search");
-                      router.push("/Search");
+                      navigate("/Search");
                     }}
                   />
                   <div
                     onClick={() => {
-                      router.prefetch("/Search");
-                      router.push("/Search");
+                      navigate("/Search");
                     }}
                     className="w-[20%] h-[5vh] rounded-[8px] flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A] object-contain"
                   >
                     <Button
                       onClick={() => {
-                        router.prefetch("/Search");
-                        router.push("/Search");
+                        navigate("/Search");
                       }}
                     >
                       <Search
@@ -456,8 +436,7 @@ export default function Header() {
                           height: "20px",
                         }}
                         onClick={() => {
-                          router.prefetch("/Search");
-                          router.push("/Search");
+                          navigate("/Search");
                         }}
                       />
                     </Button>

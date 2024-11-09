@@ -1,12 +1,12 @@
-import Image from "next/image";
+
 import React from "react";
-import { useRouter } from "next/navigation";
+import { useNavigate } from "react-router-dom";
 function Banner() {
-  const router = useRouter();
+  const navigate = useNavigate();
   return (
     <div className="relative overflow-hidden">
       <div>
-        <Image alt="banner" unoptimized src={"/image/aboutUs/top_banner.png"} width={100} height={100} className="w-[100vw] h-[100%]" />
+        <img alt="banner"  src={require("../../../assets/image/aboutUs/top_banner.png")}   width={100} height={100} className="w-[100vw] h-[100%]" />
       </div>
 
       <div className="absolute top-0 h-[100%] flex flex-col justify-center px-[20px] md:px-[5%] xl:px-[10%] text-white overflow-hidden mx-[20px] md:mx:0 md:translate-y-[-9%]">
@@ -28,7 +28,7 @@ function Banner() {
 
         <div className="flex gap-[20px] xl:gap-[35px] mt-[32px] md:mt-[18px] 2xl:mt-[35px] w-[50vw] md:w-[50%] lg:w-[70%]">
           <button
-            onClick={() => router.push("/product")}
+            onClick={() => navigate("/product")}
             className="
             bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] 
             md:py-[15px] xl:py-[15px] 2xl:py-[20px] rounded-[8px] text-[8px] 
@@ -38,7 +38,7 @@ function Banner() {
           </button>
 
           <button
-            onClick={() => router.push("/contact-us")}
+            onClick={() => navigate("/contact-us")}
             className="py-[10px] 
             md:py-[15px] xl:py-[15px] 2xl:py-[20px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[8px] md:text-[12px] ld:text-[13px] xl:text-[15px] 2xl:text-[20px]"
           >

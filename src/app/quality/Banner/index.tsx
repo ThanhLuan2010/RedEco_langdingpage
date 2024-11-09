@@ -1,19 +1,19 @@
 import { Box } from "@mui/material";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+
+import { useNavigate } from "react-router-dom";
 export default function Banner() {
-  const router = useRouter();
+  const navigate = useNavigate();
   return (
     <Box sx={{ width: "100vw", position: "relative" }}>
       <div className="-z-10">
         <div className="relative">
           <div className="w-full h-[100%] relative">
             <Box width={"100vw"} height={"100%"} sx={{ position: "relative" }}>
-              <Image
-                unoptimized
+              <img
+                
                 style={{ width: "100%", height: "100%" }}
                 alt="banner"
-                src={"/image/quality_banner.png"}
+                src={require("../../../assets/image/quality_banner.png")}
                 width={100}
                 height={100}
               />
@@ -50,7 +50,7 @@ export default function Banner() {
 
                 <div className="flex gap-[20px] md:gap-[30px] xl:gap-[40px] 2xl:gap-[48px] mt-[32px] md:mt-[40px] lg:mt-[55px] xl:mt-[70px] 2xl:mt-[80px] w-[50vw] md:w-[50%] lg:w-[70%]">
                   <button
-                    onClick={() => router.push("/product")}
+                    onClick={() => navigate("/product")}
                     className="
                     bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% 
                     py-[10px] md:py-[13px] 2xl:py-[20x] 
@@ -61,7 +61,7 @@ export default function Banner() {
                   </button>
 
                   <button
-                    onClick={() => router.push("/contact-us")}
+                    onClick={() => navigate("/contact-us")}
                     className="py-[10px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[8px] md:text-[12px] ld:text-[16px] xl:text-[16px] 2xl:text-[20px]"
                   >
                     CONTACT US
@@ -91,10 +91,10 @@ export default function Banner() {
               "
             >
               <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/ic_quality.png"}
+                  src={require("../../../assets/image/ic_quality.png")}
                   style={{
                     width: "80%",
                     height: "80%",
@@ -131,10 +131,10 @@ export default function Banner() {
           "
             >
               <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/ic_quality2.png"}
+                  src={require("../../../assets/image/ic_quality2.png")}
                   style={{
                     width: "80%",
                     height: "80%",
@@ -171,10 +171,10 @@ export default function Banner() {
           "
             >
               <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/ic_quality3.png"}
+                  src={require("../../../assets/image/ic_quality3.png")}
                   style={{
                     width: "80%",
                     height: "80%",

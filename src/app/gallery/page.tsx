@@ -1,11 +1,11 @@
-"use client";
-import Footer from "@/components/Footer";
-import PhoneButton from "@/components/phoneButton";
-import dynamic from "next/dist/shared/lib/dynamic";
-import { useRouter } from "next/navigation";
+import Footer from "../../components/Footer";
+import PhoneButton from "../../components/phoneButton";
+import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import Banner from "./banner";
+import GalleryTabs from "./ourGallary";
 function Gallery() {
-  const router = useRouter();
+  const navigate = useNavigate();
   useEffect(() => {
     // Lấy hash từ URL (VD: #targetComponent)
     const hash = window.location.hash;
@@ -16,21 +16,15 @@ function Gallery() {
         targetElement.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [router]);
+  }, [navigate]);
 
-  const BannerComponent = dynamic(() => import("./banner"), {
-    ssr: false,
-  });
-  const GalleryTabsComponent = dynamic(() => import("./ourGallary"), {
-    ssr: false,
-  });
-  
+ 
 
   return (
     <div className="bg-[#F7F9F9]">
-      <BannerComponent />
+      <Banner />
       <div id="customer">
-        <GalleryTabsComponent />
+        <GalleryTabs />
       </div>
       <PhoneButton />
       <Footer></Footer>

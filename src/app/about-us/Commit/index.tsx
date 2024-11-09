@@ -1,22 +1,22 @@
 "use client";
-import Image from "next/image";
+
 
 const products = [
   {
     name: "Satisfaction",
-    imageUrl: "/image/aboutUs/commit1.png",
+    imageUrl: require("../../../assets/image/aboutUs/commit1.png"),
   },
   {
     name: "On-time Delivery",
-    imageUrl: "/image/aboutUs/commit2.png",
+    imageUrl: require("../../../assets/image/aboutUs/commit2.png"),
   },
   {
     name: "Good Pricing",
-    imageUrl: "/image/aboutUs/commit3.png",
+    imageUrl: require("../../../assets/image/aboutUs/commit3.png"),
   },
   {
     name: "Excellent Service",
-    imageUrl: "/image/aboutUs/commit4.png",
+    imageUrl: require("../../../assets/image/aboutUs/commit4.png"),
   },
 ];
 
@@ -47,8 +47,7 @@ const Commit = () => (
             className="bg-white 2xl:mx-[20px] flex justify-center items-center py-[0px] md:py-[5px] lg:py-[10px] xl:py-[15px] 2xl:py-[20px] rounded-[7px] xl:rounded-[12px] my-[5px]"
           >
             <div className="flex justify-center items-center flex-col pt-[16px] pb-[12px]">
-                <Image
-                  unoptimized
+                <img
                   className="w-[50px] md:w-[60px] lg:w-[70px] 2xl:w-[80px] object-contain"
                   alt={product.name}
                   src={product.imageUrl}

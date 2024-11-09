@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 
 const ProductionLine = () => {
   return (
@@ -24,10 +24,10 @@ const ProductionLine = () => {
         <div className="flex flex-col md:flex-row overflow-hidden h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[40px] 2xl:mt-[45px]">
           <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] overflow-hidden w-[100%] md:w-[50%] flex flex-col">
             <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[12px] md:p-[14px] ">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/productionLine1.png"}
+                src={require("../../../assets/image/productionLine1.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -44,10 +44,10 @@ const ProductionLine = () => {
           <div className="h-[50%] md:h-[100%] flex flex-col w-[100%] md:w-[50%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] w-[100%] flex flex-row">
               <div className="h-[100%] w-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[12px] md:p-[14px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/productionLine2.png"}
+                  src={require("../../../assets/image/productionLine2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -63,10 +63,10 @@ const ProductionLine = () => {
 
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%]  overflow-hidden w-[100%] flex flex-col ">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[12px] md:p-[14px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/productionLine3.png"}
+                  src={require("../../../assets/image/productionLine3.png")}
                   style={{
                     width: "100%",
                     height: "100%",

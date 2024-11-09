@@ -1,6 +1,6 @@
 "use client";
 import { Typography } from "antd";
-import Image from "next/image";
+
 import React, { useEffect, useState } from "react";
 
 function OtherProduct({ otherTab }: { otherTab?: string }) {
@@ -25,9 +25,9 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
         <>
           {/* Desktop */}
           <div className="xl:flex lg:flex md:flex sm:hidden hidden border-[1px] md:border-[2px] border-[#00366A] p-[12px] rounded-[8px] mt-[60px] bg-white">
-            <Image
-              unoptimized
-              src={"/image/banner-otherProduct.png"}
+            <img
+              
+              src={require("../../assets/image/banner-otherProduct.png")}
               alt=""
               width={100}
               height={100}
@@ -38,10 +38,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
           {/* Mobile */}
           <div className="flex flex-col gap-[20px] xl:gap-[35px] mt-[20px]">
             <div className="h-[100%] md:hidden sm:flex flex overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[10px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other-product_mobile.png"}
+                src={require("../../assets/image/other-product_mobile.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -53,10 +53,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
               />
             </div>
             <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[10px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other-product_mobile1.png"}
+                src={require("../../assets/image/other-product_mobile1.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -68,10 +68,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
               />
             </div>
             <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[10px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other-product_mobile2.png"}
+                src={require("../../assets/image/other-product_mobile2.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -83,10 +83,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
               />
             </div>
             <div className="h-[100%] xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[10px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other-product_mobile3.png"}
+                src={require("../../assets/image/other-product_mobile3.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -102,10 +102,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
           <div className="md:flex hidden overflow-hidden h-[40vh] gap-[20px] xl:gap-[35px] mt-[20px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-1/3 flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other-product1.png"}
+                  src={require("../../assets/image/other-product1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -120,10 +120,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-1/3 flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other-product2.png"}
+                  src={require("../../assets/image/other-product2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -138,10 +138,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-1/3 flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other-product3.png"}
+                  src={require("../../assets/image/other-product3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -165,10 +165,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
           <div className="xl:flex md:flex lg:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[35px] mt-[60px]">
             <div className="gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.1.png"}
+                  src={require("../../assets/image/other_product2.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -181,10 +181,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
               </div>
 
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.2.png"}
+                  src={require("../../assets/image/other_product2.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -199,10 +199,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[60px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.3.png"}
+                  src={require("../../assets/image/other_product2.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -214,10 +214,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.4.png"}
+                  src={require("../../assets/image/other_product2.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -232,10 +232,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.5.png"}
+                  src={require("../../assets/image/other_product2.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -247,10 +247,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.6.png"}
+                  src={require("../../assets/image/other_product2.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -267,10 +267,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
           <div className="xl:hidden md:hidden lg:hidden flex flex-col sm:flex-col gap-[20px] xl:gap-[35px] mt-5 md:mt-10 2xl:mt-[35px]">
             <div className=" overflow-hidden w-[100%] flex flex-col">
               <div className="h-[20%] flex justify-center items-center overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.1.png"}
+                  src={require("../../assets/image/other_product2.1.png")}
                   style={{
                     width: "60%",
                     objectFit: "contain",
@@ -283,10 +283,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
             </div>
             <div className="overflow-hidden w-[100%] flex flex-col">
               <div className="h-[20%] flex justify-center items-center overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.2.png"}
+                  src={require("../../assets/image/other_product2.2.png")}
                   style={{
                     width: "60%",
                     objectFit: "contain",
@@ -299,10 +299,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
             </div>
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[100%] flex">
               <div className="h-30%] w-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.3.png"}
+                  src={require("../../assets/image/other_product2.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -314,10 +314,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[30%] w-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.5.png"}
+                  src={require("../../assets/image/other_product2.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -331,10 +331,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
             </div>
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[100%] flex">
               <div className="h-30%] w-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.4.png"}
+                  src={require("../../assets/image/other_product2.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -346,10 +346,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[30%] w-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product2.6.png"}
+                  src={require("../../assets/image/other_product2.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -373,10 +373,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
           <div className="xl:flex md:flex lg:flex hidden sm:hidden overflow-hidden h-[80vh] gap-[35px] mt-[60px]">
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[45%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.1.png"}
+                  src={require("../../assets/image/other_product3.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -388,10 +388,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[55%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.2.png"}
+                  src={require("../../assets/image/other_product3.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -406,10 +406,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[35%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.3.png"}
+                  src={require("../../assets/image/other_product3.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -421,10 +421,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[65%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.4.png"}
+                  src={require("../../assets/image/other_product3.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -439,10 +439,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.5.png"}
+                  src={require("../../assets/image/other_product3.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -454,10 +454,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.6.png"}
+                  src={require("../../assets/image/other_product3.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -472,10 +472,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[65%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.7.png"}
+                  src={require("../../assets/image/other_product3.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -487,10 +487,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[35%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.8.png"}
+                  src={require("../../assets/image/other_product3.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -507,10 +507,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
           <div className="xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[35px] mt-[20px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.1.png"}
+                  src={require("../../assets/image/other_product3.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -522,10 +522,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.2.png"}
+                  src={require("../../assets/image/other_product3.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -537,10 +537,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.5.png"}
+                  src={require("../../assets/image/other_product3.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -552,10 +552,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.6.png"}
+                  src={require("../../assets/image/other_product3.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -570,10 +570,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.3.png"}
+                  src={require("../../assets/image/other_product3.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -585,10 +585,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.4.png"}
+                  src={require("../../assets/image/other_product3.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -600,10 +600,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.7.png"}
+                  src={require("../../assets/image/other_product3.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -615,10 +615,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product3.8.png"}
+                  src={require("../../assets/image/other_product3.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -641,10 +641,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
           {/* Desktop */}
           <div className="xl:flex md:flex lg:flex sm:hidden hidden gap-[35px] h-[43%] w-[100%]">
             <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] w-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[12px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other_product4.1.png"}
+                src={require("../../assets/image/other_product4.1.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -656,10 +656,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
             </div>
 
             <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] w-[100%]  overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[12px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other_product4.2.png"}
+                src={require("../../assets/image/other_product4.2.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -673,10 +673,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
           <div className="xl:flex md:flex lg:flex sm:hidden hidden gap-[20px] xl:gap-[35px] h-[57%] overflow-hidden">
             <div className="w-1/3 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other_product4.3.png"}
+                src={require("../../assets/image/other_product4.3.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -688,10 +688,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
               />
             </div>
             <div className="w-1/3 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other_product4.4.png"}
+                src={require("../../assets/image/other_product4.4.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -703,10 +703,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
               />
             </div>
             <div className="w-1/3 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other_product4.5.png"}
+                src={require("../../assets/image/other_product4.5.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -724,10 +724,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             {/* TOP 1 */}
             <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] h-[240%] w-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[8px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other_product4.1.png"}
+                src={require("../../assets/image/other_product4.1.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -741,10 +741,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             {/* TOP 2 */}
             <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] sm:w-[100%] h-[240%] w-[100%]  overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[8px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other_product4.2.png"}
+                src={require("../../assets/image/other_product4.2.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -758,10 +758,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
 
             {/* TOP 3*/}
             <div className="overflow-hidden border-[1px] md:border-[2px] border-[#00366A] h-[240%] rounded-[8px] bg-white p-[10px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/other_product4.3.png"}
+                src={require("../../assets/image/other_product4.3.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -776,10 +776,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
             {/* Botton */}
             <div className="flex gap-[20px] xl:gap-[35px]">
               <div className="overflow-hidden w-[50%] border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product4.4.png"}
+                  src={require("../../assets/image/other_product4.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -791,10 +791,10 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
                 />
               </div>
               <div className="overflow-hidden w-[50%] border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/other_product4.5.png"}
+                  src={require("../../assets/image/other_product4.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",

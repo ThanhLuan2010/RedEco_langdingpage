@@ -1,14 +1,14 @@
 import { Box } from "@mui/material";
 import { Carousel } from "antd";
-import Image from "next/image";
+
 
 const products = [
-  { name: "human1", imageUrl: "/image/human1.png" },
-  { name: "human2", imageUrl: "/image/human2.png" },
-  { name: "human3", imageUrl: "/image/human3.png" },
-  { name: "human4", imageUrl: "/image/human4.png" },
-  { name: "human5", imageUrl: "/image/human5.png" },
-  { name: "human6", imageUrl: "/image/human6.png" },
+  { name: "human1", imageUrl: require("../../../assets/image/human1.png") },
+  { name: "human2", imageUrl: require("../../../assets/image/human2.png") },
+  { name: "human3", imageUrl: require("../../../assets/image/human3.png") },
+  { name: "human4", imageUrl: require("../../../assets/image/human4.png") },
+  { name: "human5", imageUrl: require("../../../assets/image/human5.png") },
+  { name: "human6", imageUrl: require("../../../assets/image/human6.png") },
 ];
 
 const settings = {
@@ -65,14 +65,14 @@ const Human = () => (
                 "2xl": { margin: "0 40px" },
               }}
             >
-              <Image
+              <img
                 style={{ objectFit: "contain" }}
                 alt={product.name}
                 src={product.imageUrl}
                 width={100}
                 className="w-[100%]"
                 height={100}
-                unoptimized
+                
               />
             </Box>
           </div>

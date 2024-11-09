@@ -1,12 +1,12 @@
 "use client";
 import { Search } from "@mui/icons-material";
 import { Button } from "@mui/material";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+
+import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 
 function SearchPage() {
-  const router = useRouter();
+  const navigate = useNavigate();
   const [search, setSearch] = useState<string>("");
   const onSearch = () => {
     if (search) { 
@@ -17,17 +17,16 @@ function SearchPage() {
     }
   };
   return (
-    <div className="">
+    <div className="">  
       <div className="bg-[#FFFFFFE5] opacity-[0.9] hidden md:flex flex-col">
         <div className="relative">
           <button
-            onClick={() => router.back()}
+            onClick={() => navigate(-1)}
             className="absolute top-[40px] right-[40px]"
           >
-            <Image
-              unoptimized
+            <img
               alt=""
-              src={"/icon/ic_close.png"}
+              src={require("../../assets/icon/ic_close.png")}
               className="w-[40px] h-[40px] object-contain"
               width={100}
               height={100}
@@ -37,11 +36,10 @@ function SearchPage() {
 
         <div className="flex justify-center items-center">
           <div className="pt-[130px] w-1/5 flex items-center justify-center">
-            <Image
-              unoptimized
+            <img
               alt=""
               className="w-[100%] h-[100%]"
-              src={"/image/logo.png"}
+              src={require("../../assets/image/logo.png")}
               width={100}
               height={100}
             />
@@ -122,7 +120,7 @@ function SearchPage() {
               </div>
               <div className="absolute top-0 right-0 
                h-[100%] rounded-[15px] flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A] w-[48px]">
-                <Button onClick={() => router.push("Search")}>
+                <Button onClick={() => navigate("/search")}>
                   <Search
                     style={{
                       color: "white",
@@ -136,11 +134,11 @@ function SearchPage() {
           </div>
         </div>
         <div className="h-[38px] flex justify-center items-center">
-          <button onClick={() => router.back()} className="">
-            <Image
-              unoptimized
+          <button onClick={() => navigate(-1)} className="">
+            <img
+              
               alt=""
-              src={"/icon/ic_close.png"}
+              src={require("../../assets/icon/ic_close.png")}
               className="w-[24px] h-[24px] object-contain"
               width={100}
               height={100}

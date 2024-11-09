@@ -1,6 +1,4 @@
-import { FormCustom } from "@/components";
-import Image from "next/image";
-import React from "react";
+import { FormCustom } from "../../../components";
 
 const GetInTouch = ({ setUserNameSubmit, setIsStatusSubmit }: any) => {
   return (
@@ -21,13 +19,13 @@ const GetInTouch = ({ setUserNameSubmit, setIsStatusSubmit }: any) => {
       </div>
       <div className="flex w-[100%] justify-stretch items-center pr-[20px] md:pr-[5%] xl:pr-[10%]">
         <div className="w-[45%] xl:flex lg:flex md:flex sm:hidden hidden -mt-24">
-          <Image
+          <img
             style={{ width: "100%", height: "70%", objectFit: "contain" }}
             alt="banner"
-            src={"/image/aboutUs/banner_get_in_touch.png"}
+            src={require("../../../assets/image/aboutUs/banner_get_in_touch.png")}
             width={100}
             height={100}
-            unoptimized
+            
           />
         </div>
         <div className="md:w-[55%] w-[100%]">

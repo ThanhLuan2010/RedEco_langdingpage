@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import { useState } from "react";
 
 const GalleryTabs = () => {
@@ -11,24 +11,22 @@ const GalleryTabs = () => {
         return (
           <>
             <div className="w-[100%] h-auto xl:flex md:flex lg:flex sm:flex hidden">
-              <Image
+              <img
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={"/image/gallary/production.png"}
+                src={require("../../../assets/image/gallary/production.png")}
                 width={100}
                 height={100}
-                unoptimized
-              ></Image>
+              />
             </div>
             <div className="w-[100%] h-auto xl:hidden md:hidden lg:hidden sm:hidden flex">
-              <Image
+              <img
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={"/image/gallary/production2.png"}
+                src={require("../../../assets/image/gallary/production2.png")}
                 width={100}
                 height={100}
-                unoptimized
-              ></Image>
+              />
             </div>
           </>
         );
@@ -36,24 +34,22 @@ const GalleryTabs = () => {
         return (
           <>
             <div className="w-[100%] h-auto xl:flex md:flex lg:flex sm:flex hidden">
-              <Image
+              <img
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={"/image/gallary/our-customers.png"}
+                src={require("../../../assets/image/gallary/our-customers.png")}
                 width={100}
                 height={100}
-                unoptimized
-              ></Image>
+              />
             </div>
             <div className="w-[100%] h-auto xl:hidden md:hidden lg:hidden sm:hidden flex">
-              <Image
+              <img
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={"/image/gallary/our-customers2.png"}
+                src={require("../../../assets/image/gallary/our-customers2.png")}
                 width={100}
                 height={100}
-                unoptimized
-              ></Image>
+              />
             </div>
           </>
         );
@@ -61,24 +57,22 @@ const GalleryTabs = () => {
         return (
           <div>
             <div className="w-[100%] h-auto hidden md:flex">
-              <Image
+              <img
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={"/image/gallary/office-block.png"}
+                src={require("../../../assets/image/gallary/office-block.png")}
                 width={100}
                 height={100}
-                unoptimized
-              ></Image>
+              />
             </div>
             <div className="w-[100%] h-auto flex md:hidden">
-              <Image
+              <img
                 alt="img_gallary"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
-                src={"/image/gallary/office_mobile.png"}
+                src={require("../../../assets/image/gallary/office_mobile.png")}
                 width={100}
                 height={100}
-                unoptimized
-              ></Image>
+              />
             </div>
           </div>
         );

@@ -1,9 +1,8 @@
-"use client";
-
 import React, { useEffect, useRef, useState } from "react";
 import * as yup from "yup";
 import Button from "../Button";
 import CustomSelect from "../SelectCustom";
+import '../../globals.css'
 
 interface FormData {
   firstName: string;

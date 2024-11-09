@@ -1,6 +1,6 @@
-import Counter from "@/components/Counter";
+import Counter from "../../../components/Counter";
 import { Box } from "@mui/material";
-import Image from "next/image";
+
 
 const data = [
   {
@@ -32,10 +32,10 @@ const StatisticalData = () => (
     >
       <div className="w-[100%] flex flex-col-reverse md:flex-row px-[20px] md:px-[5%] xl:px-[10%] pt-[24px] xl:py-[40px]">
         <div className="w-[100%] md:w-[50%]">
-          <Image
-            src={"/image/aboutUs/about-us2.png"}
+          <img
+            src={require("../../../assets/image/aboutUs/about-us2.png")}
             alt=""
-            unoptimized
+            
             className="w-[100%] md:w-[85%] object-contain translate-y-[25%]"
             width={100}
             height={100}

@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import { useState } from "react";
 
 const TabButton = ({ label, isActive, onClick }: any) => (
@@ -34,10 +34,10 @@ const Capacity = () => {
           <div className="flex w-[100%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[50%] md:h-[55%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/machine1.png"}
+                  src={require("../../../assets/image/machine1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -49,10 +49,10 @@ const Capacity = () => {
                 />
               </div>
               <div className="h-[50%] md:h-[45%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/machine2.png"}
+                  src={require("../../../assets/image/machine2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -67,10 +67,10 @@ const Capacity = () => {
 
             <div className=" gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[50%] md:h-[35%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/machine3.png"}
+                  src={require("../../../assets/image/machine3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -82,10 +82,10 @@ const Capacity = () => {
                 />
               </div>
               <div className="h-[50%] md:h-[65%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/machine4.png"}
+                  src={require("../../../assets/image/machine4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -102,10 +102,10 @@ const Capacity = () => {
           <div className="flex w-[100%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/machine5.png"}
+                  src={require("../../../assets/image/machine5.png")  }
                   style={{
                     width: "100%",
                     height: "100%",
@@ -117,10 +117,10 @@ const Capacity = () => {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/machine6.png"}
+                  src={require("../../../assets/image/machine6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -135,10 +135,10 @@ const Capacity = () => {
 
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[50%] md:h-[30%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/machine7.png"}
+                  src={require("../../../assets/image/machine7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -150,10 +150,10 @@ const Capacity = () => {
                 />
               </div>
               <div className="h-[50%] md:h-[70%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/machine8.png"}
+                  src={require("../../../assets/image/machine8.png")  }
                   style={{
                     width: "100%",
                     height: "100%",
@@ -175,10 +175,10 @@ const Capacity = () => {
           <div className="flex flex-col  gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%]  overflow-hidden w-[100%] flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[1px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/capacity2.1.png"}
+                  src={require("../../../assets/image/capacity2.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -193,10 +193,10 @@ const Capacity = () => {
 
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/capacity2.2.png"}
+                  src={require("../../../assets/image/capacity2.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -212,10 +212,10 @@ const Capacity = () => {
 
           <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] overflow-hidden w-[100%] md:w-[50%] flex flex-col">
             <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/capacity2.3.png"}
+                src={require("../../../assets/image/capacity2.3.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -235,10 +235,10 @@ const Capacity = () => {
         <div className="flex flex-col md:flex-row overflow-hidden h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[45px] 2xl:mt-[55px]">
           <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] overflow-hidden w-[100%] md:w-[50%] flex flex-col">
             <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/capacity3.1.png"}
+                src={require("../../../assets/image/capacity3.1.png") }
                 style={{
                   width: "100%",
                   height: "100%",
@@ -253,10 +253,10 @@ const Capacity = () => {
           <div className="flex flex-col gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/capacity3.2.png"}
+                  src={require("../../../assets/image/capacity3.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -271,10 +271,10 @@ const Capacity = () => {
 
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/capacity3.3.png"}
+                  src={require("../../../assets/image/capacity3.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -340,8 +340,8 @@ const Capacity = () => {
         <div className="flex flex-col md:flex-row overflow-hidden h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[35px] w-[100%] 2xl:mt-[45px] ]">
           <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] md:w-1/3 overflow-hidden w-[100%] flex flex-col">
             <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
                 src={"/image/quality_control1.png"}
                 style={{
@@ -358,10 +358,10 @@ const Capacity = () => {
           <div className="h-[50%] md:h-[100%] flex flex-col md:flex-col md:w-2/3 gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%]  w-[100%] flex flex-row">
               <div className="h-[100%] w-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/quality_control2.png"}
+                  src={require("../../../assets/image/quality_control2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -373,10 +373,10 @@ const Capacity = () => {
               </div>
 
               <div className="h-[100%] w-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/quality_control3.png"}
+                  src={require("../../../assets/image/quality_control3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -390,10 +390,10 @@ const Capacity = () => {
 
             <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[50%] overflow-hidden w-[100%] flex flex-col ">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/quality_control4.png"}
+                  src={require("../../../assets/image/quality_control4.png")}
                   style={{
                     width: "100%",
                     height: "100%",

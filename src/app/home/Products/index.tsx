@@ -1,9 +1,9 @@
 import React from "react";
 import { Carousel } from "antd";
 import styled from "styled-components";
-import Image from "next/image";
+
 import { Box } from "@mui/material";
-import { useRouter } from "next/navigation";
+import { useNavigate } from "react-router-dom";
 
 const StyledCarousel = styled(Carousel)`
   .slick-dots {
@@ -102,27 +102,27 @@ const StyledCarousel = styled(Carousel)`
 const products = [
   {
     name: "Machine Details",
-    imageUrl: "/image/product1.png",
+    imageUrl: require("../../../assets/image/product1.png"),
     hash: "machine-details",
   },
   {
     name: "Automation",
-    imageUrl: "/image/product2.png",
+    imageUrl: require("../../../assets/image/product2.png"),
     hash: "automation",
   },
   {
     name: "Plastic Injection",
-    imageUrl: "/image/product3.png",
+    imageUrl: require("../../../assets/image/product3.png"),
     hash: "plastic-injection",
   },
   {
     name: "Silicone Rubber",
-    imageUrl: "/image/product4.png",
+    imageUrl: require("../../../assets/image/product4.png"),
     hash: "silicone-rubber",
   },
   {
     name: "Other Products",
-    imageUrl: "/image/product5.png",
+    imageUrl: require("../../../assets/image/product5.png"),
     hash: "other-products",
   },
 ];
@@ -156,7 +156,7 @@ const settings = {
 };
 
 const CustomCarousel = () => {
-  const router = useRouter();
+  const navigate = useNavigate();
   return (
     <div className="bg-[#F7F9F9] flex flex-col items-center justify-center pt-[40px] sm:pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[120px] 2xl:pt-[140px]">
       <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
@@ -168,7 +168,7 @@ const CustomCarousel = () => {
           <StyledCarousel style={{ height: "100%" }} autoplay {...settings}>
             {products.map((product, index) => (
               <div
-                onClick={() => router.push(`/product#${product.hash}`)}
+                onClick={() => navigate(`/product#${product.hash}`)}
                 key={index}
                 className="bg-[#F7F9F9] cursor-pointer"
               >
@@ -181,7 +181,7 @@ const CustomCarousel = () => {
                 >
                   <div className="h-[100%] px-[12px] py-[12px] md:px-[20px] md:py-[20px] text-center">
                     <div className="border-[2px] border-[#00366A] rounded-[10px] flex justify-center items-center h-[70%] ">
-                      <Image
+                      <img
                         style={{
                           objectFit: "contain",
                           width: "70%",
@@ -191,7 +191,7 @@ const CustomCarousel = () => {
                         height={100}
                         alt={product.name}
                         src={product.imageUrl}
-                        unoptimized
+                        
                       />
                     </div>
                     <div className="h-[30%] flex justify-center items-center">

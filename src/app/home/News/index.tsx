@@ -1,12 +1,12 @@
 "use client";
 import { Box, useMediaQuery, useTheme } from "@mui/material";
 import { Col, Row } from "antd";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+
+import { useNavigate } from "react-router-dom";
 import { Newsdata, NewsdataMobile } from "./data";
 
 function News() {
-  const router = useRouter();
+  const navigate = useNavigate();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const data = isMobile ? NewsdataMobile : Newsdata;
@@ -35,16 +35,16 @@ function News() {
                   cursor: "pointer",
                 }}
                 className="h-[100%] rounded-[12px] overflow-hidden md:rounded-[16px]"
-                onClick={() => router.push("/news/" + item.id)}
+                onClick={() => navigate("/news/" + item.id)}
               >
                 <Box sx={{ position: "relative", height: "55%" }}>
-                  <Image
+                  <img
                     style={{ height: "100%" }}
                     alt=""
                     src={item.image}
                     width={100}
                     height={100}
-                    unoptimized
+                    
                     className="w-[100%] rounded-[10px] overflow-hidden md:rounded-[14px]"
                   />
                 </Box>

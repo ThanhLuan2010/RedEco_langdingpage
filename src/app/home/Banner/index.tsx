@@ -1,8 +1,7 @@
-"use client";
 import { Box } from "@mui/material";
 import { Carousel } from "antd";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const StyledCarousel = styled(Carousel)`
@@ -49,7 +48,7 @@ const StyledCarousel = styled(Carousel)`
 `;
 
 export default function Banner() {
-  const router = useRouter();
+    const navigate = useNavigate();
 
   return (
     <div className="h-[90vh]">
@@ -57,19 +56,19 @@ export default function Banner() {
         <div className="hidden md:block">
           <StyledCarousel autoplay autoplaySpeed={2000}>
             {[
-              "/image/banner1.png",
-              "/image/banner2.png",
-              "/image/banner3.png",
-              "/image/banner4.png",
+              require("../../../assets/image/banner1.png"),
+              require("../../../assets/image/banner2.png"),
+              require("../../../assets/image/banner3.png"),
+              require("../../../assets/image/banner4.png"),
             ].map((src, index) => (
               <Box key={index} width={"100vw"} height={"100%"}>
-                <Image
+                <img
                   style={{ width: "100%", height: "100%" }}
                   alt={`banner-${index + 1}`}
                   width={100}
                   height={100}
                   src={src}
-                  unoptimized
+                  
                 />
               </Box>
             ))}
@@ -78,13 +77,13 @@ export default function Banner() {
 
         <div className="md:hidden">
           <Box  width={"100vw"} height={"100%"}>
-            <Image
+            <img
               style={{ width: "100%", height: "100%" }}
               alt={`banner`}
               width={100}
               height={100}
-              src={"/image/banner1.png"}
-              unoptimized
+              src={require("../../../assets/image/banner1.png")}
+              
             />
           </Box>
         </div>
@@ -121,14 +120,14 @@ export default function Banner() {
 
           <div className="flex gap-[20px] xl:gap-[35px] mt-[25px] sm:mt-[35px] w-[65%] md:w-[50%] lg:w-[45%] z-20">
             <button
-              onClick={() => router.push("/about-us#scope-of-service")}
+              onClick={() => navigate("/about-us#scope-of-service")}
               className="bg-gradient-to-br from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] lg:py-[10px] 2xl:py-[20px] rounded-[8px] text-[9px] md:text-[12px] ld:text-[16px] xl:text-[20px] w-[50%] font-bold"
             >
               OUR SERVICES
             </button>
 
             <button
-              onClick={() => router.push("/contact-us#get-in-touch")}
+              onClick={() => navigate("/contact-us#get-in-touch")}
               className="py-[10px]  2xl:py-[20px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[9px] md:text-[12px] ld:text-[16px] xl:text-[17px] 2xl:text-[20px]"
             >
               CONTACT US

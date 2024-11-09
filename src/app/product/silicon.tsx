@@ -1,6 +1,6 @@
 "use client";
 import { Typography } from "antd";
-import Image from "next/image";
+
 import React, { useEffect, useState } from "react";
 
 function Silicon({ tab }: { tab?: string }) {
@@ -23,9 +23,9 @@ function Silicon({ tab }: { tab?: string }) {
       return (
         <div className="mt-[40px]">
           <div className="border-[1px] md:border-[2px] border-[#00366A] p-[12px] rounded-[8px] md:mt-[60px] bg-white">
-            <Image
-              unoptimized
-              src={"/image/banner-silicon.png"}
+            <img
+              
+              src={require("../../assets/image/banner-silicon.png")  }
               alt=""
               width={100}
               height={100}
@@ -36,10 +36,10 @@ function Silicon({ tab }: { tab?: string }) {
             <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[45vh] 2xl:gap-[35px] gap-[30px] mt-[20px] md:mt-[30px] 2xl:mt-[40px]">
               <div className="2xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
                 <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon1.png"}
+                    src={require("../../assets/image/silicon1.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -51,43 +51,10 @@ function Silicon({ tab }: { tab?: string }) {
                   />
                 </div>
                 <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon2.png"}
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "contain",
-                    }}
-                    width={100}
-                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
-                    height={100}
-                  />
-                </div>
-              </div>
-
-              <div className="2xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
-                <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
-                    alt=""
-                    src={"/image/silicon3.png"}
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "contain",
-                    }}
-                    width={100}
-                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
-                    height={100}
-                  />
-                </div>
-                <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
-                    alt=""
-                    src={"/image/silicon3.png"}
+                    src={require("../../assets/image/silicon2.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -102,10 +69,10 @@ function Silicon({ tab }: { tab?: string }) {
 
               <div className="2xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
                 <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon5.png"}
+                    src={require("../../assets/image/silicon3.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -117,10 +84,43 @@ function Silicon({ tab }: { tab?: string }) {
                   />
                 </div>
                 <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon6.png"}
+                    src={require("../../assets/image/silicon3.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
+                    height={100}
+                  />
+                </div>
+              </div>
+
+              <div className="2xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
+                <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+                  <img
+                    
+                    alt=""
+                    src={require("../../assets/image/silicon5.png")}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                    width={100}
+                    className="md transition-transform md:duration-300 ease-in-out md:hover:scale-125"
+                    height={100}
+                  />
+                </div>
+                <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
+                  <img
+                    
+                    alt=""
+                    src={require("../../assets/image/silicon6.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -137,10 +137,10 @@ function Silicon({ tab }: { tab?: string }) {
             <div className="xl:hidden lg:hidden md:hidden sm:flex flex overflow-hidden h-[80vh] gap-[20px] xl:gap-[35px] mt-[20px]">
               <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
                 <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon1.png"}
+                    src={require("../../assets/image/silicon1.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -152,10 +152,10 @@ function Silicon({ tab }: { tab?: string }) {
                   />
                 </div>
                 <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon5.png"}
+                    src={require("../../assets/image/silicon5.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -167,10 +167,10 @@ function Silicon({ tab }: { tab?: string }) {
                   />
                 </div>
                 <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon7.png"}
+                    src={require("../../assets/image/silicon7.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -185,10 +185,10 @@ function Silicon({ tab }: { tab?: string }) {
 
               <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
                 <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon3.png"}
+                    src={require("../../assets/image/silicon3.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -200,10 +200,10 @@ function Silicon({ tab }: { tab?: string }) {
                   />
                 </div>
                 <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon2.png"}
+                    src={require("../../assets/image/silicon2.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -215,10 +215,10 @@ function Silicon({ tab }: { tab?: string }) {
                   />
                 </div>
                 <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon6.png"}
+                    src={require("../../assets/image/silicon6.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -243,10 +243,10 @@ function Silicon({ tab }: { tab?: string }) {
           <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[35px] mt-[60px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[65%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.1.png"}
+                  src={require("../../assets/image/silicon2.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -259,10 +259,10 @@ function Silicon({ tab }: { tab?: string }) {
               </div>
 
               <div className="h-[35%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.2.png"}
+                  src={require("../../assets/image/silicon2.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -277,10 +277,10 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[40%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.3.png"}
+                  src={require("../../assets/image/silicon2.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -292,10 +292,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.4.png"}
+                  src={require("../../assets/image/silicon2.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -310,10 +310,10 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.5.png"}
+                  src={require("../../assets/image/silicon2.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -325,10 +325,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.6.png"}
+                  src={require("../../assets/image/silicon2.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -343,10 +343,10 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[45%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.7.png"}
+                  src={require("../../assets/image/silicon2.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -358,10 +358,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[55%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.8.png"}
+                  src={require("../../assets/image/silicon2.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -378,10 +378,10 @@ function Silicon({ tab }: { tab?: string }) {
           <div className="xl:hidden md:hidden lg:hidden flex sm:flex overflow-hidden h-[110vh] gap-[20px] xl:gap-[35px] mt-[40px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.1.png"}
+                  src={require("../../assets/image/silicon2.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -393,10 +393,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.2.png"}
+                  src={require("../../assets/image/silicon2.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -408,10 +408,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.5.png"}
+                  src={require("../../assets/image/silicon2.5.png")  }
                   style={{
                     width: "100%",
                     height: "100%",
@@ -423,10 +423,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.6.png"}
+                  src={require("../../assets/image/silicon2.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -441,10 +441,10 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.3.png"}
+                  src={require("../../assets/image/silicon2.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -456,10 +456,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.4.png"}
+                  src={require("../../assets/image/silicon2.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -471,10 +471,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.7.png"}
+                  src={require("../../assets/image/silicon2.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -486,10 +486,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon2.8.png"}
+                  src={require("../../assets/image/silicon2.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -513,10 +513,10 @@ function Silicon({ tab }: { tab?: string }) {
           <div className="xl:flex md:flex lg:flex hidden sm:hidden overflow-hidden h-[80vh] gap-[35px] mt-[60px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon3.1.png"}
+                  src={require("../../assets/image/silicon3.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -531,10 +531,10 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon3.2.png"}
+                  src={require("../../assets/image/silicon3.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -546,10 +546,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon3.3.png"}
+                  src={require("../../assets/image/silicon3.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -564,10 +564,10 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon3.4.png"}
+                  src={require("../../assets/image/silicon3.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -579,10 +579,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon3.5.png"}
+                  src={require("../../assets/image/silicon3.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -599,10 +599,10 @@ function Silicon({ tab }: { tab?: string }) {
           <div className="xl:hidden lg:hidden md:hidden sm:flex flex-col flex overflow-hidden h-[80vh] gap-[35px] mt-[40px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon3.1.png"}
+                  src={require("../../assets/image/silicon3.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -618,10 +618,10 @@ function Silicon({ tab }: { tab?: string }) {
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[100%] flex">
               <div className="flex gap-[20px] xl:gap-[35px] flex-col">
                 <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] flex flex-col border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon3.2.png"}
+                    src={require("../../assets/image/silicon3.2.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -633,10 +633,10 @@ function Silicon({ tab }: { tab?: string }) {
                   />
                 </div>
                 <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] flex flex-col border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon3.3.png"}
+                    src={require("../../assets/image/silicon3.3.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -650,10 +650,10 @@ function Silicon({ tab }: { tab?: string }) {
               </div>
               <div className="flex gap-[20px] xl:gap-[35px] flex-col">
                 <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon3.4.png"}
+                    src={require("../../assets/image/silicon3.4.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -665,10 +665,10 @@ function Silicon({ tab }: { tab?: string }) {
                   />
                 </div>
                 <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                  <Image
-                    unoptimized
+                  <img
+                    
                     alt=""
-                    src={"/image/silicon3.5.png"}
+                    src={require("../../assets/image/silicon3.5.png")}
                     style={{
                       width: "100%",
                       height: "100%",
@@ -693,10 +693,10 @@ function Silicon({ tab }: { tab?: string }) {
           <div className="md:flex lg:flex xl:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[35px] mt-[60px]">
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[65%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.1.png"}
+                  src={require("../../assets/image/silicon4.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -709,10 +709,10 @@ function Silicon({ tab }: { tab?: string }) {
               </div>
 
               <div className="h-[35%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.2.png"}
+                  src={require("../../assets/image/silicon4.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -727,10 +727,10 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[40%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.3.png"}
+                  src={require("../../assets/image/silicon4.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -742,10 +742,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.4.png"}
+                  src={require("../../assets/image/silicon4.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -760,10 +760,10 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.5.png"}
+                  src={require("../../assets/image/silicon4.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -775,10 +775,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.6.png"}
+                  src={require("../../assets/image/silicon4.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -793,10 +793,10 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[45%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.7.png"}
+                  src={require("../../assets/image/silicon4.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -808,10 +808,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[55%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.8.png"}
+                  src={require("../../assets/image/silicon4.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -828,10 +828,10 @@ function Silicon({ tab }: { tab?: string }) {
           <div className="xl:hidden md:hidden lg:hidden flex sm:flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[35px] mt-[40px]">
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.1.png"}
+                  src={require("../../assets/image/silicon4.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -843,10 +843,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.2.png"}
+                  src={require("../../assets/image/silicon4.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -858,10 +858,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.5.png"}
+                  src={require("../../assets/image/silicon4.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -873,10 +873,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.6.png"}
+                  src={require("../../assets/image/silicon4.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -891,10 +891,10 @@ function Silicon({ tab }: { tab?: string }) {
 
             <div className="gap-[20px] xl:gap-[35px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.3.png"}
+                  src={require("../../assets/image/silicon4.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -906,10 +906,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.4.png"}
+                  src={require("../../assets/image/silicon4.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -921,10 +921,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.7.png"}
+                  src={require("../../assets/image/silicon4.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -936,10 +936,10 @@ function Silicon({ tab }: { tab?: string }) {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/silicon4.8.png"}
+                  src={require("../../assets/image/silicon4.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",

@@ -1,34 +1,34 @@
-import Image from "next/image";
+
 import React from "react";
 
 function ScopeOfService() {
   const listService = [
     {
-      icon: "/image/aboutUs/scope_icon1.png",
+      icon: require("../../../assets/image/aboutUs/scope_icon1.png"),
       title: "Custom Machinery Development",
       descption:
         "To ensure efficient and automated production, we design and manufacture special-purpose machinery powered by hydraulic, pneumatic, and mechanical systems controlled via microcontrollers or PLCs (Programmable Logic Controllers).",
     },
     {
-      icon: "/image/aboutUs/scope_icon2.png",
+      icon: require("../../../assets/image/aboutUs/scope_icon2.png"),
       title: "Production Jigs",
       descption:
         "We supply jigs for critical manufacturing processes such as welding, painting, assembly, and operational tasks, enhancing precision and workflow.",
     },
     {
-      icon: "/image/aboutUs/scope_icon3.png",
+      icon: require("../../../assets/image/aboutUs/scope_icon3.png"),
       title: "Conveyor and Handling Solutions",
       descption:
         "We provide conveyor systems—including carousel, roller, and chain conveyors—to transport semi-finished and finished products smoothly and efficiently through the production line.",
     },
     {
-      icon: "/image/aboutUs/scope_icon4.png",
+      icon: require("../../../assets/image/aboutUs/scope_icon4.png"),
       title: "Logistics Support Equipment",
       descption:
         "Our offerings include pallets, trolleys, and forklifts to ensure safe and efficient movement and handling of materials within the production environment.",
     },
     {
-      icon: "/image/aboutUs/scope_icon5.png",
+      icon: require("../../../assets/image/aboutUs/scope_icon5.png"),
       title: "Component Trading",
       descption:
         "We trade high-quality components essential for production, ensuring our clients can access reliable materials and parts.",
@@ -39,13 +39,13 @@ function ScopeOfService() {
     return (
       <div key={index} className="flex flex-row justify-center items-start gap-[20px] md:gap-[24] lg:gap-[28px] xl:gap-[32px] 2xl:gap-[36px] w-[100%] mt-[28px] md:mt-[30px]  2xl:mt-[40px]">
         <div className="w-[48px] md:w-[58px] lg:w-[68px] xl:w-[75px] 2xl:w-[80px] ">
-          <Image
+          <img
             className="h-[100%] w-[100%] object-fill"
             alt=""
             src={item.icon}
             width={100}
             height={100}
-            unoptimized
+            
           />
         </div>
         <div className="w-[100%]">
@@ -85,13 +85,13 @@ function ScopeOfService() {
 
       <div className="md:mt-[30px] flex flex-col-reverse md:flex-row gap-[32px] md:gap-[46px] lg:gap-[58] xl:gap-[70px] 2xl:gap-[92px]">
         <div className="w-100% md:w-[50%]">
-          <Image
+          <img
             alt=""
-            src={"/image/aboutUs/scope_of_service.png"}
+            src={require("../../../assets/image/aboutUs/scope_of_service.png")}
             className="object-contain w-[100%] h-[100%]"
             width={100}
             height={100}
-            unoptimized
+            
           />
         </div>
         <div className="w-100% md:w-[50%]">{listService?.map(renderItem)}</div>

@@ -1,24 +1,22 @@
-"use client";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { useNavigate } from "react-router-dom";
 
 function WhoWeAre() {
-  const router = useRouter();
+  const navigate = useNavigate();
   const data = [
     {
-      image: "/image/ic_area.png",
+      image: require("../../../assets/image/ic_area.png"),
       title: "Area of 1860m²",
       description:
         "Established in 2017 with 2 modern factories in Hanoi, covering a total area of 1860 m². REDECO Vietnam Industrial Solutions JSC is equipped a wide range of advanced machinery ...",
     },
     {
-      image: "/image/ic_service.png",
+      image: require("../../../assets/image/ic_service.png"),
       title: "Our Services",
       description:
         "REDECO Vietnam JSC offers a wide range of solution tailored as custom machinery development, conveyors and handling solutions, logistics support equipment, automation ...",
     },
     {
-      image: "/image/ic_leading.png",
+      image: require("../../../assets/image/ic_leading.png"),
       title: "Our Leading",
       description:
         "REDECO Vietnam JSC provide solutions to the customer in many industries, specializing in manufacturing, designing and supplying equipment in mechanical processing ...",
@@ -28,7 +26,7 @@ function WhoWeAre() {
     <div className="bg-[#F7F9F9]">
       <div className="relative w-[100%]">
         <div className="md:hidden">
-          <Image
+          <img
             style={{
               height: "100%",
               position: "relative",
@@ -38,14 +36,14 @@ function WhoWeAre() {
             width={100}
             height={100}
             alt="image"
-            unoptimized
-            src="/image/who_we_are_banner_mobile.png"
-            // src={require("../../../../public/image/who_we_are_banner.png")}
+            
+            src={require("../../../assets/image/who_we_are_banner_mobile.png")}
+            // src={require("../../../assetsimage/who_we_are_banner.png")}
           />
         </div>
 
         <div className="hidden md:flex">
-          <Image
+          <img
             style={{
               height: "100%",
               position: "relative",
@@ -53,8 +51,8 @@ function WhoWeAre() {
               width: "100vw",
             }}
             alt="image"
-            unoptimized
-            src="/image/who_we_are_banner.png"
+            
+            src={require("../../../assets/image/who_we_are_banner.png")}
             width={100}
             height={100}
           />
@@ -68,7 +66,7 @@ function WhoWeAre() {
             Welcome to REDECO Vietnam Industrial Solutions JSC
           </text>
           <button
-            onClick={() => router.push("/about-us")}
+            onClick={() => navigate("/about-us")}
             className="
             bg-gradient-to-br from-[#28FF90] -7.86% to-[#00954F] 67.26% 
             py-[10px] 
@@ -94,7 +92,7 @@ function WhoWeAre() {
             flex flex-col lg:flex-row lg:absolute 
             lg:left-0 h-[100%] overflow-hidden md:gap-[10px] lg:gap-[20px] xl:gap-[30px] 2xl:gap-[35px] 
             w-[100%] translate-x-[-20%] justify-center items-center cursor-pointer"
-            onClick={() => router.push("/about-us")}
+            onClick={() => navigate("/about-us")}
           >
             {data.map((item, index) => (
               <div
@@ -106,8 +104,7 @@ function WhoWeAre() {
                   <div className="h-[80%] overflow-hidden ">
                     <div className="flex justify-between w-full items-center ">
                       <div className="xl:w-[30%] lg:w-[25%] w-[15%] ">
-                        <Image
-                          unoptimized
+                        <img
                           alt=""
                           src={item.image}
                           width={100}
@@ -136,11 +133,10 @@ function WhoWeAre() {
                     <button className="text-[#00366A] text-[14px] 2xl:text-[18px] mr-[8px] flex items-center">
                       Read More
                       <div className="w-[16px] mt-[2px]">
-                        <Image
-                          unoptimized
+                        <img
                           style={{ objectFit: "contain" }}
                           alt=""
-                          src="/image/Arrow 1.png"
+                          src={require("../../../assets/image/Arrow 1.png")}
                           width={12}
                           height={1}
                           className="ml-[5px]"
@@ -166,12 +162,12 @@ function WhoWeAre() {
               <div className="h-[80%] overflow-hidden ">
                 <div className="flex justify-between w-full items-center ">
                   <div className="xg:w-[30%] lg:w-[25%] w-[20%] ">
-                    <Image
+                    <img
                       alt=""
                       src="/image/ic_area.png"
                       width={100}
                       height={100}
-                      unoptimized
+                      
                     />
                   </div>
                   <text className="text-[80px] text-[#00366A] font-Nunito opacity-[0.08] leading-[100%] font">
@@ -193,12 +189,12 @@ function WhoWeAre() {
                 <button className="text-[#00366A] text-[18px] mr-[8px] flex items-center ">
                   <text>Read More</text>
                   <div className="w-[16px] ml-[10px]">
-                    <Image
+                    <img
                       style={{ objectFit: "contain" }}
                       alt=""
-                      src="/image/Arrow 1.png"
+                      src={require("../../../assets/image/Arrow 1.png")}
                       width={100}
-                      unoptimized
+                      
                       height={100}
                       className="w-[100%] h-[100%]"
                     />

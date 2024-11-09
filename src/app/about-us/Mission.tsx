@@ -1,17 +1,17 @@
-import Image from "next/image";
+
 import React from "react";
 
 function Mission() {
   return (
     <div className="flex flex-col-reverse md:flex-row mt-[40px] md:mt-[48px] ld:mt-[54px] xl:mt-[60px] px-[20px] md:px-[5%] xl:px-[10%] gap-[7%] items-center">
       <div className="w-[100%] md:w-[40%] h-[100%] mt-[24px] md:mt-0">
-        <Image
+        <img
           alt=""
           className="rounded-tl-[50px] rounded-br-[50px] w-[100%] h-[100%] object-fill"
-          src={"/image/aboutUs/mision1.png"}
+          src={require("../../assets/image/aboutUs/mision1.png")}
           width={100}
           height={100}
-          unoptimized
+          
         />
       </div>
 

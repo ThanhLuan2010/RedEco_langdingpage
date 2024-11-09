@@ -1,4 +1,3 @@
-"use client";
 import React, { useEffect } from "react";
 import Banner from "./Banner";
 import Content from "./content";
@@ -8,11 +7,12 @@ import Mission from "./Mission";
 import ScopeOfService from "./ScopeOfService";
 import Customer from "./Customer";
 import Commit from "./Commit";
-import Footer from "@/components/Footer";
-import { useRouter } from 'next/navigation';
-import PhoneButton from "@/components/phoneButton";
+import Footer from "../../components/Footer";
+import { useNavigate } from "react-router-dom";
+
+import PhoneButton from "../../components/phoneButton";
 function About() {
-  const router = useRouter();
+  const navigate = useNavigate();
   useEffect(() => {
     const hash = window.location.hash;
 
@@ -22,7 +22,7 @@ function About() {
         targetElement.scrollIntoView({ behavior: 'smooth' });
       }
     }
-  }, [router]);
+  }, [navigate]);
 
   return (
     <div>

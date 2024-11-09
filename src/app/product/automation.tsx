@@ -1,5 +1,5 @@
 import { Typography } from "antd";
-import Image from "next/image";
+
 
 function Automation() {
   return (
@@ -35,11 +35,11 @@ function Automation() {
 
       <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%] mt-[20px] md:mt-[50px] xl:mt-[60px]">
         <div className="border-[1px] md:border-[2px] xl:flex md:flex lg:flex hidden border-[#00366A] p-[12px] rounded-[8px]">
-          <Image
-            src={"/image/automation_banner.png"}
+          <img
+            src={require("../../assets/image/automation_banner.png")}
             alt=""
             width={100}
-            unoptimized
+            
             height={100}
             className="w-[100%] h-[100%]"
           />
@@ -48,10 +48,10 @@ function Automation() {
         <div className="md:flex hidden overflow-hidden h-[80vh] gap-[35px] mt-[40px]">
           <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
             <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
-              <Image
+              <img
                 alt=""
-                unoptimized
-                src={"/image/automation1.png"}
+                
+                src={require("../../assets/image/automation1.png")}
                 style={{
                   width: "80%",
                   height: "80%",
@@ -63,10 +63,10 @@ function Automation() {
               />
             </div>
             <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
-              <Image
+              <img
                 alt=""
-                unoptimized
-                src={"/image/automation3.png"}
+                
+                src={require("../../assets/image/automation3.png")}
                 style={{
                   width: "80%",
                   height: "80%",
@@ -81,10 +81,10 @@ function Automation() {
 
           <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
             <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
-              <Image
+              <img
                 alt=""
-                unoptimized
-                src={"/image/automation2.png"}
+                
+                src={require("../../assets/image/automation2.png")}
                 style={{
                   width: "80%",
                   height: "80%",
@@ -96,10 +96,10 @@ function Automation() {
               />
             </div>
             <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px] flex justify-center items-center">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/automation4.png"}
+                src={require("../../assets/image/automation4.png")}
                 style={{
                   width: "80%",
                   height: "80%",
@@ -114,10 +114,10 @@ function Automation() {
 
           <div className="gap-[35px] overflow-hidden w-1/3 flex flex-col">
             <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/automation5.png"}
+                src={require("../../assets/image/automation5.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -135,10 +135,10 @@ function Automation() {
           <div className="flex h-[50%] gap-4">
             <div className="gap-4 overflow-hidden w-[50%] h-[100%] flex flex-col">
               <div className=" border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] bg-white p-[30px] h-[50%]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/automation2.png"}
+                  
+                  src={require("../../assets/image/automation2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -149,10 +149,10 @@ function Automation() {
                 />
               </div>
               <div className="border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] bg-white p-[30px] h-[50%]">
-                <Image
+                <img
                   alt=""
-                  src={"/image/automation4.png"}
-                  unoptimized
+                  src={require("../../assets/image/automation4.png")}
+                  
                   style={{
                     width: "100%",
                     height: "100%",
@@ -165,10 +165,10 @@ function Automation() {
             </div>
 
             <div className="h-[100%] w-[50%] border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] bg-white p-[30px] object-fill">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/automation5.png"}
+                src={require("../../assets/image/automation5.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -182,11 +182,11 @@ function Automation() {
 
           <div className="w-[100%] h-[50%] flex flex-col gap-4">
             <div className="border-[1px] md:border-[2px] border-[#00366A] p-[10px] rounded-[6px] h-[50%]">
-              <Image
-                src={"/image/automation_banner.png"}
+              <img
+                src={require("../../assets/image/automation_banner.png")}
                 alt=""
                 width={100}
-                unoptimized
+                
                 height={100}
                 className="w-[100%] h-[100%]"
               />
@@ -194,10 +194,10 @@ function Automation() {
 
             <div className="gap-4 h-[50%] overflow-hidden w-[100%] flex">
               <div className="h-[100%] w-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] bg-white ">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/automation3.png"}
+                  
+                  src={require("../../assets/image/automation3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -209,10 +209,10 @@ function Automation() {
                 />
               </div>
               <div className="h-[100%] w-[50%] border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] bg-white ">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/automation1.png"}
+                  src={require("../../assets/image/automation1.png")}
                   style={{
                     width: "100%",
                     height: "100%",

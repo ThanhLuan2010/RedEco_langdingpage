@@ -1,71 +1,72 @@
 import { Box } from "@mui/material";
 import { Carousel } from "antd";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+
+import { useNavigate } from "react-router-dom";
+
 const products = [
   {
     name: "customer",
-    imageUrl: "/image/customer.png",
+    imageUrl: require("../../../assets/image/customer.png"),
   },
   {
     name: "customer1",
-    imageUrl: "/image/customer1.png",
+    imageUrl: require("../../../assets/image/customer1.png"),
   },
   {
     name: "customer2",
-    imageUrl: "/image/customer2.png",
+    imageUrl: require("../../../assets/image/customer2.png"),
   },
   {
     name: "customer3",
-    imageUrl: "/image/customer3.png",
+    imageUrl: require("../../../assets/image/customer3.png"),
   },
   {
     name: "customer4",
-    imageUrl: "/image/customer4.png",
+    imageUrl: require("../../../assets/image/customer4.png"),
   },
   {
     name: "customer5",
-    imageUrl: "/image/customer5.png",
+    imageUrl: require("../../../assets/image/customer5.png"),
   },
   {
     name: "customer6",
-    imageUrl: "/image/customer6.png",
+    imageUrl: require("../../../assets/image/customer6.png"),
   },
   {
     name: "customer8",
-    imageUrl: "/image/customer8.png",
+    imageUrl: require("../../../assets/image/customer8.png"),
   },
   {
     name: "customer9",
-    imageUrl: "/image/customer9.png",
+    imageUrl: require("../../../assets/image/customer9.png"),
   },
   {
     name: "customer10",
-    imageUrl: "/image/customer10.png",
+    imageUrl: require("../../../assets/image/customer10.png"),
   },
   {
     name: "customer11",
-    imageUrl: "/image/customer11.png",
+    imageUrl: require("../../../assets/image/customer11.png"),
   },
   {
     name: "customer12",
-    imageUrl: "/image/customer12.png",
+    imageUrl: require("../../../assets/image/customer12.png"),
   },
   {
     name: "customer13",
-    imageUrl: "/image/customer13.png",
+    imageUrl: require("../../../assets/image/customer13.png"),
   },
   {
     name: "customer14",
-    imageUrl: "/image/customer14.png",
+    imageUrl: require("../../../assets/image/customer14.png"),
   },
   {
     name: "customer15",
-    imageUrl: "/image/customer15.png",
+    imageUrl: require("../../../assets/image/customer15.png"),
   },
   {
     name: "customer16",
-    imageUrl: "/image/customer16.png",
+    imageUrl: require("../../../assets/image/customer16.png"),
   },
 ];
 
@@ -103,7 +104,7 @@ const settings = {
   ],
 };
 const Customer = () => {
-  const router = useRouter();
+  const navigate = useNavigate();
 
   return (
     <Box
@@ -118,7 +119,7 @@ const Customer = () => {
         cursor: "pointer",
       }}
       onClick={() => {
-        router.push("/gallery#customer");
+        navigate("/gallery#customer");
       }}
     >
       <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold  relative text-white">
@@ -131,7 +132,7 @@ const Customer = () => {
             <div key={index}>
               <div className="bg-white mx-[9px] 2xl:mx-[20px] flex justify-center items-center py-[0px] md:py-[5px] lg:py-[10px] xl:py-[15px] 2xl:py-[20px] rounded-[7px] border-[2px] border-[#00366A]">
                 <div className="flex justify-center items-center h-[80%] w-[90%]">
-                  <Image
+                  <img
                     style={{
                       objectFit: "contain",
                       height: "80px",
@@ -141,7 +142,7 @@ const Customer = () => {
                     src={product.imageUrl}
                     width={100}
                     height={100}
-                    unoptimized
+                    
                   />
                 </div>
               </div>

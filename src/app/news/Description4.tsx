@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import React from "react";
 
 function Description4() {
@@ -53,8 +53,8 @@ function Description4() {
         </div>
 
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain  mt-[24px] md:mt-0 md:ml-[3%]">
-          <Image
-            unoptimized
+          <img
+            
             alt=""
             className="w-[100%]"
             src={"/image/news4-banner1.png"}
@@ -66,8 +66,8 @@ function Description4() {
 
       <div className="flex flex-col-reverse md:flex-row mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px]">
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain mr-[3%]">
-          <Image
-            unoptimized
+          <img
+            
             alt=""
             className="w-[100%] h-[100%]"
             src={"/image/news4-banner2.png"}
@@ -137,8 +137,8 @@ function Description4() {
         </div>
 
         <div className="w-[100%] md:w-[40%] h-auto  items-center flex object-contain mt-[24px] md:mt-0 md:ml-[3%] justify-center">
-          <Image
-            unoptimized
+          <img
+            
             alt=""
             className="w-[100%]"
             src={"/image/news4-banner3.png"}

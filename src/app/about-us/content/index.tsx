@@ -1,6 +1,6 @@
 "use client";
 import { Carousel } from "antd";
-import Image from "next/image";
+
 import React, { useState } from "react";
 
 const settings = {
@@ -91,7 +91,7 @@ function Content() {
             leading-[20px] md:leading-[22px] lg:leading-[28px] 2xl:leading-[36px]
             text-[14px] md:text-[15px] lg:text-[16px] 2xl:text-[20px]
             "
-            >
+          >
             <div>
               <text>
                 Established in 2017, REDECO Vietnam has become a trusted name in
@@ -154,10 +154,9 @@ function Content() {
         </div>
 
         <div className="w-[100%] md:w-1/2 flex justify-end">
-          <Image
-          unoptimized
+          <img
             alt=""
-            src={"/image/aboutUs/abouu-us1.png"}
+            src={require("../../../assets/image/aboutUs/abouu-us1.png")}
             width={100}
             height={100}
             className="w-[100%] md:w-[80%] h-[100%] object-contain mt-[40px] md:mt-0"
@@ -238,12 +237,11 @@ function Content() {
           </text>
 
           <div className="mt-[24px] md:mt-[35px] lg:mt-[50px] xl:mt-[60px] 2xlmd:mt-[80px]">
-            <Image
+            <img
               alt=""
-              src={"/image/aboutUs/tree.png"}
+              src={require("../../../assets/image/aboutUs/tree.png")}
               width={100}
               height={100}
-              unoptimized
               className="w-[100%] h-[100%] object-contain"
             />
           </div>

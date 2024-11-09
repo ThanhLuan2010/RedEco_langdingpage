@@ -1,19 +1,11 @@
-"use client";
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 import "./index.css";
-import Image from "next/image";
 function PhoneButton() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <div className="phone-button" onClick={() => setIsOpen(true)}>
-        <Image
-          alt="phone"
-          src={"/icon/ic_phone.png"}
-          unoptimized
-          width={23}
-          height={23}
-        />
+        <img alt="phone" src={require("../../assets/icon/ic_phone.png")} width={23} height={23} />
       </div>
 
       <div
@@ -28,10 +20,9 @@ function PhoneButton() {
             onClick={() => setIsOpen(false)}
             className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
           >
-            <Image
-              unoptimized
+            <img
               alt=""
-              src={"/icon/ic_close_white.png"}
+              src={require("../../assets/icon/ic_close_white.png")}
               className="w-[40px] h-[40px] object-contain"
               width={100}
               height={100}
@@ -51,10 +42,9 @@ function PhoneButton() {
             <div className="mt-4">
               <p className="flex items-center text-gray-700">
                 <span className="mr-2">
-                  <Image
-                    unoptimized
+                  <img
                     alt=""
-                    src={"/icon/ic_ceo.png"}
+                    src={require("../../assets/icon/ic_ceo.png")}
                     className="w-[24px] h-[24px] object-contain"
                     width={100}
                     height={100}
@@ -64,10 +54,9 @@ function PhoneButton() {
               </p>
               <p className="flex items-center text-gray-700 mt-2">
                 <span className="mr-2">
-                  <Image
-                    unoptimized
+                  <img
                     alt=""
-                    src={"/icon/ic_phone_blue.png"}
+                    src={require("../../assets/icon/ic_phone_blue.png")}
                     className="w-[24px] h-[24px] object-contain"
                     width={100}
                     height={100}
@@ -77,10 +66,9 @@ function PhoneButton() {
               </p>
               <p className="flex items-center text-gray-700 mt-2">
                 <span className="mr-2 opacity-0">
-                  <Image
-                    unoptimized
+                  <img
                     alt=""
-                    src={"/icon/ic_phone_blue.png"}
+                    src={require("../../assets/icon/ic_phone_blue.png")}
                     className="w-[24px] h-[24px] object-contain"
                     width={100}
                     height={100}
@@ -91,10 +79,9 @@ function PhoneButton() {
               </p>
               <p className="flex items-center text-gray-700 mt-2">
                 <span className="mr-2">
-                  <Image
-                    unoptimized
+                  <img
                     alt=""
-                    src={"/icon/ic_mail.png"}
+                    src={require("../../assets/icon/ic_mail.png")}
                     className="w-[24px] h-[24px] object-contain"
                     width={100}
                     height={100}
@@ -126,10 +113,9 @@ function PhoneButton() {
             onClick={() => setIsOpen(false)}
             className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
           >
-            <Image
-              unoptimized
+            <img
               alt=""
-              src={"/icon/ic_close_white.png"}
+              src={require("../../assets/icon/ic_close_white.png")}
               className="w-[40px] h-[40px] object-contain"
               width={100}
               height={100}
@@ -146,10 +132,9 @@ function PhoneButton() {
             <div className="mt-4">
               <p className="flex items-center text-gray-700">
                 <span className="mr-2">
-                  <Image
-                    unoptimized
+                  <img
                     alt=""
-                    src={"/icon/ic_ceo.png"}
+                    src={require("../../assets/icon/ic_ceo.png")}
                     className="w-[24px] h-[24px] object-contain"
                     width={100}
                     height={100}
@@ -159,10 +144,9 @@ function PhoneButton() {
               </p>
               <p className="flex items-center text-gray-700 mt-2">
                 <span className="mr-2">
-                  <Image
-                    unoptimized
+                  <img
                     alt=""
-                    src={"/icon/ic_phone_blue.png"}
+                    src={require("../../assets/icon/ic_phone_blue.png")}
                     className="w-[24px] h-[24px] object-contain"
                     width={100}
                     height={100}
@@ -172,24 +156,22 @@ function PhoneButton() {
               </p>
               <p className="flex items-center text-gray-700 mt-2">
                 <span className="mr-2 opacity-0">
-                  <Image
-                    unoptimized
+                  <img
                     alt=""
-                    src={"/icon/ic_phone_blue.png"}
+                    src={require("../../assets/icon/ic_phone_blue.png")}
                     className="w-[24px] h-[24px] object-contain"
                     width={100}
                     height={100}
                   />
                 </span>
-                <strong className="opacity-0 mr-2">Phone:</strong>{" "}
-                (+84) 962 018 838
+                <strong className="opacity-0 mr-2">Phone:</strong> (+84) 962 018
+                838
               </p>
               <p className="flex items-center text-gray-700 mt-2">
                 <span className="mr-2">
-                  <Image
-                    unoptimized
+                  <img
                     alt=""
-                    src={"/icon/ic_mail.png"}
+                    src={require("../../assets/icon/ic_mail.png")}
                     className="w-[24px] h-[24px] object-contain"
                     width={100}
                     height={100}

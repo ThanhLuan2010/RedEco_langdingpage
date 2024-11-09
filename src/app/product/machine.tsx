@@ -1,6 +1,6 @@
 import { TabScrollButton } from "@mui/material";
 import { Typography } from "antd";
-import Image from "next/image";
+
 import React, { useState } from "react";
 
 function Machine() {
@@ -15,10 +15,10 @@ function Machine() {
           <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[30px] md:mt-[50px] lg:mt-[60px] 2xl:mt-[70px]">
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product1.1.png"}
+                  src={require("../../assets/image/product1.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -30,10 +30,9 @@ function Machine() {
                 />
               </div>
               <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product1.2.png"}
+                  src={require("../../assets/image/product1.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -48,10 +47,10 @@ function Machine() {
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product1.3.png"}
+                  src={require("../../assets/image/product1.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -63,10 +62,9 @@ function Machine() {
                 />
               </div>
               <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product1.4.png"}
+                  src={require("../../assets/image/product1.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -81,10 +79,9 @@ function Machine() {
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product1.5.png"}
+                  src={require("../../assets/image/product1.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -96,10 +93,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product1.6.png"}
+                  src={require("../../assets/image/product1.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -114,10 +111,9 @@ function Machine() {
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product1.7.png"}
+                  src={require("../../assets/image/product1.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -129,10 +125,9 @@ function Machine() {
                 />
               </div>
               <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product1.8.png"}
+                  src={require("../../assets/image/product1.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -150,10 +145,9 @@ function Machine() {
             {/* Left */}
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
                   alt=""
-                  src={"/image/product1.1.png"}
+                  src={require("../../assets/image/product1.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -165,10 +159,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product1.2.png"}
+                  src={require("../../assets/image/product1.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -180,9 +174,9 @@ function Machine() {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  src={"/image/product1.3.png"}
+                  src={require("../../assets/image/product1.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -194,10 +188,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product1.4.png"}
+                  src={require("../../assets/image/product1.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -212,10 +206,10 @@ function Machine() {
             {/* Right */}
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product1.5.png"}
+                  src={require("../../assets/image/product1.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -227,10 +221,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product1.6.png"}
+                  src={require("../../assets/image/product1.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -242,10 +236,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product1.7.png"}
+                  src={require("../../assets/image/product1.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -257,10 +251,9 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product1.8.png"}
+                  src={require("../../assets/image/product1.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -282,10 +275,10 @@ function Machine() {
           <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[30px] md:mt-[50px] lg:mt-[60px] 2xl:mt-[70px]">
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product2.1.png"}
+                  src={require("../../assets/image/product2.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -298,10 +291,10 @@ function Machine() {
               </div>
 
               <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product2.2.png"}
+                  src={require("../../assets/image/product2.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -316,10 +309,9 @@ function Machine() {
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product2.3.png"}
+                  src={require("../../assets/image/product2.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -331,10 +323,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product2.4.png"}
+                  src={require("../../assets/image/product2.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -349,10 +341,10 @@ function Machine() {
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product2.5.png"}
+                  src={require("../../assets/image/product2.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -364,10 +356,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product2.6.png"}
+                  src={require("../../assets/image/product2.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -382,10 +374,9 @@ function Machine() {
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product2.7.png"}
+                    src={require("../../assets/image/product2.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -397,10 +388,9 @@ function Machine() {
                 />
               </div>
               <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product2.8.png"}
+                  src={require("../../assets/image/product2.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -416,10 +406,9 @@ function Machine() {
           <div className="md:hidden flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[30px]">
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product2.1.png"}
+                  src={require("../../assets/image/product2.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -432,10 +421,10 @@ function Machine() {
               </div>
 
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product2.2.png"}
+                  src={require("../../assets/image/product2.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -448,10 +437,10 @@ function Machine() {
               </div>
 
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product2.3.png"}
+                  src={require("../../assets/image/product2.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -463,10 +452,9 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product2.4.png"}
+                  src={require("../../assets/image/product2.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -481,10 +469,10 @@ function Machine() {
 
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product2.5.png"}
+                  src={require("../../assets/image/product2.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -496,10 +484,9 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product2.6.png"}
+                  src={require("../../assets/image/product2.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -511,10 +498,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product2.7.png"}
+                  src={require("../../assets/image/product2.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -526,10 +513,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product2.8.png"}
+                  src={require("../../assets/image/product2.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -551,10 +538,10 @@ function Machine() {
           <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[20px] xl:gap-[30px] md:mt-[50px] lg:mt-[60px] 2xl:mt-[70px]">
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[45%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.1.png"}
+                  src={require("../../assets/image/product3.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -566,10 +553,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[55%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.2.png"}
+                  src={require("../../assets/image/product3.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -584,10 +571,10 @@ function Machine() {
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product3.3.png"}
+                  
+                  src={require("../../assets/image/product3.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -599,10 +586,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product3.4.png"}
+                  
+                  src={require("../../assets/image/product3.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -617,10 +604,10 @@ function Machine() {
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product3.5.png"}
+                  
+                  src={require("../../assets/image/product3.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -632,10 +619,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product3.6.png"}
+                  
+                  src={require("../../assets/image/product3.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -650,10 +637,10 @@ function Machine() {
 
             <div className="gap-[30px] overflow-hidden w-[25%] flex flex-col">
               <div className="h-[65%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.7.png"}
+                  src={require("../../assets/image/product3.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -665,10 +652,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.8.png"}
+                  src={require("../../assets/image/product3.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -685,10 +672,10 @@ function Machine() {
           <div className="xl:hidden md:hidden lg:hidden sm:flex flex overflow-hidden h-[120vh] gap-[20px] xl:gap-[30px] mt-[30px]">
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
+                <img
                   alt=""
-                  unoptimized
-                  src={"/image/product3.3.png"}
+                  
+                  src={require("../../assets/image/product3.3.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -700,10 +687,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.4.png"}
+                  src={require("../../assets/image/product3.4.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -715,10 +702,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.6.png"}
+                  src={require("../../assets/image/product3.6.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -730,10 +717,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.5.png"}
+                  src={require("../../assets/image/product3.5.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -748,10 +735,10 @@ function Machine() {
 
             <div className="gap-[20px] xl:gap-[30px] overflow-hidden w-[50%] flex flex-col">
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.1.png"}
+                  src={require("../../assets/image/product3.1.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -763,10 +750,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.2.png"}
+                  src={require("../../assets/image/product3.2.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -778,10 +765,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[60%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.7.png"}
+                  src={require("../../assets/image/product3.7.png")}
                   style={{
                     width: "100%",
                     height: "100%",
@@ -793,10 +780,10 @@ function Machine() {
                 />
               </div>
               <div className="h-[50%] overflow-hidden border-[1px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-                <Image
-                  unoptimized
+                <img
+                  
                   alt=""
-                  src={"/image/product3.8.png"}
+                  src={require("../../assets/image/product3.8.png")}
                   style={{
                     width: "100%",
                     height: "100%",

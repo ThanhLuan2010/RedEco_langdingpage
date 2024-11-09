@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import React from "react";
 
 function Description3() {
@@ -49,11 +49,11 @@ function Description3() {
         </div>
 
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain mt-[24px] md:mt-0 mf:mt-0 md:ml-[3%]">
-          <Image
+          <img
             alt=""
-            unoptimized
+            
             className="w-[100%]"
-            src={"/image/news3-banner1.png"}
+            src={require("../../assets/image/news3-banner1.png")}
             width={100}
             height={100}
           />

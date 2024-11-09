@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 function QualityContent() {
   return (
@@ -111,10 +111,10 @@ function QualityContent() {
           </div>
         </div>
         <div className="mt-[30px] md:mt-0 w-[100%] md:w-[50%] lg:w-[60%]">
-          <Image
-            unoptimized
+          <img
+            
             alt=""
-            src={"/image/quality_banner1.png"}
+            src={require("../../../assets/image/quality_banner1.png")}
             className="w-[100%] md:w-[80%] h-[100%] object-contain"
             width={100}
             height={100}

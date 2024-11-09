@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import React from "react";
 
 function Description1() {
@@ -48,10 +48,10 @@ function Description1() {
         </div>
 
         <div className="sm:w-[100%] md:w-[40%] h-auto items-center flex object-contain mt-[24px] md:mt-0 md:ml-[3%]">
-          <Image
+          <img
             alt=""
-            unoptimized
-            src={"/image/news1-banner1.png"}
+            
+            src={require("../../assets/image/news1-banner1.png")}
             className="w-[100%] "
             width={100}
             height={100}
@@ -61,10 +61,10 @@ function Description1() {
 
       <div className="flex mt-[24px] md:mt-[30px] xl:mt-[40px] 2xl:mt-[48px] flex-col-reverse md:flex-row sm:flex-col-reverse ">
         <div className="mt-[24px] md:mt-0 w-[100%] md:w-[40%] h-auto  items-center flex object-contain mr-[3%]">
-          <Image
+          <img
             alt=""
-            unoptimized
-            src={"/image/news1-banner2.png"}
+            
+              src={require("../../assets/image/news1-banner2.png")}
             width={100}
             height={100}
             className="w-[100%] h-[100%]"
@@ -123,10 +123,10 @@ function Description1() {
         </div>
 
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain ml-0 mt-[20px] md:mt-0 md:ml-[3%] justify-center ">
-          <Image
+          <img
             alt=""
-            unoptimized
-            src={"/image/news1-banner3.png"}
+            
+            src={require("../../assets/image/news1-banner3.png") }
             width={100}
             className="w-[100%] h-[100%]"
             height={100}

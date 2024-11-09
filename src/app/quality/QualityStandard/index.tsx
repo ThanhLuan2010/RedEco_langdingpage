@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import Image from "next/image";
+
 
 const QualityStandard = () => (
   <div className="mt-[48px] md:mt-[68px] lg:mt-[88px] xl:110px 2xl:mt-[140px]">
@@ -30,11 +30,11 @@ const QualityStandard = () => (
           </div>
 
           <div className="mt-[50px] w-[80%]">
-            <Image
-              unoptimized
+            <img
+              
               alt=""
               style={{ width: "100%", height: "100%" }}
-              src={"/image/logo-gray.png"}
+              src={require("../../../assets/image/logo-gray.png")}
               width={100}
               height={100}
             />
@@ -43,11 +43,11 @@ const QualityStandard = () => (
 
         <div className="w-1/2 h-[100%] items-center flex justify-center">
           <div className="w-[65%] h-[80%] flex justify-center items-center">
-            <Image
-              unoptimized
+            <img
+              
               style={{ height: "100%", width: "100%", objectFit: "contain" }}
               alt=""
-              src={"/image/iso-text.png"}
+              src={require("../../../assets/image/iso-text.png")}
               width={100}
               height={100}
             />
@@ -68,20 +68,20 @@ const QualityStandard = () => (
               In 2022, REDECO Vietnam was granted a quality management system
               certificate according to ISO 9001:2015 standards.
             </text>
-            <Image
-              unoptimized
+            <img
+              
               alt=""
               className="mt-[10px] w-[100%]"
-              src={"/image/logo-gray.png"}
+              src={require("../../../assets/image/logo-gray.png")}
               width={100}
               height={100}
             />
           </div>
           <div className="w-[40%]">
-            <Image
-              unoptimized
+            <img
+              
               alt=""
-              src={"/image/iso-text.png"}
+              src={require("../../../assets/image/iso-text.png")}
               width={100}
               height={100}
               className="w-[100%]"

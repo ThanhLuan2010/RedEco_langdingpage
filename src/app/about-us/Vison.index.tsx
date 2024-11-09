@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import React from "react";
 
 function Vison() {
@@ -50,12 +50,12 @@ function Vison() {
       </div>
 
       <div className="w-[100%] md:w-[40%] h-[100%] mt-[17px] md:mt-0">
-        <Image
+        <img
           alt=""
           className="rounded-tl-[50px] rounded-br-[50px] w-[100%] h-[100%]"
-          src={"/image/aboutUs/vision1.png"}
+          src={require("../../assets/image/aboutUs/vision1.png")}
           width={100}
-          unoptimized
+          
           height={100}
         />
       </div>

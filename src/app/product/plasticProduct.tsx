@@ -1,5 +1,5 @@
 import { Typography } from "antd";
-import Image from "next/image";
+
 function PlasticProduct() {
   return (
     <div className="">
@@ -38,10 +38,10 @@ function PlasticProduct() {
         <div className="xl:flex md:flex lg:flex sm:hidden hidden overflow-hidden h-[80vh] gap-[35px] mt-[60px]">
           <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
             <div className="h-[53%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic1.png"}
+                src={require("../../assets/image/plastic1.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -53,10 +53,10 @@ function PlasticProduct() {
               />
             </div>
             <div className="h-[47%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic2.png"}
+                src={require("../../assets/image/plastic2.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -71,10 +71,10 @@ function PlasticProduct() {
 
           <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
             <div className="h-[45%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic3.png"}
+                src={require("../../assets/image/plastic3.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -86,10 +86,10 @@ function PlasticProduct() {
               />
             </div>
             <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic4.png"}
+                src={require("../../assets/image/plastic4.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -104,10 +104,10 @@ function PlasticProduct() {
 
           <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
             <div className="h-[53%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic5.png"}
+                src={require("../../assets/image/plastic5.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -119,10 +119,10 @@ function PlasticProduct() {
               />
             </div>
             <div className="h-[46%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic6.png"}
+                src={require("../../assets/image/plastic6.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -137,10 +137,10 @@ function PlasticProduct() {
 
           <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
             <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic7.png"}
+                src={require("../../assets/image/plastic7.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -152,10 +152,10 @@ function PlasticProduct() {
               />
             </div>
             <div className="h-[40%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic8.png"}
+                src={require("../../assets/image/plastic8.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -173,10 +173,10 @@ function PlasticProduct() {
           {/* Left */}
           <div className="gap-4 2xl:gap-[35px]gap-[35px] overflow-hidden w-[50%] flex flex-col">
             <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic1.png"}
+                src={require("../../assets/image/plastic1.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -188,10 +188,10 @@ function PlasticProduct() {
               />
             </div>
             <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic2.png"}
+                src={require("../../assets/image/plastic2.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -203,10 +203,10 @@ function PlasticProduct() {
               />
             </div>
             <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic5.png"}
+                src={require("../../assets/image/plastic5.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -218,10 +218,10 @@ function PlasticProduct() {
               />
             </div>
             <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic6.png"}
+                src={require("../../assets/image/plastic6.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -236,10 +236,10 @@ function PlasticProduct() {
           {/* Right */}
           <div className="gap-4 2xl:gap-[35px]gap-[35px] overflow-hidden w-[50%] flex flex-col">
             <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic3.png"}
+                src={require("../../assets/image/plastic3.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -251,10 +251,10 @@ function PlasticProduct() {
               />
             </div>
             <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic4.png"}
+                src={require("../../assets/image/plastic4.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -266,10 +266,10 @@ function PlasticProduct() {
               />
             </div>
             <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic7.png"}
+                src={require("../../assets/image/plastic7.png")}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -281,10 +281,10 @@ function PlasticProduct() {
               />
             </div>
             <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
-              <Image
-                unoptimized
+              <img
+                
                 alt=""
-                src={"/image/plastic8.png"}
+                src={require("../../assets/image/plastic8.png")}
                 style={{
                   width: "100%",
                   height: "100%",

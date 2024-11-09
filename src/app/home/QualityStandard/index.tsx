@@ -1,10 +1,10 @@
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+
+import { useNavigate } from "react-router-dom";
 const QualityStandard = () => {
-  const router = useRouter();
+  const navigate = useNavigate();
   return (
     <div
-      onClick={() => router.push("/quality")}
+      onClick={() => navigate("/quality")}
       className="flex flex-col justify-center items-center pt-[40px] sm:pt-[48px] md:pt-[52px] lg:pt-[70px] xl:pt-[110px] 2xl:pt-[120px] px-[20px] md:px-[10%] cursor-pointer bg-[#F7F9F9]"
     >
       <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
@@ -17,13 +17,13 @@ const QualityStandard = () => {
           granted a quality management system certificate according to ISO
           9001:2015 standards.
         </text>
-        <Image
+        <img
           alt="iso"
-          src="/image/iso.png"
+          src={require("../../../assets/image/iso.png")}
           className="w-[100%] md:w-[50%] 2xl:w-[40%] mt-[5%]"
           width={100}
           height={100}
-          unoptimized
+          
         />
       </div>
     </div>

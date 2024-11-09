@@ -1,9 +1,9 @@
 "use client";
 import { Box, Input, Typography, Button } from "@mui/material";
 import { Col, Row } from "antd";
-import Image from "next/image";
+
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useNavigate } from "react-router-dom";
 
 interface FormData {
   email: string;
@@ -14,7 +14,7 @@ export default function Footer({ style }: any) {
   const [showMore2, setShowMore2] = useState<boolean>(false);
   const [showMore3, setShowMore3] = useState<boolean>(false);
   const [isSubcribe, setIsSubcribe] = useState<boolean>(false);
-  const router = useRouter();
+  const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [formData, setFormData] = useState<FormData>({
     email: "",
@@ -60,13 +60,13 @@ export default function Footer({ style }: any) {
       <div className="px-[20px] md:px-[5%] xl:px-[10%] pt-[36px] mt:pt-[50px] pb-[46px]">
         <Box>
           <button
-            onClick={() => router.push("/home")}
+            onClick={() => navigate("/home")}
             className="w-[100%] mb-[60px] 2xl:mb-[35px]"
           >
-            <Image
-              unoptimized
+            <img
               alt=""
-              src={require("../../../public/image/logo_footer.png")}
+              src={require("../../assets/image/logo_footer.png")}
+              // src={require("../../assetsimage/logo_footer.png")}
               className="object-contain w-[70%] md:w-[20%]"
             />
           </button>
@@ -79,92 +79,88 @@ export default function Footer({ style }: any) {
                   </div>
                 </Col>
               ) : (
-                <Col style={{ paddingRight: "4%" }} xs={24} sm={12} md={8}>
-                  <div className="text-[#EDF0F4] text-[14px] 2xl:text-[18px] font-bold">
-                    <text>SUBSCRIBE TO NEWSLETTER</text>
-                  </div>
+                <Col
+                  style={{ paddingRight: "4%", flexDirection: "column" }}
+                  xs={24}
+                  sm={12}
+                  md={8}
+                >
+                  <div className="flex flex-col items-start">
+                    <div className="text-[#EDF0F4] text-[14px] 2xl:text-[18px] font-bold">
+                      <text>SUBSCRIBE TO NEWSLETTER</text>
+                    </div>
 
-                  <div className="text-[#EDF0F4] mt-[25px] font-light">
-                    <text className="text-[13px] 2xl:text-[16px]">
-                      By subscribing to our mailing list, we will constantly
-                      update with the latest news.
-                    </text>
-                  </div>
-                  <Input
-                    sx={{
-                      borderWidth: 1,
-                      borderColor: "#EDF0F4",
-                      borderRadius: "6px",
-                      marginTop: "18px",
-                      color: "#EDF0F4",
-                      paddingX: "12px",
-                      paddingY: "3px",
-                      fontFamily: "Montserrat",
-                      fontSize: "10px",
-                    }}
-                    placeholder="Email address..."
-                    className="w-[100%] md:w-[80%]"
-                  />
-
-                  <Typography
-                    style={{
-                      fontWeight: 200,
-                      lineHeight: "20px",
-                      fontFamily: "Montserrat",
-                      // marginTop: "10%",
-                    }}
-                    className="text-[13px] 2xl:text-[16px] text-[#EDF0F4] mt-[24px]"
-                  >
-                    This site is protected by the Google 
-                    <span
-                      className="cursor-pointer underline"
-                      onClick={() => {
-                        window.open(
-                          "https://policies.google.com/privacy",
-                          "_blank",
-                          "noopener,noreferrer"
-                        );
-                      }}
-                    >
-                      Privacy Policy
-                    </span>
-                     and 
-                    <span
-                      className="cursor-pointer underline"
-                      onClick={() => {
-                        window.open(
-                          "https://policies.google.com/terms",
-                          "_blank",
-                          "noopener,noreferrer"
-                        );
-                      }}
-                    >
-                      Terms of Service
-                    </span>
-                     apply.
-                  </Typography>
-                  <Button
-                    sx={{
-                      padding: 0,
-                      textTransform: "none", // Tắt chữ in hoa
-                    }}
-                    className="mt-[30px] md:mt-[36px]"
-                    onClick={() => {
-                      setIsSubcribe(true);
-                      onSubmit();
-                    }}
-                  >
-                    <Typography
-                      style={{
+                    <div className="text-[#EDF0F4] mt-[25px] font-light">
+                      <text className="text-[13px] 2xl:text-[16px]">
+                        By subscribing to our mailing list, we will constantly
+                        update with the latest news.
+                      </text>
+                    </div>
+                    <Input
+                      sx={{
+                        borderWidth: 1,
+                        borderColor: "#EDF0F4",
+                        borderRadius: "6px",
+                        marginTop: "18px",
                         color: "#EDF0F4",
-                        textDecorationLine: "underline",
-                        fontSize: "16px",
-                        fontWeight: 700,
+                        paddingX: "12px",
+                        paddingY: "3px",
+                        fontFamily: "Montserrat",
+                        fontSize: "10px",
+                      }}
+                      placeholder="Email address..."
+                      className="w-[100%] md:w-[80%]"
+                    />
+
+                    <text className="text-[13px] 2xl:text-[16px] text-[#EDF0F4] mt-[24px]">
+                      This site is protected by the Google 
+                      <span
+                        className="cursor-pointer underline"
+                        onClick={() => {
+                          window.open(
+                            "https://policies.google.com/privacy",
+                            "_blank",
+                            "noopener,noreferrer"
+                          );
+                        }}
+                      >
+                        Privacy Policy
+                      </span>
+                       and 
+                      <span
+                        className="cursor-pointer underline"
+                        onClick={() => {
+                          window.open(
+                            "https://policies.google.com/terms",
+                            "_blank",
+                            "noopener,noreferrer"
+                          );
+                        }}
+                      >
+                        Terms of Service
+                      </span>
+                       apply.
+                    </text>
+
+                    <button
+                      className="mt-[30px] md:mt-[36px]"
+                      onClick={() => {
+                        setIsSubcribe(true);
+                        onSubmit();
                       }}
                     >
-                      Subcribe
-                    </Typography>
-                  </Button>
+                      <Typography
+                        style={{
+                          color: "#EDF0F4",
+                          textDecorationLine: "underline",
+                          fontSize: "16px",
+                          fontWeight: 700,
+                        }}
+                      >
+                        Subcribe
+                      </Typography>
+                    </button>
+                  </div>
                 </Col>
               )}
 
@@ -172,20 +168,18 @@ export default function Footer({ style }: any) {
                 <div
                   className="cursor-pointer mt-[50px] md:mt-0"
                   onClick={() => {
-                    router.prefetch("/product#machine-details");
-                    router.push("/product#machine-details");
+                    navigate("/product#machine-details");
                   }}
                 >
                   <text className="text-[#EDF0F4] text-[14px] font-semibold leading-[21px]">
-                    MACHINE COMPONENTS & DETAILSsssssssss
+                    MACHINE COMPONENTS & DETAILS
                   </text>
                 </div>
 
                 <div
                   className="cursor-pointer mt-[20px] md:mt-[10px] xl:mt-[20px]"
                   onClick={() => {
-                    router.prefetch("/product#automation");
-                    router.push("/product#automation");
+                    navigate("/product#automation");
                   }}
                 >
                   <text className="text-[#EDF0F4] text-[14px] font-semibold leading-[21px]">
@@ -196,8 +190,7 @@ export default function Footer({ style }: any) {
                 <div
                   className="cursor-pointer mt-[20px] md:mt-[10px] xl:mt-[20px]"
                   onClick={() => {
-                    router.prefetch("/product#plastic-injection");
-                    router.push("/product#plastic-injection");
+                    navigate("/product#plastic-injection");
                   }}
                 >
                   <text className="text-[#EDF0F4] text-[14px] font-semibold leading-[21px]">
@@ -212,9 +205,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product?id=1#silicone-rubber");
-                      router.push("/product?id=1#silicone-rubber");
-                      
+                      navigate("/product?id=1#silicone-rubber");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[21px]">
@@ -225,8 +216,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product?id=2#silicone-rubber");
-                      router.push("/product?id=2#silicone-rubber");
+                      navigate("/product?id=2#silicone-rubber");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px] font-extralight leading-[21px]">
@@ -237,8 +227,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product?id=3#silicone-rubber");
-                      router.push("/product?id=3#silicone-rubber");
+                      navigate("/product?id=3#silicone-rubber");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[21px]">
@@ -249,8 +238,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product?id=4#silicone-rubber");
-                      router.push("/product?id=4#silicone-rubber");
+                      navigate("/product?id=4#silicone-rubber");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[21px]">
@@ -267,13 +255,14 @@ export default function Footer({ style }: any) {
                     <text className="font-semibold text-[14px]">
                       SILICONE RUBBER PRODUCTS
                     </text>
-                    <Image
-                      unoptimized
+                    <img
                       alt=""
                       src={
                         showMore
-                          ? require("../../../public/icon/icon_up.png")
-                          : require("../../../public/icon/icon_down.png")
+                          ? // ? require("../../assets/icon/icon_up.png")
+                            // : require("../../assets/icon/icon_down.png")
+                            require("../../assets/icon/icon_up.png")
+                          : require("../../assets/icon/icon_down.png")
                       }
                     />
                   </div>
@@ -288,8 +277,7 @@ export default function Footer({ style }: any) {
                         }}
                         className="text-[14px] xl:text-[16px] mt-[5px]"
                         onClick={() => {
-                          router.prefetch("/product?id=1#silicone-rubber");
-                          router.push("/product?id=1#silicone-rubber");
+                          navigate("/product?id=1#silicone-rubber");
                         }}
                       >
                         Vacuum Suction Cup
@@ -302,8 +290,7 @@ export default function Footer({ style }: any) {
                         }}
                         className="text-[14px] xl:text-[16px]"
                         onClick={() => {
-                          router.prefetch("/product?id=2#silicone-rubber");
-                          router.push("/product?id=2#silicone-rubber");
+                          navigate("/product?id=2#silicone-rubber");
                         }}
                       >
                         Silicone Rubber Detail
@@ -316,8 +303,7 @@ export default function Footer({ style }: any) {
                         }}
                         className="text-[14px] xl:text-[16px]"
                         onClick={() => {
-                          router.prefetch("/product?id=3#silicone-rubber");
-                          router.push("/product?id=3#silicone-rubber");
+                          navigate("/product?id=3#silicone-rubber");
                         }}
                       >
                         Silicone Rubber Gasket
@@ -330,8 +316,7 @@ export default function Footer({ style }: any) {
                         }}
                         className="text-[14px] xl:text-[16px]"
                         onClick={() => {
-                          router.prefetch("/product?id=4#silicone-rubber");
-                          router.push("/product?id=4#silicone-rubber");
+                          navigate("/product?id=4#silicone-rubber");
                         }}
                       >
                         Industrial Keyboard
@@ -346,8 +331,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product#plastic-injection");
-                      router.push("/product#plastic-injection");
+                      navigate("/product#plastic-injection");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[14px] font-semibold leading-[20px]">
@@ -358,8 +342,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product#other-products.5");
-                      router.push("/product#other-products.5");
+                      navigate("/product#other-products.5");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[21px]">
@@ -370,8 +353,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product?id=6#other-products");
-                      router.push("/product?id=6#other-products");
+                      navigate("/product?id=6#other-products");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px] font-extralight leading-[20px]">
@@ -382,8 +364,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product?id=7#other-products");
-                      router.push("/product?id=7#other-products");
+                      navigate("/product?id=7#other-products");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[20px]">
@@ -394,8 +375,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/product?id=8#other-products");
-                      router.push("/product?id=8#other-products");
+                      navigate("/product?id=8#other-products");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[20px]">
@@ -412,13 +392,12 @@ export default function Footer({ style }: any) {
                     <text className="font-semibold text-[14px]">
                       OTHER PRODUCTS
                     </text>
-                    <Image
-                      unoptimized
+                    <img
                       alt=""
                       src={
                         showMore2
-                          ? require("../../../public/icon/icon_up.png")
-                          : require("../../../public/icon/icon_down.png")
+                          ? require("../../assets/icon/icon_up.png")
+                          : require("../../assets/icon/icon_down.png")
                       }
                     />
                   </div>
@@ -433,8 +412,7 @@ export default function Footer({ style }: any) {
                         }}
                         className="text-[14px] xl:text-[16px] mt-[5px]"
                         onClick={() => {
-                          router.prefetch("/product?id=5#other-products");
-                          router.push("/product?id=5#other-products");
+                          navigate("/product?id=5#other-products");
                         }}
                       >
                         Manipulator Table
@@ -447,8 +425,7 @@ export default function Footer({ style }: any) {
                         }}
                         className="text-[14px] xl:text-[16px]"
                         onClick={() => {
-                          router.prefetch("/product?id=6#other-products");
-                          router.push("/product?id=6#other-products");
+                          navigate("/product?id=6#other-products");
                         }}
                       >
                         Aluminum Casting
@@ -461,8 +438,7 @@ export default function Footer({ style }: any) {
                         }}
                         className="text-[14px] xl:text-[16px]"
                         onClick={() => {
-                          router.prefetch("/product?id=7#other-products");
-                          router.push("/product?id=7#other-products");
+                          navigate("/product?id=7#other-products");
                         }}
                       >
                         JIG Products
@@ -475,8 +451,7 @@ export default function Footer({ style }: any) {
                         }}
                         className="text-[14px] xl:text-[16px]"
                         onClick={() => {
-                          router.prefetch("/product?id=8#other-products");
-                          router.push("/product?id=8#other-products");
+                          navigate("/product?id=8#other-products");
                         }}
                       >
                         Industrial Trolley
@@ -491,8 +466,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="cursor-pointer"
                     onClick={() => {
-                      router.prefetch("/contact-us");
-                      router.push("/contact-us");
+                      navigate("/contact-us");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[14px] font-semibold leading-[21px]">
@@ -552,13 +526,12 @@ export default function Footer({ style }: any) {
                     <text className="font-semibold text-[14px]">
                       CONTACT US
                     </text>
-                    <Image
-                      unoptimized
+                    <img
                       alt=""
                       src={
                         showMore3
-                          ? require("../../../public/icon/icon_up.png")
-                          : require("../../../public/icon/icon_down.png")
+                          ? require("../../assets/icon/icon_up.png")
+                          : require("../../assets/icon/icon_down.png")
                       }
                     />
                   </div>

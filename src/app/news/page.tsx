@@ -1,20 +1,15 @@
-import Image from "next/image";
-import { useParams } from "next/navigation";
+
 import React from "react";
-import Description1 from "../Description1";
-import OtherNews from "../OtherNews";
-import Footer from "@/components/Footer";
-import Description2 from "../Description2";
-import Description3 from "../Description3";
-import Description4 from "../Description4";
-import Header from "@/components/Header";
-import PhoneButton from "@/components/phoneButton";
+import Description1 from "./Description1";
+import OtherNews from "./OtherNews";
+import Footer from "../../components/Footer";
+import Description2 from "./Description2";
+import Description3 from "./Description3";
+import Description4 from "./Description4";
+import PhoneButton from "../../components/phoneButton";
 
-export async function generateStaticParams() {
-  return [{ id: "1" }, { id: "2" }, { id: "3" },{ id: "4" }];
-}
 
-function index({ params }: { params: { id: string } }) {
+function News({ params }:any) {
   // const router = useParams();
   // const { id } = router; // Lấy id từ URL
   const { id } = params;
@@ -55,8 +50,8 @@ function index({ params }: { params: { id: string } }) {
   };
   return (
     <div>
-      <Image
-        unoptimized
+      <img
+        
         style={{ width: "100vw", height: "100%" }}
         width={100}
         height={100}
@@ -94,4 +89,4 @@ function index({ params }: { params: { id: string } }) {
   );
 }
 
-export default index;
+export default News;

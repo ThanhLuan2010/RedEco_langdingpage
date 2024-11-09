@@ -1,7 +1,7 @@
 export const Newsdata = [
   {
     id: 1,
-    image: "/image/banner_news1.png",
+    image: require("../../../assets/image/banner_news1.png"),
     shortTitle: "Why Choose REDECO VIETNAM for Your CNC Machining Needs?",
     shortTitleMobile: "Why Choose REDECO VIETNAM for Your CNC Machining Needs?",
     shortDescription:
@@ -9,7 +9,7 @@ export const Newsdata = [
   },
   {
     id: 4,
-    image: "/image/banner_news4.png",
+    image: require("../../../assets/image/banner_news4.png"),
     shortTitle: "Comprehensive CNC Machining Services at REDECO VIETNAM JSC.",
     shortTitleMobile: "Cooperation Signing Ceremony with Ha Long Company",
     shortDescription:
@@ -18,7 +18,7 @@ export const Newsdata = [
 
   {
     id: 2,
-    image: "/image/banner_news2.png",
+    image: require("../../../assets/image/banner_news2.png"),
     shortTitle:
       "Products Quality always Ensures Precision and Creativity In Every Cut.",
     shortTitleMobile: "Product Quality Ensures Precision and Creativity In Every Cut.",
@@ -27,7 +27,7 @@ export const Newsdata = [
   },
   {
     id: 3,
-    image: "/image/banner_news3.png",
+    image: require("../../../assets/image/banner_news3.png"),
 
     shortTitle:
       "Cooperation Signing Ceremony Between Ha Long Company & Redeco Vietnam.",
@@ -42,7 +42,7 @@ export const Newsdata = [
 export const NewsdataMobile = [
   {
     id: 1,
-    image: "/image/banner_news1.png",
+    image: require("../../../assets/image/banner_news1.png"),
     shortTitle: "Why Choose REDECO VIETNAM for Your CNC Machining Needs?",
     shortTitleMobile: "Why Choose REDECO VIETNAM for Your CNC Machining Needs?",
     shortDescription:
@@ -50,7 +50,7 @@ export const NewsdataMobile = [
   },
   {
     id: 2,
-    image: "/image/banner_news2.png",
+    image: require("../../../assets/image/banner_news2.png"),
     shortTitle:
       "Products Quality always Ensures Precision and Creativity In Every Cut.",
     shortTitleMobile: "Product Quality Ensures Precision and Creativity In Every Cut.",
@@ -59,7 +59,7 @@ export const NewsdataMobile = [
   },
   {
     id: 4,
-    image: "/image/banner_news4.png",
+    image: require("../../../assets/image/banner_news4.png"),
     shortTitle:
       "Cooperation Signing Ceremony Between Ha Long Company & Redeco Vietnam.",
     shortTitleMobile: "Cooperation Signing Ceremony with Ha Long Company",
@@ -70,7 +70,7 @@ export const NewsdataMobile = [
 
   {
     id: 3,
-    image: "/image/banner_news3.png",
+    image: require("../../../assets/image/banner_news3.png"),
     shortTitle: "Comprehensive CNC Machining Services at REDECO VIETNAM JSC.",
     shortTitleMobile:
       "Comprehensive CNC Machining Services at REDECO VIETNAM JSC.",
