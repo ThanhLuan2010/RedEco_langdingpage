@@ -1,3 +1,4 @@
+"use client";
 import { Box } from "@mui/material";
 import { Col, Row, Typography } from "antd";
 import Image from "next/image";
@@ -11,20 +12,12 @@ function OtherNews({ id }: any) {
     return i.id != id;
   });
   return (
-    <div className="pt-[40px] md:pt-[60px] lg-[70px] 2xl:pt-[80px] pb-[80px] md:pb-[90px] lg:pb-[100px] xl:pb-[120px] 2xl:pb-[140px] bg-[#E9EAEE] px-[20px] md:px-[10%]">
-      <div className="relative items-center justify-center flex text-center">
-        <text className="font-semibold text-[24px] md:text-[32px] lg:text-[40px] xl:text-[44px]  2xl:text-[48px] text-[#00366A] ">
+    <div className="pt-[40px] md:pt-[50px] lg-[60px] 2xl:pt-[70px] pb-[80px] md:pb-[90px] lg:pb-[100px] xl:pb-[120px] 2xl:pb-[140px] bg-[#E9EAEE] px-[20px] md:px-[10%]">
+      <div className="flex justify-center md:justify-start">
+     <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
           OTHER NEWS
+          <span className="absolute bottom-[-5px] left-[25%] md:left-[0%] w-[50%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
         </text>
-        <span
-          style={{
-            position: "absolute",
-            bottom: 0, // Đặt đường viền sát dưới chữ
-            left: 0, // Căn giữa theo chiều ngang
-            backgroundColor: "#00A859", // Màu sắc của đường viền
-          }}
-          className="w-1/3 h-[2px] md:h-[3px] xl:[4px] 2xl:h-[5px] translate-x-[100%] md:translate-x-0"
-        />
       </div>
       <Box sx={{ marginTop: "5%" }}>
         <Row gutter={[25, 25]}>
@@ -45,7 +38,11 @@ function OtherNews({ id }: any) {
                   <Image
                     style={{ borderRadius: "8px", height: "138px" }}
                     alt=""
+                    unoptimized
+                    width={100}
+                    height={100}
                     src={item.image}
+                    className="w-[100%] h-[100%]"
                   />
                 </Box>
                 <Box sx={{ height: "45%", overflow: "hidden" }}>

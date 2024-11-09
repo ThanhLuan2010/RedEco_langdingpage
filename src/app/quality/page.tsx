@@ -1,22 +1,32 @@
 "use client";
-import Header from "../../components/Header";
+import PhoneButton from "@/components/phoneButton";
+import dynamic from "next/dist/shared/lib/dynamic";
 import Footer from "../../components/Footer";
-import Banner from "./Banner";
-import { Box } from "@mui/material";
-import QualityContent from "./QualityContent";
-import Capacity from "./Capacity";
-import QualityStandard from "./QualityStandard";
-import ProductionLine from "./ProductionLine";
 
 export default function Home() {
+  const BannerComponent = dynamic(() => import("./Banner"), {
+    ssr: false,
+  });
+  const QualityContentComponent = dynamic(() => import("./QualityContent"), {
+    ssr: false,
+  });
+  const CapacityComponent = dynamic(() => import("./Capacity"), {
+    ssr: false,
+  });
+  const QualityStandardComponent = dynamic(() => import("./QualityStandard"), {
+    ssr: false,
+  });
+  const ProductionLineComponent = dynamic(() => import("./ProductionLine"), {
+    ssr: false,
+  });
   return (
-    <div className="flex flex-col bg-[#F7F9F9]">
-      <Header />
-      <Banner />
-      <QualityContent />
-      <Capacity />
-      <QualityStandard />
-      <ProductionLine />
+    <div className="bg-[#F7F9F9]">
+      <BannerComponent />
+      <QualityContentComponent />
+      <CapacityComponent />
+      <QualityStandardComponent />
+      <ProductionLineComponent />
+      <PhoneButton />
       <Footer />
     </div>
   );

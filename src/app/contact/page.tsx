@@ -4,7 +4,8 @@ import { Box, Typography } from '@mui/material';
 
 export default function Contact() {
   return (
-    <Box display="flex" flexDirection="column" minHeight="100vh">
+    <Box display="flex" flexDirection="column" minHeight="100vh" >
+      <div className="pt-[10vh]"></div>
       <Header />
       <Box component="main" flexGrow={1} sx={{ py: 3 }}>
         <Typography variant="h4" align="center" sx={{ mt: 4 }}>

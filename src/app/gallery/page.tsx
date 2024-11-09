@@ -1,19 +1,41 @@
-import Header from '@/components/Header'
-import Image from 'next/image'
-import React from 'react'
-import Banner from './banner'
-import GalleryTabs from './ourGallary'
-import Footer from '@/components/Footer'
-
+"use client";
+import Footer from "@/components/Footer";
+import PhoneButton from "@/components/phoneButton";
+import dynamic from "next/dist/shared/lib/dynamic";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 function Gallery() {
+  const router = useRouter();
+  useEffect(() => {
+    // Lấy hash từ URL (VD: #targetComponent)
+    const hash = window.location.hash;
+    if (hash) {
+      // Cuộn đến thành phần có ID tương ứng với hash
+      const targetElement = document.querySelector(hash);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [router]);
+
+  const BannerComponent = dynamic(() => import("./banner"), {
+    ssr: false,
+  });
+  const GalleryTabsComponent = dynamic(() => import("./ourGallary"), {
+    ssr: false,
+  });
+  
+
   return (
-    <div>
-      <Header></Header>
-      <Banner></Banner>
-      <GalleryTabs></GalleryTabs>
+    <div className="bg-[#F7F9F9]">
+      <BannerComponent />
+      <div id="customer">
+        <GalleryTabsComponent />
+      </div>
+      <PhoneButton />
       <Footer></Footer>
     </div>
-  )
+  );
 }
 
-export default Gallery
+export default Gallery;
