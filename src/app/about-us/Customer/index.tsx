@@ -74,7 +74,7 @@ const settings = {
   infinite: true,
   speed: 500,
   slidesToShow: 4, // Số slides mặc định
-  slidesToScroll: 1,
+  slidesToScroll: 4,
   responsive: [
     {
       breakpoint: 1200, // Màn hình lớn (tối đa 1200px)
@@ -102,7 +102,7 @@ const Customer = () => {
   return (
     <div
       style={{
-        backgroundImage: "url('/image/bg_customer.png')",
+        backgroundImage: "url('/bg_customer.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -122,7 +122,7 @@ const Customer = () => {
         </text>
       </div>
       <div className="w-[100%] mt-[32px] md:mt-[42] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[80px] px-[20px] md:px-[5%] xl:px-[10%]">
-        <Carousel {...settings} autoplay>
+        <Carousel {...settings} autoplaySpeed={1950} speed={2550} autoplay>
           {products.map((product, index) => (
             <div
               className="cursor-pointer"

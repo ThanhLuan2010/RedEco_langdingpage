@@ -143,7 +143,7 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
                 key={index}
                 ref={selectedCountry === option ? selectedOptionRef : null} // Gán ref cho mục đã chọn
                 onClick={() => handleOptionClick(option)}
-                className={`flex justify-between  items-center px-[16px] py-[4px] my-[4px] cursor-pointer 
+                className={`flex justify-between  items-center px-[16px] py-[4px] my-[4px] cursor-pointer font-Montserrat
                           hover:bg-[#00366A] hover:text-white 
                           ${
                             value === option
@@ -173,7 +173,11 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
         </ul>
       )}
 
-      {error && <small className="text-red-500 text-[8px] absolute mt-1">{error}</small>}
+      {error && (
+        <small className="text-red-500 text-[8px] absolute mt-1 hidden md:block">
+          {error}
+        </small>
+      )}
     </div>
   );
 };

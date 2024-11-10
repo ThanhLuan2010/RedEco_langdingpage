@@ -19,10 +19,12 @@ module.exports = {
         'custom-gradient': 'linear-gradient(140.7deg, #007BB0 -15.73%, #00366A 87.74%)',
       },
       boxShadow: {
-        'even': '0 0 10px 5px rgba(123, 122, 122, 0.1)', // Bóng đều ở cả bốn phía
-        'even-strong': '0 0 15px 7px rgba(0, 0, 0, 0.2)', // Bóng đều mạnh hơn
+        'even': '0px 2px 10px 0px rgba(123, 122, 122, 0.06), 0px 4px 8px 0px rgba(123, 122, 122, 0.06)', // Bóng đều ở cả bốn phía
+        'even-strong': '0 0 15px 7px rgba(0, 0, 0, 0.15)', // Bóng đều mạnh hơn
       },
     },
   },
   plugins: [],
 };
+
+

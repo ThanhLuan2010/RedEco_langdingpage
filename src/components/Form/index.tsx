@@ -40,6 +40,7 @@ const categories = [
   "Access & Register",
   "Operator/Service Training",
   "Potential Supplier",
+  "Merchandise",
   "Product Detail Information",
   "Product Service/Maintenance",
   "Other",
@@ -217,7 +218,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
         </label>
       </fieldset>
       {errors[id] && (
-        <small className="text-red-500 text-[8px] mt-1 font-Montserrat font-normal absolute">
+        <small className="text-red-500 text-[8px] mt-1 font-Montserrat font-normal absolute hidden md:block">
           {errors[id]}
         </small>
       )}
@@ -304,7 +305,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
               style={{
                 height: 150,
               }}
-              className={`textfield__input ${
+              className={`textfield__input placeholder:text-[13px] placeholder:font-Montserrat placeholder:text-[#707070] placeholder:opacity-50 ${
                 errors.message ? "textfield__input--error" : ""
               }` }
               placeholder="Your message"

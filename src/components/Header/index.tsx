@@ -70,6 +70,7 @@ export default function Header() {
 
   const [anchorEl, setAnchorEl] = useState(null);
   const toggleDrawer = (open: boolean) => () => {
+    console.log("open", open);
     setDrawerOpen(open);
   };
 
@@ -77,7 +78,7 @@ export default function Header() {
 
   const drawer = (
     <div
-      onClick={toggleDrawer(false)}
+      // onClick={toggleDrawer(false)}
       className="w-screen h-screen bg-[#F7F9F9]"
     >
       <div className=" px-[20px]">
@@ -98,7 +99,7 @@ export default function Header() {
           <img
             src={require("../../assets/image/logo.png")}
             alt="Logo"
-            className="bg-red-500"
+            className=""
             style={{ width: "45%", objectFit: "contain" }}
           />
           <div className="w-[40px] h-[40px] rounded-full flex justify-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A]">
@@ -128,7 +129,7 @@ export default function Header() {
                     toggleDrawer(true);
                   } else {
                     navigate(item.href);
-                    toggleDrawer(false);
+                    setDrawerOpen(false);
                     // handleMouseLeave();
                   }
                 }}
@@ -149,7 +150,7 @@ export default function Header() {
                     className="w-full cursor-pointer items-center flex"
                     onClick={() => {
                       navigate("/product#machine-details");
-                      toggleDrawer(false);
+                      setDrawerOpen(false);
                     }}
                   >
                     <span className="inline-block w-[6px] h-[6px] bg-[#00366A] rounded-sm mr-[10px]"></span>
@@ -160,7 +161,7 @@ export default function Header() {
                     className="w-full cursor-pointer items-center flex"
                     onClick={() => {
                       navigate("/product#automation");
-                      toggleDrawer(false);
+                      setDrawerOpen(false);
                     }}
                   >
                     <span className="inline-block w-[6px] h-[6px] bg-[#00366A] rounded-sm mr-[10px]"></span>
@@ -171,7 +172,7 @@ export default function Header() {
                     className="w-full cursor-pointer items-center flex"
                     onClick={() => {
                       navigate("/product#plastic-injection");
-                      toggleDrawer(false);
+                      setDrawerOpen(false);
                     }}
                   >
                     <span className="inline-block w-[6px] h-[6px] bg-[#00366A] rounded-sm mr-[10px]"></span>
@@ -182,7 +183,7 @@ export default function Header() {
                     className="w-full cursor-pointer items-center flex"
                     onClick={() => {
                       navigate("/product#silicone-rubber");
-                      toggleDrawer(false);
+                      setDrawerOpen(false);
                     }}
                   >
                     <span className="inline-block w-[6px] h-[6px] bg-[#00366A] rounded-sm mr-[10px]"></span>
@@ -193,7 +194,7 @@ export default function Header() {
                     className="w-full cursor-pointer items-center flex"
                     onClick={() => {
                       navigate("/product#other-products");
-                      toggleDrawer(false);
+                      setDrawerOpen(false);
                     }}
                   >
                     <span className="inline-block w-[6px] h-[6px] bg-[#00366A] rounded-sm mr-[10px]"></span>
@@ -243,7 +244,7 @@ export default function Header() {
             </>
           )}
           {/* Center - LOGO */}
-          <div className="justify-center items-center lg:items-start lg:justify-start flex w-[55%] lg:w-[20%] cursor-pointer" onClick={() => {
+          <div className="justify-center items-center lg:items-start lg:justify-start flex w-[55%] lg:w-[20%] cursor-pointer -translate-y-[2px]" onClick={() => {
             navigate("/home");
           }}>
             <img
@@ -295,7 +296,7 @@ export default function Header() {
                         focus:outline-none line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px]
                         2xl:text-[18px] px-[10px] py-[15px] rounded-t-[12px] rounded-b-none flex items-center z-[1000]"
                         onClick={() => {
-                          navigate("/product#machine-details");
+                          navigate("/product");
                         }}
                       >
                         {item.text}
@@ -410,14 +411,9 @@ export default function Header() {
                 <div className="h-[100%] w-[100%] flex items-center rounded-[6px] pl-[8px] cursor-pointer overflow-hidden relative bg-white" onClick={() => {
                   navigate("/Search");
                 }}>
-                  <input
-                    className="placeholder:text-[#00366A] placeholder:font-medium bg-transparent outline-none w-[100%] cursor-pointer"
-                    placeholder="Search..."
-                    disabled
-                    onFocus={() => {
-                      navigate("/Search");
-                    }}
-                  />
+                  <div className="w-[80%] h-[100%] flex items-center">
+                    <text className="text-[#00366A] font-normal text-[12px] md:text-[14px] 2xl:text-[16px]">Search...</text>
+                  </div>
                   <div
                     onClick={() => {
                       navigate("/Search");

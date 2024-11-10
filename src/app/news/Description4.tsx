@@ -23,7 +23,7 @@ function Description4() {
 
       <div className="flex flex-col md:flex-row items-center mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px]">
         <div className="w-[100%] md:w-[60%] flex flex-col">
-          <text className="text-[20px] md:text-[24px] lg:text-[28px]  font-bold text-[#00366A] ">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px]  font-bold text-[#00366A] ">
             Precision Milling
           </text>
           <text
@@ -37,7 +37,7 @@ function Description4() {
             specifications.
           </text>
 
-          <text className="text-[20px] md:text-[24px] lg:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
             CNC Turning
           </text>
 
@@ -54,10 +54,9 @@ function Description4() {
 
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain  mt-[24px] md:mt-0 md:ml-[3%]">
           <img
-            
             alt=""
             className="w-[100%]"
-            src={"/image/news4-banner1.png"}
+            src={require("../../assets/image/news4-banner1.png")}
             width={100}
             height={100}
           />
@@ -67,17 +66,16 @@ function Description4() {
       <div className="flex flex-col-reverse md:flex-row mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px]">
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain mr-[3%]">
           <img
-            
             alt=""
             className="w-[100%] h-[100%]"
-            src={"/image/news4-banner2.png"}
+            src={require("../../assets/image/news4-banner2.png")}
             width={100}
             height={100}
           />
         </div>
 
         <div className="w-[100%] md:w-[60%] flex flex-col justify-center ">
-          <text className="text-[20px] md:text-[24px] lg:text-[28px]  font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px]  font-bold text-[#00366A]">
             Drilling and Boring
           </text>
           <text
@@ -90,7 +88,7 @@ function Description4() {
             <strong>smooth finishes</strong>, even in challenging materials.
           </text>
 
-          <text className="text-[20px] md:text-[24px] lg:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
             Prototype to Production
           </text>
 
@@ -110,7 +108,7 @@ function Description4() {
 
       <div className="flex flex-col md:flex-row mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px]">
         <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
-          <text className="text-[20px] md:text-[24px] lg:text-[28px]  font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px]  font-bold text-[#00366A]">
             Materials Expertise
           </text>
           <text
@@ -138,10 +136,9 @@ function Description4() {
 
         <div className="w-[100%] md:w-[40%] h-auto  items-center flex object-contain mt-[24px] md:mt-0 md:ml-[3%] justify-center">
           <img
-            
             alt=""
             className="w-[100%]"
-            src={"/image/news4-banner3.png"}
+            src={require("../../assets/image/news4-banner3.png")}
             width={100}
             height={100}
           />

@@ -13,7 +13,7 @@ function QualityContent() {
           </div>
 
           <div className="mt-[18px] md:mt-[20px] lg:mt-[30px]">
-            <p className="text-[#252724] font-thin text-[15px] 2xl:text-[18px] 2xl:leading-[36px] md:text-justify font-Montserrat">
+            <p className="text-[#252724] font-normal text-[15px] 2xl:text-[18px] 2xl:leading-[36px] md:text-justify font-Montserrat">
               At REDECO Vietnam, monitoring and evaluation systems are
               implemented in each department to comply with quality assurance
               procedures. Quality is assured with a manufacturing and testing
@@ -112,7 +112,6 @@ function QualityContent() {
         </div>
         <div className="mt-[30px] md:mt-0 w-[100%] md:w-[50%] lg:w-[60%]">
           <img
-            
             alt=""
             src={require("../../../assets/image/quality_banner1.png")}
             className="w-[100%] md:w-[80%] h-[100%] object-contain"

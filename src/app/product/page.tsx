@@ -62,12 +62,52 @@ function Product() {
         setOtherTab(tabOther);
       }
       // Cuộn đến thành phần có ID tương ứng với hash
+      window.scroll(0, 0);
+      setTimeout(() => {
+        const targetElement = document.querySelector(hash?.split(".")[0]);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 500);
+    }
+  }, [navigate]);
+  
+  useEffect(() => {
+    const hash = window.location.hash;
+    const tabName =
+        id == "1"
+          ? "VACUUM SUCTION CUP"
+          : id == "2"
+          ? "SILICONE RUBBER DETAIL"
+          : id == "3"
+          ? "SILICONE RUBBER GASKET"
+          : id == "4"
+          ? "INDUSTRIAL KEYBOARD"
+          : null;
+      const tabOther =
+        id == "5"
+          ? "MANIPULATOR TABLE"
+          : id == "6"
+          ? "ALUMINUM CASTING"
+          : id == "7"
+          ? "JIG PRODUCTS"
+          : id == "8"
+          ? "INDUSTRIAL TROLLEY"
+          : null;
+      if (tabName) {
+        setTab(tabName);
+      }
+      if (tabOther) {
+        setOtherTab(tabOther);
+      }
+    setTimeout(() => {
       const targetElement = document.querySelector(hash?.split(".")[0]);
       if (targetElement) {
         targetElement.scrollIntoView({ behavior: "smooth" });
       }
-    }
-  }, [navigate, id]);
+    }, 100);
+  }, [id])
+  
 
   return (
     <div className="bg-[#F7F9F9] ">
@@ -85,8 +125,8 @@ function Product() {
           <div className="w-[100%] h-[50%]">
             <FadeImage
               data={[
-                "/image/product/banner3.png",
-                "/image/product/banner3.1.png",
+                require("../../assets/image/product/banner3.png"),
+                require("../../assets/image/product/banner3.1.png"),
               ]}
             />
           </div>
@@ -94,16 +134,16 @@ function Product() {
             <div className="w-[50%] h-[100%]">
               <FadeImage
                 data={[
-                  "/image/product/banner1.png",
-                  "/image/product/banner1.1.png",
+                  require("../../assets/image/product/banner1.png"),
+                  require("../../assets/image/product/banner1.1.png"),
                 ]}
               />
             </div>
             <div className="w-[50%] h-[100%]">
               <FadeImage
                 data={[
-                  "/image/product/banner2.png",
-                  "/image/product/banner2.1.png",
+                  require("../../assets/image/product/banner2.png"),
+                  require("../../assets/image/product/banner2.1.png"),
                 ]}
               />
             </div>
@@ -122,8 +162,8 @@ function Product() {
             <div className="w-[50%] h-[100%]">
               <FadeImage
                 data={[
-                  "/image/product/banner4.png",
-                  "/image/product/banner4.1.png",
+                  require("../../assets/image/product/banner4.png"),
+                  require("../../assets/image/product/banner4.1.png"),
                 ]}
               />
             </div>
@@ -131,16 +171,16 @@ function Product() {
               <div className="w-[100%] h-[50%]">
                 <FadeImage
                   data={[
-                    "/image/product/banner5.png",
-                    "/image/product/banner5.1.png",
+                    require("../../assets/image/product/banner5.png"),
+                    require("../../assets/image/product/banner5.1.png"),
                   ]}
                 />
               </div>
               <div className="w-[100%] h-[50%]">
                 <FadeImage
                   data={[
-                    "/image/product/banner6.png",
-                    "/image/product/banner6.1.png",
+                    require("../../assets/image/product/banner6.png"),
+                    require("../../assets/image/product/banner6.1.png"),
                   ]}
                 />
               </div>

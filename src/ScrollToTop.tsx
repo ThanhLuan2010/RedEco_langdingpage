@@ -6,16 +6,17 @@ const ScrollToTop: React.FC = () => {
 
   useEffect(() => {
     if (hash) {
+      window.scroll(0, 0);
       // Nếu URL có hash (ID), cuộn đến phần tử với ID đó
       const element = document.querySelector(hash);
       if (element) {
         setTimeout(() => {
           element.scrollIntoView({ behavior: "smooth" });
-        }, 50);
+        }, 500);
       }
     } else {
       // Ngược lại, cuộn lên đầu trang
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scroll(0, 0);
     }
   }, [pathname, hash]); // Gọi lại useEffect mỗi khi pathname hoặc hash thay đổi
 

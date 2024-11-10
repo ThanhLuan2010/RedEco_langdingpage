@@ -96,7 +96,7 @@ function PhoneButton() {
 
       <div
         id="contact-modal"
-        className={`fixed inset-0 bg-black bg-opacity-60 hidden md:flex items-center justify-center z-[1001] transition-opacity duration-300 ${
+        className={`fixed inset-0 hidden md:flex items-center justify-center z-[1001] transition-opacity duration-300 ${
           isOpen
             ? "opacity-100 pointer-events-auto"
             : "opacity-0 pointer-events-none"
@@ -125,7 +125,7 @@ function PhoneButton() {
           <div className="bg-gradient-to-r from-[#007BB0] to-[#00366A] text-white p-[12px] rounded-t-[16px] text-center border-[2px] border-[#00366A]">
             <h2 className="text-lg font-semibold">CONTACT US</h2>
           </div>
-          <div className="px-[24px] py-[25px] bg-white">
+          <div className="px-[24px] py-[25px] bg-white ml-[2px]">
             <h3 className="text-lg font-semibold text-gray-800">
               Redeco Vietnam Industrial Solutions JSC
             </h3>

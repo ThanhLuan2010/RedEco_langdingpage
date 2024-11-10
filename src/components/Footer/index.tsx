@@ -1,5 +1,5 @@
 "use client";
-import { Box, Input, Typography, Button } from "@mui/material";
+import { Box, Input, Typography } from "@mui/material";
 import { Col, Row } from "antd";
 
 import { useState } from "react";
@@ -90,7 +90,7 @@ export default function Footer({ style }: any) {
                       <text>SUBSCRIBE TO NEWSLETTER</text>
                     </div>
 
-                    <div className="text-[#EDF0F4] mt-[25px] font-light">
+                    <div className="text-[#EDF0F4] mt-[25px] font-light w-[95%]">
                       <text className="text-[13px] 2xl:text-[16px]">
                         By subscribing to our mailing list, we will constantly
                         update with the latest news.
@@ -164,7 +164,7 @@ export default function Footer({ style }: any) {
                 </Col>
               )}
 
-              <Col className="md:translate-x-[-10%]" xs={24} sm={12} md={6}>
+              <Col className="md:translate-x-[-12%]" xs={24} sm={12} md={6}>
                 <div
                   className="cursor-pointer mt-[50px] md:mt-0"
                   onClick={() => {
@@ -194,14 +194,20 @@ export default function Footer({ style }: any) {
                   }}
                 >
                   <text className="text-[#EDF0F4] text-[14px] font-semibold leading-[21px]">
-                    PLASTIC INJECTION
+                    PLASTIC INJECTION PRODUCTS
                   </text>
                 </div>
 
-                <div className="hidden md:flex flex-col mt-[10px] md:mt-[10px] xl:mt-[20px]">
-                  <text className="text-[#EDF0F4] text-[14px] font-semibold leading-[21px]">
+                <div className="hidden md:flex flex-col mt-[10px] md:mt-[10px] xl:mt-[20px] cursor-pointer">
+                  <text
+                    onClick={() => {
+                      navigate("/product#silicone-rubber");
+                    }}
+                    className="text-[#EDF0F4] text-[14px] font-semibold leading-[21px]"
+                  >
                     SILICONE RUBBER PRODUCTS
                   </text>
+
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
@@ -215,12 +221,15 @@ export default function Footer({ style }: any) {
 
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
+                    // onClick={() => {
+                    //   navigate("/product?id=2#silicone-rubber");
+                    // }}
                     onClick={() => {
                       navigate("/product?id=2#silicone-rubber");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px] font-extralight leading-[21px]">
-                      Silicone Rubber Detail
+                      Silicone Rubber Details
                     </text>
                   </div>
 
@@ -271,7 +280,8 @@ export default function Footer({ style }: any) {
                     <div>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                         }}
@@ -284,20 +294,26 @@ export default function Footer({ style }: any) {
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                         }}
                         className="text-[14px] xl:text-[16px]"
                         onClick={() => {
-                          navigate("/product?id=2#silicone-rubber");
+                          navigate({
+                            pathname: "/product",
+                            search: "?id=2",
+                            hash: "#silicone-rubber",
+                          });
                         }}
                       >
-                        Silicone Rubber Detail
+                        Silicone Rubber Details
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                         }}
@@ -310,7 +326,8 @@ export default function Footer({ style }: any) {
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                         }}
@@ -331,7 +348,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="cursor-pointer"
                     onClick={() => {
-                      navigate("/product#plastic-injection");
+                      navigate("/product#other-products");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[14px] font-semibold leading-[20px]">
@@ -342,7 +359,7 @@ export default function Footer({ style }: any) {
                   <div
                     className="mt-[10px] xl:mt-[10px] cursor-pointer"
                     onClick={() => {
-                      navigate("/product#other-products.5");
+                      navigate("/product?id=5#other-products");
                     }}
                   >
                     <text className="text-[#EDF0F4] text-[13px]  font-extralight leading-[21px]">
@@ -406,9 +423,10 @@ export default function Footer({ style }: any) {
                     <div>
                       <Typography
                         style={{
-                          fontWeight: 400,
                           lineHeight: "21.94px",
                           marginBottom: "7px",
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                         }}
                         className="text-[14px] xl:text-[16px] mt-[5px]"
                         onClick={() => {
@@ -419,7 +437,8 @@ export default function Footer({ style }: any) {
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                         }}
@@ -432,7 +451,8 @@ export default function Footer({ style }: any) {
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                         }}
@@ -445,7 +465,8 @@ export default function Footer({ style }: any) {
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                         }}
@@ -540,7 +561,8 @@ export default function Footer({ style }: any) {
                     <div>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                           fontSize: "14px",
@@ -551,7 +573,8 @@ export default function Footer({ style }: any) {
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                           fontSize: "14px",
@@ -563,7 +586,8 @@ export default function Footer({ style }: any) {
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                           fontSize: "14px",
@@ -573,7 +597,8 @@ export default function Footer({ style }: any) {
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                           fontSize: "14px",
@@ -583,7 +608,8 @@ export default function Footer({ style }: any) {
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                           fontSize: "14px",
@@ -593,7 +619,8 @@ export default function Footer({ style }: any) {
                       </Typography>
                       <Typography
                         style={{
-                          fontWeight: 400,
+                          fontFamily: "Montserrat",
+                          fontWeight: "lighter",
                           lineHeight: "21.94px",
                           marginBottom: "7px",
                           fontSize: "14px",
@@ -605,7 +632,8 @@ export default function Footer({ style }: any) {
                   )}
                   <Typography
                     style={{
-                      fontWeight: 400,
+                      fontFamily: "Montserrat",
+                      fontWeight: "lighter",
                       lineHeight: "21.94px",
                       marginTop: "50px",
                       fontSize: "14px",

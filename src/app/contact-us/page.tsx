@@ -39,7 +39,7 @@ const AboutUs = () => {
               </div>
               <p
                 style={{ fontWeight: 400 }}
-                className="w-[100%] flex justify-center text-center mt-[22px] md:mt-[30px]"
+                className="w-[100%] md:w-[87%] flex justify-center text-center mt-[22px] md:mt-[30px]"
               >
                 Your message was submitted successfully - thanks! Our Customer
                 Care Agents are working to provide you with a reply as soon as
@@ -49,7 +49,7 @@ const AboutUs = () => {
               </p>
               <span
                 style={{
-                  fontWeight: 600,
+                  fontWeight: 500,
                 }}
                 className="text-[#00366A] mt-[32px] md:mt-[40px] lg:mt-[40px] xl:mt-[50px] 2xl:mt-[60px]"
               >

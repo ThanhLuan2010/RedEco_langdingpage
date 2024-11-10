@@ -136,7 +136,7 @@ function PlasticProduct() {
           </div>
 
           <div className="gap-[35px] overflow-hidden w-[25%] flex flex-col">
-            <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
+            <div className="h-[45%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
               <img
                 
                 alt=""
@@ -151,7 +151,7 @@ function PlasticProduct() {
                 height={100}
               />
             </div>
-            <div className="h-[40%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
+            <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
               <img
                 
                 alt=""

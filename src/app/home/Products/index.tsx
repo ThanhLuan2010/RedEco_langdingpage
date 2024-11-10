@@ -130,7 +130,6 @@ const products = [
 const settings = {
   dots: true,
   infinite: true,
-  speed: 500,
   slidesToShow: 4, // Số slides mặc định
   slidesToScroll: 1,
   responsive: [
@@ -163,9 +162,10 @@ const CustomCarousel = () => {
         PRODUCTS
         <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
       </text>
+
       <div className="bg-[#F7F9F9] w-full px-[20px] lg:px-[7%] xl:px-[10%] mt-[16px] md:mt-[36px] lg:mt-[50px] 2xl:mt-[60px]">
         <Box width={"100%"}>
-          <StyledCarousel style={{ height: "100%" }} autoplay {...settings}>
+          <StyledCarousel autoplaySpeed={2850} speed={950} style={{ height: "100%" }}  autoplay {...settings}>
             {products.map((product, index) => (
               <div
                 onClick={() => navigate(`/product#${product.hash}`)}
@@ -174,7 +174,6 @@ const CustomCarousel = () => {
               >
                 <div
                   style={{
-                    // boxShadow: "2px 2px 8px rgba(0, 0, 0, 0.1)",
                     backgroundColor: "white",
                   }}
                   className="mx-[10px] rounded-[12px] my-[10px] h-[20vh] sm:h-[35vh] 2xl:h-[35vh] shadow-even"

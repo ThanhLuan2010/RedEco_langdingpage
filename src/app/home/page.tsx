@@ -1,4 +1,3 @@
-"use client";
 import PhoneButton from "../../components/phoneButton"; 
 import { Box } from "@mui/material";
 import Footer from "../../components/Footer";
@@ -11,7 +10,6 @@ import Human from "./Human";
 import News from "./News";
 
 export default function Home() {
-
   return (
     <Box
       display="flex"

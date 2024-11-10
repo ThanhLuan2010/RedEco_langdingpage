@@ -79,6 +79,8 @@ function SearchPage() {
                   <Search
                     style={{
                       color: "white",
+                      width: "40px",
+                      height: "40px",
                     }}
                   />
                 </Button>
@@ -93,7 +95,7 @@ function SearchPage() {
           <div
             className="
             relative
-            rounded-[18px] 
+            rounded-[16px] 
             border-transparent
             bg-gradient-to-r from-[#007BB0] to-[#00366A]
             w-[100%]
@@ -104,7 +106,7 @@ function SearchPage() {
               className="
               bg-white 
               flex
-              rounded-[16px]
+              rounded-[14px]
               px-[20px]
               h-[38px]
               justify-center

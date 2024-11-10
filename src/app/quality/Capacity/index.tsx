@@ -341,9 +341,8 @@ const Capacity = () => {
           <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] md:w-1/3 overflow-hidden w-[100%] flex flex-col">
             <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
               <img
-                
                 alt=""
-                src={"/image/quality_control1.png"}
+                src={require("../../../assets/image/quality_control1.png")}
                 style={{
                   width: "100%",
                   height: "100%",

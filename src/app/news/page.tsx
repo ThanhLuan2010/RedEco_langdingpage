@@ -7,21 +7,23 @@ import Description2 from "./Description2";
 import Description3 from "./Description3";
 import Description4 from "./Description4";
 import PhoneButton from "../../components/phoneButton";
+import { useParams } from "react-router-dom";
 
 
 function News({ params }:any) {
   // const router = useParams();
+  const { id } = useParams<{ id: string }>();
+  console.log(id)
   // const { id } = router; // Lấy id từ URL
-  const { id } = params;
   const banner =
     id == "1"
-      ? "/image/banner_news1.png"
+      ? require("../../assets/image/banner_news1.png")
       : id == "2"
-      ? "/image/banner_news2.png"
+      ? require("../../assets/image/banner_news2.png")
       : id == "3"
-      ? "/image/banner_news3.png"
+      ? require("../../assets/image/banner_news3.png")
       : id == "4"
-      ? "/image/banner_news4.png"
+      ? require("../../assets/image/banner_news4.png")
       : "";
   const title =
     id == "1"

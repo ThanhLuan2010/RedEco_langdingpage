@@ -10,7 +10,6 @@ export default function Banner() {
           <div className="w-full h-[100%] relative">
             <Box width={"100vw"} height={"100%"} sx={{ position: "relative" }}>
               <img
-                
                 style={{ width: "100%", height: "100%" }}
                 alt="banner"
                 src={require("../../../assets/image/quality_banner.png")}
@@ -53,20 +52,22 @@ export default function Banner() {
                     onClick={() => navigate("/product")}
                     className="
                     bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% 
-                    py-[10px] md:py-[13px] 2xl:py-[20x] 
+                    py-[10px] lg:py-[10px] 2xl:py-[20px]
                     rounded-[8px] 
-                    text-[8px] md:text-[12px] ld:text-[16px] xl:text-[16px] 2xl:text-[20px] w-[50%] font-bold"
+                    text-[9px] md:text-[12px] ld:text-[15px] xl:text-[16px] 2xl:text-[18px] w-[50%] font-semibold"
                   >
-                    OUR PRODUCRS
+                    OUR PRODUCTS
                   </button>
 
                   <button
                     onClick={() => navigate("/contact-us")}
-                    className="py-[10px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[8px] md:text-[12px] ld:text-[16px] xl:text-[16px] 2xl:text-[20px]"
+                    className="py-[10px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-semibold text-[9px] md:text-[12px] ld:text-[15px] xl:text-[16px] 2xl:text-[18px]"
                   >
                     CONTACT US
                   </button>
                 </div>
+
+               
               </div>
             </div>
           </div>
@@ -92,7 +93,6 @@ export default function Banner() {
             >
               <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
                 <img
-                  
                   alt=""
                   src={require("../../../assets/image/ic_quality.png")}
                   style={{
@@ -132,7 +132,6 @@ export default function Banner() {
             >
               <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
                 <img
-                  
                   alt=""
                   src={require("../../../assets/image/ic_quality2.png")}
                   style={{
@@ -172,7 +171,6 @@ export default function Banner() {
             >
               <div className="w-[40%] md:w-[100%] h-[65%] md:h-[50%] md:pt-[20px]  justify-center flex items-center">
                 <img
-                  
                   alt=""
                   src={require("../../../assets/image/ic_quality3.png")}
                   style={{

@@ -25,7 +25,7 @@ function Vison() {
             mt-[20px] xl:mt-[24px]
             "
         >
-          <text className="font-thin text-[14px] md:text-[15px] 2xl:text-[18px]">
+          <text className="font-normal text-[14px] md:text-[15px] 2xl:text-[18px]">
             REDECO VIETNAM always working to develop in the direction:
           </text>
         </div>

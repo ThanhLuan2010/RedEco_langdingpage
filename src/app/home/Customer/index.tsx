@@ -73,9 +73,8 @@ const products = [
 const settings = {
   dots: false,
   infinite: true,
-  speed: 500,
   slidesToShow: 2, // Số slides mặc định
-  slidesToScroll: 1,
+  slidesToScroll: 4,
   responsive: [
     {
       breakpoint: 2000, // Màn hình lớn (tối đa 2000px)
@@ -127,7 +126,7 @@ const Customer = () => {
         <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[30%] md:w-[50%] h-[2px] xl:h-[5px] bg-white" />
       </text>
       <div className="w-[100%] mt-[32px] md:mt-[42] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[80px] px-[20px] md:px-[10%]">
-        <Carousel {...settings} autoplay>
+        <Carousel autoplaySpeed={1950} speed={2550} {...settings} autoplay>
           {products.map((product, index) => (
             <div key={index}>
               <div className="bg-white mx-[9px] 2xl:mx-[20px] flex justify-center items-center py-[0px] md:py-[5px] lg:py-[10px] xl:py-[15px] 2xl:py-[20px] rounded-[7px] border-[2px] border-[#00366A]">

@@ -36,7 +36,6 @@ function WhoWeAre() {
             width={100}
             height={100}
             alt="image"
-            
             src={require("../../../assets/image/who_we_are_banner_mobile.png")}
             // src={require("../../../assetsimage/who_we_are_banner.png")}
           />
@@ -51,7 +50,6 @@ function WhoWeAre() {
               width: "100vw",
             }}
             alt="image"
-            
             src={require("../../../assets/image/who_we_are_banner.png")}
             width={100}
             height={100}
@@ -71,15 +69,15 @@ function WhoWeAre() {
             bg-gradient-to-br from-[#28FF90] -7.86% to-[#00954F] 67.26% 
             py-[10px] 
             rounded-[8px] 
-            text-[9px] 
-            md:text-[20px] 
-            font-bold 
+            text-[9px] md:text-[12px] ld:text-[15px] xl:text-[16px] 2xl:text-[18px]
             mt-[25px]
             md:mt-[30px]
             lg:mt-[40px]
             w-[30%]
             md:w-[40%]
             lg:w-[65%]
+            font-Montserrat
+            font-semibold
             "
           >
             ABOUT US
@@ -104,12 +102,7 @@ function WhoWeAre() {
                   <div className="h-[80%] overflow-hidden ">
                     <div className="flex justify-between w-full items-center ">
                       <div className="xl:w-[30%] lg:w-[25%] w-[15%] ">
-                        <img
-                          alt=""
-                          src={item.image}
-                          width={100}
-                          height={100}
-                        />
+                        <img alt="" src={item.image} width={100} height={100} />
                       </div>
                       <p className="text-[70px] 2xltext-[80px] text-[#00366A] opacity-[0.1] font-normal leading-[100%] ">
                         0{index + 1}
@@ -162,13 +155,7 @@ function WhoWeAre() {
               <div className="h-[80%] overflow-hidden ">
                 <div className="flex justify-between w-full items-center ">
                   <div className="xg:w-[30%] lg:w-[25%] w-[20%] ">
-                    <img
-                      alt=""
-                      src="/image/ic_area.png"
-                      width={100}
-                      height={100}
-                      
-                    />
+                    <img alt="" src={item.image} width={100} height={100} />
                   </div>
                   <text className="text-[80px] text-[#00366A] font-Nunito opacity-[0.08] leading-[100%] font">
                     0{index + 1}
@@ -194,7 +181,6 @@ function WhoWeAre() {
                       alt=""
                       src={require("../../../assets/image/Arrow 1.png")}
                       width={100}
-                      
                       height={100}
                       className="w-[100%] h-[100%]"
                     />

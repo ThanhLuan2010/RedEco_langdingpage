@@ -16,7 +16,7 @@ function Description1() {
 
       <div className="flex flex-col sm:flex-col md:flex-row mt-[20px] md:mt-[30px] 2xl:mt-[40px]">
         <div className="sm:w-[100%] md:w-[60%] flex flex-col">
-          <text className="text-[20px] md:text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] font-bold text-[#00366A]">
             State-of-the-Art Facilities
           </text>
           <text className="mt-[5px] text-[15px] md:text-[16px] 2xl:text-[18px]">
@@ -35,7 +35,7 @@ function Description1() {
             </ul>
           </text>
 
-          <text className="text-[20px] md:text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] font-bold text-[#00366A] mt-[20px]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] font-bold text-[#00366A] mt-[20px]">
             Cutting-Edge CNC Technology
           </text>
 
@@ -72,7 +72,7 @@ function Description1() {
         </div>
 
         <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
-          <text className="text-[20px] md:text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] font-bold text-[#00366A]">
             Expert Team with 45+ Employees
           </text>
           <text className="mt-[0px] text-[15px] md:text-[16px] 2xl:text-[18px] text-[#252724] font-normal leading-[30px]">
@@ -84,7 +84,7 @@ function Description1() {
             most stringent technical requirements.
           </text>
 
-          <text className="text-[20px] md:text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] mt-[20px] font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] mt-[20px] font-bold text-[#00366A]">
             ISO-Certified Processes
           </text>
 
@@ -100,7 +100,7 @@ function Description1() {
 
       <div className="flex flex-col sm:flex-col md:flex-row mt-[24px] md:mt-[30px] xl:mt-[40px] 2xl:mt-[48px]">
         <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
-          <text className="text-[20px] md:text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] font-bold text-[#00366A]">
             On-Time Delivery
           </text>
           <text className="mt-[0px] text-[15px] md:text-[16px] 2xl:text-[18px] text-[#252724] font-normal leading-[30px]">
@@ -110,7 +110,7 @@ function Description1() {
             our clients' production schedules stay on track.
           </text>
 
-          <text className="text-[20px] md:text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] font-bold text-[#00366A] mt-[20px]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] font-bold text-[#00366A] mt-[20px]">
             Professional Customers Service
           </text>
 

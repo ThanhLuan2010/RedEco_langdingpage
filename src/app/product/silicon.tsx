@@ -958,8 +958,8 @@ function Silicon({ tab }: { tab?: string }) {
   };
 
   return (
-    <div>
-      <div className="relative flex justify-center mt-[60px] md:mt-[100px] 2xl:mt-[120px]">
+    <div className="mt-[60px] md:mt-[100px] 2xl:mt-[120px]">
+      <div className="relative flex justify-center ">
         <Typography
           style={{
             fontFamily: "Montserrat",

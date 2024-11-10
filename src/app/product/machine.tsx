@@ -292,7 +292,6 @@ function Machine() {
 
               <div className="h-[35%] overflow-hidden border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
                 <img
-                  
                   alt=""
                   src={require("../../assets/image/product2.2.png")}
                   style={{

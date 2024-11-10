@@ -54,7 +54,7 @@ const Human = () => (
     </text>
     {/* <Box marginTop={"50px"} width={"100%"}> */}
     <div className="w-[100%] mt-[24px] md:mt-[60px] xl:mt-[60px]">
-      <Carousel {...settings} autoplaySpeed={2000} speed={1000} autoplay>
+      <Carousel {...settings} autoplaySpeed={1950} speed={1950} autoplay>
         {products.map((product, index) => (
           <div key={index} className="mr-[18px]">
             <Box

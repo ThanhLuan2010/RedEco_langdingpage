@@ -48,7 +48,7 @@ const StyledCarousel = styled(Carousel)`
 `;
 
 export default function Banner() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <div className="h-[90vh]">
@@ -68,7 +68,6 @@ export default function Banner() {
                   width={100}
                   height={100}
                   src={src}
-                  
                 />
               </Box>
             ))}
@@ -76,14 +75,13 @@ export default function Banner() {
         </div>
 
         <div className="md:hidden">
-          <Box  width={"100vw"} height={"100%"}>
+          <Box width={"100vw"} height={"100%"}>
             <img
               style={{ width: "100%", height: "100%" }}
               alt={`banner`}
               width={100}
               height={100}
               src={require("../../../assets/image/banner1.png")}
-              
             />
           </Box>
         </div>
@@ -121,14 +119,15 @@ export default function Banner() {
           <div className="flex gap-[20px] xl:gap-[35px] mt-[25px] sm:mt-[35px] w-[65%] md:w-[50%] lg:w-[45%] z-20">
             <button
               onClick={() => navigate("/about-us#scope-of-service")}
-              className="bg-gradient-to-br from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] lg:py-[10px] 2xl:py-[20px] rounded-[8px] text-[9px] md:text-[12px] ld:text-[16px] xl:text-[20px] w-[50%] font-bold"
+              className="bg-gradient-to-br from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] lg:py-[10px] 2xl:py-[20px] rounded-[8px] 
+              text-[9px] md:text-[12px] ld:text-[15px] xl:text-[16px] 2xl:text-[18px] w-[50%] font-semibold"
             >
               OUR SERVICES
             </button>
 
             <button
               onClick={() => navigate("/contact-us#get-in-touch")}
-              className="py-[10px]  2xl:py-[20px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-bold text-[9px] md:text-[12px] ld:text-[16px] xl:text-[17px] 2xl:text-[20px]"
+              className="py-[10px] 2xl:py-[20px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-semibold text-[9px] md:text-[12px] ld:text-[15px] xl:text-[16px] 2xl:text-[18px]"
             >
               CONTACT US
             </button>

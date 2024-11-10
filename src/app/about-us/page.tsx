@@ -31,7 +31,7 @@ function About() {
       <StatisticalData />
       <Vison />
       <Mission />
-      <div id="scope-of-service">
+      <div id="scope-of-service" className="scroll-mt-[15vh]">
         <ScopeOfService />
       </div>
       <Customer />

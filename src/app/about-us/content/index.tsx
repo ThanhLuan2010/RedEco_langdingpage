@@ -76,24 +76,26 @@ function Content() {
   ];
   return (
     <>
-      <div className="flex flex-col md:flex-row px-[20px] md:px-[5%] xl:px-[10%] mt-[40px] md:mt-[60px] lg:mt-[8px] xl:mt-[100px] 2xl:mt-[140px] items-end ">
-        <div className="w-[100%] md:w-[50%] flex  flex-col items-center">
-          <div className="justify-center flex items-center ">
-            <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold md:pb-[4px] relative text-[#00366A]">
-              ABOUT US
-              <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
-            </text>
-          </div>
-
+      <div className="mt-[40px] md:mt-[60px] lg:mt-[8px] xl:mt-[100px] 2xl:mt-[140px]">
+        <div className="justify-center flex items-center w-[100%] md:w-[50%] pl-[20px] md:pl-[5%] xl:pl-[10%]">
+          <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold md:pb-[4px] relative text-[#00366A]">
+            ABOUT US
+            <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
+          </text>
+        </div>
+        <div className="w-[100%] md:w-[50%]"></div>
+      </div>
+      <div className="flex flex-col md:flex-row px-[20px] md:px-[5%] xl:px-[10%] items-center mt-[18px] md:mt-[28px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[46px] ">
+        <div className="w-[100%] md:w-[50%] flex flex-col items-center ">
           <div
             className="
-            mt-[18px] md:mt-[28px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[46px] 
+           
             leading-[20px] md:leading-[22px] lg:leading-[28px] 2xl:leading-[36px]
             text-[14px] md:text-[15px] lg:text-[16px] 2xl:text-[20px]
             "
           >
             <div>
-              <text>
+              <text className="font-normal text-[#252724]">
                 Established in 2017, REDECO Vietnam has become a trusted name in
                 supporting industries by providing high-quality machinery and
                 components for manufacturing processes. We specialize in
@@ -144,7 +146,7 @@ function Content() {
               >
                 <button
                   onClick={() => setIsShowMore(!isShowMore)}
-                  className="text-[10px] md:text-[12px] lg:text-[14px] 2xl:text-[20px] text-[#00366A] font-semibold md:font-medium"
+                  className="text-[10px] md:text-[12px] lg:text-[14px] 2xl:text-[20px] text-[#00366A] font-semibold md:font-medium "
                 >
                   MORE DETAIL
                 </button>
@@ -166,7 +168,7 @@ function Content() {
       {isShowMore && (
         <div
           style={{
-            backgroundImage: "url('/image/aboutUs/bg_customer.png')",
+            backgroundImage: "url('/bg_customer.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

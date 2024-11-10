@@ -50,7 +50,7 @@ function News() {
                 </Box>
                 <div className="mt-[10px] md:mt-[20px] xl:mt-[25px]">
                   <div className="line-clamp-2">
-                    <p className="hidden md:block text-[#00366A] font-Montserrat font-semibold text-[16px] md:text-[25px] xl:text-[28px] leading-[24px] md:leading-[30px] xl:leading-[36px]">
+                    <p className="hidden md:block text-[#00366A] font-Montserrat font-semibold text-[16px] md:text-[24px] xl:text-[24px] leading-[20px] md:leading-[30px] xl:leading-[36px]">
                       {item.shortTitle}
                     </p>
                   </div>
