@@ -9,8 +9,8 @@ function Banner() {
         <img alt="banner"  src={require("../../../assets/image/aboutUs/top_banner.png")}   width={100} height={100} className="w-[100vw] h-[100%]" />
       </div>
 
-      <div className="absolute top-0 h-[100%] flex flex-col justify-center px-[20px] md:px-[5%] xl:px-[10%] text-white overflow-hidden mx-[20px] md:mx:0 md:translate-y-[-9%] w-[80%]">
-        <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px]">
+      <div className="absolute top-0 h-[100%] flex flex-col justify-center px-[20px] md:px-[5%] xl:px-[10%] text-white overflow-hidden mx-[20px] md:mx:0 md:translate-y-[-5%] w-[80%]">
+        <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[50.14px] 2xl:leading-[63.14px]">
           We <span style={{ color: "#28FF90" }}>Provide</span> The Best
         </text>
         <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px]  2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] flex lg:hidden">
@@ -25,29 +25,8 @@ function Banner() {
           We have almost 8+ years of experience for helping industrial services
           and business solutions
         </text>
-
-        {/* <div className="flex gap-[20px] xl:gap-[35px] mt-[32px] md:mt-[18px] 2xl:mt-[35px] w-[50vw] md:w-[50%] lg:w-[70%]">
-          <button
-            onClick={() => navigate("/product")}
-            className="
-            bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] 
-            md:py-[15px] xl:py-[15px] 2xl:py-[20px] rounded-[8px] 
-            text-[9px] md:text-[12px] ld:text-[15px] xl:text-[16px] 2xl:text-[18px]
-            w-[50%] font-semibold"
-          >
-            OUR PRODUCTS
-          </button>
-
-          <button
-            onClick={() => navigate("/contact-us")}
-            className="py-[10px] 
-            md:py-[15px] xl:py-[15px] 2xl:py-[20px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-semibold
-            text-[9px] md:text-[12px] ld:text-[15px] xl:text-[16px] 2xl:text-[18px]"
-          >
-            CONTACT US
-          </button>
-        </div> */}
-         <div className="flex gap-[20px] xl:gap-[35px] mt-[25px] sm:mt-[35px] w-[65%] md:w-[60%] lg:w-[60%] z-20">
+       
+         <div className="flex gap-[20px] md:gap-[25px] xl:gap-[30px] mt-[18px] w-[65%] md:w-[60%] lg:w-[60%] z-20">
             <button
               onClick={() => navigate("/about-us#scope-of-service")}
               className="bg-gradient-to-br from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] lg:py-[10px] 2xl:py-[20px] rounded-[8px] 

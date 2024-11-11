@@ -27,6 +27,7 @@ function Banner({ data }: any) {
           dots={false}
           autoplaySpeed={1800}
           autoplay
+          infinite
         >
           {data.map((image: string, index: number) => (
             <div key={index}>

@@ -15,13 +15,13 @@ function Product() {
   const arrBanner = [
     require("../../assets/image/product_carousel1.png"),
     require("../../assets/image/product_carousel2.png"),
-    require("../../assets/image/product_carousel3.png"),
+    // require("../../assets/image/product_carousel3.png"),
   ];
 
   const arrBanner2 = [
     require("../../assets/image/banner-plastic1.png"),
     require("../../assets/image/banner-plastic2.png"),
-    require("../../assets/image/banner-plastic3.png"),
+    // require("../../assets/image/banner-plastic3.png"),
   ];
   const navigate = useNavigate();
 

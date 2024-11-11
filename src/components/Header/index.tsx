@@ -244,7 +244,7 @@ export default function Header() {
             </>
           )}
           {/* Center - LOGO */}
-          <div className="justify-center items-center lg:items-start lg:justify-start flex w-[55%] lg:w-[20%] cursor-pointer -translate-y-[2px]" onClick={() => {
+          <div className="justify-center items-center lg:items-start lg:justify-start flex w-[55%] lg:w-[20%] cursor-pointer -translate-y-[4px]" onClick={() => {
             navigate("/home");
           }}>
             <img

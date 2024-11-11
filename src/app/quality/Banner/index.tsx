@@ -30,8 +30,8 @@ export default function Banner() {
             </Box>
 
             <div className="absolute top-0 h-[100%] flex flex-col justify-center px-[20px] md:px-[5%] xl:px-[10%] text-white overflow-hidden">
-              <div className="md:translate-y-[-20%] 2xl:translate-y-[-30%]">
-                <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px]  2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px]">
+              <div className="md:translate-y-[-17%] 2xl:translate-y-[-30%]">
+                <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px]  2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[50.14px] 2xl:leading-[63.14px]">
                   We <span style={{ color: "#28FF90" }}>Provide</span> The Best
                 </text>
                 <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] flex lg:hidden">
@@ -47,7 +47,7 @@ export default function Banner() {
                   services and business solutions
                 </text>
 
-                <div className="flex gap-[20px] md:gap-[30px] xl:gap-[40px] 2xl:gap-[48px] mt-[32px] md:mt-[40px] lg:mt-[55px] xl:mt-[70px] 2xl:mt-[80px] w-[50vw] md:w-[50%] lg:w-[70%]">
+                <div className="flex gap-[20px] md:gap-[30px] xl:gap-[40px] 2xl:gap-[48px] mt-[32px] md:mt-[40px] lg:mt-[55px] xl:mt-[60px] 2xl:mt-[80px] w-[50vw] md:w-[50%] lg:w-[70%]">
                   <button
                     onClick={() => navigate("/product")}
                     className="
@@ -72,7 +72,7 @@ export default function Banner() {
             </div>
           </div>
 
-          <div className="gap-[24px] md:gap-[32px]  2xl:gap-[40px] px-[20px] md:px-[5%] xl:px-[10%] md:translate-y-[-50%] flex flex-col md:flex-row w-[100%] mt-[24px] md:mt-0">
+          <div className=" gap-[24px] md:gap-[32px] 2xl:gap-[40px] px-[20px] md:px-[5%] xl:px-[10%] md:translate-y-[-50%] flex flex-col md:flex-row w-[100%] mt-[24px] md:mt-0">
             <div
               style={{
                 backgroundColor: "rgba(255,255,255,0.9)",

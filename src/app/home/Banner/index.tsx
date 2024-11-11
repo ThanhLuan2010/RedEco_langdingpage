@@ -100,12 +100,13 @@ export default function Banner() {
             alignItems: "flex-start",
             color: "white",
             overflow: "hidden",
+            transform: "translateY(-3%)",
           }}
         >
-          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[50px] leading-[30px] lg:leading-[60px] 2xl:leading-[73.14px]">
+          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[50px] leading-[30px] md:leading-[40px] lg:leading-[50.14px] 2xl:leading-[63.14px]">
             We <span style={{ color: "#28FF90" }}>Provide</span> The Best
           </text>
-          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[50px] leading-[30px] lg:leading-[60px] 2xl:leading-[73.14px] flex">
+          <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[50px] leading-[30px] md:leading-[40px] lg:leading-[50.14px] 2xl:leading-[63.14px] flex">
             industrial solution
             <text className=" hidden md:flex xl:ml-4 md:ml-1">
               for business
@@ -116,7 +117,7 @@ export default function Banner() {
             services and business solutions
           </text>
 
-          <div className="flex gap-[20px] xl:gap-[35px] mt-[25px] sm:mt-[35px] w-[65%] md:w-[50%] lg:w-[45%] z-20">
+          <div className="flex gap-[20px] xl:gap-[35px] mt-[5px] sm:mt-[10px] w-[65%] md:w-[50%] lg:w-[45%] z-20">
             <button
               onClick={() => navigate("/about-us#scope-of-service")}
               className="bg-gradient-to-br from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] lg:py-[10px] 2xl:py-[20px] rounded-[8px] 

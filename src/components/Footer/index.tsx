@@ -155,6 +155,7 @@ export default function Footer({ style }: any) {
                           textDecorationLine: "underline",
                           fontSize: "16px",
                           fontWeight: 700,
+                          fontFamily: "Montserrat",
                         }}
                       >
                         Subcribe

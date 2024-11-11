@@ -92,7 +92,9 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
       >
         <div
           className={`mt-2 ${
-            value ? "font-medium text-[#707070]" : "text-gray-400"
+            value
+              ? "font-Montserrat text-[12px] text-[rgba(77, 77, 77, 0.5)]"
+              : "text-gray-400"
           }`}
         >
           {value && value}
@@ -107,18 +109,21 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
 
       <label
         style={{
-          color: "#707070",
+          color: "rgba(77, 77, 77, 0.5)",
+          fontSize: "12px",
+          fontFamily: "Montserrat",
         }}
         htmlFor={id}
         className={`textfield__label textfield__label--required font-Montserrat font-normal ${
-          !value && "mt-[10px] opacity-[0.6]"
+          !value && "mt-[10px]"
         }`}
       >
         {label}
       </label>
 
       {isOpen && (
-        <ul className="absolute z-10 text-[14px] py-[8px] bg-white  rounded-b-lg w-full  max-h-96 overflow-y-auto shadow-lg">
+        <ul className="absolute z-10 text-[14px] py-[8px] bg-white rounded-b-lg w-full max-h-96 shadow-lg">
+          {/* Fixed header section */}
           <div className="px-[8px] flex px-1 gap-2 items-center py-[10px] text-[#DADADA]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -137,20 +142,24 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
               <span className="absolute ml-2 text-red-600">*</span>
             </li>
           </div>
-          <div className="max-h-96 overflow-y-auto">
+
+          {/* Scrollable options section */}
+          <div className="max-h-80 overflow-y-auto">
+            {" "}
+            {/* Ensure this div has the overflow */}
             {options.map((option, index) => (
               <li
                 key={index}
-                ref={selectedCountry === option ? selectedOptionRef : null} // Gán ref cho mục đã chọn
+                ref={selectedCountry === option ? selectedOptionRef : null}
                 onClick={() => handleOptionClick(option)}
-                className={`flex justify-between  items-center px-[16px] py-[4px] my-[4px] cursor-pointer font-Montserrat
-                          hover:bg-[#00366A] hover:text-white 
-                          ${
-                            value === option
-                              ? "font-semibold text-[#00366A]"
-                              : "text-[#707070]"
-                          } 
-                          }`}
+                className={`flex justify-between items-center px-[16px] py-[4px] my-[4px] cursor-pointer font-Montserrat
+                       hover:bg-[#00366A] hover:text-white 
+                       ${
+                         value === option
+                           ? "font-semibold text-[#00366A]"
+                           : "text-[#707070]"
+                       } 
+                       }`}
               >
                 <span>{option}</span>
                 {value === option && (
