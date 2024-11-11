@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Carousel } from "antd";
 import styled from "styled-components";
 
-import { Box } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 const StyledCarousel = styled(Carousel)`
@@ -12,7 +11,9 @@ const StyledCarousel = styled(Carousel)`
     align-items: center;
     bottom: -40px;
   }
-
+  .ant-carousel {
+    touch-action: pan-y; /* Chỉ cho phép cuộn dọc mà không bị can thiệp */
+  }
   .slick-dots li {
     margin: 0 3px; /* Tạo khoảng cách đều cho các dot không active */
   }
@@ -156,21 +157,28 @@ const settings = {
 
 const CustomCarousel = () => {
   const navigate = useNavigate();
+
   return (
     <div className="bg-[#F7F9F9] flex flex-col items-center justify-center pt-[40px] sm:pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[120px] 2xl:pt-[140px]">
       <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
         PRODUCTS
         <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
       </text>
-
-      <div className="bg-[#F7F9F9] w-full px-[20px] lg:px-[7%] xl:px-[10%] mt-[16px] md:mt-[36px] lg:mt-[50px] 2xl:mt-[60px]">
-        <Box width={"100%"}>
-          <StyledCarousel autoplaySpeed={2850} speed={950} style={{ height: "100%" }}  autoplay {...settings}>
+      <div className="bg-[#F7F9F9] w-full px-[20px] lg:px-[7%] xl:px-[10%] mt-[16px] md:mt-[36px] lg:mt-[50px] 2xl:mt-[60px] relative">
+        <div className="w-[100%]">
+          <StyledCarousel
+            {...settings}
+            waitForAnimate={false}
+            autoplaySpeed={2550}
+            speed={950}
+            style={{ height: "100%" }}
+            autoplay
+          >
             {products.map((product, index) => (
               <div
                 onClick={() => navigate(`/product#${product.hash}`)}
                 key={index}
-                className="bg-[#F7F9F9] cursor-pointer"
+                className="bg-[#F7F9F9] cursor-pointer z-100"
               >
                 <div
                   style={{
@@ -190,7 +198,6 @@ const CustomCarousel = () => {
                         height={100}
                         alt={product.name}
                         src={product.imageUrl}
-                        
                       />
                     </div>
                     <div className="h-[30%] flex justify-center items-center">
@@ -200,11 +207,10 @@ const CustomCarousel = () => {
                     </div>
                   </div>
                 </div>
-                {/* </Box> */}
               </div>
             ))}
           </StyledCarousel>
-        </Box>
+        </div>
       </div>
     </div>
   );

@@ -87,7 +87,7 @@ export default function Banner() {
         </div>
 
         {/* Nội dung trên Carousel */}
-        <Box
+        {/* <Box
           sx={{
             position: "absolute",
             top: "0",
@@ -100,7 +100,7 @@ export default function Banner() {
             alignItems: "flex-start",
             color: "white",
             overflow: "hidden",
-            transform: "translateY(-3%)",
+            transform: "translateY(-8%)",
           }}
         >
           <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[50px] leading-[30px] md:leading-[40px] lg:leading-[50.14px] 2xl:leading-[63.14px]">
@@ -117,7 +117,7 @@ export default function Banner() {
             services and business solutions
           </text>
 
-          <div className="flex gap-[20px] xl:gap-[35px] mt-[5px] sm:mt-[10px] w-[65%] md:w-[50%] lg:w-[45%] z-20">
+          <div className="flex gap-[20px] xl:gap-[35px] md:mt-[-5px]w-[65%] md:w-[50%] lg:w-[45%] z-20">
             <button
               onClick={() => navigate("/about-us#scope-of-service")}
               className="bg-gradient-to-br from-[#28FF90] -7.86% to-[#00954F] 67.26% py-[10px] lg:py-[10px] 2xl:py-[20px] rounded-[8px] 
@@ -133,9 +133,47 @@ export default function Banner() {
               CONTACT US
             </button>
           </div>
-        </Box>
+        </Box> */}
+        <div className="absolute top-0 h-[100%] flex flex-col justify-center px-[20px] md:px-[5%] xl:px-[10%] text-white overflow-hidden">
+          <div className="md:translate-y-[-17%] 2xl:translate-y-[-30%]">
+            <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px]  2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[50.14px] 2xl:leading-[63.14px]">
+              We <span style={{ color: "#28FF90" }}>Provide</span> The Best
+            </text>
+            <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] flex lg:hidden">
+              industrial solution
+            </text>
 
-        <div className="absolute bottom-0 left-0 w-full bg-[#00366A] opacity-[0.1] h-[100%] z-10"></div>
+            <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] lg:flex hidden">
+              industrial solution for business
+            </text>
+
+            <text className="md:mt-[18px] 2xl:mt-[32px] xl:mb-[40px] hidden md:flex 2xl:text-[20px]">
+              We have almost 8+ years of experience for helping industrial
+              services and business solutions
+            </text>
+
+            <div className="flex gap-[20px] md:gap-[30px] xl:gap-[40px] 2xl:gap-[48px] mt-[30px] md:mt-[35px] lg:mt-[40px] xl:mt-[55px] 2xl:mt-[80px] w-[50vw] md:w-[50%] lg:w-[70%]">
+              <button
+                onClick={() => navigate("/about-us#scope-of-service")}
+                className="
+                    bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% 
+                    py-[10px] lg:py-[10px] 2xl:py-[20px]
+                    rounded-[8px] 
+                    text-[9px] md:text-[12px] ld:text-[15px] xl:text-[16px] 2xl:text-[18px] w-[50%] font-semibold"
+              >
+                OUR SERVICES
+              </button>
+
+              <button
+                onClick={() => navigate("/contact-us")}
+                className="py-[10px] rounded-[8px] w-[50%] border-[1px] border-[#F0F0F0] font-semibold text-[9px] md:text-[12px] ld:text-[15px] xl:text-[16px] 2xl:text-[18px]"
+              >
+                CONTACT US
+              </button>
+            </div>
+          </div>
+        </div>
+        {/* <div className="absolute bottom-0 left-0 w-full bg-[#00366A] opacity-[0.1] h-[100%] z-10"></div> */}
       </Box>
     </div>
   );

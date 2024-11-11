@@ -1,6 +1,7 @@
 "use client";
 import { Box, Input, Typography } from "@mui/material";
 import { Col, Row } from "antd";
+import axios from "axios";
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -24,20 +25,31 @@ export default function Footer({ style }: any) {
     if (formData.email) {
       try {
         setIsLoading(true);
-        await fetch(
-          "https://api.sheetbest.com/sheets/6e870419-6aca-4069-be29-f9268f8bb7fb",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(formData),
-          }
-        );
+        await axios
+          .post(
+            "https://api.sheetbest.com/sheets/856bc5db-b398-4a6b-a69b-c07f71b116cf",
+            {
+              Address: "-",
+              Category: "",
+              City: "-",
+              "Company Name": "-",
+              Country: "-",
+              Email: formData.email,
+              "First Name": "-",
+              "Last Name": "-",
+              Message: "-",
+              Phone: "-",
+              "Zip Code": "-",
+            }
+          )
+          .then((response) => {
+            console.log(response);
+          });
         setIsLoading(false);
         setFormData({
           email: "",
         });
+        setIsSubcribe(true);
       } catch (error) {
         alert("Failed to submit the form.");
       }
@@ -108,6 +120,9 @@ export default function Footer({ style }: any) {
                         fontFamily: "Montserrat",
                         fontSize: "10px",
                       }}
+                      onChange={(e) =>
+                        setFormData({ ...formData, email: e.target.value })
+                      }
                       placeholder="Email address..."
                       className="w-[100%] md:w-[80%]"
                     />
@@ -145,7 +160,6 @@ export default function Footer({ style }: any) {
                     <button
                       className="mt-[30px] md:mt-[36px]"
                       onClick={() => {
-                        setIsSubcribe(true);
                         onSubmit();
                       }}
                     >

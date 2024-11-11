@@ -93,7 +93,7 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
         <div
           className={`mt-2 ${
             value
-              ? "font-Montserrat text-[12px] text-[rgba(77, 77, 77, 0.5)]"
+              ? "font-Montserrat text-[14px] text-[rgba(77, 77, 77, 0.5)]"
               : "text-gray-400"
           }`}
         >

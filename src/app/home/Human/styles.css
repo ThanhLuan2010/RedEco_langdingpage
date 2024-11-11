@@ -1,0 +1,3 @@
+.ant-carousel {
+    touch-action: pan-y; /* Chỉ cho phép cuộn dọc mà không bị can thiệp */
+  }

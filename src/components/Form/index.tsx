@@ -2,7 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import * as yup from "yup";
 import Button from "../Button";
 import CustomSelect from "../SelectCustom";
-import '../../globals.css'
+import "../../globals.css";
+import axios from "axios";
 
 interface FormData {
   firstName: string;
@@ -21,9 +22,13 @@ interface FormData {
 const validationSchema = yup.object().shape({
   firstName: yup.string().required("First Name is required"),
   lastName: yup.string().required("Last Name is required"),
-  email: yup.string().email("Invalid email").required("Email is required").test("email", "Invalid email", (value) => {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
-  }),
+  email: yup
+    .string()
+    .email("Invalid email")
+    .required("Email is required")
+    .test("email", "Invalid email", (value) => {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+    }),
   phone: yup.string().required("Phone is required"),
   address: yup.string().required("Address is required"),
   city: yup.string().required("City is required"),
@@ -156,33 +161,42 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
     if (isValid) {
       try {
         setIsLoading(true);
-        await fetch(
-          "https://api.sheetbest.com/sheets/6e870419-6aca-4069-be29-f9268f8bb7fb",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(formData),
-          }
-        );
+        await axios
+          .post(
+            "https://api.sheetbest.com/sheets/856bc5db-b398-4a6b-a69b-c07f71b116cf",
+            {
+              Address: formData.address,
+              Category: formData.category,
+              City: formData.city,
+              "Company Name": formData.companyName,
+              Country: formData.country,
+              Email: formData.email,
+              "First Name": formData.firstName,
+              "Last Name": formData.lastName,
+              Message: formData.message,
+              Phone: formData.phone,
+              "Zip Code": formData.zip,
+            }
+          )
+          .then((response) => {
+            console.log(response);
+          });
         setIsLoading(false);
         setIsStatusSubmit(true);
         setUserNameSubmit(`${formData.firstName} ${formData.lastName}`);
-
-        setFormData({
-          firstName: "",
-          lastName: "",
-          email: "",
-          phone: "",
-          companyName: "",
-          address: "",
-          city: "",
-          zip: "",
-          country: "",
-          category: "",
-          message: "",
-        });
+        // setFormData({
+        //   firstName: "",
+        //   lastName: "",
+        //   email: "",
+        //   phone: "",
+        //   companyName: "",
+        //   address: "",
+        //   city: "",
+        //   zip: "",
+        //   country: "",
+        //   category: "",
+        //   message: "",
+        // });
       } catch (error) {
         alert("Failed to submit the form.");
       }
@@ -203,7 +217,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
           // type={type}
           value={formData[id] || ""}
           onChange={handleChange}
-          className={`textfield__input font-Montserrat font-normal ${
+          className={`textfield__input font-Montserrat text-[14px] font-normal ${
             errors[id] ? "textfield__input--error" : ""
           }`}
           placeholder=""
@@ -307,11 +321,13 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
               }}
               className={`textfield__input placeholder:text-[13px] placeholder:font-Montserrat placeholder:text-[#707070] placeholder:opacity-50 ${
                 errors.message ? "textfield__input--error" : ""
-              }` }
+              }`}
               placeholder="Your message"
             />
             {errors.message && (
-              <small className="text-red-500 text-[8px] absolute">{errors.message}</small>
+              <small className="text-red-500 text-[8px] absolute">
+                {errors.message}
+              </small>
             )}
           </div>
 

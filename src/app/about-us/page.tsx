@@ -1,29 +1,15 @@
-import React, { useEffect } from "react";
+import Footer from "../../components/Footer";
 import Banner from "./Banner";
+import Commit from "./Commit";
 import Content from "./content";
-import StatisticalData from "./statisticalData";
-import Vison from "./Vison.index";
+import Customer from "./Customer";
 import Mission from "./Mission";
 import ScopeOfService from "./ScopeOfService";
-import Customer from "./Customer";
-import Commit from "./Commit";
-import Footer from "../../components/Footer";
-import { useNavigate } from "react-router-dom";
+import StatisticalData from "./statisticalData";
+import Vison from "./Vison.index";
 
 import PhoneButton from "../../components/phoneButton";
 function About() {
-  const navigate = useNavigate();
-  useEffect(() => {
-    const hash = window.location.hash;
-
-    if (hash) {
-      const targetElement = document.querySelector(hash);
-      if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  }, [navigate]);
-
   return (
     <div>
       <Banner />

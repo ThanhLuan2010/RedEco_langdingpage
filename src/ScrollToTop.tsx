@@ -12,7 +12,7 @@ const ScrollToTop: React.FC = () => {
       if (element) {
         setTimeout(() => {
           element.scrollIntoView({ behavior: "smooth" });
-        }, 500);
+        }, 100);
       }
     } else {
       // Ngược lại, cuộn lên đầu trang

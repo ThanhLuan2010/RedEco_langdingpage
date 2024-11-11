@@ -122,7 +122,7 @@ const Customer = () => {
         </text>
       </div>
       <div className="w-[100%] mt-[32px] md:mt-[42] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[80px] px-[20px] md:px-[5%] xl:px-[10%]">
-        <Carousel {...settings} autoplaySpeed={2950} speed={2550} autoplay>
+        <Carousel {...settings} autoplaySpeed={2950} speed={2550} autoplay waitForAnimate={false}>
           {products.map((product, index) => (
             <div
               className="cursor-pointer"

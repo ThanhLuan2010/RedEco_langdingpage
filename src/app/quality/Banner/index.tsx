@@ -47,7 +47,7 @@ export default function Banner() {
                   services and business solutions
                 </text>
 
-                <div className="flex gap-[20px] md:gap-[30px] xl:gap-[40px] 2xl:gap-[48px] mt-[32px] md:mt-[40px] lg:mt-[55px] xl:mt-[60px] 2xl:mt-[80px] w-[50vw] md:w-[50%] lg:w-[70%]">
+                <div className="flex gap-[20px] md:gap-[30px] xl:gap-[40px] 2xl:gap-[48px] mt-[30px] md:mt-[35px] lg:mt-[40px] xl:mt-[55px] 2xl:mt-[80px] w-[50vw] md:w-[50%] lg:w-[70%]">
                   <button
                     onClick={() => navigate("/product")}
                     className="

@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import { Carousel } from "antd";
-
+import "./styles.css";
+import styled from "styled-components";
 
 const products = [
   { name: "human1", imageUrl: require("../../../assets/image/human1.png") },
@@ -15,7 +16,6 @@ const settings = {
   dots: false,
   infinite: true,
   speed: 1000,
-  
   slidesToShow: 3, // Số slides mặc định
   slidesToScroll: 3,
   responsive: [
@@ -45,6 +45,11 @@ const settings = {
     },
   ],
 };
+const StyledCarousel = styled(Carousel)`
+ .ant-carousel {
+    touch-action: pan-y; /* Chỉ cho phép cuộn dọc mà không bị can thiệp */
+  }
+`;
 
 const Human = () => (
   <div className="flex flex-col justify-center items-center pt-[40px] sm:pt-[50px] md:pt-[70px] lg:pt-[90px] xl:pt-[110px] 2xl:pt-[200px] px-[20px] md:px-[5%] xl:px-[10%] bg-[#F7F9F9]">
@@ -53,8 +58,8 @@ const Human = () => (
       <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
     </text>
     {/* <Box marginTop={"50px"} width={"100%"}> */}
-    <div className="w-[100%] mt-[24px] md:mt-[60px] xl:mt-[60px]">
-      <Carousel {...settings} autoplaySpeed={2950} speed={1950} autoplay>
+    <div className="w-[100%] mt-[24px] md:mt-[60px] xl:mt-[60px] relative">
+      <StyledCarousel swipeToSlide {...settings} autoplaySpeed={2950} speed={1950} autoplay dots={false}  draggable={false}>
         {products.map((product, index) => (
           <div key={index} className="mr-[18px]">
             <Box
@@ -77,7 +82,8 @@ const Human = () => (
             </Box>
           </div>
         ))}
-      </Carousel>
+      </StyledCarousel>
+      <div className="w-[100%] absolute top-0 left-0 h-full bg-red-500 opacity-0"></div>
     </div>
 
     {/* </Box> */}
