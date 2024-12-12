@@ -9,10 +9,10 @@ function Description2() {
       </text>
       <text
         className="
-        mt-[18px] md:mt-[24px] lg:mt-[28px] 2xl:mt-[2rem] 
+        mt-[18px] md:mt-[24px] lg:mt-[28px] xl:mt-[2rem] 
         text-[#252724] leading-[28px] 
-        md:leading-[26px] 2xl:leading-[32px]
-        text-[15px] md:text-[16px] 2xl:text-[18px]
+        md:leading-[26px] xl:leading-[32px]
+        text-[15px] md:text-[16px] xl:text-[18px]
         "
       >
         REDECO Vietnam Industrial Solutions Joint Stock Company stands at the
@@ -25,8 +25,8 @@ function Description2() {
 
       <div className="flex flex-col md:flex-row mt-[20px]">
         <div
-          className="w-[100%] md:w-[60%] flex flex-col md:leading-[26px] 2xl:leading-[32px]
-          text-[15px] md:text-[16px] 2xl:text-[18px]"
+          className="w-[100%] md:w-[60%] flex flex-col md:leading-[26px] xl:leading-[32px]
+          text-[15px] md:text-[16px] xl:text-[18px]"
         >
           <text>
             Our advanced CNC technology allows us to create intricate parts with
@@ -63,7 +63,7 @@ function Description2() {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row mt-4 md:mt-6 lg:mt-8 2xl:mt-10">
+      <div className="flex flex-col-reverse md:flex-row mt-4 md:mt-6 lg:mt-8 xl:mt-10">
         <div className="w-[100%] md:w-[40%] mt-[20px] md:mt-0 h-auto ml-0 flex mr-0 md:mr-[3%]">
           <img
             alt=""
@@ -77,8 +77,8 @@ function Description2() {
 
         <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
           <text
-            className="mt-[5px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+            className="mt-[5px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
           >
             Quality assurance is a cornerstone of our operations at REDECO. Our
             ISO-certified quality management system guarantees that every
@@ -91,8 +91,8 @@ function Description2() {
             devices.
           </text>
           <text
-            className="mt-[20px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+            className="mt-[20px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
           >
             Our commitment to customer satisfaction drives us to provide
             tailored solutions that meet specific project requirements. We

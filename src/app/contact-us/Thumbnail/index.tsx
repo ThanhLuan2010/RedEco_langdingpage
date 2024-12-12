@@ -3,7 +3,7 @@ import React from "react";
 
 const Thumbnail = () => {
   return (
-    <div className="relative">
+    <div className="relative pt-[10vh]">
       <img
         style={{ width: "100%", height: "100%" }}
         alt="banner"

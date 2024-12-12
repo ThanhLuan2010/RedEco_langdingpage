@@ -3,28 +3,26 @@ import { Typography } from "antd";
 function PlasticProduct() {
   return (
     <div className="">
-      <div className="relative flex justify-center mt-[60px] md:mt-[100px] 2xl:mt-[120px]">
+      <div className="relative flex justify-center mt-[60px] md:mt-[100px] xl:mt-[120px]">
         <Typography
           style={{
             fontFamily: "Montserrat",
             fontWeight: "700",
             position: "relative", // Để định vị đường viền
-            paddingBottom: "10px", // Khoảng cách giữa chữ và border
             color: "#00366A",
           }}
         >
           <span
             className="xl:text-[35px] 2xl:text-[48px] sm:px-[10px]
-          px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[24px] leading-[30px] "
+          px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[28px]"
           >
              PLASTIC INJECTION PRODUCTS
           </span>
           {/* Đường viền */}
           <span
-            className="xl:h-[4px] 2xl:h-[5px] md:h-[4px] h-[3px]"
+            className="xl:h-[4px] 2xl:h-[5px] md:h-[4px] h-[3px] bottom-[2px] md:bottom-0"
             style={{
               position: "absolute",
-              bottom: 0, // Đặt đường viền sát dưới chữ
               left: "50%", // Căn giữa theo chiều ngang
               transform: "translateX(-50%)", // Căn chỉnh chính xác vị trí giữa
               width: "15%", // Chiều rộng của đường viền (ngắn hơn width chữ)
@@ -169,9 +167,9 @@ function PlasticProduct() {
           </div>
         </div>
 
-        <div className="md:hidden flex overflow-hidden h-[120vh] gap-4 2xl:gap-[35px] mt-[20px]">
+        <div className="md:hidden flex overflow-hidden h-[120vh] gap-4 xl:gap-[35px] mt-[20px]">
           {/* Left */}
-          <div className="gap-4 2xl:gap-[35px]gap-[35px] overflow-hidden w-[50%] flex flex-col">
+          <div className="gap-4 xl:gap-[35px]gap-[35px] overflow-hidden w-[50%] flex flex-col">
             <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
               <img
                 
@@ -234,7 +232,7 @@ function PlasticProduct() {
             </div>
           </div>
           {/* Right */}
-          <div className="gap-4 2xl:gap-[35px]gap-[35px] overflow-hidden w-[50%] flex flex-col">
+          <div className="gap-4 xl:gap-[35px]gap-[35px] overflow-hidden w-[50%] flex flex-col">
             <div className="h-[60%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[8px] bg-white p-[30px]">
               <img
                 

@@ -24,7 +24,6 @@ function Silicon({ tab }: { tab?: string }) {
         <div className="mt-[40px]">
           <div className="border-[1px] md:border-[2px] border-[#00366A] p-[12px] rounded-[8px] md:mt-[60px] bg-white">
             <img
-              
               src={require("../../assets/image/banner-silicon.png")  }
               alt=""
               width={100}
@@ -33,8 +32,8 @@ function Silicon({ tab }: { tab?: string }) {
             />
           </div>
           <>
-            <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[45vh] 2xl:gap-[35px] gap-[30px] mt-[20px] md:mt-[30px] 2xl:mt-[40px]">
-              <div className="2xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
+            <div className="xl:flex lg:flex md:flex sm:hidden hidden overflow-hidden h-[45vh] xl:gap-[35px] gap-[30px] mt-[20px] md:mt-[30px] xl:mt-[40px]">
+              <div className="xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
                 <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <img
                     
@@ -67,7 +66,7 @@ function Silicon({ tab }: { tab?: string }) {
                 </div>
               </div>
 
-              <div className="2xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
+              <div className="xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
                 <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <img
                     
@@ -100,7 +99,7 @@ function Silicon({ tab }: { tab?: string }) {
                 </div>
               </div>
 
-              <div className="2xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
+              <div className="xl:gap-[35px] gap-[30px] overflow-hidden w-1/3 flex flex-col">
                 <div className="h-1/2 overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[30px]">
                   <img
                     
@@ -958,26 +957,26 @@ function Silicon({ tab }: { tab?: string }) {
   };
 
   return (
-    <div className="mt-[60px] md:mt-[100px] 2xl:mt-[120px]">
+    <div className="mt-[60px] md:mt-[100px] xl:mt-[120px]">
       <div className="relative flex justify-center ">
+       
         <Typography
           style={{
             fontFamily: "Montserrat",
             fontWeight: "700",
             position: "relative", // Để định vị đường viền
-            paddingBottom: "10px", // Khoảng cách giữa chữ và border
             color: "#00366A",
           }}
         >
           <span
             className="xl:text-[35px] 2xl:text-[48px] sm:px-[10px]
-          px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[24px] leading-[30px] "
+          px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[28px]"
           >
-            SILICON RUBBER PRODUCTS
+             SILICON RUBBER PRODUCTS
           </span>
           {/* Đường viền */}
           <span
-            className="xl:h-[4px] 2xl:h-[5px] md:h-[4px] h-[3px] bottom-[5px] md:bottom-0"
+            className="xl:h-[4px] 2xl:h-[5px] md:h-[4px] h-[3px] bottom-[2px] md:bottom-0"
             style={{
               position: "absolute",
               left: "50%", // Căn giữa theo chiều ngang
@@ -989,7 +988,7 @@ function Silicon({ tab }: { tab?: string }) {
         </Typography>
       </div>
 
-      <div className="2xl:mt-[30px] md:mt-[25px] mt-[20px]">
+      <div className="md:mt-[30px] mt-[20px] xl:mt-[30px] 2xl:mt-[40px]">
         <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%]">
           <div className="flex justify-center ">
             <div
@@ -1018,8 +1017,8 @@ function Silicon({ tab }: { tab?: string }) {
 export default Silicon;
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
-    className={`flex-1 px-4 py-[10px] sm:px-2 2xl:py-[16px] text-center flex items-center justify-center
-       text-[9px] md:text-[12px] 2xl:text-[18px] transition-all duration-300 ]"
+    className={`flex-1 px-4 py-[10px] sm:px-2 xl:py-[16px] text-center flex items-center justify-center
+       text-[9px] md:text-[12px] xl:text-[18px] transition-all duration-300 ]"
       ${
         isActive
           ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"

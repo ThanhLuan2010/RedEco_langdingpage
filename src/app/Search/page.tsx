@@ -46,7 +46,7 @@ function SearchPage() {
           </div>
         </div>
 
-        <div className="flex justify-center mt-[20p] md:mt-[40px] lg:mt-[60px] 2xl:mt-[72px]">
+        <div className="flex justify-center mt-[20p] md:mt-[40px] lg:mt-[60px] xl:mt-[72px]">
           <div
             className="
             relative

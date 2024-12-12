@@ -11,7 +11,7 @@ function News() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const data = isMobile ? NewsdataMobile : Newsdata;
   return (
-    <div className="flex flex-col justify-center items-center px-[20px] md:px-[10%] mt-[48px] md:mt-[60px] lg-[78px] xl:mt-[90px] 2xl:mt-[110px]">
+    <div className="flex flex-col justify-center items-center px-[20px] md:px-[10%] mt-[48px] md:mt-[60px] lg-[78px] xl:mt-[90px] 2xl:mt-[100px]">
       <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
         CORPORATE NEWS
         <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />

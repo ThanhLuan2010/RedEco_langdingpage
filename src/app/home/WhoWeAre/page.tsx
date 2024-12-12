@@ -57,10 +57,10 @@ function WhoWeAre() {
         </div>
 
         <div className="absolute top-0 left-0 flex flex-col text-white px-[10%] h-[100%] justify-center items-start w-[100%] lg:w-[45%]">
-          <text className="text-[24px] md:text-[30px] lg:text-[40px] 2xl:text-[50px] font-bold leading-[30px] md:leading-[40px] lg:leading-[55px] xl:leading-[73px]">
+          <text className="text-[24px] md:text-[30px] lg:text-[40px] xl:text-[50px] font-bold leading-[30px] md:leading-[40px] lg:leading-[55px] xl:leading-[73px]">
             Who are we?
           </text>
-          <text className="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[16px] mt-[10px]  2xl:mt-[20px] leading-[14.63px] md:leading-[20px] lg:leading-[30px] xl:leading-[26px]">
+          <text className="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[16px] mt-[10px]  xl:mt-[20px] leading-[14.63px] md:leading-[20px] lg:leading-[30px] xl:leading-[26px]">
             Welcome to REDECO Vietnam Industrial Solutions JSC
           </text>
           <button
@@ -94,7 +94,8 @@ function WhoWeAre() {
           >
             {data.map((item, index) => (
               <div
-                className="bg-white opacity-[0.9] lg:px-[16px] 2xl:px-[20px] pb-[10px] 2xl:pb-[20px] rounded-[12px] pt-[10px] w-[100%] px-[25px] py-[25px] mt-[25px] overflow-hidden max-h-[50vh] h-[65%] 2xl:h-[60%]"
+                className="bg-white opacity-[0.9] lg:px-[16px] xl:px-[20px] pb-[10px] xl:pb-[20px] 
+                rounded-[12px] pt-[10px] w-[100%] px-[25px] py-[25px] mt-[25px] overflow-hidden max-h-[50vh] h-[65%] xl:h-[60%]"
                 style={{ boxShadow: "0 0 10px 5px #7B7A7A0F" }}
                 key={index}
               >
@@ -104,18 +105,18 @@ function WhoWeAre() {
                       <div className="xl:w-[30%] lg:w-[25%] w-[15%] ">
                         <img alt="" src={item.image} width={100} height={100} />
                       </div>
-                      <p className="text-[70px] 2xltext-[80px] text-[#00366A] opacity-[0.1] font-normal leading-[100%] ">
+                      <p className="text-[70px] xltext-[80px] text-[#00366A] opacity-[0.1] font-normal leading-[100%] ">
                         0{index + 1}
                       </p>
                     </div>
 
-                    <div className="flex flex-col mt-[20px] md:mt-[18px] lg:mt-[20px] 2xl:mt-[30px]">
-                      <text className="text-[#00366A] text-[20px] md:text-[22px] 2xl:text-[32px] font-semibold leading-[100%] line-clamp-1">
+                    <div className="flex flex-col mt-[20px] md:mt-[18px] lg:mt-[20px] xl:mt-[30px]">
+                      <text className="text-[#00366A] text-[20px] md:text-[22px] xl:text-[32px] font-semibold leading-[100%] line-clamp-1">
                         {item.title}
                       </text>
                       <text
                         className="opacity-[0.7] mt-[10px] 
-                      text-[13px] 2xl:text-[18px] line-clamp-4 lg:line-clamp-5 xl:line-clamp-[7] text-[#252724] font-extralight leading-[20px] 2xl:leading-[26px]"
+                      text-[13px] xl:text-[18px] line-clamp-4 lg:line-clamp-5 xl:line-clamp-[7] text-[#252724] font-extralight leading-[20px] xl:leading-[26px]"
                       >
                         {item.description}
                       </text>
@@ -123,7 +124,7 @@ function WhoWeAre() {
                   </div>
 
                   <div className="flex border-[#00366a59] border-t-[1px] mt-[18px] pt-[18px] items-center">
-                    <button className="text-[#00366A] text-[14px] 2xl:text-[18px] mr-[8px] flex items-center">
+                    <button className="text-[#00366A] text-[14px] xl:text-[18px] mr-[8px] flex items-center">
                       Read More
                       <div className="w-[16px] mt-[2px]">
                         <img

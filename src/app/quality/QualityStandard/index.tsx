@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 
 
 const QualityStandard = () => (
-  <div className="mt-[48px] md:mt-[68px] lg:mt-[88px] xl:110px 2xl:mt-[140px]">
+  <div className="mt-[48px] md:mt-[68px] lg:mt-[88px] xl:110px xl:mt-[140px]">
     <Box
       flexDirection={"column"}
       display={"flex"}
@@ -13,16 +13,16 @@ const QualityStandard = () => (
       }}
     >
       <div className="h-[100%] px-[20px] md:px-[5%] xl:px-[10%] hidden md:flex justify-center items-center">
-        <div className="w-1/2 flex flex-col justify-center py-[36px] md:py-[56px] lg:py-[76px] xl:py-[96px] 2xl:py-[104px]">
+        <div className="w-1/2 flex flex-col justify-center py-[36px] md:py-[56px] lg:py-[76px] xl:py-[96px] 2xl:py-[100px]">
           <div className="w-[80%]">
             <div className="relative">
-              <text className="text-[24px] md:text-[30px] lg:text-[38px] 2xl:text-[40px]  font-bold text-white">
+              <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px]  font-bold text-white">
                 QUALITY STANDARD
                 <span className="absolute md:bottom-[-5px] left-[0px] w-[25%] h-[2px] xl:h-[5px] bg-white" />
               </text>
             </div>
-            <div className="mt-[28px] md:mt-[32px] lg:mt-[35px] 2xl:mt-[40px]">
-              <text className="text-[white] 2xl:text-[20px] xl:text-[18px] md:text-[16px]">
+            <div className="mt-[28px] md:mt-[32px] lg:mt-[35px] xl:mt-[40px]">
+              <text className="text-[white] xl:text-[20px] 2xl:text-[22px] md:text-[16px]">
                 In 2022, REDECO Vietnam was granted a quality management system
                 certificate according to ISO 9001:2015 standards.
               </text>
@@ -57,7 +57,7 @@ const QualityStandard = () => (
 
       <div className="px-[20px] py-[36px] flex md:hidden flex-col">
         <div className="relative">
-          <text className="text-[24px] sm:text-[28px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold text-white">
+          <text className="text-[24px] sm:text-[28px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[42px] font-bold text-white">
             QUALITY STANDARD
             <span className="absolute bottom-[-0px] left-[0px] w-[20%] h-[2px] xl:h-[5px] bg-white" />
           </text>

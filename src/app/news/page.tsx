@@ -51,7 +51,7 @@ function News({ params }:any) {
     }
   };
   return (
-    <div>
+    <div className="pt-[10vh]">
       <img
         
         style={{ width: "100vw", height: "100%" }}
@@ -82,7 +82,7 @@ function News({ params }:any) {
           </div>
         </div>
       </div>
-      <div className="mt-[60px] sm:mt-[60px] md:mt-[60px] lg:mt-[100px] xl:mt-[100px] 2xl:mt-[120px]">
+      <div className="mt-[60px] sm:mt-[60px] md:mt-[60px] lg:mt-[100px] xl:mt-[100px] 2xl:mt-[110px]">
         <OtherNews id={id} />
       </div>
       <PhoneButton />

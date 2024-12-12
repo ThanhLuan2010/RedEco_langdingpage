@@ -76,7 +76,7 @@ function Content() {
   ];
   return (
     <>
-      <div className="mt-[40px] md:mt-[60px] lg:mt-[8px] xl:mt-[100px] 2xl:mt-[140px]">
+      <div className="mt-[40px] md:mt-[60px] lg:mt-[8px] xl:mt-[100px] 2xl:mt-[110px]">
         <div className="justify-center flex items-center w-[100%] md:w-[50%] pl-[20px] md:pl-[5%] xl:pl-[10%]">
           <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold md:pb-[4px] relative text-[#00366A]">
             ABOUT US
@@ -90,8 +90,8 @@ function Content() {
           <div
             className="
            
-            leading-[20px] md:leading-[22px] lg:leading-[28px] 2xl:leading-[36px]
-            text-[14px] md:text-[15px] lg:text-[16px] 2xl:text-[20px]
+            leading-[20px] md:leading-[22px] lg:leading-[28px] xl:leading-[36px]
+            text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px]
             "
           >
             <div>
@@ -134,7 +134,7 @@ function Content() {
               bg-gradient-to-r from-[#007BB0] to-[#00366A]
               w-[30%] md:w-[40%]
               p-[1px] md:p-[2px]
-              mt-[24px] md:mt-[26px] lg:mt-[32px] 2xl:mt-[48px]
+              mt-[24px] md:mt-[26px] lg:mt-[32px] xl:mt-[48px]
               "
             >
               <div
@@ -146,7 +146,7 @@ function Content() {
               >
                 <button
                   onClick={() => setIsShowMore(!isShowMore)}
-                  className="text-[10px] md:text-[12px] lg:text-[14px] 2xl:text-[20px] text-[#00366A] font-semibold md:font-medium "
+                  className="text-[10px] md:text-[12px] lg:text-[14px] xl:text-[20px] text-[#00366A] font-semibold md:font-medium "
                 >
                   MORE DETAIL
                 </button>
@@ -172,23 +172,23 @@ function Content() {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-          className="hidden md:flex items-center justify-center flex-col pb-[60px] md:pb-[75px] 2xl:pb-[110px] mt-[48px] md:mt-[60px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[139px] px-[20px] md:px-[5%] xl:px-[10%]"
+          className="hidden md:flex items-center justify-center flex-col pb-[60px] md:pb-[75px] xl:pb-[110px] mt-[48px] md:mt-[60px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[110px] px-[20px] md:px-[5%] xl:px-[10%]"
         >
-          <text className="text-[24px] md:text-[30px] lg:text-[38px] 2xl:text-[48px] font-bold relative text-white mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[90px]">
+          <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[48px] font-bold relative text-white mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[75px]">
             REDECO’S HISTORY
             <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[30%] md:w-[50%] h-[2px] xl:h-[5px] bg-white" />
           </text>
 
-          <div className="grid grid-cols-3 md:gap-y-[60px] md:mt-[50px] 2xl:mt-[70px]">
+          <div className="grid grid-cols-3 md:gap-y-[60px] md:mt-[50px] xl:mt-[70px]">
             {dataHistory?.map((item: any, index: number) => (
               <div key={index} className="text-center flex flex-col">
-                <text className="text-[#28FF90] text-[40px] 2xl:text-[56px] font-bold line-clamp-1">
+                <text className="text-[#28FF90] text-[40px] xl:text-[56px] font-bold line-clamp-1">
                   {item.year}
                 </text>
-                <text className="text-white text-[20px] md:text-[30px] 2xl:text-[40px] font-semibold line-clamp-1">
+                <text className="text-white text-[20px] md:text-[30px] xl:text-[40px] font-semibold line-clamp-1">
                   {item.title}
                 </text>
-                <text className="text-white text-[16px] 2xl:text-[20px]  px-[10%] line-clamp-2">
+                <text className="text-white text-[16px] xl:text-[20px]  px-[10%] line-clamp-2">
                   {item.description}
                 </text>
               </div>
@@ -204,24 +204,24 @@ function Content() {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-          className=" md:hidden flex items-center justify-center flex-col pb-[60px] md:pb-[75px] 2xl:pb-[110px] mt-[48px] md:mt-[60px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[139px] px-[20px] md:px-[5%] xl:px-[10%]"
+          className=" md:hidden flex items-center justify-center flex-col pb-[60px] md:pb-[75px] xl:pb-[110px] mt-[48px] md:mt-[60px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[110px] px-[20px] md:px-[5%] xl:px-[10%]"
         >
-          <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold relative text-white mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[90px]">
+          <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold relative text-white mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[75px]">
             REDECO’S HISTORY
             <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[30%] md:w-[50%] h-[2px] xl:h-[5px] bg-white" />
           </text>
 
-          <div className="grid grid-cols-1 md:gap-y-[60px] mt-[30px] md:mt-[50px] 2xl:mt-[70px]">
+          <div className="grid grid-cols-1 md:gap-y-[60px] mt-[30px] md:mt-[50px] xl:mt-[70px]">
             <Carousel {...settings} autoplay>
               {dataHistory?.map((item: any, index: number) => (
                 <div key={index} className="text-center flex flex-col w-[100%]">
-                  <text className="text-[#28FF90] text-[40px] 2xl:text-[56px] font-bold line-clamp-1">
+                  <text className="text-[#28FF90] text-[40px] xl:text-[56px] font-bold line-clamp-1">
                     {item.year}
                   </text>
-                  <text className="text-white text-[20px] md:text-[30px] 2xl:text-[40px] font-semibold line-clamp-1">
+                  <text className="text-white text-[20px] md:text-[30px] xl:text-[40px] font-semibold line-clamp-1">
                     {item.title}
                   </text>
-                  <text className="text-white text-[16px] 2xl:text-[20px]  px-[10%] line-clamp-2">
+                  <text className="text-white text-[16px] xl:text-[20px]  px-[10%] line-clamp-2">
                     {item.description}
                   </text>
                 </div>
@@ -232,13 +232,13 @@ function Content() {
       )}
 
       {isShowMore && (
-        <div className="flex items-center justify-center flex-col pb-[60px] md:pb-[75px] 2xl:pb-[110px] mt-[20px] md:mt-[45px] lg:mt-[50px] px-[20px] md:px-[5%] xl:px-[10%]">
-          <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold relative text-[#00366A] mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[90px]">
+        <div className="flex items-center justify-center flex-col pb-[60px] md:pb-[75px] xl:pb-[110px] mt-[20px] md:mt-[45px] lg:mt-[50px] px-[20px] md:px-[5%] xl:px-[10%]">
+          <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold relative text-[#00366A] mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[75px]">
             ORGANIZATIONAL CHART
             <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[20%] md:w-[50%] h-[2px] xl:h-[5px] bg-[#00A859]" />
           </text>
 
-          <div className="mt-[24px] md:mt-[35px] lg:mt-[50px] xl:mt-[60px] 2xlmd:mt-[80px]">
+          <div className="mt-[24px] md:mt-[35px] lg:mt-[50px] xl:mt-[60px] xlmd:mt-[80px]">
             <img
               alt=""
               src={require("../../../assets/image/aboutUs/tree.png")}

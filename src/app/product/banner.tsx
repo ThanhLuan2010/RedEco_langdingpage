@@ -20,7 +20,7 @@ function Banner({ data }: any) {
 
   return (
     <>
-      <div className="xl:block md:block lg:block sm:hidden hidden mt-[100px] xl:mt-[120px] 2xl:mt-[140px]">
+      <div className="xl:block md:block lg:block sm:hidden hidden mt-[100px] xl:mt-[120px] ">
         <Carousel
           slidesToShow={1}
           slidesToScroll={1}

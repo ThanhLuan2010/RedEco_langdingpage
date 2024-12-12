@@ -10,7 +10,7 @@ import ProductionLine from "./ProductionLine";
 export default function Home() {
     
   return (
-    <div className="bg-[#F7F9F9]">
+    <div className="bg-[#F7F9F9] pt-[10vh]">
       <Banner />
       <QualityContent />
       <Capacity />

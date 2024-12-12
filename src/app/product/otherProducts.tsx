@@ -250,7 +250,7 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
             </div>
           </div>
           {/* Mobile */}
-          <div className="xl:hidden md:hidden lg:hidden flex flex-col sm:flex-col gap-[20px] xl:gap-[35px] mt-5 md:mt-10 2xl:mt-[35px]">
+          <div className="xl:hidden md:hidden lg:hidden flex flex-col sm:flex-col gap-[20px] xl:gap-[35px] mt-5 md:mt-10 xl:mt-[35px]">
             <div className=" overflow-hidden w-[100%] flex flex-col">
               <div className="h-[20%] flex justify-center items-center overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[8px] bg-white p-[50px]">
                 <img
@@ -774,31 +774,31 @@ function OtherProduct({ otherTab }: { otherTab?: string }) {
             fontFamily: "Montserrat",
             fontWeight: "700",
             position: "relative", // Để định vị đường viền
-            paddingBottom: "10px", // Khoảng cách giữa chữ và border
             color: "#00366A",
           }}
         >
           <span
             className="xl:text-[35px] 2xl:text-[48px] sm:px-[10px]
-          px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[24px] leading-[30px] "
+          px-[10px] lg:px-[0px] md:px-[0px] xl:px-[0px] flex text-center md:text-[2rem] lg:text-[35px] sm:text-[28px] justify-center items-center w-[100%] text-[28px]"
           >
-            OTHER PRODUCTS
+             OTHER PRODUCTS
           </span>
           {/* Đường viền */}
           <span
-            className="xl:h-[4px] 2xl:h-[5px] md:h-[4px] h-[3px] bottom-[5px] md:bottom-0"
+            className="xl:h-[4px] 2xl:h-[5px] md:h-[4px] h-[3px] bottom-[2px] md:bottom-0"
             style={{
               position: "absolute",
               left: "50%", // Căn giữa theo chiều ngang
               transform: "translateX(-50%)", // Căn chỉnh chính xác vị trí giữa
-              width: "30%", // Chiều rộng của đường viền (ngắn hơn width chữ)
+              width: "20%", // Chiều rộng của đường viền (ngắn hơn width chữ)
               backgroundColor: "#00A859", // Màu sắc của đường viền
             }}
           />
         </Typography>
+        
       </div>
 
-      <div className="mt-[20px] md:mt-[30px] 2xl:mt-[40px]">
+      <div className="mt-[20px] md:mt-[30px] xl:mt-[40px]">
         <div className="xl:px-[10%] lg:px-[10%] md:px-[10%] sm:px-[6%] px-[4%]">
           <div className="flex justify-center ">
             <div
@@ -828,8 +828,8 @@ export default OtherProduct;
 
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
-    className={`flex-1 px-4  py-[8px] md:py-[10px] 2xl:py-[16px] text-center 
-       text-[10px] md:text-[12px] lg:text-[14px] uppercase  2xl:text-[18px] transition-all duration-300 
+    className={`flex-1 px-4  py-[8px] md:py-[10px] xl:py-[16px] text-center 
+       text-[10px] md:text-[12px] lg:text-[14px] uppercase  xl:text-[18px] transition-all duration-300 
       ${
         isActive
           ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"

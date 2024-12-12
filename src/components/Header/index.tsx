@@ -10,7 +10,7 @@ import {
   useTheme,
 } from "@mui/material";
 
-import { useLocation, useNavigate } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 const navItems = [
@@ -77,10 +77,7 @@ export default function Header() {
   const [isShowMore, setIsShowMore] = useState<boolean>(false);
 
   const drawer = (
-    <div
-      // onClick={toggleDrawer(false)}
-      className="w-screen h-screen bg-[#F7F9F9]"
-    >
+    <div className="w-screen h-screen bg-[#F7F9F9]">
       <div className=" px-[20px]">
         <div className="flex py-[16px] h-[30%] content-center item-center justify-between">
           <div className="w-[40px] h-[40px] rounded-full flex justify-center content-center items-center bg-gradient-to-r from-[#007BB0] to-[#00366A]">
@@ -210,7 +207,7 @@ export default function Header() {
   );
 
   return !hideHeaderRoutes.includes(pathname) ? (
-    <div className="h-[10vh] w-[100vw] px-[20px] md:px[5%] xl:px-[10%]  justify-center items-center sticky top-0 left-0 z-[1000] bg-white">
+    <div className="h-[10vh] w-[100vw] px-[20px] md:px[5%] xl:px-[10%]  justify-center items-center fixed top-0 left-0 z-[1000] bg-white">
       <div className="flex h-[100%]">
         {/* <Toolbar style={{ padding: "20px 0 20px" }} className="w-[100%] justify-between"> */}
         <div className="flex  w-[100%] items-center justify-between ">
@@ -244,9 +241,12 @@ export default function Header() {
             </>
           )}
           {/* Center - LOGO */}
-          <div className="justify-center items-center lg:items-start lg:justify-start flex w-[55%] lg:w-[20%] cursor-pointer -translate-y-[4px]" onClick={() => {
-            navigate("/home");
-          }}>
+          <div
+            className="justify-center items-center lg:items-start lg:justify-start flex w-[55%] lg:w-[20%] cursor-pointer -translate-y-[4px]"
+            onClick={() => {
+              navigate("/home");
+            }}
+          >
             <img
               src={require("../../assets/image/logo.png")}
               alt="Logo"
@@ -294,7 +294,7 @@ export default function Header() {
                         className="group-hover:text-white text-[#00366A] 
                         font-bold group-hover:bg-gradient-to-t from-[#007BB0] to-[#00366A] 
                         focus:outline-none line-clamp-1 text-[10px] md:text-[12px] xl:text-[14px]
-                        2xl:text-[18px] px-[10px] py-[15px] rounded-t-[12px] rounded-b-none flex items-center z-[1000]"
+                       2xl:text-[16px] px-[10px] py-[15px] rounded-t-[12px] rounded-b-none flex items-center z-[1000]"
                         onClick={() => {
                           navigate("/product");
                         }}
@@ -386,7 +386,7 @@ export default function Header() {
                       className="hover:text-white text-[#00366A] 
                         font-bold px-4 py-2 hover:bg-gradient-to-t from-[#007BB0] to-[#00366A] 
                         focus:outline-none text-[10px] md:text-[12px] xl:text-[14px]
-                        2xl:text-[18px] px-[10px] py-[15px] rounded-[12px] flex items-center z-[1000]"
+                        2xl:text-[16px] px-[10px] py-[15px] rounded-[12px] flex items-center z-[1000]"
                       onClick={() => {
                         navigate(item.href);
                       }}
@@ -396,7 +396,7 @@ export default function Header() {
                     // </Button>
                   );
               })}
-              
+
               <div
                 className="
                 relative
@@ -408,11 +408,16 @@ export default function Header() {
                 ml-[3%]
                 "
               >
-                <div className="h-[100%] w-[100%] flex items-center rounded-[6px] pl-[8px] cursor-pointer overflow-hidden relative bg-white" onClick={() => {
-                  navigate("/Search");
-                }}>
+                <div
+                  className="h-[100%] w-[100%] flex items-center rounded-[6px] pl-[8px] cursor-pointer overflow-hidden relative bg-white"
+                  onClick={() => {
+                    navigate("/Search");
+                  }}
+                >
                   <div className="w-[80%] h-[100%] flex items-center">
-                    <text className="text-[#00366A] font-normal text-[12px] md:text-[14px] 2xl:text-[16px]">Search...</text>
+                    <text className="text-[#00366A] font-normal text-[12px] md:text-[14px] xl:text-[16px]">
+                      Search...
+                    </text>
                   </div>
                   <div
                     onClick={() => {

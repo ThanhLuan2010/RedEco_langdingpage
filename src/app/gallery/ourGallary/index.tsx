@@ -82,14 +82,14 @@ const GalleryTabs = () => {
   };
 
   return (
-    <div className="flex flex-col items-center bg-[#F7F9F9] pt-[30px] md:pt-[40px] lg:mt-[50px]  2xl:pt-[70px]">
+    <div className="flex flex-col items-center bg-[#F7F9F9] pt-[30px] md:pt-[40px] lg:mt-[50px]  xl:pt-[70px]">
       <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
         OUR GALLERY
         <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
       </text>
 
       <div
-        className="relative flex justify-between rounded-full overflow-hidden xl:w-[38%] lg:w-[42%] md:w-[58%] sm:w-[70%] w-[90%] p-[1px] md:p-[2px] md:mt-[30px] mt-[20px] 2xl:mt-[40px]"
+        className="relative flex justify-between rounded-full overflow-hidden xl:w-[38%] lg:w-[42%] md:w-[58%] sm:w-[70%] w-[90%] p-[1px] md:p-[2px] md:mt-[30px] mt-[20px] xl:mt-[40px]"
         style={{
           background: "linear-gradient(to right, #007BB0, #00366A)",
         }}
@@ -122,8 +122,8 @@ const GalleryTabs = () => {
 
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
-    className={`flex-1 px-4 py-[8px] md:py-[10px] 2xl:py-[16px] flex justify-center items-center text-center 
-       text-[12px] md:text-[13px]  2xl:text-[16px] transition-all duration-300 
+    className={`flex-1 px-4 py-[8px] md:py-[10px] xl:py-[16px] flex justify-center items-center text-center 
+       text-[12px] md:text-[13px]  xl:text-[16px] transition-all duration-300 
       ${
         isActive
           ? "bg-gradient-to-r font-bold from-[#007BB0] to-[#00366A] text-white"

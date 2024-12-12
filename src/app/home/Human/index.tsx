@@ -52,7 +52,7 @@ const StyledCarousel = styled(Carousel)`
 `;
 
 const Human = () => (
-  <div className="flex flex-col justify-center items-center pt-[40px] sm:pt-[50px] md:pt-[70px] lg:pt-[90px] xl:pt-[110px] 2xl:pt-[200px] px-[20px] md:px-[5%] xl:px-[10%] bg-[#F7F9F9]">
+  <div className="flex flex-col justify-center items-center pt-[40px] sm:pt-[50px] md:pt-[70px] lg:pt-[90px] xl:pt-[110px] 2xl:pt-[120px] px-[20px] md:px-[5%] xl:px-[10%] bg-[#F7F9F9]">
     <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
       HUMAN RESOURCES
       <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[30%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />

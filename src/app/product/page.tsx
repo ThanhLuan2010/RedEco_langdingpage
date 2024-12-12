@@ -110,13 +110,13 @@ function Product() {
   
 
   return (
-    <div className="bg-[#F7F9F9] ">
+    <div className="bg-[#F7F9F9] pt-[10vh]">
       <div>
         <TopBanner />
       </div>
       <div
         id="machine-details"
-        className="xl:mt-[120px] 2xl:mt-[140px] lg:mt-[100px] md:mt-[80px] mt-[30px] scroll-m-[18vh]"
+        className="xl:mt-[120px]  lg:mt-[100px] md:mt-[80px] mt-[30px] scroll-m-[18vh]"
       >
         <Machine />
       </div>

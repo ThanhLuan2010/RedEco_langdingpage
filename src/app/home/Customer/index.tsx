@@ -121,15 +121,15 @@ const Customer = () => {
         navigate("/gallery#customer");
       }}
     >
-      <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[48px] font-bold  relative text-white">
+      <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[40px] 2xl:text-[45px] font-bold  relative text-white">
         OUR CUSTOMERS
         <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[30%] md:w-[50%] h-[2px] xl:h-[5px] bg-white" />
       </text>
-      <div className="w-[100%] mt-[32px] md:mt-[42] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[80px] px-[20px] md:px-[10%]">
+      <div className="w-[100%] mt-[32px] md:mt-[42] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[70px] px-[20px] md:px-[10%]">
         <Carousel {...settings} autoplay autoplaySpeed={2950} speed={2550} waitForAnimate={false}>
           {products.map((product, index) => (
             <div key={index}>
-              <div className="bg-white mx-[9px] 2xl:mx-[20px] flex justify-center items-center py-[0px] md:py-[5px] lg:py-[10px] xl:py-[15px] 2xl:py-[20px] rounded-[7px] border-[2px] border-[#00366A]">
+              <div className="bg-white mx-[9px] xl:mx-[20px] flex justify-center items-center py-[0px] md:py-[5px] lg:py-[10px] xl:py-[15px] 2xl:py-[20px] rounded-[7px] border-[2px] border-[#00366A]">
                 <div className="flex justify-center items-center h-[80%] w-[90%]">
                   <img
                     style={{

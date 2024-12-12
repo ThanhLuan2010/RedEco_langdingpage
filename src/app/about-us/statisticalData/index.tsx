@@ -21,7 +21,7 @@ const data = [
   },
 ];
 const StatisticalData = () => (
-  <div className="mt-[48px] md:mt-[53px] lg:mt-[60px] 2xl:mt-[80px]">
+  <div className="mt-[48px] md:mt-[53px] lg:mt-[60px] xl:mt-[80px]">
     <Box
       flexDirection={"column"}
       display={"flex"}

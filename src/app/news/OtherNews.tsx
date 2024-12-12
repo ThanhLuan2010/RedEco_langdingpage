@@ -10,7 +10,7 @@ function OtherNews({ id }: any) {
     return i.id != id;
   });
   return (
-    <div className="pt-[40px] md:pt-[50px] lg-[60px] 2xl:pt-[70px] pb-[80px] md:pb-[90px] lg:pb-[100px] xl:pb-[120px] 2xl:pb-[140px] bg-[#E9EAEE] px-[20px] md:px-[10%]">
+    <div className="pt-[40px] md:pt-[50px] lg-[60px] xl:pt-[70px] pb-[80px] md:pb-[90px] lg:pb-[100px] xl:pb-[120px] 2xl:pb-[130px] bg-[#E9EAEE] px-[20px] md:px-[10%]">
       <div className="flex justify-center md:justify-start">
         <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
           OTHER NEWS

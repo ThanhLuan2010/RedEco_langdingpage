@@ -10,7 +10,7 @@ export default function Button({ text, isLoading }: any) {
         fontWeight: 500,
         fontFamily: "Montserrat",
       }}
-      className="w-[240px] h-[48px] rounded-2xl text-white"
+      className="w-[240px] h-[48px] rounded-xl text-white"
     >
       <span className="mr-3">{text}</span>
       {isLoading && (

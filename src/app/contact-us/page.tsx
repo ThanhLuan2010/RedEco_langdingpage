@@ -23,7 +23,7 @@ const AboutUs = () => {
                     fontWeight: 400,
                     fontFamily: "Montserrat",
                   }}
-                  className="uppercase w-[100%] xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-[19px]"
+                  className="uppercase w-[100%] xl:text-4xl lg:text-4xl md:text-4xl sm:text-xl text-[19px]"
                 >
                   DEAR{" "}
                   <span

@@ -14,7 +14,7 @@ export default function Home() {
     <Box
       display="flex"
       flexDirection="column"
-      sx={{ height: "100vh" }}
+      sx={{ height: "100vh", paddingTop: "10vh" }}
       bgcolor={"#F7F9F9"}
     >
       <Banner />

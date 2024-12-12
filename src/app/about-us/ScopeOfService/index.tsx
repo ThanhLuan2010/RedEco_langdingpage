@@ -37,7 +37,7 @@ function ScopeOfService() {
 
   const renderItem = (item: any, index: number) => {
     return (
-      <div key={index} className="flex flex-row justify-center items-start gap-[20px] md:gap-[24] lg:gap-[28px] xl:gap-[32px] 2xl:gap-[36px] w-[100%] mt-[28px] md:mt-[30px]  2xl:mt-[40px]">
+      <div key={index} className="flex flex-row justify-center items-start gap-[20px] md:gap-[24] lg:gap-[28px] xl:gap-[32px] 2xl:gap-[36px] w-[100%] mt-[28px] md:mt-[30px]  xl:mt-[40px]">
         <div className="w-[48px] md:w-[58px] lg:w-[68px] xl:w-[75px] 2xl:w-[80px] ">
           <img
             className="h-[100%] w-[100%] object-fill"
@@ -49,13 +49,13 @@ function ScopeOfService() {
           />
         </div>
         <div className="w-[100%]">
-          <div className="text-[#00366A] font-semibold text-[16px] md:text-[24px] 2xl:text-[32px]">
+          <div className="text-[#00366A] font-semibold text-[16px] md:text-[24px] xl:text-[32px]">
             <text>{item.title}</text>
           </div>
-          <div className="text-[#252724] mt-[12px] text-[16px] md:text-[17px] 2xl:text-[18px]">
+          <div className="text-[#252724] mt-[12px] text-[16px] md:text-[17px] xl:text-[18px]">
             <text
               className="
-            text-[16px] 2xl:text-[20px]
+            text-[16px] xl:text-[20px]
             line-clamp-5 
             leading-[20px] md:leading-[22px] lg:leading-[26px] xl:leading-[30px] 2xl:leading-[36px]
             "
@@ -68,7 +68,7 @@ function ScopeOfService() {
     );
   };
   return (
-    <div  className="mt-[40px] md:mt-[60px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[140px] pb-[48px] md:pb-[70px] lg:pb-[90px] xl:pb-[110px] 2xl:pb-[140px] px-[20px] md:px-[5%] xl:px-[10%]">
+    <div  className="mt-[40px] md:mt-[60px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[120px] pb-[48px] md:pb-[70px] lg:pb-[90px] xl:pb-[110px] 2xl:pb-[120px] px-[20px] md:px-[5%] xl:px-[10%]">
       <div className="justify-center flex items-center ">
         <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
           SCOPE OF SERVICES
@@ -83,7 +83,7 @@ function ScopeOfService() {
         </text>
       </div>
 
-      <div className="md:mt-[30px] flex flex-col-reverse md:flex-row gap-[32px] md:gap-[46px] lg:gap-[58] xl:gap-[70px] 2xl:gap-[92px]">
+      <div className="md:mt-[30px] flex flex-col-reverse md:flex-row gap-[32px] md:gap-[46px] lg:gap-[58] xl:gap-[70px] 2xl:gap-[80px]">
         <div className="w-100% md:w-[50%]">
           <img
             alt=""

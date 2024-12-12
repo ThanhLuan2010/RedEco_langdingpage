@@ -73,7 +73,7 @@ export default function Footer({ style }: any) {
         <Box>
           <button
             onClick={() => navigate("/home")}
-            className="w-[100%] mb-[60px] 2xl:mb-[35px]"
+            className="w-[100%] mb-[60px] xl:mb-[35px]"
           >
             <img
               alt=""
@@ -98,12 +98,12 @@ export default function Footer({ style }: any) {
                   md={8}
                 >
                   <div className="flex flex-col items-start">
-                    <div className="text-[#EDF0F4] text-[14px] 2xl:text-[18px] font-bold">
+                    <div className="text-[#EDF0F4] text-[14px] xl:text-[18px] font-bold">
                       <text>SUBSCRIBE TO NEWSLETTER</text>
                     </div>
 
                     <div className="text-[#EDF0F4] mt-[25px] font-light w-[95%]">
-                      <text className="text-[13px] 2xl:text-[16px]">
+                      <text className="text-[13px] xl:text-[16px]">
                         By subscribing to our mailing list, we will constantly
                         update with the latest news.
                       </text>
@@ -127,7 +127,7 @@ export default function Footer({ style }: any) {
                       className="w-[100%] md:w-[80%]"
                     />
 
-                    <text className="text-[13px] 2xl:text-[16px] text-[#EDF0F4] mt-[24px]">
+                    <text className="text-[13px] xl:text-[16px] text-[#EDF0F4] mt-[24px]">
                       This site is protected by the Google 
                       <span
                         className="cursor-pointer underline"

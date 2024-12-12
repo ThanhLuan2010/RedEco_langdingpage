@@ -21,7 +21,7 @@ function Gallery() {
  
 
   return (
-    <div className="bg-[#F7F9F9]">
+    <div className="bg-[#F7F9F9] pt-[10vh]">
       <Banner />
       <div id="customer">
         <GalleryTabs />

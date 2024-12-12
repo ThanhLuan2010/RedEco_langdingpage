@@ -8,8 +8,8 @@ function Description4() {
         September 28, 2024
       </text>
       <text
-        className="mt-[20px] md:mt-[24px] lg:mt-[28px] xl:mt-[30px] 2xl:mt-[32px] text-[#252724] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+        className="mt-[20px] md:mt-[24px] lg:mt-[28px] xl:mt-[30px] 2xl:mt-[32px] text-[#252724] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
       >
         At REDECO, we pride ourselves on offering a wide range of CNC machining
         services designed to meet diverse industrial needs. Our capabilities
@@ -21,14 +21,14 @@ function Description4() {
         projects of any size and complexity.
       </text>
 
-      <div className="flex flex-col md:flex-row items-center mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px]">
+      <div className="flex flex-col md:flex-row items-center mt-[24px] mg:mt-[32px] lg:mt-[36px] xl:mt-[40px]">
         <div className="w-[100%] md:w-[60%] flex flex-col">
           <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px]  font-bold text-[#00366A] ">
             Precision Milling
           </text>
           <text
-            className="mt-[8px] md:mt-[10px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px] "
+            className="mt-[8px] md:mt-[10px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px] "
           >
             Our CNC milling services are ideal for creating intricate parts with
             <strong> high precision.</strong> We can manufacture complex
@@ -37,13 +37,13 @@ function Description4() {
             specifications.
           </text>
 
-          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] xl:mt-[40px] font-bold text-[#00366A]">
             CNC Turning
           </text>
 
           <text
-            className="mt-[8px] md:mt-[10px] text-[#252724] font-medium md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+            className="mt-[8px] md:mt-[10px] text-[#252724] font-medium md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
           >
             Our CNC turning services offer <strong>excellent accuracy</strong>{" "}
             and surface finish for components requiring precision cylindrical
@@ -63,7 +63,7 @@ function Description4() {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px]">
+      <div className="flex flex-col-reverse md:flex-row mt-[24px] mg:mt-[32px] lg:mt-[36px] xl:mt-[40px]">
         <div className="w-[100%] md:w-[40%] h-auto items-center flex object-contain mr-[3%]">
           <img
             alt=""
@@ -79,8 +79,8 @@ function Description4() {
             Drilling and Boring
           </text>
           <text
-            className="mt-[5px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+            className="mt-[5px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
           >
             Our CNC drilling and boring capabilities allow us to perform precise
             hole-making and finishing operations. With advanced tooling, we
@@ -88,13 +88,13 @@ function Description4() {
             <strong>smooth finishes</strong>, even in challenging materials.
           </text>
 
-          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px] font-bold text-[#00366A]">
+          <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] mt-[24px] mg:mt-[32px] lg:mt-[36px] xl:mt-[40px] font-bold text-[#00366A]">
             Prototype to Production
           </text>
 
           <text
-            className="mt-[5px] text-[#252724] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+            className="mt-[5px] text-[#252724] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
           >
             REDECO provides flexible and efficient CNC machining solutions for
             everything from early-stage prototypes to full-scale production. Our
@@ -106,14 +106,14 @@ function Description4() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row mt-[24px] mg:mt-[32px] lg:mt-[36px] 2xl:mt-[40px]">
+      <div className="flex flex-col md:flex-row mt-[24px] mg:mt-[32px] lg:mt-[36px] xl:mt-[40px]">
         <div className="w-[100%] md:w-[60%] flex flex-col justify-center">
           <text className="text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px]  font-bold text-[#00366A]">
             Materials Expertise
           </text>
           <text
-            className="mt-[5px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+            className="mt-[5px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
           >
             At REDECO Vietnam Industrial Solutions JSC, we have extensive
             experience in machining various materials, including{" "}
@@ -124,7 +124,7 @@ function Description4() {
           </text>
 
           <text
-            className="mt-[20px]  text-[#252724] md:leading-[32px] 2xl:leading-[36px]
+            className="mt-[20px]  text-[#252724] md:leading-[32px] xl:leading-[36px]
             text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px] 2xl:text-[20px]"
           >
             Trust <strong>REDECO CNC</strong> for reliable, high-quality

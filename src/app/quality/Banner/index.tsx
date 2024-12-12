@@ -30,29 +30,29 @@ export default function Banner() {
             </Box>
 
             <div className="absolute top-0 h-[100%] flex flex-col justify-center px-[20px] md:px-[5%] xl:px-[10%] text-white overflow-hidden">
-              <div className="md:translate-y-[-17%] 2xl:translate-y-[-30%]">
-                <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px]  2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[50.14px] 2xl:leading-[63.14px]">
+              <div className="md:translate-y-[-17%] xl:translate-y-[-30%]">
+                <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px]  xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[50.14px] xl:leading-[63.14px]">
                   We <span style={{ color: "#28FF90" }}>Provide</span> The Best
                 </text>
-                <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] flex lg:hidden">
+                <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] flex lg:hidden">
                   industrial solution
                 </text>
 
-                <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] lg:flex hidden">
+                <text className="font-bold text-[20px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[60px] leading-[30px] md:leading-[40px] lg:leading-[73.14px] lg:flex hidden">
                   industrial solution for business
                 </text>
 
-                <text className="md:mt-[18px] 2xl:mt-[32px] xl:mb-[40px] hidden md:flex 2xl:text-[20px]">
+                <text className="md:mt-[18px] xl:mt-[32px] xl:mb-[40px] hidden md:flex xl:text-[20px]">
                   We have almost 8+ years of experience for helping industrial
                   services and business solutions
                 </text>
 
-                <div className="flex gap-[20px] md:gap-[30px] xl:gap-[40px] 2xl:gap-[48px] mt-[30px] md:mt-[35px] lg:mt-[40px] xl:mt-[55px] 2xl:mt-[80px] w-[50vw] md:w-[50%] lg:w-[70%]">
+                <div className="flex gap-[20px] md:gap-[30px] xl:gap-[40px] 2xl:gap-[45px] mt-[30px] md:mt-[35px] lg:mt-[40px] xl:mt-[55px] 2xl:mt-[60px] w-[50vw] md:w-[50%] lg:w-[70%]">
                   <button
                     onClick={() => navigate("/product")}
                     className="
                     bg-gradient-to-r from-[#28FF90] -7.86% to-[#00954F] 67.26% 
-                    py-[10px] lg:py-[10px] 2xl:py-[20px]
+                    py-[10px] lg:py-[10px] xl:py-[20px]
                     rounded-[8px] 
                     text-[9px] md:text-[12px] ld:text-[15px] xl:text-[16px] 2xl:text-[18px] w-[50%] font-semibold"
                   >
@@ -72,7 +72,7 @@ export default function Banner() {
             </div>
           </div>
 
-          <div className=" gap-[24px] md:gap-[32px] 2xl:gap-[40px] px-[20px] md:px-[5%] xl:px-[10%] md:translate-y-[-50%] flex flex-col md:flex-row w-[100%] mt-[24px] md:mt-0">
+          <div className=" gap-[24px] md:gap-[32px] xl:gap-[40px] px-[20px] md:px-[5%] xl:px-[10%] md:translate-y-[-50%] flex flex-col md:flex-row w-[100%] mt-[24px] md:mt-0">
             <div
               style={{
                 backgroundColor: "rgba(255,255,255,0.9)",
@@ -105,7 +105,7 @@ export default function Banner() {
                 />
               </div>
               <div className="w-[60%] md:w-[80%] h-[50%] flex md:justify-center items-center text-[18px]">
-                <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]">
+                <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[30px]">
                   Products
                   <br className="hidden md:flex" /> Integrity
                 </text>
@@ -144,7 +144,7 @@ export default function Banner() {
                 />
               </div>
               <div className="w-[60%] md:w-[80%] h-[50%] flex md:justify-center items-center text-[18px]">
-                <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]">
+                <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[3px]">
                   Precision
                   <br className="hidden md:flex" /> Assurance
                 </text>
@@ -183,7 +183,7 @@ export default function Banner() {
                 />
               </div>
               <div className="w-[60%] md:w-[80%] h-[50%] flex md:justify-center items-center text-[18px]">
-                <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px]">
+                <text className="font-semibold text-[#00366A] text-center text-[16px] md:text-[18px] lg:text-[24px] xl:text-[28px] 2xl:text-[30px]">
                   Quality
                   <br className="hidden md:flex" /> Certification
                 </text>

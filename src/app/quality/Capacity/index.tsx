@@ -4,8 +4,8 @@ import { useState } from "react";
 
 const TabButton = ({ label, isActive, onClick }: any) => (
   <button
-    className={`flex-1 px-4 py-[8px] md:py-[10px] 2xl:py-[18px] text-center 
-       text-[9px] md:text-[12px] 2xl:text-[16px] transition-all duration-300 
+    className={`flex-1 px-4 py-[8px] md:py-[10px] xl:py-[18px] text-center 
+       text-[9px] md:text-[12px] xl:text-[16px] transition-all duration-300 
       ${
         isActive
           ? "bg-gradient-to-r from-[#007BB0] to-[#00366A] text-white font-bold"
@@ -30,9 +30,9 @@ const Capacity = () => {
   const renderProduct = () => {
     if (activeTab === "CNC MILLING MACHINE") {
       return (
-        <div className="flex flex-col md:flex-row overflow-hidden h-[100%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[45px] 2xl:mt-[55px]">
-          <div className="flex w-[100%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
-            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
+        <div className="flex flex-col md:flex-row overflow-hidden h-[100%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[44px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[45px] 2xl:mt-[50px]">
+          <div className="flex w-[100%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px]">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[50%] md:h-[55%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
                 <img
                   
@@ -65,7 +65,7 @@ const Capacity = () => {
               </div>
             </div>
 
-            <div className=" gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
+            <div className=" gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[50%] md:h-[35%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
                 <img
                   
@@ -99,8 +99,8 @@ const Capacity = () => {
             </div>
           </div>
 
-          <div className="flex w-[100%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
-            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
+          <div className="flex w-[100%] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px]">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
                 <img
                   
@@ -133,7 +133,7 @@ const Capacity = () => {
               </div>
             </div>
 
-            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] overflow-hidden w-[100%] flex flex-col">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[50%] md:h-[30%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
                 <img
                   
@@ -171,9 +171,9 @@ const Capacity = () => {
     }
     if (activeTab === "CNC LATHE MACHINE") {
       return (
-        <div className="flex flex-col md:flex-row overflow-hidden h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[45px] 2xl:mt-[55px]">
-          <div className="flex flex-col  gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
-            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%]  overflow-hidden w-[100%] flex flex-col">
+        <div className="flex flex-col md:flex-row overflow-hidden h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[45px] 2xl:mt-[50px]">
+          <div className="flex flex-col  gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px]">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] h-[50%]  overflow-hidden w-[100%] flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[1px] md:p-[12px] ">
                 <img
                   
@@ -191,7 +191,7 @@ const Capacity = () => {
               </div>
             </div>
 
-            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] overflow-hidden w-[100%] flex flex-col">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] h-[50%] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
                 <img
                   
@@ -210,7 +210,7 @@ const Capacity = () => {
             </div>
           </div>
 
-          <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] overflow-hidden w-[100%] md:w-[50%] flex flex-col">
+          <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] h-[50%] md:h-[100%] overflow-hidden w-[100%] md:w-[50%] flex flex-col">
             <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
               <img
                 
@@ -232,8 +232,8 @@ const Capacity = () => {
     }
     if (activeTab === "EDM & WIRE EDM MACHINE") {
       return (
-        <div className="flex flex-col md:flex-row overflow-hidden h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[45px] 2xl:mt-[55px]">
-          <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] overflow-hidden w-[100%] md:w-[50%] flex flex-col">
+        <div className="flex flex-col md:flex-row overflow-hidden h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] mt-[32px] md:mt-[42px] lg:mt-[52px] xl:mt-[45px] 2xl:mt-[50px]">
+          <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] h-[50%] md:h-[100%] overflow-hidden w-[100%] md:w-[50%] flex flex-col">
             <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
               <img
                 
@@ -250,8 +250,8 @@ const Capacity = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
-            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] overflow-hidden w-[100%] flex flex-col">
+          <div className="flex flex-col gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px]">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] h-[50%] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
                 <img
                   
@@ -269,7 +269,7 @@ const Capacity = () => {
               </div>
             </div>
 
-            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] overflow-hidden w-[100%] flex flex-col">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] h-[50%] overflow-hidden w-[100%] flex flex-col">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
                 <img
                   
@@ -294,8 +294,8 @@ const Capacity = () => {
 
   return (
     <div className="px-[20px] md:px-[5%] xl:px-[10%]">
-      <div className="justify-center flex items-center mt-[48px] md:mt-[60px] lg:mt-[72px] xl:mt-[90px] 2xl:mt-[120px]">
-        <text className="text-[24px] md:text-[30px] lg:text-[38px] 2xl:text-[48px] font-bold md:pb-[4px] relative text-[#00366A]">
+      <div className="justify-center flex items-center mt-[48px] md:mt-[60px] lg:mt-[72px] xl:mt-[90px] 2xl:mt-[100px]">
+        <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[48px] font-bold md:pb-[4px] relative text-[#00366A]">
           CAPACITY
           <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] md:h-[4px] 1xl:h-[5px] bg-[#00A859]" />
         </text>
@@ -324,21 +324,21 @@ const Capacity = () => {
       
       <div className="md:h-[80vh]">{renderProduct()}</div>
 
-      <div className="justify-center flex flex-col items-center mt-[48px] md:mt-[60] lg:mt-[72px] xl:mt-[90px] 2xl:mt-[120]">
-        <text className="text-[24px] md:text-[30px] lg:text-[38px] 2xl:text-[48px] font-bold md:pb-[4px] relative text-[#00366A]">
+      <div className="justify-center flex flex-col items-center mt-[48px] md:mt-[60] lg:mt-[72px] xl:mt-[90px] 2xl:mt-[100]">
+        <text className="text-[24px] md:text-[30px] lg:text-[38px] xl:text-[48px] font-bold md:pb-[4px] relative text-[#00366A]">
           QUALITY CONTROL
           <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[30%] md:w-[50%] h-[2px] md:h-[4px] 1xl:h-[5px] bg-[#00A859]" />
         </text>
 
-        <text className="text-center mt-[18px] md:mx-[10%] text-[14px] md:text-[15px] 2xl:text-[20px] text-[black] leading-[20px] md:leading-[23px] lg:leading-[28px] 2xl:leading-[30px]">
+        <text className="text-center mt-[18px] md:mx-[10%] text-[14px] md:text-[15px] xl:text-[20px] text-[black] leading-[20px] md:leading-[23px] lg:leading-[28px] xl:leading-[30px]">
           Quality Control will divided into three stages based on the production
           process, including input quality control (PQC), production process
           quality control (PQC), and output quality control (OQC). Each stage
           will have a staff in charge.
         </text>
 
-        <div className="flex flex-col md:flex-row overflow-hidden h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] mt-[32px] md:mt-[35px] w-[100%] 2xl:mt-[45px] ]">
-          <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[100%] md:w-1/3 overflow-hidden w-[100%] flex flex-col">
+        <div className="flex flex-col md:flex-row overflow-hidden h-[80vh] gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] mt-[32px] md:mt-[35px] w-[100%] xl:mt-[45px] ]">
+          <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] h-[50%] md:h-[100%] md:w-1/3 overflow-hidden w-[100%] flex flex-col">
             <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
               <img
                 alt=""
@@ -354,8 +354,8 @@ const Capacity = () => {
             </div>
           </div>
 
-          <div className="h-[50%] md:h-[100%] flex flex-col md:flex-col md:w-2/3 gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px]">
-            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%]  w-[100%] flex flex-row">
+          <div className="h-[50%] md:h-[100%] flex flex-col md:flex-col md:w-2/3 gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px]">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] h-[50%]  w-[100%] flex flex-row">
               <div className="h-[100%] w-[50%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
                 <img
                   
@@ -387,7 +387,7 @@ const Capacity = () => {
               </div>
             </div>
 
-            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[40px] h-[50%] md:h-[50%] overflow-hidden w-[100%] flex flex-col ">
+            <div className="gap-[18px] md:gap-[22px] lg:gap-[26px] xl:gap-[32px] 2xl:gap-[35px] h-[50%] md:h-[50%] overflow-hidden w-[100%] flex flex-col ">
               <div className="h-[100%] overflow-hidden border-[1px] md:border-[2px] border-[#00366A] rounded-[6px] md:rounded-[12px] bg-white p-[8px] md:p-[12px] ">
                 <img
                   

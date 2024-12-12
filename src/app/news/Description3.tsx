@@ -8,8 +8,8 @@ function Description3() {
         July 6, 2023
       </text>
       <text
-        className="mt-[20px] md:mt-[24px] lg:mt-[28px] xl:mt-[30px] 2xl:mt-[32px]  text-[#252724] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+        className="mt-[20px] md:mt-[24px] lg:mt-[28px] xl:mt-[30px] 2xl:mt-[32px]  text-[#252724] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
       >
         On July 6, 2023, Ha Long Technology and Solutions Trading Joint Stock
         Company held a strategic cooperation signing ceremony with Redeco
@@ -23,8 +23,8 @@ function Description3() {
       <div className="flex flex-col md:flex-row mt-[20px]items-center">
         <div className="w-[100%] md:w-[60%] flex flex-col ">
           <text
-            className="md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px] mt-[20px] md:mt-[24px]"
+            className="md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px] mt-[20px] md:mt-[24px]"
           >
             Mr. Bui Minh Hieu – Director of Ha Long Technology and Solutions
             Trading Joint Stock Company, Mr. Nguyen Do Dong – Director of Redeco
@@ -33,8 +33,8 @@ function Description3() {
           </text>
 
           <text
-            className="mt-[20px] md:mt-[24px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+            className="mt-[20px] md:mt-[24px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
           >
             Founded in 1997, Ha Long Company is one of the first enterprises in
             Vietnam to participate in the information technology market,
@@ -61,8 +61,8 @@ function Description3() {
       </div>
 
       <text
-        className="mt-[20px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+        className="mt-[20px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
       >
         Redeco Vietnam, established in 2017, is a vendor for many large
         factories and corporations in Vietnam, including IMV, Mitsubishi,
@@ -74,23 +74,23 @@ function Description3() {
       </text>
 
       <text
-        className="mt-[20px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+        className="mt-[20px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
       >
         According to the content of the agreement, Ha Long Company and Redeco
         will work together to:
       </text>
       <text
-        className="mt[10px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+        className="mt[10px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
       >
         1. Develop training and capacity-building activities to enhance human
         resources in high-tech solutions for industrial park customers.
       </text>
 
       <text
-        className="mt[10px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+        className="mt[10px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
       >
         2. Research new commercial products based on technological advantages
         and the existing R&D team to seek business opportunities in the domestic
@@ -98,8 +98,8 @@ function Description3() {
       </text>
 
       <text
-        className="mt[10px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+        className="mt[10px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
       >
         3. Utilize resources such as personnel, facilities, offices, and
         existing network connections with customers and partners to expand
@@ -107,10 +107,10 @@ function Description3() {
       </text>
 
       <text
-        className="mt[10px] md:leading-[26px] 2xl:leading-[32px]
-            text-[15px] md:text-[16px] 2xl:text-[18px]"
+        className="mt[10px] md:leading-[26px] xl:leading-[32px]
+            text-[15px] md:text-[16px] xl:text-[18px]"
       >
-        3. Invest in business and expand mutually beneficial cooperation
+        4. Invest in business and expand mutually beneficial cooperation
         activities.
       </text>
     </div>

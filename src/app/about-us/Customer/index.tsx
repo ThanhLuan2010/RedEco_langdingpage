@@ -106,14 +106,14 @@ const Customer = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="flex items-center justify-center flex-col pb-[60px] md:pb-[75px] 2xl:pb-[110px]"
+      className="flex items-center justify-center flex-col pb-[60px] md:pb-[75px] xl:pb-[110px]"
     >
-      <text className="text-[24px] md:text-[30px] lg:text-[38px]  2xl:text-[48px] font-bold relative text-white mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[90px]">
+      <text className="text-[24px] md:text-[30px] lg:text-[38px]  xl:text-[48px] font-bold relative text-white mt-[32px] md:mt-[42px] lg:mt-[53px] xl:mt-[65px] 2xl:mt-[75px]">
         CUSTOMERS
         <span className="absolute bottom-0 left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[5px] bg-white" />
       </text>
 
-      <div className="mt-[18px] md:mt-[22px] lg:mt-[28px] 2xl:mt-[34px] text-white text-center px-[20px] md:px-[5%] xl:px-[10%] text-[16px]  2xl:text-[20px]">
+      <div className="mt-[18px] md:mt-[22px] lg:mt-[28px] xl:mt-[34px] text-white text-center px-[20px] md:px-[5%] xl:px-[10%] text-[16px]  xl:text-[20px]">
         <text>
           Our partners are the reputable customers, suppliers in the markets. We
           aim the target sustainable development, we under-talking that supply
@@ -121,7 +121,7 @@ const Customer = () => {
           and success.
         </text>
       </div>
-      <div className="w-[100%] mt-[32px] md:mt-[42] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[80px] px-[20px] md:px-[5%] xl:px-[10%]">
+      <div className="w-[100%] mt-[32px] md:mt-[42] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[75px] px-[20px] md:px-[5%] xl:px-[10%]">
         <Carousel {...settings} autoplaySpeed={2950} speed={2550} autoplay waitForAnimate={false}>
           {products.map((product, index) => (
             <div
@@ -131,8 +131,8 @@ const Customer = () => {
             >
               <div
                 className="
-              bg-[#FFFFFFE5] mx-[9px] 2xl:mx-[20px] flex justify-center items-center 
-              py-[0px] md:py-[5px] lg:py-[10px] xl:py-[15px] 2xl:py-[30px] 
+              bg-[#FFFFFFE5] mx-[9px] xl:mx-[20px] flex justify-center items-center 
+              py-[0px] md:py-[5px] lg:py-[10px] xl:py-[15px] 2xl:py-[20px] 
               rounded-[7px] border-[2px] border-[#00366A]"
               >
                 <div className="flex justify-center items-center h-[80%] w-[90%]">

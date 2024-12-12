@@ -159,12 +159,12 @@ const CustomCarousel = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-[#F7F9F9] flex flex-col items-center justify-center pt-[40px] sm:pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[120px] 2xl:pt-[140px]">
+    <div className="bg-[#F7F9F9] flex flex-col items-center justify-center pt-[40px] sm:pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[120px] 2xl:pt-[130px]">
       <text className="text-[24px] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold text-[#00366A] relative">
         PRODUCTS
         <span className="absolute bottom-[-2px] left-[50%] translate-x-[-50%] w-[50%] h-[2px] xl:h-[4px] 2xl:h-[5px] bg-[#00A859]" />
       </text>
-      <div className="bg-[#F7F9F9] w-full px-[20px] lg:px-[7%] xl:px-[10%] mt-[16px] md:mt-[36px] lg:mt-[50px] 2xl:mt-[60px] relative">
+      <div className="bg-[#F7F9F9] w-full px-[20px] lg:px-[7%] xl:px-[10%] mt-[16px] md:mt-[36px] lg:mt-[50px] xl:mt-[60px] relative">
         <div className="w-[100%]">
           <StyledCarousel
             {...settings}
@@ -184,7 +184,7 @@ const CustomCarousel = () => {
                   style={{
                     backgroundColor: "white",
                   }}
-                  className="mx-[10px] rounded-[12px] my-[10px] h-[20vh] sm:h-[35vh] 2xl:h-[35vh] shadow-even"
+                  className="mx-[10px] rounded-[12px] my-[10px] h-[20vh] sm:h-[35vh] xl:h-[35vh] shadow-even"
                 >
                   <div className="h-[100%] px-[12px] py-[12px] md:px-[20px] md:py-[20px] text-center">
                     <div className="border-[2px] border-[#00366A] rounded-[10px] flex justify-center items-center h-[70%] ">
@@ -201,7 +201,7 @@ const CustomCarousel = () => {
                       />
                     </div>
                     <div className="h-[30%] flex justify-center items-center">
-                      <text className="text-[14px] md:text-[24px] lg:text-[1.5] 2xl:text-[2em] font-semibold text-center text-[#00366A]">
+                      <text className="text-[14px] md:text-[24px] lg:text-[1.5] xl:text-[2em] font-semibold text-center text-[#00366A]">
                         {product.name}
                       </text>
                     </div>

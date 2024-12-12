@@ -11,7 +11,7 @@ import Vison from "./Vison.index";
 import PhoneButton from "../../components/phoneButton";
 function About() {
   return (
-    <div>
+    <div className="pt-[10vh]">
       <Banner />
       <Content />
       <StatisticalData />

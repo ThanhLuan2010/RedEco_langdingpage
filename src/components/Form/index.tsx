@@ -269,7 +269,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
     >
       <form onSubmit={handleSubmit}>
         <div className="w-[100%] pl-[20px] md:pl-[5%] xl:pl-[10%]">
-          <div className="flex xl:flex-row md:flex-row lg:flex-row sm:flex-col flex-col items-center gap-[15px] md:gap-[30px] 2x:gap-[35px] mb-[15px] md:mb-[30px] 2xl:mb-[35px]">
+          <div className="flex xl:flex-row md:flex-row lg:flex-row sm:flex-col flex-col items-center gap-[15px] md:gap-[30px] 2x:gap-[35px] mb-[15px] md:mb-[30px] xl:mb-[35px]">
             <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] w-[100%]">
               {renderInput("firstName", "First Name")}
             </div>
@@ -278,7 +278,7 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
             </div>
           </div>
 
-          <div className="flex xl:flex-row md:flex-row lg:flex-row flex-col sm:flex-col items-center gap-[15px] md:gap-[30px] 2x:gap-[35px] mb-[15px] md:mb-[30px] 2xl:mb-[35px] ">
+          <div className="flex xl:flex-row md:flex-row lg:flex-row flex-col sm:flex-col items-center gap-[15px] md:gap-[30px] 2x:gap-[35px] mb-[15px] md:mb-[30px] xl:mb-[35px] ">
             <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] sm:w-[100%] w-[100%]">
               {renderInput("email", "Email Address", "email")}
             </div>
@@ -287,14 +287,14 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
             </div>
           </div>
 
-          <div className="mb-[15px] md:mb-[30px] 2xl:mb-[35px] ">
+          <div className="mb-[15px] md:mb-[30px] xl:mb-[35px] ">
             {renderInput("companyName", "Company Name", undefined, true)}
           </div>
-          <div className="mb-[15px] md:mb-[30px] 2xl:mb-[35px] ">
+          <div className="mb-[15px] md:mb-[30px] xl:mb-[35px] ">
             {renderInput("address", "Address Line")}
           </div>
 
-          <div className="flex xl:flex-row md:flex-row lg:flex-row flex-col sm:flex-col items-center  gap-[15px] md:gap-[30px] 2x:gap-[35px] mb-[15px] md:mb-[30px] 2xl:mb-[35px]">
+          <div className="flex xl:flex-row md:flex-row lg:flex-row flex-col sm:flex-col items-center  gap-[15px] md:gap-[30px] 2x:gap-[35px] mb-[15px] md:mb-[30px] xl:mb-[35px]">
             <div className="xl:w-[50%] md:w-[50%] lg:w-[50%] sm:w-[100%] w-[100%]">
               {renderInput("city", "City")}
             </div>
@@ -303,14 +303,14 @@ const FormCustom: any = ({ setIsStatusSubmit, setUserNameSubmit }: any) => {
             </div>
           </div>
 
-          <div className="mb-[15px] md:mb-[30px] 2xl:mb-[35px]">
+          <div className="mb-[15px] md:mb-[30px] xl:mb-[35px]">
             {renderSelect("country", countries, "Country or Region")}
           </div>
-          <div className="mb-[15px] md:mb-[30px] 2xl:mb-[35px] ">
+          <div className="mb-[15px] md:mb-[30px] xl:mb-[35px] ">
             {renderSelect("category", categories, "Select Category")}
           </div>
 
-          <div className="textfield mb-[15px] md:mb-[30px] 2xl:mb-[35px] ">
+          <div className="textfield mb-[15px] md:mb-[30px] xl:mb-[35px] ">
             <textarea
               id="message"
               name="message"
