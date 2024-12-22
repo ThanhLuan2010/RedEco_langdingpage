@@ -2,7 +2,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     padding: {
-      main: "6rem",
+      main: "20px",
     },
     extend: {
       colors: {

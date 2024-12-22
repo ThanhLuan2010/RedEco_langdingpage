@@ -4,9 +4,7 @@ function PhoneButton() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className="phone-button" onClick={() => setIsOpen(true)}>
-        <img alt="phone" src={require("../../assets/icon/ic_phone.png")} width={23} height={23} />
-      </div>
+      <div className="phone-button" onClick={() => setIsOpen(true)}></div>
 
       <div
         id="contact-modal"
@@ -19,15 +17,7 @@ function PhoneButton() {
           <button
             onClick={() => setIsOpen(false)}
             className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
-          >
-            <img
-              alt=""
-              src={require("../../assets/icon/ic_close_white.png")}
-              className="w-[40px] h-[40px] object-contain"
-              width={100}
-              height={100}
-            />
-          </button>
+          ></button>
 
           <div
             className="bg-gradient-to-r from-[#007BB0] to-[#00366A] text-white p-[12px] rounded-t-[16px] 
@@ -41,52 +31,20 @@ function PhoneButton() {
             </h3>
             <div className="mt-4">
               <p className="flex items-center text-gray-700">
-                <span className="mr-2">
-                  <img
-                    alt=""
-                    src={require("../../assets/icon/ic_ceo.png")}
-                    className="w-[24px] h-[24px] object-contain"
-                    width={100}
-                    height={100}
-                  />
-                </span>
+                <span className="mr-2"></span>
                 <strong className="mr-2">CEO:</strong> Mr. Thieu Do Xuan
               </p>
               <p className="flex items-center text-gray-700 mt-2">
-                <span className="mr-2">
-                  <img
-                    alt=""
-                    src={require("../../assets/icon/ic_phone_blue.png")}
-                    className="w-[24px] h-[24px] object-contain"
-                    width={100}
-                    height={100}
-                  />
-                </span>
+                <span className="mr-2"></span>
                 <strong className="mr-2">Phone:</strong> (+84)913.882.867
               </p>
               <p className="flex items-center text-gray-700 mt-2">
-                <span className="mr-2 opacity-0">
-                  <img
-                    alt=""
-                    src={require("../../assets/icon/ic_phone_blue.png")}
-                    className="w-[24px] h-[24px] object-contain"
-                    width={100}
-                    height={100}
-                  />
-                </span>
+                <span className="mr-2 opacity-0"></span>
                 <strong className="opacity-0 mr-2">Phone:</strong>{" "}
                 (+84)962.018.838
               </p>
               <p className="flex items-center text-gray-700 mt-2">
-                <span className="mr-2">
-                  <img
-                    alt=""
-                    src={require("../../assets/icon/ic_mail.png")}
-                    className="w-[24px] h-[24px] object-contain"
-                    width={100}
-                    height={100}
-                  />
-                </span>
+                <span className="mr-2"></span>
                 <strong className="mr-2">Email:</strong> thieudx@redeco.vn
               </p>
             </div>
@@ -112,15 +70,7 @@ function PhoneButton() {
           <button
             onClick={() => setIsOpen(false)}
             className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
-          >
-            <img
-              alt=""
-              src={require("../../assets/icon/ic_close_white.png")}
-              className="w-[40px] h-[40px] object-contain"
-              width={100}
-              height={100}
-            />
-          </button>
+          ></button>
 
           <div className="bg-gradient-to-r from-[#007BB0] to-[#00366A] text-white p-[12px] rounded-t-[16px] text-center border-[2px] border-[#00366A]">
             <h2 className="text-lg font-semibold">CONTACT US</h2>
@@ -131,52 +81,20 @@ function PhoneButton() {
             </h3>
             <div className="mt-4">
               <p className="flex items-center text-gray-700">
-                <span className="mr-2">
-                  <img
-                    alt=""
-                    src={require("../../assets/icon/ic_ceo.png")}
-                    className="w-[24px] h-[24px] object-contain"
-                    width={100}
-                    height={100}
-                  />
-                </span>
+                <span className="mr-2"></span>
                 <strong className="mr-2">CEO:</strong> Mr. Thieu Do Xuan
               </p>
               <p className="flex items-center text-gray-700 mt-2">
-                <span className="mr-2">
-                  <img
-                    alt=""
-                    src={require("../../assets/icon/ic_phone_blue.png")}
-                    className="w-[24px] h-[24px] object-contain"
-                    width={100}
-                    height={100}
-                  />
-                </span>
+                <span className="mr-2"></span>
                 <strong className="mr-2">Phone:</strong> (+84) 913 882 867
               </p>
               <p className="flex items-center text-gray-700 mt-2">
-                <span className="mr-2 opacity-0">
-                  <img
-                    alt=""
-                    src={require("../../assets/icon/ic_phone_blue.png")}
-                    className="w-[24px] h-[24px] object-contain"
-                    width={100}
-                    height={100}
-                  />
-                </span>
+                <span className="mr-2 opacity-0"></span>
                 <strong className="opacity-0 mr-2">Phone:</strong> (+84) 962 018
                 838
               </p>
               <p className="flex items-center text-gray-700 mt-2">
-                <span className="mr-2">
-                  <img
-                    alt=""
-                    src={require("../../assets/icon/ic_mail.png")}
-                    className="w-[24px] h-[24px] object-contain"
-                    width={100}
-                    height={100}
-                  />
-                </span>
+                <span className="mr-2"></span>
                 <strong className="mr-2">Email:</strong> thieudx@redeco.vn
               </p>
             </div>

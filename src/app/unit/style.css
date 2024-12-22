@@ -1,0 +1,7 @@
+.custom-link a {
+  color: #c1321d; /* Màu chữ */
+}
+
+.custom-link a:hover {
+  color: black; /* Màu chữ khi hover */
+}
