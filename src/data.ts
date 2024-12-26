@@ -34,17 +34,16 @@ export default [
 <p>Next are the basic vowels you will need to know. Again, do whatever you can to memorize the English representations to help you learn them.</p>
 <p>ㅣ = i<br />ㅏ = a<br />ㅓ = eo (Romanized as &ldquo;eo&rdquo; but it sounds closer to &ldquo;uh&rdquo; in English)<br />ㅡ = eu<br />ㅜ = u<br />ㅗ = o</p>
 <p>You should notice that the first three vowels are drawn vertically, and the bottom three are drawn horizontally. If you can&rsquo;t see what I mean, look at the following picture for a more exaggerated depiction.</p>
-<p><img class="wp-image-131 aligncenter" title="Pre-Studying 11/1" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/11.png" sizes="(max-width: 314px) 314px" srcset="https://www.howtostudykorean.com/wp-content/uploads/2012/04/11.png 314w, https://www.howtostudykorean.com/wp-content/uploads/2012/04/11-300x167.png 30w" alt="" width="314" height="175" />In that picture, it should be clear that the ones on the left are drawn vertically, and the ones on the right are drawn horizontally. The difference is very important because the way every Korean letter is written depends on if the vowel is drawn vertically or horizontally.</p>
+<p><img class="size-full wp-image-129 aligncenter" title="Pre-Studying 11/1" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/11.png" sizes="(max-width: 314px) 100vw, 314px" srcset="https://www.howtostudykorean.com/wp-content/uploads/2012/04/11.png 314w, https://www.howtostudykorean.com/wp-content/uploads/2012/04/11-300x167.png 300w" alt="" width="314" height="175" />In that picture, it should be clear that the ones on the left are drawn vertically, and the ones on the right are drawn horizontally. The difference is very important because the way every Korean letter is written depends on if the vowel is drawn vertically or horizontally.</p>
 <p>Let&rsquo;s take a look at how it is done.</p>
 <p>Korean is written into &ldquo;blocks&rdquo; that make up one syllable. One block always has exactly one syllable. The blocks are ALWAYS drawn in one of the following ways:</p>
-<p><img class=" wp-image-131 aligncenter" title="Pre-Studying 1/2" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/2.png" alt="" width="250" height="99" />Important rules you need to know about these structures:</p>
+<p><img class="size-full wp-image-131 aligncenter" title="Pre-Studying 1/2" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/2.png" alt="" width="250" height="99" />Important rules you need to know about these structures:</p>
 <p>1. Number &ldquo;2&rdquo; is ALWAYS a vowel. Always always always always always.<br />2. Number &ldquo;1, 3 (and sometimes 4) are ALWAYS consonants. Always.<br />3. Blocks containing a horizontally drawn vowel are always drawn in one of these two ways:</p>
 <p><img class="wp-image-132 aligncenter" title="Pre-Studying 1/3" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/3.png" alt="" width="128" height="102" />4. Blocks containing a vertically drawn vowel are always drawn in one of these two ways:</p>
 <p><img class="wp-image-133 aligncenter" title="Pre-Studying 1/4" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/4.png" alt="" width="131" height="103" /></p>
 <p>Now that you know those rules, it is just a matter of putting the consonants and vowels together to make blocks. For example, if I want to write &ldquo;bab&rdquo;:</p>
 <p>Step 1: Determine if the vowel is horizontal or vertical. a (ㅏ) is vertical, so we will use:<br /><img class=" wp-image-136 aligncenter" title="Pre-Studying 1/5" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/5.png" alt="" width="172" height="85" />Step 2: Determine if the syllable ends in a consonant. Yes, it does. So we need to fill 1, 2 and 3, so we need to use:</p>
-<p><img class="aligncenter  wp-image-137" title="6" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/6.png" alt="" width="57" height="69" />Step 3: Place the starting letter &ldquo;b (ㅂ)&rdquo;, the middle letter &ldquo;a (ㅏ)&rdquo; and the ending letter &ldquo;b (ㅂ)&rdquo; into 1, 2, and 3 respectively.<br /><img class="aligncenter  wp-image-138" title="Pre-Studying 1/7" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/7.png" alt="" width="251" height="134" /></p>
-
+<p><img class="aligncenter size-full wp-image-137" title="6" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/6.png" alt="" width="57" height="69" />Step 3: Place the starting letter &ldquo;b (ㅂ)&rdquo;, the middle letter &ldquo;a (ㅏ)&rdquo; and the ending letter &ldquo;b (ㅂ)&rdquo; into 1, 2, and 3 respectively.<br /><img class="aligncenter size-full wp-image-138" title="Pre-Studying 1/7" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/7.png" alt="" width="251" height="134" /></p>
 <p>Let&rsquo;s practice a few before we finish:<br />ㄱ = k<br />ㅏ = a<br />ㄴ = n<br />ㅏ is vertically aligned, so if we make a syllable we would write:&nbsp;간 (kan)</p>
 <p>ㅂ = b<br />ㅓ = eo<br />ㅂ = b<br />ㅓ is vertically aligned, so if we make a syllable we would write: 법 (beob)</p>
 <p>ㅈ = j<br />ㅜ = u<br />ㅜ is horizontally aligned, so if we make a syllable we would write: 주 (ju)</p>
@@ -59,15 +58,17 @@ export default [
 <tbody>
 <tr>
 <td valign="top" width="64">&nbsp;</td>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">ㅣ</a></td>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable5.mp3">ㅏ</a></td>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable6.mp3">ㅓ</a></td>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable7.mp3">ㅡ</a></td>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable8.mp3">ㅜ</a></td>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable1.mp3">ㅗ</a></td>
+<td valign="top" width="64">
+<button data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3" class="play-button">Play</button> 
+<a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">ㅣ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable5.mp3">ㅏ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable6.mp3">ㅓ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable7.mp3">ㅡ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable8.mp3">ㅜ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable1.mp3">ㅗ</a></td>
 </tr>
 <tr>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/B.mp3">ㅂ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/B.mp3">ㅂ</a></td>
 <td valign="top" width="64">비</td>
 <td valign="top" width="64">바</td>
 <td valign="top" width="64">버</td>
@@ -76,7 +77,7 @@ export default [
 <td valign="top" width="64">보</td>
 </tr>
 <tr>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/j.mp3">ㅈ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/j.mp3">ㅈ</a></td>
 <td valign="top" width="64">지</td>
 <td valign="top" width="64">자</td>
 <td valign="top" width="64">저</td>
@@ -85,7 +86,7 @@ export default [
 <td valign="top" width="64">조</td>
 </tr>
 <tr>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/D.mp3">ㄷ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/D.mp3">ㄷ</a></td>
 <td valign="top" width="64">디</td>
 <td valign="top" width="64">다</td>
 <td valign="top" width="64">더</td>
@@ -94,7 +95,7 @@ export default [
 <td valign="top" width="64">도</td>
 </tr>
 <tr>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/K.mp3">ㄱ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/K.mp3">ㄱ</a></td>
 <td valign="top" width="64">기</td>
 <td valign="top" width="64">가</td>
 <td valign="top" width="64">거</td>
@@ -103,7 +104,7 @@ export default [
 <td valign="top" width="64">고</td>
 </tr>
 <tr>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/S.mp3">ㅅ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/S.mp3">ㅅ</a></td>
 <td valign="top" width="64">시</td>
 <td valign="top" width="64">사</td>
 <td valign="top" width="64">서</td>
@@ -112,7 +113,7 @@ export default [
 <td valign="top" width="64">소</td>
 </tr>
 <tr>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/m.mp3">ㅁ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/m.mp3">ㅁ</a></td>
 <td valign="top" width="64">미</td>
 <td valign="top" width="64">마</td>
 <td valign="top" width="64">머</td>
@@ -121,7 +122,7 @@ export default [
 <td valign="top" width="64">모</td>
 </tr>
 <tr>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/n.mp3">ㄴ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/n.mp3">ㄴ</a></td>
 <td valign="top" width="64">니</td>
 <td valign="top" width="64">나</td>
 <td valign="top" width="64">너</td>
@@ -130,7 +131,7 @@ export default [
 <td valign="top" width="64">노</td>
 </tr>
 <tr>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/H.mp3">ㅎ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/H.mp3">ㅎ</a></td>
 <td valign="top" width="64">히</td>
 <td valign="top" width="64">하</td>
 <td valign="top" width="64">허</td>
@@ -139,7 +140,7 @@ export default [
 <td valign="top" width="64">호</td>
 </tr>
 <tr>
-<td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/L.mp3">ㄹ</a></td>
+<td valign="top" width="64"><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/L.mp3">ㄹ</a></td>
 <td valign="top" width="64">리</td>
 <td valign="top" width="64">라</td>
 <td valign="top" width="64">러</td>
@@ -153,7 +154,6 @@ export default [
 <p>When looking at this table, it is important to note how each vowel pairs up with a consonant. I am showing you this table (and the ones that follow) to allow you to get familiar with the structure of a Korean syllable. Note that these constructions are not necessarily words, and that it usually takes more than one syllable to make a word.</p>
 <p>The following nine tables are similar to the table presented above. However, in each table, one specific consonant is being used as the final consonant of the syllable. Again, I am showing you these tables to allow you to familiarize yourself with the variety of constructions that&nbsp;<em>could&nbsp;</em>be made with the letters you learned today. You should specifically look for the patterns that exist for every letter. You do not, by any means, need to memorize any of these constructions &ndash; as that will come naturally as you progress through your study of Korean.</p>
 <p>Also note that while some of the syllables shown in the tables below are very common, some you will never find in any word in Korean. Notice that some of the syllables in the table are colored gray. You will probably never find that syllable in any Korean word, ever. The one&rsquo;s in black are syllables that you will see within words. The colored/underlined syllables are actually words on their own. If you hover your mouse over these words, you will see the translation in English. I have done this only for convenience, and you do not need to memorize any of this at this point.</p>
-
 <p>Final Consonant: ㅂ</p>
 <div class="table-wrapper">
 <table border="1" cellspacing="0" cellpadding="0">

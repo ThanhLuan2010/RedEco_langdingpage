@@ -12,11 +12,10 @@ export default function Lession() {
     (les) => les?.name?.replace(" ", "") == id
   );
 
-
   useEffect(() => {
     // Tìm tất cả các nút với class "play-button"
     const buttons = document.querySelectorAll(".play-button");
-    const audioInstances:any = {};
+    const audioInstances: any = {};
 
     buttons.forEach((button) => {
       // Lấy URL của file âm thanh từ data-src
@@ -31,7 +30,7 @@ export default function Lession() {
           e.preventDefault();
 
           // Tạm dừng tất cả các audio trước khi phát audio hiện tại
-          Object.values(audioInstances).forEach((audio:any) => {
+          Object.values(audioInstances).forEach((audio: any) => {
             if (!audio.paused) audio.pause();
             audio.currentTime = 0;
           });
@@ -47,21 +46,23 @@ export default function Lession() {
       buttons.forEach((button) => {
         button.removeEventListener("click", () => {});
       });
-      Object.values(audioInstances).forEach((audio:any) => {
+      Object.values(audioInstances).forEach((audio: any) => {
         audio.pause();
         audio.src = ""; // Xóa nguồn âm thanh
       });
     };
   }, [curentLession]);
   return (
-    <div className="bg-[#fafafa] w-screen">
-      <p className="px-[20px] md:px[5%] xl:px-[10%] text-[24px] py-[30px]">
-        {`${curentLession?.description}`}
-      </p>
-      <div className="bg-white border-t-[1px] pt-[30px] px-[20px] md:px[5%] xl:px-[10%]">
+    <div className="bg-[#fafafa] mx-[20px] md:mx[5%] xl:mx-[10%] ">
+      <p className="text-[24px] py-[30px]">{`${curentLession?.description}`}</p>
+      <div className="bg-white border-t-[1px] pt-[30px] ">
         <div
           className="object-fill mt-[10px] custom-link"
-          dangerouslySetInnerHTML={{ __html: curentLession?.lessionContent ?curentLession?.lessionContent:"" }}
+          dangerouslySetInnerHTML={{
+            __html: curentLession?.lessionContent
+              ? curentLession?.lessionContent
+              : "",
+          }}
           style={{
             wordWrap: "break-word",
             overflowWrap: "break-word",

@@ -74,11 +74,11 @@ const dataSocial = [
 export default function Home() {
   const navigate = useNavigate();
   return (
-    <div className="bg-[#fafafa]">
-      <p className="px-[20px] md:px[5%] xl:px-[10%] text-[24px] py-[30px]">
+    <div className="bg-[#fafafa] mx-[20px] md:mx[5%] xl:mx-[10%] ">
+      <p className="text-[24px] py-[30px]">
         Welcome to How to Study Korean!
       </p>
-      <div className="bg-white border-t-[1px] pt-[30px] px-[20px] md:px[5%] xl:px-[10%]">
+      <div className="bg-white border-t-[1px] pt-[30px]">
         <p className="leading-7">
           The purpose of this website is to provide Korean learners with a
           one-stop resource for learning Korean. We strive to provide the most

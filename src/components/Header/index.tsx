@@ -1,20 +1,6 @@
-import {
-  ArrowDownward,
-  ArrowDropDown,
-  ArrowDropDownOutlined,
-  Close,
-  MenuOutlined,
-  Search,
-} from "@mui/icons-material";
-import {
-  Button,
-  Drawer,
-  IconButton,
-  List,
-  useMediaQuery,
-  useTheme,
-} from "@mui/material";
-import { useEffect, useState } from "react";
+import { Close, MenuOutlined } from "@mui/icons-material";
+import { Drawer, List, useMediaQuery, useTheme } from "@mui/material";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import data from "../../data";
 
@@ -115,12 +101,16 @@ export default function Header() {
               {item?.name === rowSelected && isShowMore && (
                 <div className="pb-[15px] pt-[5px] text-[white] font-medium flex flex-col gap-[15px] ">
                   {item?.lession?.map((lession, index) => (
-                    <div key={index} className="cursor-pointer border-b-[1px] border-gray-500 px-[40px] pb-[10px]"
-                    onClick={() => {
-                      navigate(`lession/${lession?.name?.replace(" ", "")}`,{state:{unit:item?.name}});
-                      setDrawerOpen(false);
-                      setIsShowMore(false);
-                    }}
+                    <div
+                      key={index}
+                      className="cursor-pointer border-b-[1px] border-gray-500 px-[40px] pb-[10px]"
+                      onClick={() => {
+                        navigate(`lession/${lession?.name?.replace(" ", "")}`, {
+                          state: { unit: item?.name },
+                        });
+                        setDrawerOpen(false);
+                        setIsShowMore(false);
+                      }}
                     >
                       <span>{lession?.name}</span>
                     </div>
@@ -169,7 +159,7 @@ export default function Header() {
           ) : (
             // Desktop
             <div className=" flex flex-col w-[100%]">
-              <div className="mt-[30px]">
+              <div className="mt-[30px] px-[20px] md:px[5%] xl:px-[10%]">
                 <img
                   src={require("../../assets/image/header_banner.png")}
                   className="w-[100%] bg-blue-500 object-contain cursor-pointer"
@@ -183,14 +173,14 @@ export default function Header() {
                     key={index}
                     className="relative inline-block group z-[1000]"
                   >
-                    <button
-                      className="text-white line-clamp-1items-center z-[1000]"
+                    <div
+                      className="text-white line-clamp-1items-center z-[1000] cursor-pointer hover:bg-[rgba(0,0,0,0.3)] px-[20px] py-[10px]"
                       onClick={() => {
                         navigate(`/Unit/${item.name?.replace(" ", "")}`);
                       }}
                     >
                       {item.name?.toUpperCase()}
-                    </button>
+                    </div>
 
                     <div
                       className="absolute text-[14px] md:text-[15px] xl:text-[16px] hidden group-hover:block bg-white

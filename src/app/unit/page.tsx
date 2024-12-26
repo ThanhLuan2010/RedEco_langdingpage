@@ -7,11 +7,11 @@ export default function Unit() {
   const curentUnit = data.find((unit) => unit.name.replace(" ", "") == id);
  const navigate = useNavigate();
   return (
-    <div className="bg-[#fafafa]">
-      <p className="px-[20px] md:px[5%] xl:px-[10%] text-[24px] py-[30px]">
+    <div className="bg-[#fafafa] mx-[20px] md:mx[5%] xl:mx-[10%] ">
+      <p className="text-[24px] py-[30px]">
         {`${curentUnit?.name}: ${curentUnit?.description}`}
       </p>
-      <div className="bg-white border-t-[1px] pt-[30px] px-[20px] md:px[5%] xl:px-[10%]">
+      <div className="bg-white border-t-[1px] pt-[30px]">
         <div className="flex">
           <img src={curentUnit?.image} className="h-[90%] mr-[20px]" />
           <p className="leading-7">{curentUnit?.headContent}</p>

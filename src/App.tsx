@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <ScrollToTop />
       <div className="">
         <Header />
-        <div className="">
+        <div className="md:px-[5%] lg:px-[10%]">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/unit/:id" element={<Unit />} />
