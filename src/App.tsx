@@ -8,6 +8,7 @@ import ScrollToTop from "./ScrollToTop";
 import Footer from "./components/Footer";
 import Unit from "./app/unit/page";
 import Lession from "./app/Lession/page";
+import MenuLession from "./app/MenuLession";
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/unit/:id" element={<Unit />} />
             <Route path="/lession/:id" element={<Lession />} />
+            <Route path="/menu-lession/:id" element={<MenuLession />} />
           </Routes>
         </div>
         <Footer />
