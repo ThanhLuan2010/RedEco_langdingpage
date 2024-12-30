@@ -14,9 +14,9 @@ export default function Footer({ style }: any) {
     { icon: require("../../assets/image/logo_youtube.png"), link: "" },
   ];
   return (
-    <div className="bg-[#272727] px-[20px] md:px[5%] xl:px-[10%] w-[100vw] pt-[30px] pb-[40px] mt-[50px] flex justify-between">
+    <div className="bg-[#272727] px-[20px] md:px[5%] xl:px-[10%] w-[100vw] pt-[10px] pb-[10px] mt-[50px] flex justify-between items-center">
       <div>
-        <p className="text-white flex">
+        <p className="text-white flex items-center">
           How to study Korean © 2024. All Rights Reserved. |{" "}
           <p className="cursor-pointer mx-1 opacity-[0.8] hover:opacity-[1]">
             Privacy Policy

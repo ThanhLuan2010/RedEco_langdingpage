@@ -6,11 +6,12 @@ import { useEffect } from "react";
 export default function Lession() {
   const { id } = useParams<{ id: string }>();
   const location = useLocation();
-  const { unit } = location.state || {}; // Nếu không có state thì trả về {} (hoặc giá trị mặc định)
+  const { unit, isMenu, menu} = location.state || {}; 
   const curentUnit = data.find((u) => u.name == unit);
   const curentLession = curentUnit?.lession.find(
     (les) => les?.name?.replace(" ", "") == id
   );
+
 
   useEffect(() => {
     // Tìm tất cả các nút với class "play-button"
@@ -59,7 +60,7 @@ export default function Lession() {
         <div
           className="object-fill mt-[10px] custom-link"
           dangerouslySetInnerHTML={{
-            __html: curentLession?.lessionContent
+            __html:isMenu?menu?.lessionContent :  curentLession?.lessionContent
               ? curentLession?.lessionContent
               : "",
           }}
