@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import data from "../../data";
 
 const navItems = [
-  { text: "UNIT 0", key: 0 },
+  { text: "Trang Chủ", key: 0 },
   { text: "UNIT 1", key: 1 },
   { text: "UNIT 2", key: 2 },
   { text: "UNIT 3", key: 3 },
@@ -78,10 +78,12 @@ export default function Header() {
                     setDrawerOpen(false);
                     setIsShowMore(false);
                   }}
+                  
                   className="text-[white] text-[18px] cursor-pointer flex "
                 >
                   {item.name}
                 </text>
+
                 <div
                   className="text-white cursor-pointer  px-[10px]"
                   onClick={() => {
