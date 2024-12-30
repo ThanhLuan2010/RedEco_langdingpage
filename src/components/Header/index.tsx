@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import data from "../../data";
 
+<<<<<<< HEAD
 const navItems = [
   { text: "Trang Chủ", key: 0 },
   { text: "UNIT 1", key: 1 },
@@ -15,6 +16,8 @@ const navItems = [
   { text: "UNIT 7", key: 7 },
 ];
 
+=======
+>>>>>>> 178636303b993ad2970df617f3a8802ad313057d
 const ChevronDownIcon: React.FC<any> = ({ className }) => (
   <svg
     width="24"
@@ -189,14 +192,20 @@ export default function Header() {
                       text-gray-500 rounded-[4px] min-w-[250px] shadow-xl"
                     >
                       <ul className="">
-                        {item.lession.map((lession, i) => (
+                        {item.lession.map((lession: any, i) => (
                           <li
                             className="cursor-pointer hover:bg-gray-50 min-h-[35px]"
                             onClick={() => {
-                              navigate(
-                                `/lession/${lession?.name?.replace(" ", "")}`,
-                                { state: { unit: item.name } }
-                              );
+                              if (lession?.isMenu) {
+                                navigate(
+                                  `/menu-lession/${lession?.name?.replace(" ", "")}`,
+                                  { state: { unit: item.name } }
+                                );
+                              } else
+                                navigate(
+                                  `/lession/${lession?.name?.replace(" ", "")}`,
+                                  { state: { unit: item.name } }
+                                );
                             }}
                             key={i}
                           >

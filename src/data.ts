@@ -2880,1044 +2880,3516 @@ Study hard, and make sure you understand everything in these lessons before you 
       {
         name: "Lessons 1 – 8",
         link: "",
+        isMenu: true,
+        menu: [
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+        ],
         description: "Korean Word Structure and Basic Letters",
         image: require("./assets/image/unit0/KoreanLetterNamespic.png"),
         html: `<p><a href="https://www.howtostudykorean.com/unit0/letter-names/">Korean Letter Names</a>: This lesson talks about the names of Korean letters. As a beginner, this isn&rsquo;t incredibly important, but it might be worth checking out.</p><p>&nbsp;</p><p>Also available in:&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/arabic/"><span lang="bg" title="Bulgarian language text">العربية</span></a></p>`,
-        lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks#Unit0">Click here for a workbook to go along with this lesson.</a></p>
-        <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/06/HowtoStudyKorean-Unit-0-PDF.pdf">Click here for a free PDF of all the lessons in Unit 0.</a></p>
-        <p>This Lesson is also available in&nbsp;<a title="Struttura delle Parole in Coreano e Lettere base" href="https://www.howtostudykorean.com/unit0/unit0lesson1/struttura-delle-parole-in-coreano-e-lettere-base/">Italiano</a>,&nbsp;<a title="Die Struktur im Koreanischen und die Basisbuchstaben" href="https://www.howtostudykorean.com/unit0/unit0lesson1/die-struktur-im-koreanischen-und-die-basisbuchstaben/">Deutsch</a>,&nbsp;<a title="Estructura de Palabras Coreanas y Letras B&aacute;sicas" href="https://www.howtostudykorean.com/unit0/unit0lesson1/estructura-de-palabras-coreanas-y-letras-basicas/">Espa&ntilde;ol</a>,&nbsp;<a title="Структура корейского слова и основные буквы" href="https://www.howtostudykorean.com/unit0/unit0lesson1/russian/">Русский</a>,&nbsp;<a title="La structure des mots cor&eacute;ens et les lettres &eacute;l&eacute;mentaires" href="https://www.howtostudykorean.com/unit0/unit0lesson1/french/">Fran&ccedil;ais</a>,&nbsp;<a title="Estrutura das Palavras em Coreano e Letras B&aacute;sicas" href="https://www.howtostudykorean.com/unit0/unit0lesson1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/polish/">Polski</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/romanian/">Rom&acirc;nă</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/azerbaijani/">Azerbaijani</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/ukranian/">украї́нська</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/farsi/">فارسی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit0/unit0lesson1/arabic/">العربية</a></p>
-        <p>The following videos are available to reinforce the concepts taught in this lesson:<br /><a href="https://youtu.be/7QXlNdIpsmc">Syllable Practice (1)</a>,&nbsp;<a href="https://youtu.be/QqgbPmFFq9U" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/JUWgP5gNiHk">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/O0-Gg5_8CAs" target="_blank" rel="noopener noreferrer">(2)</a>,&nbsp;<a href="https://youtu.be/Nboau0jJmFo">(3)</a>&nbsp;|&nbsp;<a href="https://youtu.be/SzAb6wGpv9c">Reading Practice</a></p>
-        <p>For now, don&rsquo;t even think about words or grammar or anything until you can read and pronounce Korean letters and syllables. Without being able to read Korean, it is very difficult to continue studying other parts of the language.</p>
-        <p>In the Unit 0 lessons I will provide the Romanized equivalents to the Korean alphabet. However, I highly suggest that once you know how to read the Korean alphabet, you should completely abandon the Romanizations. For example, in the future, instead of studying like this:</p>
-        <p>학교 (hak-kyo) = school<br />You should study like this:<br />학교 = school</p>
-        <p>At any rate, study these characters like crazy. Memorizing them at first is hard, but it needs to be done. Luckily, Korean has a fairly simple &lsquo;alphabet&rsquo;, although it seems strange to most English speakers at first because it is completely different than English.</p>
-        <hr />
-        <p>&nbsp;</p>
-        <p>Note that the letters I teach you in these lessons in Unit 0 are not in alphabetical order. Rather, I am presenting the most simple letters first, and presenting more complex letters later. Unless you plan on attending kindergarten in Korean in the next few weeks, there is no immediate need to learn the alphabetical order. I&rsquo;ve lived in Korea for years, and the only time it actually comes in handy is when I input my student&rsquo;s scores into the system on my computer at work &ndash; as knowing the alphabetical order helps me find their names quicker. It&rsquo;s definitely good to know, but for now, you have way more important things to worry about. Nonetheless, here is the actual alphabetical order, which is separated into consonants and vowels:</p>
-        <p>ㄱ ㄲ ㄴ ㄷ ㄸ ㄹ ㅁ ㅂ ㅃ ㅅ ㅆ ㅇ ㅈ ㅉ ㅊ ㅋ ㅌ ㅍ ㅎ<br />ㅏ ㅐ ㅑ ㅒ ㅓ ㅔ ㅕ ㅖ ㅗ ㅘ ㅙ ㅚ ㅛ ㅜ ㅝ ㅞ ㅟ ㅠ ㅡ ㅢ ㅣ</p>
-        <p><em>I talk about the names of these letters in&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/">this</a>&nbsp;lesson.</em></p>
-        <hr />
-        <p>&nbsp;</p>
-        <p>The following are the first set of Korean consonants that you need to get into your brain. There is no easy way to explain them, you just need to memorize them:<br />ㄱ= k<br />ㄴ= n<br />ㄷ= d<br />ㄹ=r/l*<br />ㅁ= m<br />ㅂ= b<br />ㅅ= s<br />ㅈ= j<br />ㅎ= h</p>
-        <p>*(This sound is very difficult to write in English, and is the reason why people from Korea/Japan have trouble pronouncing the R and L sound in Engrish. The sound of this letter (to me) is half way between an R and L. For example, if you were to say &ldquo;I hadda good time last night&rdquo; the ㄹ sound is very similar to the &ldquo;dd&rdquo; in the slang &ldquo;hadda.&rdquo; It&rsquo;s not quite an R, and it&rsquo;s not quite an L.)</p>
-        <p>I want to say one incredibly important thing before you continue. People constantly ask me about the pronunciation of Korean letters, and how they can be best represented using English (Latin) characters. There is no perfect way to represent Korean characters using English letters (or sounds). The English letters presented above are the letters that you will commonly find being used to represent their respective Korean letters. While it is helpful (at first) to memorize the general sound of a Korean letter by using the English letter &ndash; you have to remember that Korean sounds are vastly different than English sounds. Not only are Korean sounds different than English sounds &ndash; but English sounds different depending on who is speaking (because of accents). Therefore, there is no perfect way to represent the Korean sounds in English.</p>
-        <p>For example, you will often see:</p>
-        <p>&ldquo;K&rdquo; and &ldquo;G&rdquo; used to represent &ldquo;ㄱ.&rdquo;<br />Or &ldquo;D&rdquo; and &ldquo;T&rdquo; to represent &ldquo;ㄷ&rdquo;<br />Or &ldquo;R&rdquo; and &ldquo;L&rdquo; to represent &ldquo;ㄹ&rdquo;</p>
-        <p>Truth is, none of those letters matches perfectly with the sound of their respective Korean letter. The&nbsp;<em>only&nbsp;</em>way to know exactly how a Korean letter sounds is to listen to it. Trying to represent it with an English letter (whose pronunciation could change based on the person speaking) doesn&rsquo;t work. Throughout our lessons (not just in this Unit, but in future Units as well), you will find&nbsp;<em>thousands&nbsp;</em>of audio files attached to vocabulary, letters and example sentences. The best thing you can do is listen to those audio recordings as much as possible to train your ear to the correct sounds.</p>
-        <p>Anyways, memorize the English equivalents of the characters to help you at this stage, but try not to think that the sounds are exactly the same.</p>
-        <p>Next are the basic vowels you will need to know. Again, do whatever you can to memorize the English representations to help you learn them.</p>
-        <p>ㅣ = i<br />ㅏ = a<br />ㅓ = eo (Romanized as &ldquo;eo&rdquo; but it sounds closer to &ldquo;uh&rdquo; in English)<br />ㅡ = eu<br />ㅜ = u<br />ㅗ = o</p>
-        <p>You should notice that the first three vowels are drawn vertically, and the bottom three are drawn horizontally. If you can&rsquo;t see what I mean, look at the following picture for a more exaggerated depiction.</p>
-        <p><img class=" wp-image-129 aligncenter" title="Pre-Studying 11/1" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/11.png" sizes="(max-width: 314px) 100vw, 314px" srcset="https://www.howtostudykorean.com/wp-content/uploads/2012/04/11.png 314w, https://www.howtostudykorean.com/wp-content/uploads/2012/04/11-300x167.png 300w" alt="" width="314" height="175" />In that picture, it should be clear that the ones on the left are drawn vertically, and the ones on the right are drawn horizontally. The difference is very important because the way every Korean letter is written depends on if the vowel is drawn vertically or horizontally.</p>
-        <p>Let&rsquo;s take a look at how it is done.</p>
-        <p>Korean is written into &ldquo;blocks&rdquo; that make up one syllable. One block always has exactly one syllable. The blocks are ALWAYS drawn in one of the following ways:</p>
-        <p><img class=" wp-image-131 aligncenter" title="Pre-Studying 1/2" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/2.png" alt="" width="250" height="99" />Important rules you need to know about these structures:</p>
-        <p>1. Number &ldquo;2&rdquo; is ALWAYS a vowel. Always always always always always.<br />2. Number &ldquo;1, 3 (and sometimes 4) are ALWAYS consonants. Always.<br />3. Blocks containing a horizontally drawn vowel are always drawn in one of these two ways:</p>
-        <p><img class="wp-image-132 aligncenter" title="Pre-Studying 1/3" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/3.png" alt="" width="128" height="102" />4. Blocks containing a vertically drawn vowel are always drawn in one of these two ways:</p>
-        <p><img class="wp-image-133 aligncenter" title="Pre-Studying 1/4" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/4.png" alt="" width="131" height="103" /></p>
-        <p>Now that you know those rules, it is just a matter of putting the consonants and vowels together to make blocks. For example, if I want to write &ldquo;bab&rdquo;:</p>
-        <p>Step 1: Determine if the vowel is horizontal or vertical. a (ㅏ) is vertical, so we will use:<br /><img class=" wp-image-136 aligncenter" title="Pre-Studying 1/5" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/5.png" alt="" width="172" height="85" />Step 2: Determine if the syllable ends in a consonant. Yes, it does. So we need to fill 1, 2 and 3, so we need to use:</p>
-        <p><img class="aligncenter  wp-image-137" title="6" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/6.png" alt="" width="57" height="69" />Step 3: Place the starting letter &ldquo;b (ㅂ)&rdquo;, the middle letter &ldquo;a (ㅏ)&rdquo; and the ending letter &ldquo;b (ㅂ)&rdquo; into 1, 2, and 3 respectively.<br /><img class="aligncenter  wp-image-138" title="Pre-Studying 1/7" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/7.png" alt="" width="251" height="134" /></p>
-        
-        <p>Let&rsquo;s practice a few before we finish:<br />ㄱ = k<br />ㅏ = a<br />ㄴ = n<br />ㅏ is vertically aligned, so if we make a syllable we would write:&nbsp;간 (kan)</p>
-        <p>ㅂ = b<br />ㅓ = eo<br />ㅂ = b<br />ㅓ is vertically aligned, so if we make a syllable we would write: 법 (beob)</p>
-        <p>ㅈ = j<br />ㅜ = u<br />ㅜ is horizontally aligned, so if we make a syllable we would write: 주 (ju)</p>
-        <p>ㅎ = h<br />ㅗ = o<br />ㅗ is horizontally aligned, so if we make a syllable we would write: 호 (ho)</p>
-        <p>The following tables show all of the letters presented in this lesson, and how they match up to create syllables.</p>
-        <p>The first table only shows syllables created&nbsp;<em>without&nbsp;</em>the use of a final consonant. By factoring in the use of a final consonant, many more varieties of syllables can be created, and those will be presented a little bit lower.</p>
-        <p>Click the letters on the left of the table to hear how a specific consonant is pronounced with each vowel. When listening to these sounds, try to understand where some of the ambiguity comes from when trying to represent these consonant sounds with English (Latin) letters. I often get questions from learners who are confused whether to use &ldquo;G&rdquo; or &ldquo;K&rdquo; to represent &ldquo;ㄱ.&rdquo; Listen to the &ldquo;ㄱ&rdquo; column and tell me which letter best represents that sound in all cases. You can&rsquo;t. This is why there is confusion amongst early learners of Korean in terms of the correct pronunciation of letters. The same can be said for other letters, like &ldquo;B&rdquo; and &ldquo;P&rdquo; with &ldquo;ㅂ&rdquo; and &ldquo;R&rdquo; and &ldquo;L&rdquo; with &ldquo;ㄹ.&rdquo;</p>
-        <p>You can also click the letters at the top of the table to hear how a specific vowel is pronounced with each consonant. Again, try to recognize the sound that the Korean vowel is supposed to make. Using an English (Latin) vowel to represent the sound of a Korean vowel is impossible because the pronunciation of our English vowels change from word to word, and from person to person (depending on accents).</p>
-        <p>It is best to abandon all English/Latin representations of Korean sounds, as it just adds to confusion. I highly recommend that you use these recordings (and the thousands of other recordings in our Lessons) to familiarize yourself with the correct pronunciation of a Korean letter or word. It may be difficult at first, but it is well worth it in the long run.</p>
-        <div class="table-wrapper">
-        <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td valign="top" width="64">&nbsp;</td>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">ㅣ</a></td>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable5.mp3">ㅏ</a></td>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable6.mp3">ㅓ</a></td>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable7.mp3">ㅡ</a></td>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable8.mp3">ㅜ</a></td>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable1.mp3">ㅗ</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/B.mp3">ㅂ</a></td>
-        <td valign="top" width="64">비</td>
-        <td valign="top" width="64">바</td>
-        <td valign="top" width="64">버</td>
-        <td valign="top" width="64">브</td>
-        <td valign="top" width="64">부</td>
-        <td valign="top" width="64">보</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/j.mp3">ㅈ</a></td>
-        <td valign="top" width="64">지</td>
-        <td valign="top" width="64">자</td>
-        <td valign="top" width="64">저</td>
-        <td valign="top" width="64">즈</td>
-        <td valign="top" width="64">주</td>
-        <td valign="top" width="64">조</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/D.mp3">ㄷ</a></td>
-        <td valign="top" width="64">디</td>
-        <td valign="top" width="64">다</td>
-        <td valign="top" width="64">더</td>
-        <td valign="top" width="64">드</td>
-        <td valign="top" width="64">두</td>
-        <td valign="top" width="64">도</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/K.mp3">ㄱ</a></td>
-        <td valign="top" width="64">기</td>
-        <td valign="top" width="64">가</td>
-        <td valign="top" width="64">거</td>
-        <td valign="top" width="64">그</td>
-        <td valign="top" width="64">구</td>
-        <td valign="top" width="64">고</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/S.mp3">ㅅ</a></td>
-        <td valign="top" width="64">시</td>
-        <td valign="top" width="64">사</td>
-        <td valign="top" width="64">서</td>
-        <td valign="top" width="64">스</td>
-        <td valign="top" width="64">수</td>
-        <td valign="top" width="64">소</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/m.mp3">ㅁ</a></td>
-        <td valign="top" width="64">미</td>
-        <td valign="top" width="64">마</td>
-        <td valign="top" width="64">머</td>
-        <td valign="top" width="64">므</td>
-        <td valign="top" width="64">무</td>
-        <td valign="top" width="64">모</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/n.mp3">ㄴ</a></td>
-        <td valign="top" width="64">니</td>
-        <td valign="top" width="64">나</td>
-        <td valign="top" width="64">너</td>
-        <td valign="top" width="64">느</td>
-        <td valign="top" width="64">누</td>
-        <td valign="top" width="64">노</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/H.mp3">ㅎ</a></td>
-        <td valign="top" width="64">히</td>
-        <td valign="top" width="64">하</td>
-        <td valign="top" width="64">허</td>
-        <td valign="top" width="64">흐</td>
-        <td valign="top" width="64">후</td>
-        <td valign="top" width="64">호</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64"><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Unit0Downtable4.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/L.mp3">ㄹ</a></td>
-        <td valign="top" width="64">리</td>
-        <td valign="top" width="64">라</td>
-        <td valign="top" width="64">러</td>
-        <td valign="top" width="64">르</td>
-        <td valign="top" width="64">루</td>
-        <td valign="top" width="64">로</td>
-        </tr>
-        </tbody>
-        </table>
-        </div>
-        <p>When looking at this table, it is important to note how each vowel pairs up with a consonant. I am showing you this table (and the ones that follow) to allow you to get familiar with the structure of a Korean syllable. Note that these constructions are not necessarily words, and that it usually takes more than one syllable to make a word.</p>
-        <p>The following nine tables are similar to the table presented above. However, in each table, one specific consonant is being used as the final consonant of the syllable. Again, I am showing you these tables to allow you to familiarize yourself with the variety of constructions that&nbsp;<em>could&nbsp;</em>be made with the letters you learned today. You should specifically look for the patterns that exist for every letter. You do not, by any means, need to memorize any of these constructions &ndash; as that will come naturally as you progress through your study of Korean.</p>
-        <p>Also note that while some of the syllables shown in the tables below are very common, some you will never find in any word in Korean. Notice that some of the syllables in the table are colored gray. You will probably never find that syllable in any Korean word, ever. The one&rsquo;s in black are syllables that you will see within words. The colored/underlined syllables are actually words on their own. If you hover your mouse over these words, you will see the translation in English. I have done this only for convenience, and you do not need to memorize any of this at this point.</p>
-        
-        <p>Final Consonant: ㅂ</p>
-        <div class="table-wrapper">
-        <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td valign="top" width="64">&nbsp;</td>
-        <td valign="top" width="64">ㅣ</td>
-        <td valign="top" width="64">ㅏ</td>
-        <td valign="top" width="64">ㅓ</td>
-        <td valign="top" width="64">ㅡ</td>
-        <td valign="top" width="64">ㅜ</td>
-        <td valign="top" width="64">ㅗ</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅂ</td>
-        <td valign="top" width="64">빕</td>
-        <td valign="top" width="64"><a title="Rice" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">밥</a></td>
-        <td valign="top" width="64"><a title="Law" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">법</a></td>
-        <td valign="top" width="64">븝</td>
-        <td valign="top" width="64">붑</td>
-        <td valign="top" width="64">봅</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅈ</td>
-        <td valign="top" width="64"><a title="House" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">집</a></td>
-        <td valign="top" width="64">잡</td>
-        <td valign="top" width="64">접</td>
-        <td valign="top" width="64">즙</td>
-        <td valign="top" width="64">줍</td>
-        <td valign="top" width="64">좁</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄷ</td>
-        <td valign="top" width="64">딥</td>
-        <td valign="top" width="64">답</td>
-        <td valign="top" width="64">덥</td>
-        <td valign="top" width="64">듭</td>
-        <td valign="top" width="64">둡</td>
-        <td valign="top" width="64">돕</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄱ</td>
-        <td valign="top" width="64">깁</td>
-        <td valign="top" width="64">갑</td>
-        <td valign="top" width="64"><a title="Fear" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">겁</a></td>
-        <td valign="top" width="64">급</td>
-        <td valign="top" width="64">굽</td>
-        <td valign="top" width="64">곱</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅅ</td>
-        <td valign="top" width="64"><a title="Ten" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">십</a></td>
-        <td valign="top" width="64">삽</td>
-        <td valign="top" width="64">섭</td>
-        <td valign="top" width="64">습</td>
-        <td valign="top" width="64">숩</td>
-        <td valign="top" width="64">솝</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅁ</td>
-        <td valign="top" width="64">밉</td>
-        <td valign="top" width="64">맙</td>
-        <td valign="top" width="64">멉</td>
-        <td valign="top" width="64">믑</td>
-        <td valign="top" width="64">뭅</td>
-        <td valign="top" width="64">몹</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄴ</td>
-        <td valign="top" width="64">닙</td>
-        <td valign="top" width="64">납</td>
-        <td valign="top" width="64">넙</td>
-        <td valign="top" width="64">늡</td>
-        <td valign="top" width="64">눕</td>
-        <td valign="top" width="64">놉</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅎ</td>
-        <td valign="top" width="64">힙</td>
-        <td valign="top" width="64">합</td>
-        <td valign="top" width="64">헙</td>
-        <td valign="top" width="64">흡</td>
-        <td valign="top" width="64">훕</td>
-        <td valign="top" width="64">홉</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄹ</td>
-        <td valign="top" width="64">립</td>
-        <td valign="top" width="64">랍</td>
-        <td valign="top" width="64">럽</td>
-        <td valign="top" width="64">릅</td>
-        <td valign="top" width="64">룹</td>
-        <td valign="top" width="64">롭</td>
-        </tr>
-        </tbody>
-        </table>
-        </div>
-        <p>&nbsp;</p>
-        <p>Final Consonant: ㅈ</p>
-        <div class="table-wrapper">
-        <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td valign="top" width="64">&nbsp;</td>
-        <td valign="top" width="64">ㅣ</td>
-        <td valign="top" width="64">ㅏ</td>
-        <td valign="top" width="64">ㅓ</td>
-        <td valign="top" width="64">ㅡ</td>
-        <td valign="top" width="64">ㅜ</td>
-        <td valign="top" width="64">ㅗ</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅂ</td>
-        <td valign="top" width="64"><a title="Loan" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">빚</a></td>
-        <td valign="top" width="64">밪</td>
-        <td valign="top" width="64"><a title="Cherry" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">벚</a></td>
-        <td valign="top" width="64">븢</td>
-        <td valign="top" width="64">붖</td>
-        <td valign="top" width="64">봊</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅈ</td>
-        <td valign="top" width="64">짖</td>
-        <td valign="top" width="64">잦</td>
-        <td valign="top" width="64">젖</td>
-        <td valign="top" width="64">즞</td>
-        <td valign="top" width="64">줒</td>
-        <td valign="top" width="64">좆</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄷ</td>
-        <td valign="top" width="64">딪</td>
-        <td valign="top" width="64">닺</td>
-        <td valign="top" width="64">덪</td>
-        <td valign="top" width="64">듲</td>
-        <td valign="top" width="64">둦</td>
-        <td valign="top" width="64">돚</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄱ</td>
-        <td valign="top" width="64">깆</td>
-        <td valign="top" width="64">갖</td>
-        <td valign="top" width="64">겆</td>
-        <td valign="top" width="64">긎</td>
-        <td valign="top" width="64">궂</td>
-        <td valign="top" width="64">곶</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅅ</td>
-        <td valign="top" width="64">싲</td>
-        <td valign="top" width="64">샂</td>
-        <td valign="top" width="64">섲</td>
-        <td valign="top" width="64">슺</td>
-        <td valign="top" width="64">숮</td>
-        <td valign="top" width="64">솢</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅁ</td>
-        <td valign="top" width="64">밎</td>
-        <td valign="top" width="64">맞</td>
-        <td valign="top" width="64">멎</td>
-        <td valign="top" width="64">믖</td>
-        <td valign="top" width="64">뭊</td>
-        <td valign="top" width="64">몾</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄴ</td>
-        <td valign="top" width="64">닞</td>
-        <td valign="top" width="64"><a title="The daytime" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">낮</a></td>
-        <td valign="top" width="64">넞</td>
-        <td valign="top" width="64">늦</td>
-        <td valign="top" width="64">눚</td>
-        <td valign="top" width="64">놎</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅎ</td>
-        <td valign="top" width="64">힞</td>
-        <td valign="top" width="64">핮</td>
-        <td valign="top" width="64">헞</td>
-        <td valign="top" width="64">흦</td>
-        <td valign="top" width="64">훚</td>
-        <td valign="top" width="64">홎</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄹ</td>
-        <td valign="top" width="64">맂</td>
-        <td valign="top" width="64">랒</td>
-        <td valign="top" width="64">렂</td>
-        <td valign="top" width="64">릊</td>
-        <td valign="top" width="64">룾</td>
-        <td valign="top" width="64">롲</td>
-        </tr>
-        </tbody>
-        </table>
-        </div>
-        <p>&nbsp;</p>
-        <p>Final Consonant: ㄷ</p>
-        <div class="table-wrapper">
-        <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td valign="top" width="64">&nbsp;</td>
-        <td valign="top" width="64">ㅣ</td>
-        <td valign="top" width="64">ㅏ</td>
-        <td valign="top" width="64">ㅓ</td>
-        <td valign="top" width="64">ㅡ</td>
-        <td valign="top" width="64">ㅜ</td>
-        <td valign="top" width="64">ㅗ</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅂ</td>
-        <td valign="top" width="64">빋</td>
-        <td valign="top" width="64">받</td>
-        <td valign="top" width="64">벋</td>
-        <td valign="top" width="64">븓</td>
-        <td valign="top" width="64">붇</td>
-        <td valign="top" width="64">볻</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅈ</td>
-        <td valign="top" width="64">짇</td>
-        <td valign="top" width="64">잗</td>
-        <td valign="top" width="64">젇</td>
-        <td valign="top" width="64">즏</td>
-        <td valign="top" width="64">줃</td>
-        <td valign="top" width="64">졷</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄷ</td>
-        <td valign="top" width="64">딛</td>
-        <td valign="top" width="64">닫</td>
-        <td valign="top" width="64">덛</td>
-        <td valign="top" width="64">듣</td>
-        <td valign="top" width="64">둗</td>
-        <td valign="top" width="64">돋</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄱ</td>
-        <td valign="top" width="64">긷</td>
-        <td valign="top" width="64">갇</td>
-        <td valign="top" width="64">걷</td>
-        <td valign="top" width="64">귿</td>
-        <td valign="top" width="64">굳</td>
-        <td valign="top" width="64"><a title="Soon" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">곧</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅅ</td>
-        <td valign="top" width="64">싣</td>
-        <td valign="top" width="64">삳</td>
-        <td valign="top" width="64">섣</td>
-        <td valign="top" width="64">슫</td>
-        <td valign="top" width="64">숟</td>
-        <td valign="top" width="64">솓</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅁ</td>
-        <td valign="top" width="64">믿</td>
-        <td valign="top" width="64">맏</td>
-        <td valign="top" width="64">먿</td>
-        <td valign="top" width="64">믇</td>
-        <td valign="top" width="64">묻</td>
-        <td valign="top" width="64">몯</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄴ</td>
-        <td valign="top" width="64">닏</td>
-        <td valign="top" width="64">낟</td>
-        <td valign="top" width="64">넏</td>
-        <td valign="top" width="64">늗</td>
-        <td valign="top" width="64">눋</td>
-        <td valign="top" width="64">녿</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅎ</td>
-        <td valign="top" width="64">힏</td>
-        <td valign="top" width="64">핟</td>
-        <td valign="top" width="64">헏</td>
-        <td valign="top" width="64">흗</td>
-        <td valign="top" width="64">훋</td>
-        <td valign="top" width="64">혿</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄹ</td>
-        <td valign="top" width="64">릳</td>
-        <td valign="top" width="64">랃</td>
-        <td valign="top" width="64">럳</td>
-        <td valign="top" width="64">륻</td>
-        <td valign="top" width="64">룯</td>
-        <td valign="top" width="64">롣</td>
-        </tr>
-        </tbody>
-        </table>
-        </div>
-        <p>&nbsp;</p>
-        <p>Final Consonant: ㄱ</p>
-        <div class="table-wrapper">
-        <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td valign="top" width="64">&nbsp;</td>
-        <td valign="top" width="64">ㅣ</td>
-        <td valign="top" width="64">ㅏ</td>
-        <td valign="top" width="64">ㅓ</td>
-        <td valign="top" width="64">ㅡ</td>
-        <td valign="top" width="64">ㅜ</td>
-        <td valign="top" width="64">ㅗ</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅂ</td>
-        <td valign="top" width="64">빅</td>
-        <td valign="top" width="64">박</td>
-        <td valign="top" width="64">벅</td>
-        <td valign="top" width="64">븍</td>
-        <td valign="top" width="64"><a title="North" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">북</a></td>
-        <td valign="top" width="64">복</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅈ</td>
-        <td valign="top" width="64">직</td>
-        <td valign="top" width="64">작</td>
-        <td valign="top" width="64">적</td>
-        <td valign="top" width="64">즉</td>
-        <td valign="top" width="64">죽</td>
-        <td valign="top" width="64">족</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄷ</td>
-        <td valign="top" width="64">딕</td>
-        <td valign="top" width="64">닥</td>
-        <td valign="top" width="64">덕</td>
-        <td valign="top" width="64">득</td>
-        <td valign="top" width="64">둑</td>
-        <td valign="top" width="64">독</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄱ</td>
-        <td valign="top" width="64">긱</td>
-        <td valign="top" width="64">각</td>
-        <td valign="top" width="64">걱</td>
-        <td valign="top" width="64"><a title="Pole (as in North Pole)" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">극</a></td>
-        <td valign="top" width="64"><a title="Soup, Country" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">국</a></td>
-        <td valign="top" width="64"><a title="A piece of music" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">곡</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅅ</td>
-        <td valign="top" width="64">식</td>
-        <td valign="top" width="64">삭</td>
-        <td valign="top" width="64">석</td>
-        <td valign="top" width="64">슥</td>
-        <td valign="top" width="64">숙</td>
-        <td valign="top" width="64"><a title="Inside something" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">속</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅁ</td>
-        <td valign="top" width="64">믹</td>
-        <td valign="top" width="64">막</td>
-        <td valign="top" width="64">먹</td>
-        <td valign="top" width="64">믁</td>
-        <td valign="top" width="64">묵</td>
-        <td valign="top" width="64"><a title="Neck, Throat" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">목</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄴ</td>
-        <td valign="top" width="64">닉</td>
-        <td valign="top" width="64">낙</td>
-        <td valign="top" width="64">넉</td>
-        <td valign="top" width="64">늑</td>
-        <td valign="top" width="64">눅</td>
-        <td valign="top" width="64">녹</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅎ</td>
-        <td valign="top" width="64">힉</td>
-        <td valign="top" width="64">학</td>
-        <td valign="top" width="64">헉</td>
-        <td valign="top" width="64">흑</td>
-        <td valign="top" width="64">훅</td>
-        <td valign="top" width="64">혹</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄹ</td>
-        <td valign="top" width="64">릭</td>
-        <td valign="top" width="64">락</td>
-        <td valign="top" width="64">럭</td>
-        <td valign="top" width="64">륵</td>
-        <td valign="top" width="64">룩</td>
-        <td valign="top" width="64">록</td>
-        </tr>
-        </tbody>
-        </table>
-        </div>
-        <p>&nbsp;</p>
-        <p>Final Consonant: ㅅ</p>
-        <div class="table-wrapper">
-        <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td valign="top" width="64">&nbsp;</td>
-        <td valign="top" width="64">ㅣ</td>
-        <td valign="top" width="64">ㅏ</td>
-        <td valign="top" width="64">ㅓ</td>
-        <td valign="top" width="64">ㅡ</td>
-        <td valign="top" width="64">ㅜ</td>
-        <td valign="top" width="64">ㅗ</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅂ</td>
-        <td valign="top" width="64"><a title="Comb" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">빗</a></td>
-        <td valign="top" width="64">밧</td>
-        <td valign="top" width="64">벗</td>
-        <td valign="top" width="64">븟</td>
-        <td valign="top" width="64">붓</td>
-        <td valign="top" width="64">봇</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅈ</td>
-        <td valign="top" width="64">짓</td>
-        <td valign="top" width="64">잣</td>
-        <td valign="top" width="64">젓</td>
-        <td valign="top" width="64">즛</td>
-        <td valign="top" width="64">줏</td>
-        <td valign="top" width="64">좃</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄷ</td>
-        <td valign="top" width="64">딧</td>
-        <td valign="top" width="64">닷</td>
-        <td valign="top" width="64">덧</td>
-        <td valign="top" width="64">듯</td>
-        <td valign="top" width="64">둣</td>
-        <td valign="top" width="64">돗</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄱ</td>
-        <td valign="top" width="64">깃</td>
-        <td valign="top" width="64">갓</td>
-        <td valign="top" width="64"><a title="Thing" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">것</a></td>
-        <td valign="top" width="64">긋</td>
-        <td valign="top" width="64">굿</td>
-        <td valign="top" width="64"><a title="Place" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">곳</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅅ</td>
-        <td valign="top" width="64">싯</td>
-        <td valign="top" width="64">삿</td>
-        <td valign="top" width="64">섯</td>
-        <td valign="top" width="64">슷</td>
-        <td valign="top" width="64">숫</td>
-        <td valign="top" width="64">솟</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅁ</td>
-        <td valign="top" width="64">밋</td>
-        <td valign="top" width="64"><a title="Taste" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">맛</a></td>
-        <td valign="top" width="64"><a title="Stylishness" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">멋</a></td>
-        <td valign="top" width="64">믓</td>
-        <td valign="top" width="64">뭇</td>
-        <td valign="top" width="64"><a title="To do something poorly" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">못</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄴ</td>
-        <td valign="top" width="64">닛</td>
-        <td valign="top" width="64">낫</td>
-        <td valign="top" width="64">넛</td>
-        <td valign="top" width="64">늣</td>
-        <td valign="top" width="64">눗</td>
-        <td valign="top" width="64">놋</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅎ</td>
-        <td valign="top" width="64">힛</td>
-        <td valign="top" width="64">핫</td>
-        <td valign="top" width="64">헛</td>
-        <td valign="top" width="64">흣</td>
-        <td valign="top" width="64">훗</td>
-        <td valign="top" width="64">홋</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄹ</td>
-        <td valign="top" width="64">릿</td>
-        <td valign="top" width="64">랏</td>
-        <td valign="top" width="64">럿</td>
-        <td valign="top" width="64">릇</td>
-        <td valign="top" width="64">룻</td>
-        <td valign="top" width="64">롯</td>
-        </tr>
-        </tbody>
-        </table>
-        </div>
-        <p>&nbsp;</p>
-        <p>Final Consonant: ㅁ</p>
-        <div class="table-wrapper">
-        <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td valign="top" width="64">&nbsp;</td>
-        <td valign="top" width="64">ㅣ</td>
-        <td valign="top" width="64">ㅏ</td>
-        <td valign="top" width="64">ㅓ</td>
-        <td valign="top" width="64">ㅡ</td>
-        <td valign="top" width="64">ㅜ</td>
-        <td valign="top" width="64">ㅗ</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅂ</td>
-        <td valign="top" width="64">빔</td>
-        <td valign="top" width="64"><a title="Night" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">밤</a></td>
-        <td valign="top" width="64">범</td>
-        <td valign="top" width="64">븜</td>
-        <td valign="top" width="64">붐</td>
-        <td valign="top" width="64"><a title="Spring" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">봄</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅈ</td>
-        <td valign="top" width="64">짐</td>
-        <td valign="top" width="64"><a title="Sleep" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">잠</a></td>
-        <td valign="top" width="64"><a title="Point, Dot" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">점</a></td>
-        <td valign="top" width="64">즘</td>
-        <td valign="top" width="64">줌</td>
-        <td valign="top" width="64">좀</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄷ</td>
-        <td valign="top" width="64">딤</td>
-        <td valign="top" width="64">담</td>
-        <td valign="top" width="64">덤</td>
-        <td valign="top" width="64">듬</td>
-        <td valign="top" width="64">둠</td>
-        <td valign="top" width="64">돔</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄱ</td>
-        <td valign="top" width="64"><a title="Seaweed, Korean last name" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">김</a></td>
-        <td valign="top" width="64"><a title="A feeling, A persimmon" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">감</a></td>
-        <td valign="top" width="64">검</td>
-        <td valign="top" width="64"><a title="Gold" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">금</a></td>
-        <td valign="top" width="64">굼</td>
-        <td valign="top" width="64">곰</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅅ</td>
-        <td valign="top" width="64">심</td>
-        <td valign="top" width="64"><a title="Three" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">삼</a></td>
-        <td valign="top" width="64">섬</td>
-        <td valign="top" width="64">슴</td>
-        <td valign="top" width="64">숨</td>
-        <td valign="top" width="64">솜</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅁ</td>
-        <td valign="top" width="64">밈</td>
-        <td valign="top" width="64">맘</td>
-        <td valign="top" width="64">멈</td>
-        <td valign="top" width="64">믐</td>
-        <td valign="top" width="64">뭄</td>
-        <td valign="top" width="64"><a title="Body" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">몸</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄴ</td>
-        <td valign="top" width="64">님</td>
-        <td valign="top" width="64">남</td>
-        <td valign="top" width="64">넘</td>
-        <td valign="top" width="64">늠</td>
-        <td valign="top" width="64">눔</td>
-        <td valign="top" width="64"><a title="A slang way to say &quot;guy&quot;" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">놈</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅎ</td>
-        <td valign="top" width="64"><a title="Power" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">힘</a></td>
-        <td valign="top" width="64">함</td>
-        <td valign="top" width="64">험</td>
-        <td valign="top" width="64">흠</td>
-        <td valign="top" width="64">훔</td>
-        <td valign="top" width="64">홈</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄹ</td>
-        <td valign="top" width="64">림</td>
-        <td valign="top" width="64">람</td>
-        <td valign="top" width="64">럼</td>
-        <td valign="top" width="64">름</td>
-        <td valign="top" width="64">룸</td>
-        <td valign="top" width="64">롬</td>
-        </tr>
-        </tbody>
-        </table>
-        </div>
-        <p>&nbsp;</p>
-        <p>Final Consonant: ㄴ</p>
-        <div class="table-wrapper">
-        <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td valign="top" width="64">&nbsp;</td>
-        <td valign="top" width="64">ㅣ</td>
-        <td valign="top" width="64">ㅏ</td>
-        <td valign="top" width="64">ㅓ</td>
-        <td valign="top" width="64">ㅡ</td>
-        <td valign="top" width="64">ㅜ</td>
-        <td valign="top" width="64">ㅗ</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅂ</td>
-        <td valign="top" width="64">빈</td>
-        <td valign="top" width="64"><a title="Half" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">반</a></td>
-        <td valign="top" width="64"><a title="A counter for the &quot;number of times&quot; something happens" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">번</a></td>
-        <td valign="top" width="64">븐</td>
-        <td valign="top" width="64"><a title="Minute" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">분</a></td>
-        <td valign="top" width="64">본</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅈ</td>
-        <td valign="top" width="64">진</td>
-        <td valign="top" width="64"><a title="A counter for a &quot;glass&quot; of something" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">잔</a></td>
-        <td valign="top" width="64"><a title="Before" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">전</a></td>
-        <td valign="top" width="64">즌</td>
-        <td valign="top" width="64">준</td>
-        <td valign="top" width="64">존</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄷ</td>
-        <td valign="top" width="64">딘</td>
-        <td valign="top" width="64">단</td>
-        <td valign="top" width="64">던</td>
-        <td valign="top" width="64">든</td>
-        <td valign="top" width="64">둔</td>
-        <td valign="top" width="64"><a title="Money" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">돈</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄱ</td>
-        <td valign="top" width="64">긴</td>
-        <td valign="top" width="64">간</td>
-        <td valign="top" width="64">건</td>
-        <td valign="top" width="64">근</td>
-        <td valign="top" width="64">군</td>
-        <td valign="top" width="64">곤</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅅ</td>
-        <td valign="top" width="64"><a title="God" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">신</a></td>
-        <td valign="top" width="64"><a title="Mountain" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">산</a></td>
-        <td valign="top" width="64">선</td>
-        <td valign="top" width="64">슨</td>
-        <td valign="top" width="64">순</td>
-        <td valign="top" width="64"><a title="Hand" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">손</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅁ</td>
-        <td valign="top" width="64">민</td>
-        <td valign="top" width="64"><a title="Only" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">만</a></td>
-        <td valign="top" width="64">먼</td>
-        <td valign="top" width="64">믄</td>
-        <td valign="top" width="64"><a title="Door" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">문</a></td>
-        <td valign="top" width="64">몬</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄴ</td>
-        <td valign="top" width="64">닌</td>
-        <td valign="top" width="64">난</td>
-        <td valign="top" width="64">넌</td>
-        <td valign="top" width="64">는</td>
-        <td valign="top" width="64"><a title="Eye(s)" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">눈</a></td>
-        <td valign="top" width="64"><a title="Rice paddy" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">논</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅎ</td>
-        <td valign="top" width="64">힌</td>
-        <td valign="top" width="64">한</td>
-        <td valign="top" width="64">헌</td>
-        <td valign="top" width="64">흔</td>
-        <td valign="top" width="64">훈</td>
-        <td valign="top" width="64">혼</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄹ</td>
-        <td valign="top" width="64">린</td>
-        <td valign="top" width="64">란</td>
-        <td valign="top" width="64">런</td>
-        <td valign="top" width="64">른</td>
-        <td valign="top" width="64">룬</td>
-        <td valign="top" width="64">론</td>
-        </tr>
-        </tbody>
-        </table>
-        </div>
-        <p>&nbsp;</p>
-        <p>Final Consonant: ㅎ</p>
-        <div class="table-wrapper">
-        <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td valign="top" width="64">&nbsp;</td>
-        <td valign="top" width="64">ㅣ</td>
-        <td valign="top" width="64">ㅏ</td>
-        <td valign="top" width="64">ㅓ</td>
-        <td valign="top" width="64">ㅡ</td>
-        <td valign="top" width="64">ㅜ</td>
-        <td valign="top" width="64">ㅗ</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅂ</td>
-        <td valign="top" width="64">빟</td>
-        <td valign="top" width="64">밯</td>
-        <td valign="top" width="64">벟</td>
-        <td valign="top" width="64">븧</td>
-        <td valign="top" width="64">붛</td>
-        <td valign="top" width="64">봏</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅈ</td>
-        <td valign="top" width="64">짛</td>
-        <td valign="top" width="64">잫</td>
-        <td valign="top" width="64">젛</td>
-        <td valign="top" width="64">즣</td>
-        <td valign="top" width="64">줗</td>
-        <td valign="top" width="64">좋</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄷ</td>
-        <td valign="top" width="64">딯</td>
-        <td valign="top" width="64">닿</td>
-        <td valign="top" width="64">덯</td>
-        <td valign="top" width="64">듷</td>
-        <td valign="top" width="64">둫</td>
-        <td valign="top" width="64">돟</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄱ</td>
-        <td valign="top" width="64">깋</td>
-        <td valign="top" width="64">갛</td>
-        <td valign="top" width="64">겋</td>
-        <td valign="top" width="64">긓</td>
-        <td valign="top" width="64">궇</td>
-        <td valign="top" width="64">곻</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅅ</td>
-        <td valign="top" width="64">싷</td>
-        <td valign="top" width="64">샇</td>
-        <td valign="top" width="64">섷</td>
-        <td valign="top" width="64">슿</td>
-        <td valign="top" width="64">숳</td>
-        <td valign="top" width="64">솧</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅁ</td>
-        <td valign="top" width="64">밓</td>
-        <td valign="top" width="64">맣</td>
-        <td valign="top" width="64">멓</td>
-        <td valign="top" width="64">믛</td>
-        <td valign="top" width="64">뭏</td>
-        <td valign="top" width="64">뫃</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄴ</td>
-        <td valign="top" width="64">닣</td>
-        <td valign="top" width="64">낳</td>
-        <td valign="top" width="64">넣</td>
-        <td valign="top" width="64">늫</td>
-        <td valign="top" width="64">눟</td>
-        <td valign="top" width="64">놓</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅎ</td>
-        <td valign="top" width="64">힣</td>
-        <td valign="top" width="64">핳</td>
-        <td valign="top" width="64">헣</td>
-        <td valign="top" width="64">흫</td>
-        <td valign="top" width="64">훟</td>
-        <td valign="top" width="64">홓</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄹ</td>
-        <td valign="top" width="64">맇</td>
-        <td valign="top" width="64">랗</td>
-        <td valign="top" width="64">렇</td>
-        <td valign="top" width="64">릏</td>
-        <td valign="top" width="64">뤃</td>
-        <td valign="top" width="64">롷</td>
-        </tr>
-        </tbody>
-        </table>
-        </div>
-        <p>&nbsp;</p>
-        <p>Final Consonant: ㄹ</p>
-        <div class="table-wrapper">
-        <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-        <tr>
-        <td valign="top" width="64">&nbsp;</td>
-        <td valign="top" width="64">ㅣ</td>
-        <td valign="top" width="64">ㅏ</td>
-        <td valign="top" width="64">ㅓ</td>
-        <td valign="top" width="64">ㅡ</td>
-        <td valign="top" width="64">ㅜ</td>
-        <td valign="top" width="64">ㅗ</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅂ</td>
-        <td valign="top" width="64">빌</td>
-        <td valign="top" width="64"><a title="Foot" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">발</a></td>
-        <td valign="top" width="64">벌</td>
-        <td valign="top" width="64">블</td>
-        <td valign="top" width="64"><a title="Fire" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">불</a></td>
-        <td valign="top" width="64">볼</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅈ</td>
-        <td valign="top" width="64">질</td>
-        <td valign="top" width="64"><a title="To do something well" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">잘</a></td>
-        <td valign="top" width="64"><a title="Buddhist Temple" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">절</a></td>
-        <td valign="top" width="64">즐</td>
-        <td valign="top" width="64"><a title="A line" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">줄</a></td>
-        <td valign="top" width="64">졸</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄷ</td>
-        <td valign="top" width="64">딜</td>
-        <td valign="top" width="64"><a title="Month" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">달</a></td>
-        <td valign="top" width="64">덜</td>
-        <td valign="top" width="64">들</td>
-        <td valign="top" width="64">둘</td>
-        <td valign="top" width="64"><a title="A rock" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">돌</a></td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄱ</td>
-        <td valign="top" width="64"><a title="A road" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">길</a></td>
-        <td valign="top" width="64">갈</td>
-        <td valign="top" width="64">걸</td>
-        <td valign="top" width="64"><a title="Some form of writing" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">글</a></td>
-        <td valign="top" width="64">굴</td>
-        <td valign="top" width="64">골</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅅ</td>
-        <td valign="top" width="64"><a title="A room" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">실</a></td>
-        <td valign="top" width="64"><a title="One's age" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">살</a></td>
-        <td valign="top" width="64">설</td>
-        <td valign="top" width="64">슬</td>
-        <td valign="top" width="64"><a title="Alcohol" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">술</a></td>
-        <td valign="top" width="64">솔</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅁ</td>
-        <td valign="top" width="64"><a title="Wheat" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">밀</a></td>
-        <td valign="top" width="64"><a title="Speaking, speach" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">말</a></td>
-        <td valign="top" width="64">멀</td>
-        <td valign="top" width="64">믈</td>
-        <td valign="top" width="64"><a title="Water" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">물</a></td>
-        <td valign="top" width="64">몰</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄴ</td>
-        <td valign="top" width="64">닐</td>
-        <td valign="top" width="64"><a title="Day" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">날</a></td>
-        <td valign="top" width="64">널</td>
-        <td valign="top" width="64"><a title="Always" href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">늘</a></td>
-        <td valign="top" width="64">눌</td>
-        <td valign="top" width="64">놀</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㅎ</td>
-        <td valign="top" width="64">힐</td>
-        <td valign="top" width="64">할</td>
-        <td valign="top" width="64">헐</td>
-        <td valign="top" width="64">흘</td>
-        <td valign="top" width="64">훌</td>
-        <td valign="top" width="64">홀</td>
-        </tr>
-        <tr>
-        <td valign="top" width="64">ㄹ</td>
-        <td valign="top" width="64">릴</td>
-        <td valign="top" width="64">랄</td>
-        <td valign="top" width="64">럴</td>
-        <td valign="top" width="64">를</td>
-        <td valign="top" width="64">룰</td>
-        <td valign="top" width="64">롤</td>
-        </tr>
-        </tbody>
-        </table>
-        </div>
-        <p>That&rsquo;s it for this lesson! Hopefully you aren&rsquo;t too confused! Before you move on, you should be able to:</p>
-        <ol start="1">
-        <li>Recognize the vowels and consonants that were taught in this lesson</li>
-        <li>Be able to make syllables by putting together formations of vowels and consonants</li>
-        </ol>`,
+        lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+<p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+<p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+<p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+<h3><a name="vocab"></a></h3>
+<p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+<p>&nbsp;</p>
+<p>Vocabulary</p>
+<p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+<p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+<p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+<p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+<p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+<div id="target-id67728f3e1df17" class="collapseomatic_content ">
+<p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+<p>Notes: The formal name of the country is 대한민국</p>
+<p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+</div>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+<p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+<p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+<p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+<p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+<p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+<h3><a name="greet"></a></h3>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Greeting Words</p>
+<p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+<p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+<p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+<p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+<p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+<p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+<p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+<p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+<h3><a name="swo"></a></h3>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Sentence Word Order<strong><br /></strong></p>
+<p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+<p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+<p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+<p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+<p>In English, the subject always comes before the verb.</p>
+<p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+<p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+<p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+<p>I slept<br />I ate<br />He died</p>
+<p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+<p>I sleep you<br />I go you</p>
+<p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+<p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+<p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+<p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+<p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+<p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+<p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+<p>나, used in informal situations, and<br />저, used in formal situations.</p>
+<p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+<p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+<p align="center">Korean Particles (~는/은 and ~를/을)</p>
+<p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+<p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+<p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+<p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+<p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+<p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+<p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+<p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+<p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+<p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+<p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+<p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+<p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+<p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+<p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+<h3><a name="tobe"></a></h3>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center">To be: 이다</p>
+<p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+<p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+<p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+<p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+<p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+<p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+<p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+<p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+<p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+<p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+<p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+<p>So, 이다 is not used in these types of sentences:</p>
+<p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+<p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+<p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+<p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+<p>[noun은/는] [another noun][이다]</p>
+<p>For example:<br />I는 man이다 = I am a man</p>
+<p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+<p>나 = I<br />남자 = man</p>
+<p>The Korean sentence would look like this:</p>
+<p>나는 남자이다 = I am a man</p>
+<p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+<p>나는 남자 이다</p>
+<p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+<p>나는 남자를 이다</p>
+<hr />
+<p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+<p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+<p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+<hr />
+<p>Other examples of 이다 in use:</p>
+<p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+<p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+<p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+<p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+<p>You can substitute any noun into the blank space to make these sentences.</p>
+<p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+<p>This and That (이/그/저)</p>
+<p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+<p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+<p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+<p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+<p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+<p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+<p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+<p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+<p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+<p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+<p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+<p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+<p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+<p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+<p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+<p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+<p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+<p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+<p>That person<br />That man<br />That woman</p>
+<p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+<p>I like that</p>
+<p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+<p>Therefore, the sentence could just as easily be said as:</p>
+<p>I like that&nbsp;<em>thing</em></p>
+<p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+<p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+<p>I like this<br />I like this thing</p>
+<p>I like that<br />I like that thing</p>
+<p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+<h3><a name="thisthatbe"></a></h3>
+<p align="center">Using This/That with 이다</p>
+<p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+<p>That person is a doctor</p>
+<p>We can start by putting those words into the Korean structure:</p>
+<p>That person는 doctor is</p>
+<p>And then changing the English words to the appropriate Korean words:</p>
+<p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+<p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+<p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+<p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+<p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+<p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+<p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+<p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+<p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+<p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+<p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
       },
       {
         name: "Lessons 9 – 16",
         link: "",
+        isMenu: true,
+        menu: [
+          {
+            image: require("./assets/image/unit1/menu/Lesson-9-16-pic.png"),
+            html: `<p><a href="https://www.howtostudykorean.com/?page_id=502">Lesson 9</a>: In this lesson, you will learn how to conjugate 이다 which is conjugated differently than other verbs and adjectives. You will learn about how to conjugate 이다 in the four honorific formalities that you already know. In addition, you will learn how to use 이다 to conjugate verbs/adjectives to the future by creating endings like: 먹을 것이다.<br />Also available in&nbsp;<a title="В этом уроке вы узнаете, как спрягается 이다, а спрягается он иначе, чем остальные глаголы и прилагательные. Вы изучите его спряжение во всех известных вам степенях вежливости. Также вы узнаете, как образовать будущее время любых глаголов и прилагательных с помощью 이다 с получением предложения вида: 먹을 것이다. = ." href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/russian/">Русский</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/spanish/">Espa&ntilde;ol</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/hungarian/"><span lang="bg" title="Bulgarian language text">Magyar</span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/italian-2/"><span lang="bg" title="Bulgarian language text">Italiano</span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/kurdish/"><span lang="bg" title="Bulgarian language text">کوردی</span></a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/arabic/"><span lang="bg" title="Bulgarian language text">العربية</span></a></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+          {
+            image: require("./assets/image/unit1/menu/Lesson1pic.png"),
+            html: `<p><a title="Unit 1: Lesson 1" href="https://www.howtostudykorean.com/?page_id=279">Lesson 1:</a>&nbsp;In this lesson, you will learn the basic structure in Korean sentences and how to create sentences using the word 이다 (to be). Using 이다, you will learn how to create sentences like &ldquo;that man is a teacher&rdquo; and &ldquo;this thing is a pen.&rdquo; In addition, some essential grammar notes will be presented to get you started correctly in your path to learn Korean!<br />Also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span></a></span></p>`,
+            name: "Lessons 1",
+            lessionContent: `<p><a href="https://www.howtostudykorean.com/workbooks/">Click here for a Workbook to go along with this lesson.</a></p>
+            <p>This Lesson is also available in&nbsp;<a title="Lecci&oacute;n 1: Oraciones B&aacute;sicas Coreanas" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/leccion-1-oraciones-basicas-coreanas/">Espa&ntilde;ol</a>,&nbsp;<a title="Урок 1: Простые корейские предложения" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/russian/">Русский,</a>&nbsp;<a title="Le&ccedil;on 1 : Phrases de base en cor&eacute;en" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/french/">Fran&ccedil;ais</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/chinese/">中文</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/german/">Deutsch</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/portuguese/">Portugu&ecirc;s</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/dutch/">Nederlands</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>.&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/czech/">Če&scaron;tina</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/canadian/">Canadian English</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/bulgarian/"><span lang="bg" title="Bulgarian language text">български</span></a><span lang="bg" title="Bulgarian language text">,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/italian/">Italiano</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hungarian/">Magyar</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/finnish/">Suomi</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/ukranian/"><span title="Ukrainian-language text"><span lang="uk">українська</span></span></a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/kurdish/">کوردی</a>&nbsp;,<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/arabic/">العربية</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/hebrew/"><span class="script-hebrew" dir="rtl">עִבְרִית</span>&lrm;</a></span></p>
+            <p>The following videos are available to reinforce the concepts in this lesson:<br /><a href="https://youtu.be/ANGhnFQnOWE" target="_blank" rel="noopener noreferrer">Sentence Practice (1)</a>,&nbsp;<a href="https://youtu.be/aqC60eD7gy8" target="_blank" rel="noopener noreferrer">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/MmoEsxenPEg">Dictation (1)</a>,&nbsp;<a href="https://youtu.be/uZxDciXYO3Y">(2)</a>&nbsp;|&nbsp;<a href="https://youtu.be/sjsSQwTgX4A" target="_blank" rel="noopener noreferrer">Reading Practice</a>&nbsp;|&nbsp;<a href="https://youtu.be/MpVCA3aU8vA" target="_blank" rel="noopener noreferrer">Apply Yourself</a>&nbsp;|&nbsp;<a href="https://youtu.be/wKTaW9_qpyE" target="_blank" rel="noopener">Word Listening</a>&nbsp;|&nbsp;<a href="https://youtu.be/oHTEm_nv09A" target="_blank" rel="noopener noreferrer">Lesson Recap</a></p>
+            <p>Jump to:<br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#vocab">Vocabulary</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#greet">Greeting Words</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#swo">Sentence Word Order</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#kp">Korean Particles</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#tobe">To be: 이다</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthat">That thing/This thing</a><br /><a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-1/#thisthatbe">This thing is a book</a></p>
+            <h3><a name="vocab"></a></h3>
+            <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/08/HowtoStudyKorean-Unit-1-Lesson-1.pdf">Click here for a free PDF of this lesson.</a></p>
+            <p>&nbsp;</p>
+            <p>Vocabulary</p>
+            <p>The vocabulary is separated into nouns, verbs, adjectives and adverbs for the purpose of simplicity.</p>
+            <p>Click on the English word to see information and examples of that word in use (you probably won&rsquo;t be able to understand the grammar within the sentences at this point, but it is good to see as you progress through your learning).</p>
+            <p>A PDF file neatly presenting these words and extra information can be found&nbsp;<a href="https://www.howtostudykorean.com/buyingpdf/vocabulary-examples/">here</a>.</p>
+            <p>Want to give your brain practice at recognizing these words? Try finding the words in this vocabulary list in a&nbsp;<a href="https://www.howtostudykorean.com/wordsearch/">Word Search</a>.</p>
+            <p>Nouns:<br /><button class="play-button" data-src="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson1-1.mp3">한국</a>&nbsp;=&nbsp;<span id="id67728f3e1df17" class="collapseomatic noarrow colomat-close" tabindex="0" title="Korea">Korea</span></p>
+            <div id="target-id67728f3e1df17" class="collapseomatic_content ">
+            <p>Common Usages:<br />한국 사람 = Korean person<br />한국어 = Korean language (For Korean people, Korean language class is called &ldquo;국어 (수업)&rdquo;)<br />한국인 = Korean person<br />한국 역사 = Korean history (in school, Korean history class is usually called &ldquo;한국사 (수업)&rdquo;)<br />한국 문화 = Korean culture<br />한국 경제 = Korean economy<br />한국 전쟁 = the Korean War<br />한국주식시장 = Korean stock market<br />한국어능력시험 = Test of Proficiency in Korean (TOPIK)</p>
+            <p>Notes: The formal name of the country is 대한민국</p>
+            <p>Examples<br />저는 7년 동안&nbsp;<strong>한국</strong>에서 살았어요 = I lived in&nbsp;<strong>Korea</strong>&nbsp;for seven years<br />저는 내년에&nbsp;<strong>한국</strong>에 갈 거예요 = I will go to&nbsp;<strong>Korea</strong>&nbsp;next year<br />저의 어머니는 올해&nbsp;<strong>한국</strong>에 올 것입니다 = My mom will come to&nbsp;<strong>Korea</strong>&nbsp;this year<br />저는 한국어를&nbsp;<strong>한국</strong>에서 배웠어요 = I learned Korean in&nbsp;<strong>Korea<br /></strong>고등학교는&nbsp;<strong>한국</strong>에서 어려워요 = High school is difficult in&nbsp;<strong>Korea<br /></strong>그 집은&nbsp;<strong>한국</strong>에서 지어졌어요 = that house was built in&nbsp;<strong>Korea<br /></strong>저는&nbsp;<strong>한국</strong>에서 살고 있어요 = I live in&nbsp;<strong>Korea</strong></p>
+            </div>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-2.mp3">도시</a>&nbsp;=&nbsp;<span id="id67728f3e1df52" class="collapseomatic noarrow" tabindex="0" title="city">city</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-3.mp3">이름</a>&nbsp;=&nbsp;<span id="id67728f3e1df6e" class="collapseomatic noarrow" tabindex="0" title="name">name</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-4.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1df87" class="collapseomatic noarrow" tabindex="0" title="I, me (formal)">I, me (formal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-5.mp3">나</a>&nbsp;=&nbsp;<span id="id67728f3e1df9f" class="collapseomatic noarrow" tabindex="0" title="I, me (informal)">I, me (informal)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-6.mp3">남자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfb6" class="collapseomatic noarrow" tabindex="0" title="man">man</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-7.mp3">여자</a>&nbsp;=&nbsp;<span id="id67728f3e1dfce" class="collapseomatic noarrow" tabindex="0" title="woman">woman</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-9.mp3">이</a>&nbsp;=&nbsp;<span id="id67728f3e1dfe6" class="collapseomatic noarrow" tabindex="0" title="this">this</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-8.mp3">그</a>&nbsp;=&nbsp;<span id="id67728f3e1dffe" class="collapseomatic noarrow" tabindex="0" title="that">that</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-10.mp3">저</a>&nbsp;=&nbsp;<span id="id67728f3e1e015" class="collapseomatic noarrow" tabindex="0" title="that (when something is far away)">that (when something is far away)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-11.mp3">것</a>&nbsp;=&nbsp;<span id="id67728f3e1e02d" class="collapseomatic noarrow" tabindex="0" title="thing">thing</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v.mp3">이것</a>&nbsp;=&nbsp;<span id="id67728f3e1e045" class="collapseomatic noarrow" tabindex="0" title="this (thing)">this (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v2.mp3">그것</a>&nbsp;=&nbsp;<span id="id67728f3e1e05c" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/Lesson-1-v3.mp3">저것</a>&nbsp;=&nbsp;<span id="id67728f3e1e073" class="collapseomatic noarrow" tabindex="0" title="that (thing)">that (thing)</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-12.mp3">의자</a>&nbsp;=&nbsp;<span id="id67728f3e1e08a" class="collapseomatic noarrow" tabindex="0" title="chair">chair</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-13.mp3">탁자</a>&nbsp;=&nbsp;<span id="id67728f3e1e0a0" class="collapseomatic noarrow" tabindex="0" title="table">table</span></p>
+            <p><button class="play-button">Play</button><a title="저는 선생님이 되고 싶어요 = I want to be a teacher &amp;&amp; 저는 저의 선생님을 항상 봐요 = I always see my teacher" href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-14.mp3">선생님</a>&nbsp;=&nbsp;<span id="id67728f3e1e0b7" class="collapseomatic noarrow" tabindex="0" title="teacher">teacher</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-15.mp3">침대</a>&nbsp;=&nbsp;<span id="id67728f3e1e0d1" class="collapseomatic noarrow" tabindex="0" title="bed">bed</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-16.mp3">집</a>&nbsp;=&nbsp;<span id="id67728f3e1e0e9" class="collapseomatic noarrow" tabindex="0" title="house">house</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-17.mp3">차</a>&nbsp;=&nbsp;<span id="id67728f3e1e100" class="collapseomatic noarrow" tabindex="0" title="car">car</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-18.mp3">사람</a>&nbsp;=&nbsp;<span id="id67728f3e1e117" class="collapseomatic noarrow" tabindex="0" title="person">person</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-19.mp3">책</a>&nbsp;=&nbsp;<span id="id67728f3e1e12e" class="collapseomatic noarrow" tabindex="0" title="book">book</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-20.mp3">컴퓨터</a>&nbsp;=&nbsp;<span id="id67728f3e1e145" class="collapseomatic noarrow" tabindex="0" title="computer">computer</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-21.mp3">나무</a>&nbsp;=&nbsp;<span id="id67728f3e1e15c" class="collapseomatic noarrow" tabindex="0" title="tree/wood">tree/wood</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-22.mp3">소파</a>&nbsp;=&nbsp;<span id="id67728f3e1e172" class="collapseomatic noarrow" tabindex="0" title="sofa">sofa</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-23.mp3">중국</a>&nbsp;=&nbsp;<span id="id67728f3e1e189" class="collapseomatic noarrow" tabindex="0" title="China">China</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-24.mp3">일본</a>&nbsp;=&nbsp;<span id="id67728f3e1e1a0" class="collapseomatic noarrow" tabindex="0" title="Japan">Japan</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-25.mp3">문</a>&nbsp;=&nbsp;<span id="id67728f3e1e1c3" class="collapseomatic noarrow" tabindex="0" title="door">door</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-26.mp3">의사</a>&nbsp;=&nbsp;<span id="id67728f3e1e1dc" class="collapseomatic noarrow" tabindex="0" title="doctor">doctor</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/vLesson-7-3.mp3">학생</a>&nbsp;=&nbsp;<span id="id67728f3e1e1f3" class="collapseomatic noarrow" tabindex="0" title="student">student</span></p>
+            <p>Adverbs and Other words:<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-27.mp3">이다</a>&nbsp;=&nbsp;<span id="id67728f3e1e20a" class="collapseomatic noarrow" tabindex="0" title="to be">to be</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-29.mp3">네</a>&nbsp;=&nbsp;<span id="id67728f3e1e221" class="collapseomatic noarrow" tabindex="0" title="yes">yes</span></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/wLesson-1-30.mp3">아니</a>&nbsp;=&nbsp;<span id="id67728f3e1e238" class="collapseomatic noarrow" tabindex="0" title="no">no</span></p>
+            <p><iframe title="YouTube video player" src="https://www.youtube.com/embed/wKTaW9_qpyE?si=dZK7dk3Zryfpk8Dm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>There are 1050 vocabulary entries in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</p>
+            <p>For help memorizing these words, try using our&nbsp;<a href="https://www.howtostudykorean.com/app/">mobile app</a>.</p>
+            <p>You might also want to try listening to all of the words on loop with this&nbsp;<a href="https://youtu.be/mSsedQ8aunY">Vocabulary Practice video</a>.</p>
+            <h3><a name="greet"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Greeting Words</p>
+            <p>Throughout my lessons, I will only use grammar and vocabulary that you have learned from a previous lesson. In&nbsp;<a href="https://www.howtostudykorean.com/unit0/">Unit 0</a>, I taught you how to write words in Korean. Above, you can see the first set of words you should study to get you started. I have not yet taught you how to&nbsp;<em>use</em>&nbsp;those words or how conjugate them.</p>
+            <p>The words for &ldquo;hello,&rdquo; &ldquo;thank you,&rdquo; &ldquo;how are you,&rdquo; and &ldquo;please&rdquo; are actually quite difficult in Korean. There is actually grammar within the words themselves. At this stage, I would simply memorize these &ldquo;greeting words&rdquo; as one unit, and you can worry about the grammar within them later when it becomes relevant. The words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2013/05/Hello.mp3">안녕하세요</a>&nbsp;= hello</p>
+            <p>감사하다 and 고맙다 are the two words that are commonly used to say &ldquo;thank you.&rdquo; However, they are rarely used in those forms and are almost always conjugated. They can be conjugated in a variety of ways, which will be introduced in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lesson 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. The most common ways to conjugate these words are:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new1.mp3">감사합니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new2.mp3">감사해요</a></p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new3.mp3">고마워</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new4.mp3">고맙습니다</a><br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new5.mp3">고마워요</a></p>
+            <p>The way to say &ldquo;how are you?&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new6.mp3">잘 지내세요?</a>&nbsp; = How are you?</p>
+            <p>Although this is the most literal way to ask &ldquo;how are you?&rdquo; in Korean, it is not as common as the English expression. Korean people love food, and common way to greet somebody is to ask them if they have eaten. The idea of asking questions in Korean is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/">Lesson 21</a>.</p>
+            <p>The way to say &ldquo;please&rdquo; in Korean is:</p>
+            <p><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new7.mp3">제발</a>&nbsp;= Please</p>
+            <p>It is, of course, important for you to memorize these expressions in Korean, but you need to know that there is a reason why they are said that way. For now, don&rsquo;t worry about&nbsp;<em>why</em>&nbsp;they are said that way, and simply memorize them. We will get back to them in later lessons when they become important.</p>
+            <h3><a name="swo"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Sentence Word Order<strong><br /></strong></p>
+            <p>Korean has a sentence structure that is hard to grasp initially for English speakers. For our purposes in Lesson 1, the words in Korean sentences are written in the following order:</p>
+            <p>Subject &ndash; Object &ndash; Verb (for example: I hamburger eat)<br />Or<br />Subject &ndash; Adjective (for example: I beautiful)</p>
+            <p>I am going to quickly explain what a &ldquo;subject&rdquo; and &ldquo;object&rdquo; mean, as your ability to understand later concepts depends on your understanding of this.<br />The subject refers to person/thing/noun/whatever that is acting. The subject does the action of the verb. For example, the subject in each sentence below is underlined:</p>
+            <p>I&nbsp;went to the park<br />I&nbsp;will go to the park<br />My mom&nbsp;loves me<br />He&nbsp;loves me<br />The dog&nbsp;ran fast<br />The clouds&nbsp;cleared up</p>
+            <p>In English, the subject always comes before the verb.</p>
+            <p>The object refers to whatever the verb is acting&nbsp;<em>on</em>. For example, the object in each sentence below is underlined</p>
+            <p>My mom loves&nbsp;me<br />The dog bit&nbsp;the mailman<br />He ate&nbsp;rice<br />Students studied&nbsp;Korean</p>
+            <p>In English, the object always comes after the verb. However, a sentence with a verb does not require an object. For example:</p>
+            <p>I slept<br />I ate<br />He died</p>
+            <p>Sometimes there is no object because it has simply been omitted from the sentence. For example, &ldquo;I ate&rdquo; or &ldquo;I ate rice&rdquo; are both correct sentences. Other verbs, by their nature, cannot act on an object. For example, you cannot place an object after the verbs &ldquo;to sleep&rdquo; or &ldquo;to go:&rdquo;</p>
+            <p>I sleep you<br />I go you</p>
+            <p>Subjects are also present in sentences with adjectives. However, there is no object in a sentence with an adjective. The subjects are underlined in the following adjective-sentences below:</p>
+            <p>School&nbsp;is boring<br />I&nbsp;am boring<br />The movie&nbsp;was funny<br />The building&nbsp;is big<br />My girlfriend&nbsp;is pretty<br />The food&nbsp;is delicious</p>
+            <p>Verbs and adjectives are placed at the&nbsp;<em>end</em>&nbsp;of a sentence. Actually, every Korean sentence and clause must end in one of the following:</p>
+            <p>&ndash; A verb<br />&ndash; An adjective, or<br />&ndash; 이다</p>
+            <p>I talk about the meaning of 이다 later in this lesson. It is neither a verb nor an adjective, but it behaves like them. Every verb, every adjective and 이다 end in &ldquo;다,&rdquo; and these are the only words in Korean that can be conjugated.</p>
+            <p>Korean also has a formality system built into the language. That is, the way one speaks to an older person who deserves high respect would be different than the way one speaks to a friend. There are many ways words in a sentence can change depending on the formality of the situation, but the two most common, basic and important things to be aware of are:</p>
+            <p>1) There are two ways to say &ldquo;I&rdquo; or &ldquo;me&rdquo; in Korean:</p>
+            <p>나, used in informal situations, and<br />저, used in formal situations.</p>
+            <p>2) There are many ways to conjugate a word. As we saw above, the word 고맙다 can be conjugated many different ways. It is important to know which conjugation to use in which situation. This is taught in&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>. Until Lesson 6, I make no distinction of formality and the focus is more on sentence structure than conjugations. Until then, you will see both 나 and 저 arbitrarily used. Don&rsquo;t worry about why one is used over the other until Lesson 6, when formalities will be explained.</p>
+            <p>Okay, now that you know all of that, we can talk about making Korean sentences.<a name="kp"></a></p>
+            <p align="center">Korean Particles (~는/은 and ~를/을)</p>
+            <p>Most words in a Korean sentence have a particle (a fancy word to say &lsquo;something&rsquo;) attached to them. These particles indicate the role of each word in a sentence &ndash; that is, specifically&nbsp;<em>which&nbsp;</em>word is the subject or object. Note that there is absolutely no way of translating these particles to English, as we do not use anything like them.<br />The following are the particles you should know for this lesson:</p>
+            <p>는 or 은&nbsp;(Subject)<br />This is placed after a word to indicate that it is the subject of a sentence.<br />Use 는 when the last letter of the last syllable of the subject is a vowel. For example:<br />나 = 나는<br />저 = 저는</p>
+            <p>Use 은 when the last letter of the last syllable of the subject is a consonant. For example:<br />집 = 집은<br />책 = 책은</p>
+            <p>를 or 을 (Object)<br />This is placed after a word to indicate that is the object of a sentence.<br />Use 를 when the last letter of the last syllable is a vowel. For example:<br />나 = 나를<br />저 = 저를</p>
+            <p>Use을 when the last letter of the last syllable is a consonant. For example:<br />집 = 집을<br />책 = 책을</p>
+            <p>We can now make sentences using the Korean sentence structure and the Korean particles.</p>
+            <p>1) I speak Korean = I는 Korean을 speak<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;Korean&rdquo; (the object)</p>
+            <p>2) I like you = I는 you를 like<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />를 is attached to &ldquo;you&rdquo; (the object)</p>
+            <p>3) I wrote a letter = I는 letter을 wrote<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;letter&rdquo; (the object)</p>
+            <p>4) I opened the door = I는 door을 opened<br />는 is attached to &ldquo;I&rdquo; (the subject)<br />을 is attached to &ldquo;the door&rdquo; (the object)</p>
+            <p>5) My mom will make pasta = My mom은 pasta를 will make<br />은 is attached to &ldquo;my mom&rdquo; (the subject)<br />를 is attached to &ldquo;pasta&rdquo; (the object)</p>
+            <p>The same could be done for sentences with adjectives. However, remember that sentences with adjectives will not have an object:</p>
+            <p>1) My girlfriend is pretty: My girlfriend은 is pretty<br />&ldquo;은&rdquo; is attached to &ldquo;my girlfriend&rdquo; (the subject)</p>
+            <p>2) The movie was scary = The movie는 was scary<br />&ldquo;는&rdquo; is attached to &ldquo;the movie&rdquo; (the subject)</p>
+            <p>We will now switch our focus to using actual Korean words to create sentences ending in 이다.</p>
+            <h3><a name="tobe"></a></h3>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p align="center">To be: 이다</p>
+            <p>Let&rsquo;s start building sentences in Korean. In this lesson, we will start by making simple sentences using the word 이다. The translation for &ldquo;이다&rdquo; is &ldquo;to be.&rdquo;&nbsp; English speakers often don&rsquo;t realize how difficult the word &ldquo;to be&rdquo; is. Depending on who is being referred to, the word &ldquo;to be&rdquo; could be any of the underlined words below:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>In each of those sentences, a different word (is, am, are, was, were) is used depending on the subject and tense of the sentence. I can&rsquo;t imagine how difficult this would be for an English learner. In Korean, the 이다 is used to represent all of those &ldquo;to be&rdquo; words.</p>
+            <p>As mentioned earlier, 이다 can be conjugated. In that way, 이다 is similar to verbs and adjectives, but the rules for 이다 are often (but not always) different. I will teach you how 이다 differs from verbs and adjectives as it becomes important in later lessons. For example, in Lesson 52 you will learn that the process for quoting a sentence with 이다 is different than with verbs and adjectives.</p>
+            <p>Like adjectives, 이다 can not act on an object. Only verbs can act on objects. For example:</p>
+            <p>I eat hamburgers (eat is a verb, the object is a hamburger)<br />She meets my friend (meet is a verb, the object is my friend)<br />They study Korean (study is a verb, the object is Korean)<br />We listen to music (listen is a verb, the object is music)</p>
+            <p>All of those sentences (can) have objects because the verb is the predicate of the sentence. However, in sentences that are predicated by adjectives, there will not be an object</p>
+            <p>I am pretty<br />She is beautiful<br />They are hungry<br />We are smart</p>
+            <p>Look at those four sentences. When we use adjectives in English, we must also use &ldquo;to be&rdquo; words like am, is and are. In other words, we cannot make sentences like this:</p>
+            <p>I pretty<br />She beautiful<br />They hungry<br />We smart</p>
+            <p>Unlike in English, 이다 is&nbsp;<em>not&nbsp;</em>used in these types of sentences. That is, we do not use 이다 to indicate that something &ldquo;is&rdquo; an adjective. The structure of sentences predicated by adjectives is discussed in Lesson 3.</p>
+            <p>So, 이다 is not used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;pretty<br />She&nbsp;<u>is</u>&nbsp;beautiful<br />They&nbsp;<u>are</u>&nbsp;hungry<br />We&nbsp;<u>are</u>&nbsp;smart</p>
+            <p>However, 이다&nbsp;<em>is&nbsp;</em>used in these types of sentences:</p>
+            <p>I&nbsp;<u>am</u>&nbsp;a man<br />He&nbsp;<u>is</u>&nbsp;a man<br />They&nbsp;<u>are</u>&nbsp;men<br />I&nbsp;<u>was</u>&nbsp;a man<br />They&nbsp;<u>were</u>&nbsp;men</p>
+            <p>이다 is used to indicate that a noun&nbsp;<em>is&nbsp;</em>a noun. The basic structure for a sentence predicated by &ldquo;이다&rdquo; is:</p>
+            <p>[noun은/는] [another noun][이다]</p>
+            <p>For example:<br />I는 man이다 = I am a man</p>
+            <p>Now substitute the words for &ldquo;man&rdquo; and &ldquo;I,&rdquo; which are:</p>
+            <p>나 = I<br />남자 = man</p>
+            <p>The Korean sentence would look like this:</p>
+            <p>나는 남자이다 = I am a man</p>
+            <p>Notice that 이다 is attached directly to the second noun. Verbs and adjectives are not attached to nouns like this, but 이다 is. It would be incorrect to include a space between the second noun and 이다. For example, this would be incorrect:</p>
+            <p>나는 남자 이다</p>
+            <p>Although it might look and feel like &ldquo;남자&rdquo; is an object in that sentence, it is not. 이다, like adjectives and unlike verbs cannot act on an object. It would be incorrect to include the object particle on the second noun. For example, this would be incorrect:</p>
+            <p>나는 남자를 이다</p>
+            <hr />
+            <p>The focus of this lesson (and&nbsp;<a title="Lesson 2: Korean Particles 이/가" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-2/">Lessons 2</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-3/">3</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-4/">4</a>) is to introduce you to simple Korean se<em>ntence structure</em>. Until you reach&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">Lesson 6</a>&nbsp;you will not be exposed to the conjugations and honorifics of Korean verbs, adjectives and 이다. These words are very rarely used without conjugations and honorifics.</p>
+            <p>The conjugation of sentences is very important, but so is the structure of sentences. When creating these lessons, I went back in forth many times thinking about which one I should present first. You can&rsquo;t conjugate sentences if you don&rsquo;t have a logical sentence to conjugate; and you can&rsquo;t create a logical sentence if you don&rsquo;t know how to conjugate it. In the end, I figured it would make more sense to present the information this way &ndash; where learners are introduced to sentence structure and then learn how to conjugate the words within the sentence.</p>
+            <p>Throughout all of my lessons, I use example sentences to show how grammar can be used. The example sentences in Lessons 1 &ndash; 4 are not conjugated. However, directly beneath each non-conjugated sentence is a conjugated version of the same sentence in parenthesis (one formal and one informal conjugation). You might want to glimpse at how the words are conjugated, but remember that this will be taught in&nbsp;<a title="Lesson 5: Korean Conjugation: Past, Present, Future" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-5/">Lessons 5</a>&nbsp;and&nbsp;<a title="Lesson 6: Korean Honorifics" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-1-8/unit-1-lesson-6/">6</a>&nbsp;(for verbs and adjectives) and&nbsp;<a title="Lesson 9: Conjugate 이다 (할 것이다)" href="https://www.howtostudykorean.com/unit1/unit-1-lessons-9-16/unit-1-lesson-9/">Lesson 9</a>&nbsp;(for 이다).</p>
+            <hr />
+            <p>Other examples of 이다 in use:</p>
+            <p>나는 여자이다 = I am a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-2.mp3">나는 여자야 / 저는 여자예요</a>)</p>
+            <p>나는 선생님이다 = I am a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-3.mp3">나는 선생님이야 / 저는 선생님이에요</a>)</p>
+            <p>나는 사람이다 = I am a person<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-4.mp3">나는 사람이야 / 저는 사람이에요</a>)</p>
+            <p>나는 ______이다 = I am a _______<br />(나는 _______ 이야 / 저는 _____이에요)</p>
+            <p>You can substitute any noun into the blank space to make these sentences.</p>
+            <p>The words &ldquo;this&rdquo; and &ldquo;that&rdquo; are often used as the subject of these types of sentences. Let&rsquo;s now look at how we can apply 이것, 그것 and 저것 to sentences with 이다.&nbsp;</p>
+            <p>This and That (이/그/저)</p>
+            <p>You can see in the vocabulary above that the word for &ldquo;this&rdquo; is 이 in Korean.<br />We use 이 in Korean when we are talking about something that is within touching distance (For example: this pen &ndash; i.e. the one I am holding). Just like in English &ldquo;이&rdquo; (this) is placed before the noun it is describing. For example:</p>
+            <p>이 사람 = This person<br />이 남자 = This man<br />이 여자 = This woman<br />이 차 = This car<br />이 탁자 = This table<br />이 의자 = This chair</p>
+            <p>Unfortunately, there are two words for &ldquo;that&rdquo;: 그 and 저. Early learners of Korean are always confused with the difference between &ldquo;그&rdquo; and &ldquo;저.&rdquo;</p>
+            <p>We use 그 when we are talking about something from a previous sentence or from previous context, regardless of if you could see it or not. Providing examples would be too difficult right now because you do not know any Korean sentences. However, if I were to say: &ldquo;I don&rsquo;t like that man [when your friend mentioned him in a previous sentence].&rdquo; The word &ldquo;that&rdquo; in that sentence would be how &ldquo;그&rdquo; is used.</p>
+            <p>We use 저 when we are talking about something that we can see, but cannot touch because it is too far away.</p>
+            <p>We can place &ldquo;그&rdquo; or &ldquo;저&rdquo; before a noun to describe &ldquo;this&rdquo; or &ldquo;that&rdquo; thing just like we did with &ldquo;이.&rdquo;</p>
+            <p>이 사람 = This person<br />그 사람 = That person<br />저 사람 = That person</p>
+            <p>이 남자 = This man<br />그 남자 = That man<br />저 남자 = That man</p>
+            <p>이 여자 = This woman<br />그 여자 = That woman<br />저 여자 = That woman</p>
+            <p>이 의자 = This chair<br />그 의자 = That chair<br />저 의자 = That chair</p>
+            <p>이 탁자 = This table<br />그 탁자 = That table<br />저 탁자 = That table</p>
+            <p><em>Again, although the English translations of &ldquo;</em>그<em>&rdquo; and &ldquo;</em>저<em>&rdquo; are the same, it is important to remember that they are not the same word in Korean.</em></p>
+            <p>One of the most common words in Korean is &ldquo;것&rdquo; meaning &ldquo;thing.&rdquo; When 이, 그 or 저 are placed before &ldquo;것,&rdquo; the result is a compound word. Therefore, when placing &ldquo;것&rdquo; after 이, 그 or 저, there should not be a space between the two. In other words, the following are words in and within themselves, and not two separate words:</p>
+            <p>이것 = this thing<br />그것 = that thing<br />저것 = that thing</p>
+            <p><em>We see this same phenomenon happen with other common words that you learn in future lessons. You don&rsquo;t need to worry about this now, but we see this same thing happen with the word&nbsp;</em>곳<em>&nbsp;(meaning &ldquo;place&rdquo;) and&nbsp;</em>때<em>&nbsp;(meaning &ldquo;time&rdquo;).</em></p>
+            <p>With these words, the word &ldquo;thing&rdquo; isn&rsquo;t necessary in the English translation. Let me explain.</p>
+            <p><em>I&rsquo;ll use &ldquo;that&rdquo; as an example, but the same idea can be applied to the word &ldquo;this.&rdquo;</em></p>
+            <p>&ldquo;That&rdquo; can be placed before a noun to describe it. As we saw earlier:</p>
+            <p>That person<br />That man<br />That woman</p>
+            <p>However, it can also&nbsp;<em>be</em>&nbsp;a noun itself. For example:</p>
+            <p>I like that</p>
+            <p>In this type of English sentence, &ldquo;that&rdquo; is referring to some thing that you like. It&nbsp;<em>is&nbsp;</em>a noun. It&nbsp;<em>is&nbsp;</em>a thing.</p>
+            <p>Therefore, the sentence could just as easily be said as:</p>
+            <p>I like that&nbsp;<em>thing</em></p>
+            <p>I don&rsquo;t like to use grammatical jargon in my lessons, but if you know what these words mean, it could be helpful. In both English and Korean, &ldquo;that&rdquo; can be a determiner (as in, &ldquo;I like that man&rdquo;), and it can also be a pronoun (as in &ldquo;I like that&rdquo;). When used as a determiner in Korean, you should place 그 before a noun. When used as a pronoun in Korean, the word 그것 is used.</p>
+            <p>In this same respect, while &ldquo;이, 그 and 저&rdquo; translate to &ldquo;this, that and that&rdquo; respectively, and are placed before nouns to indicate &ldquo;this noun, that noun and that noun,&rdquo; &ldquo;이것, 그것 and 저것&rdquo;&nbsp;<em>are</em>&nbsp;nouns (they are pronouns). Therefore, they do not need to be followed by the redundant word &ldquo;thing,&rdquo; although their meanings would be exactly the same:</p>
+            <p>I like this<br />I like this thing</p>
+            <p>I like that<br />I like that thing</p>
+            <p>We can now use these nouns as subjects or objects in a sentence. We will look at how they can be used with &ldquo;이다&rdquo; next.</p>
+            <h3><a name="thisthatbe"></a></h3>
+            <p align="center">Using This/That with 이다</p>
+            <p>Remember, 이다 translates to &ldquo;to be&rdquo; and is conjugated as &ldquo;am/is/are&rdquo; in English. Now that we know how to use 이, 그 and 저 (and 이것, 그것 and 저것), we can now make sentences like this:</p>
+            <p>That person is a doctor</p>
+            <p>We can start by putting those words into the Korean structure:</p>
+            <p>That person는 doctor is</p>
+            <p>And then changing the English words to the appropriate Korean words:</p>
+            <p>그 사람은 +&nbsp; 의사 + 이다<br />그 사람은 의사이다<br /><button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2015/11/122.mp3">(그 사람은 의사야 / 그 사람은 의사예요)</a></p>
+            <p>More examples:<br />그 사람은 선생님이다 = That person is a teacher<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-5.mp3">그 사람은 선생님이야 / 그 사람은 선생님이에요</a>)</p>
+            <p>이것은 탁자이다 = This (thing) is a table<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2017/03/14-2.mp3">이것은 탁자야 / 이것은 탁자예요</a>)</p>
+            <p>저것은 침대이다 = That (thing) is a bed<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-7.mp3">저것은 침대야 / 저것은 침대예요</a>)</p>
+            <p>그 사람은 남자이다 = That person is a man<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/10/Lesson-1new8.mp3">그 사람은 남자야 / 그 사람은 남자예요</a>)</p>
+            <p>그 사람은 여자이다 = That person is a woman<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-9.mp3">그 사람은 여자야 / 그 사람은 여자예요</a>)</p>
+            <p>그것은 차이다 = That (thing) is a car<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-10.mp3">그것은 차야 / 그것은 차예요</a>)</p>
+            <p>이것은 나무이다 = This (thing) is a tree<br />(<button class="play-button">Play</button><a href="https://www.howtostudykorean.com/wp-content/uploads/2014/01/Lesson-1-1.mp3">이것은 나무야 / 이것은 나무예요</a>)</p>
+            <p><em>There are 1250 example sentences in Unit 1. All entries are linked to an audio file. You can download all of these files in one package&nbsp;<a href="https://www.howtostudykorean.com/audio/">here</a>.</em></p>
+            <p>Wow! That was an extremely difficult lesson. If you were to pick up another Korean text book, I am sure the first chapter would be much easier than this. Trust me though; learning this at the start will be very useful to you later on. When I was learning how to speak Korean, it took me months to realize some of these things (not because they were hard, but because I was using a text book that never taught me the reason why things are the way they are in Korean).</p>
+            <p>Before you move on, make sure you understand the simple Korean sentence structure presented in this first lesson. Also, remember that the sentences not in parentheses are technically incorrect (or very very uncommon) because they have not been conjugated.</p>`,
+          },
+        ],
         description: "Korean Word Structure and Basic Letters",
         image: require("./assets/image/unit0/KoreanLetterNamespic.png"),
         html: `<p><a href="https://www.howtostudykorean.com/unit0/letter-names/">Korean Letter Names</a>: This lesson talks about the names of Korean letters. As a beginner, this isn&rsquo;t incredibly important, but it might be worth checking out.</p><p>&nbsp;</p><p>Also available in:&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/arabic/"><span lang="bg" title="Bulgarian language text">العربية</span></a></p>`,
@@ -4956,6 +7428,7 @@ Study hard, and make sure you understand everything in these lessons before you 
       {
         name: "Lessons 17 – 25",
         link: "",
+        isMenu: true,
         description: "Korean Word Structure and Basic Letters",
         image: require("./assets/image/unit0/KoreanLetterNamespic.png"),
         html: `<p><a href="https://www.howtostudykorean.com/unit0/letter-names/">Korean Letter Names</a>: This lesson talks about the names of Korean letters. As a beginner, this isn&rsquo;t incredibly important, but it might be worth checking out.</p><p>&nbsp;</p><p>Also available in:&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/arabic/"><span lang="bg" title="Bulgarian language text">العربية</span></a></p>`,
@@ -9114,6 +11587,7 @@ Study hard, and make sure you understand everything in these lessons before you 
       {
         name: "Lessons 26 – 33",
         link: "",
+        isMenu: true,
         description: "Korean Word Structure and Basic Letters",
         image: require("./assets/image/unit0/KoreanLetterNamespic.png"),
         html: `<p><a href="https://www.howtostudykorean.com/unit0/letter-names/">Korean Letter Names</a>: This lesson talks about the names of Korean letters. As a beginner, this isn&rsquo;t incredibly important, but it might be worth checking out.</p><p>&nbsp;</p><p>Also available in:&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/arabic/"><span lang="bg" title="Bulgarian language text">العربية</span></a></p>`,
@@ -10152,6 +12626,7 @@ Study hard, and make sure you understand everything in these lessons before you 
       {
         name: "Lessons 34 – 41",
         link: "",
+        isMenu: true,
         description: "Korean Word Structure and Basic Letters",
         image: require("./assets/image/unit0/KoreanLetterNamespic.png"),
         html: `<p><a href="https://www.howtostudykorean.com/unit0/letter-names/">Korean Letter Names</a>: This lesson talks about the names of Korean letters. As a beginner, this isn&rsquo;t incredibly important, but it might be worth checking out.</p><p>&nbsp;</p><p>Also available in:&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/arabic/"><span lang="bg" title="Bulgarian language text">العربية</span></a></p>`,
@@ -11190,6 +13665,7 @@ Study hard, and make sure you understand everything in these lessons before you 
       {
         name: "Lessons 42 – 50",
         link: "",
+        isMenu: true,
         description: "Korean Word Structure and Basic Letters",
         image: require("./assets/image/unit0/KoreanLetterNamespic.png"),
         html: `<p><a href="https://www.howtostudykorean.com/unit0/letter-names/">Korean Letter Names</a>: This lesson talks about the names of Korean letters. As a beginner, this isn&rsquo;t incredibly important, but it might be worth checking out.</p><p>&nbsp;</p><p>Also available in:&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/greek/">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/turkish/">T&uuml;rk&ccedil;e</a>,&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/kurdish/">کوردی</a>&nbsp;and&nbsp;<a href="https://www.howtostudykorean.com/unit0/letter-names/arabic/"><span lang="bg" title="Bulgarian language text">العربية</span></a></p>`,

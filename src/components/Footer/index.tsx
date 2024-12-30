@@ -27,11 +27,11 @@ export default function Footer({ style }: any) {
           </p>
         </p>
       </div>
-      <div className="">
+      <div className="flex">
         {dataSocial.map((item, index) => (
-          <button className="ml-5" key={index}>
+          <div className="ml-5" key={index}>
             <img src={item.icon} className="w-[30px] h-[30px]" />
-          </button>
+          </div>
         ))}
       </div>
     </div>
