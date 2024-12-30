@@ -4,20 +4,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import data from "../../data";
 
-<<<<<<< HEAD
-const navItems = [
-  { text: "Trang Chủ", key: 0 },
-  { text: "UNIT 1", key: 1 },
-  { text: "UNIT 2", key: 2 },
-  { text: "UNIT 3", key: 3 },
-  { text: "UNIT 4", key: 4 },
-  { text: "UNIT 5", key: 5 },
-  { text: "UNIT 6", key: 6 },
-  { text: "UNIT 7", key: 7 },
-];
-
-=======
->>>>>>> 178636303b993ad2970df617f3a8802ad313057d
 const ChevronDownIcon: React.FC<any> = ({ className }) => (
   <svg
     width="24"
@@ -81,12 +67,10 @@ export default function Header() {
                     setDrawerOpen(false);
                     setIsShowMore(false);
                   }}
-                  
                   className="text-[white] text-[18px] cursor-pointer flex "
                 >
                   {item.name}
                 </text>
-
                 <div
                   className="text-white cursor-pointer  px-[10px]"
                   onClick={() => {
